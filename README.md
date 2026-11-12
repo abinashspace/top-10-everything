@@ -2,6 +2,9 @@
 
 A machine-readable map of what can honestly be ranked, with which free data, and how.
 
+**[Browse the catalog →](https://abinashspace.github.io/top-10-everything/)** — searchable topics, sources,
+methods and the twelve worked rankings, generated from the JSON in this repository.
+
 This repository is **not** a collection of rankings. It is the research layer behind them: a
 hierarchical topic taxonomy, a curated directory of data sources, a reusable library of ranking
 methods, and an explicit record of where the data does not exist. It is designed to be served
@@ -29,6 +32,7 @@ says so and marks the topic as limited, proxy-based, or unsupported.
 | Unused sources | `reports/unused-sources.json` | Catalogued sources not yet mapped to a topic |
 | Progress summary | `reports/research-progress.json` | Coverage statistics and next priorities |
 | Worked rankings | `rankings/index.json` | Twelve proven rankings with provenance, snapshots and caveats |
+| Public site | `site/` | Generated catalog browser served by GitHub Pages |
 | Ingestion pipeline | `pipeline/` | Fetch, cache, parse, rank, emit — with offline tests |
 | Schemas | `schema/*.json` | JSON Schema (draft 2020-12) for topics, categories, sources and methods |
 | Scripts | `scripts/*.py` | The editable source of truth and the build/verify/validate tooling |
@@ -221,6 +225,7 @@ python scripts/build_catalog.py     # merge verification results into the artifa
 python scripts/validate_catalog.py  # consistency checks; exit code 1 on error
 python -m pipeline.run --all        # rebuild the twelve worked rankings
 python scripts/validate_rankings.py # ranking provenance and ordering checks
+python scripts/build_site.py        # regenerate the static catalog browser in site/
 ```
 
 The Python files in `scripts/` are the source of truth:
