@@ -1,0 +1,646 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "history-culture",
+  "category_name": "History & Culture",
+  "topic_count": 30,
+  "method_counts": {
+    "canon_proxy": 18,
+    "geospatial": 2,
+    "official_stat": 8,
+    "patent": 1,
+    "attention_proxy": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "history-culture.historical-personalities",
+      "topic_name": "Historical Personalities",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata sitelinks, Wikipedia pageviews and encyclopedic coverage",
+      "question": "Top 10 historical personalities ranked by Wikidata sitelinks, Wikipedia pageviews and encyclopedic coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.leaders",
+      "topic_name": "Leaders",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/Wikipedia coverage and term records",
+      "question": "Top 10 leaders ranked by Wikidata/Wikipedia coverage and term records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.empires",
+      "topic_name": "Empires",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Historical extent estimates from encyclopedic/geospatial sources",
+      "question": "Top 10 empires ranked by Historical extent estimates from encyclopedic/geospatial sources.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.dynasties",
+      "topic_name": "Dynasties",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/Wikipedia coverage and reign records",
+      "question": "Top 10 dynasties ranked by Wikidata/Wikipedia coverage and reign records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.civilizations",
+      "topic_name": "Civilizations",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage and archaeological evidence",
+      "question": "Top 10 civilizations ranked by Encyclopedic coverage and archaeological evidence.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.wars",
+      "topic_name": "Wars",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Correlates of War/UCDP conflict data and historical estimates",
+      "question": "Top 10 wars ranked by Correlates of War/UCDP conflict data and historical estimates.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.battles",
+      "topic_name": "Battles",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/Wikipedia coverage; casualty figures are historiographical",
+      "question": "Top 10 battles ranked by Wikidata/Wikipedia coverage; casualty figures are historiographical.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.revolutions",
+      "topic_name": "Revolutions",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage and conflict datasets",
+      "question": "Top 10 revolutions ranked by Encyclopedic coverage and conflict datasets.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.ancient-wonders",
+      "topic_name": "Ancient Wonders",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "UNESCO/Wikidata coverage and archaeological records",
+      "question": "Top 10 ancient wonders ranked by UNESCO/Wikidata coverage and archaeological records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.heritage-at-risk",
+      "topic_name": "Heritage at Risk",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UNESCO in-danger listings and threat assessments",
+      "question": "Top 10 heritage at risk ranked by UNESCO in-danger listings and threat assessments.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "history-culture.archaeological-sites",
+      "topic_name": "Archaeological Sites",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/Wikidata site records and UNESCO data",
+      "question": "Top 10 archaeological sites ranked by OSM/Wikidata site records and UNESCO data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.art-movements",
+      "topic_name": "Art Movements",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Museum collection counts, Wikidata and art-history scholarship",
+      "question": "Top 10 art movements ranked by Museum collection counts, Wikidata and art-history scholarship.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "history-culture.philosophers",
+      "topic_name": "Philosophers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata sitelinks, pageviews and SEP/IEP coverage",
+      "question": "Top 10 philosophers ranked by Wikidata sitelinks, pageviews and SEP/IEP coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.writers",
+      "topic_name": "Writers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Open Library/Crossref/Wikidata coverage and citations",
+      "question": "Top 10 writers ranked by Open Library/Crossref/Wikidata coverage and citations.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.poets",
+      "topic_name": "Poets",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/pageviews and poetry anthologies",
+      "question": "Top 10 poets ranked by Wikidata/pageviews and poetry anthologies.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.religious-figures",
+      "topic_name": "Religious Figures",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage; theological significance is not measurable",
+      "question": "Top 10 religious figures ranked by Encyclopedic coverage; theological significance is not measurable.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.saints",
+      "topic_name": "Saints",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official canonisation lists and Wikidata",
+      "question": "Top 10 saints ranked by Official canonisation lists and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.popes",
+      "topic_name": "Popes",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official papal lists and Wikidata",
+      "question": "Top 10 popes ranked by Official papal lists and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.monarchs",
+      "topic_name": "Monarchs",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Reign dates from official/Wikidata records",
+      "question": "Top 10 monarchs ranked by Reign dates from official/Wikidata records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.generals",
+      "topic_name": "Generals",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage and battle records",
+      "question": "Top 10 generals ranked by Encyclopedic coverage and battle records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.inventors",
+      "topic_name": "Inventors",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent counts and encyclopedic coverage",
+      "question": "Top 10 inventors ranked by Patent counts and encyclopedic coverage.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "patentsview",
+        "epo_ops"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "history-culture.explorers",
+      "topic_name": "Explorers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage and expedition records",
+      "question": "Top 10 explorers ranked by Encyclopedic coverage and expedition records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.pirates",
+      "topic_name": "Pirates",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic coverage; historical records are fragmentary",
+      "question": "Top 10 pirates ranked by Encyclopedic coverage; historical records are fragmentary.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.myths",
+      "topic_name": "Myths",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/Wikipedia coverage and folklore collections",
+      "question": "Top 10 myths ranked by Wikidata/Wikipedia coverage and folklore collections.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.legends",
+      "topic_name": "Legends",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Encyclopedic/folklore coverage",
+      "question": "Top 10 legends ranked by Encyclopedic/folklore coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.festivals",
+      "topic_name": "Festivals",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/event listings and pageviews",
+      "question": "Top 10 festivals ranked by OSM/event listings and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "history-culture.traditions",
+      "topic_name": "Traditions",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "UNESCO intangible heritage and encyclopedic coverage",
+      "question": "Top 10 traditions ranked by UNESCO intangible heritage and encyclopedic coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.languages",
+      "topic_name": "Languages",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Ethnologue/Glottolog/UNESCO language data",
+      "question": "Top 10 languages ranked by Ethnologue/Glottolog/UNESCO language data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.endangered-languages",
+      "topic_name": "Endangered Languages",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UNESCO Atlas of the World's Languages in Danger and Glottolog",
+      "question": "Top 10 endangered languages ranked by UNESCO Atlas of the World's Languages in Danger and Glottolog.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "history-culture.scripts",
+      "topic_name": "Writing Scripts",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Unicode script data and Wikidata",
+      "question": "Top 10 writing scripts ranked by Unicode script data and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    }
+  ]
+}

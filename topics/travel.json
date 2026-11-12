@@ -1,0 +1,2234 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "travel",
+    "name": "Travel",
+    "description": "Destinations, places, hospitality and mobility for travellers.",
+    "topic_count": 30,
+    "subcategory_count": 112,
+    "research_status_counts": {
+      "researched": 12,
+      "researched_proxy": 2,
+      "partial": 15,
+      "unsupported": 1
+    },
+    "data_availability_counts": {
+      "moderate": 11,
+      "limited": 17,
+      "none": 1,
+      "strong": 1
+    }
+  },
+  "topics": [
+    {
+      "id": "travel.countries",
+      "name": "Countries",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Countries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By visitors",
+        "By safety",
+        "By affordability",
+        "By natural beauty"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "natural_earth",
+            "name": "Natural Earth",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "geoboundaries",
+            "name": "geoBoundaries",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 countries ranked by UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements.",
+        "metric": "UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "International tourist arrivals are measured by UNWTO and republished with lag; 'best country' is not a single statistic."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.cities",
+      "name": "Cities",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Cities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By visitors",
+        "By quality of life",
+        "By affordability",
+        "By nightlife"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "geoboundaries",
+            "name": "geoBoundaries",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "worldpop",
+            "name": "WorldPop",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 cities ranked by City population, POI density and published quality-of-life indices.",
+        "metric": "City population, POI density and published quality-of-life indices",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.tourist-destinations",
+      "name": "Tourist Destinations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Tourist Destinations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cultural",
+        "Nature",
+        "Urban",
+        "Beach"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 tourist destinations ranked by UNESCO/OSM site density plus Wikipedia pageviews.",
+        "metric": "UNESCO/OSM site density plus Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.beaches",
+      "name": "Beaches",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Beaches"
+      ],
+      "level": 2,
+      "subcategories": [
+        "City beaches",
+        "Remote beaches",
+        "Surf beaches",
+        "Family beaches"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 beaches ranked by OSM beach features and Wikimedia attention; water quality where monitored.",
+        "metric": "OSM beach features and Wikimedia attention; water quality where monitored",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.mountains",
+      "name": "Mountains",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Mountains"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Seven summits",
+        "Alpine peaks",
+        "Volcanic peaks",
+        "Trekking peaks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "natural_earth",
+            "name": "Natural Earth",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 mountains ranked by Elevation and prominence from OSM/Wikidata.",
+        "metric": "Elevation and prominence from OSM/Wikidata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.islands",
+      "name": "Islands",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Islands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest islands",
+        "Populated islands",
+        "Resort islands",
+        "Remote islands"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 islands ranked by Area and population from OSM/Wikidata.",
+        "metric": "Area and population from OSM/Wikidata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.hotels",
+      "name": "Hotels",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Hotels"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Boutique",
+        "Budget",
+        "Business"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 hotels ranked by Guest ratings and editorial inspection; no open global hotel quality dataset.",
+        "metric": "Guest ratings and editorial inspection; no open global hotel quality dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [
+        "Booking.com, TripAdvisor and Michelin Keys data are proprietary and cannot be republished."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.national-parks",
+      "name": "National Parks",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "National Parks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By area",
+        "By visitors",
+        "By biodiversity",
+        "By scenery"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "protected_planet",
+            "name": "Protected Planet",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 national parks ranked by Protected-area boundaries and visitor counts where agencies publish them.",
+        "metric": "Protected-area boundaries and visitor counts where agencies publish them",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.historical-monuments",
+      "name": "Historical Monuments",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Historical Monuments"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ancient",
+        "Medieval",
+        "Modern",
+        "Religious"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 historical monuments ranked by UNESCO/Wikidata coverage and pageviews.",
+        "metric": "UNESCO/Wikidata coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.museums",
+      "name": "Museums",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Museums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Art museums",
+        "History museums",
+        "Science museums",
+        "Open-air museums"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 museums ranked by OSM/Wikidata coverage and visitor numbers where published.",
+        "metric": "OSM/Wikidata coverage and visitor numbers where published",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.landmarks",
+      "name": "Landmarks",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Landmarks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Iconic buildings",
+        "Monuments",
+        "Natural landmarks"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 landmarks ranked by Wikidata sitelinks and Wikipedia pageviews.",
+        "metric": "Wikidata sitelinks and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.waterfalls",
+      "name": "Waterfalls",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Waterfalls"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tallest",
+        "Most visited",
+        "Widest"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 waterfalls ranked by Height/flow data from OSM and Wikidata.",
+        "metric": "Height/flow data from OSM and Wikidata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.lakes",
+      "name": "Lakes",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Lakes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Deepest",
+        "Most visited"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "natural_earth",
+            "name": "Natural Earth",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 lakes ranked by Area, depth and elevation from OSM/Wikidata.",
+        "metric": "Area, depth and elevation from OSM/Wikidata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.deserts",
+      "name": "Deserts",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Deserts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Hot deserts",
+        "Cold deserts",
+        "Coastal deserts"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 deserts ranked by Area and climate classification from open geodata.",
+        "metric": "Area and climate classification from open geodata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.rainforests",
+      "name": "Rainforests",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Rainforests"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tropical",
+        "Temperate",
+        "Protected areas"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 rainforests ranked by Forest cover and protected-area boundaries.",
+        "metric": "Forest cover and protected-area boundaries",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.ski-resorts",
+      "name": "Ski Resorts",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Ski Resorts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Alpine",
+        "Nordic",
+        "North American",
+        "Indoor"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 ski resorts ranked by OSM ski features and Wikidata coverage; snow/quality data is commercial.",
+        "metric": "OSM ski features and Wikidata coverage; snow/quality data is commercial",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.airports",
+      "name": "Airports",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Airports"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Busiest",
+        "Largest",
+        "Best-rated",
+        "Hub airports"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 airports ranked by Passenger and movement counts from airport/aviation authorities.",
+        "metric": "Passenger and movement counts from airport/aviation authorities",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Global airport traffic rankings come from ACI, which is licensed; use national authority data where available."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.airlines",
+      "name": "Airlines",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Airlines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Best-rated",
+        "Low-cost",
+        "Long-haul"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 airlines ranked by Fleet/route data from OpenFlights and airline disclosures; quality ratings proprietary.",
+        "metric": "Fleet/route data from OpenFlights and airline disclosures; quality ratings proprietary",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.train-stations",
+      "name": "Train Stations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Train Stations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Busiest",
+        "Largest",
+        "Historic"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 train stations ranked by OSM station features and national passenger statistics.",
+        "metric": "OSM station features and national passenger statistics",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.road-trips",
+      "name": "Road Trips",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Road Trips"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Scenic routes",
+        "Coastal routes",
+        "Mountain routes"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 road trips ranked by OSM route coverage and editorial/traveller attention.",
+        "metric": "OSM route coverage and editorial/traveller attention",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.honeymoon-destinations",
+      "name": "Honeymoon Destinations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Honeymoon Destinations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Beach",
+        "Mountain",
+        "City",
+        "Island"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 honeymoon destinations ranked by OSM/Wikimedia attention; no open demand dataset.",
+        "metric": "OSM/Wikimedia attention; no open demand dataset",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.budget-destinations",
+      "name": "Budget Destinations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Budget Destinations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Backpacking",
+        "City breaks",
+        "Beach",
+        "Long-stay"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "price_index",
+        "name": "Price or cost index",
+        "question": "Top 10 budget destinations ranked by Cost-of-living and price indices from open statistical sources.",
+        "metric": "Cost-of-living and price indices from open statistical sources",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.food-destinations",
+      "name": "Food Destinations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Food Destinations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Street food",
+        "Fine dining",
+        "Wine regions",
+        "Markets"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 food destinations ranked by OSM food POI density and Wikidata attention.",
+        "metric": "OSM food POI density and Wikidata attention",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.nightlife-cities",
+      "name": "Nightlife Cities",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Nightlife Cities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Clubs",
+        "Live music",
+        "Bars",
+        "Festivals"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 nightlife cities ranked by OSM nightlife POI density and pageviews.",
+        "metric": "OSM nightlife POI density and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.theme-parks",
+      "name": "Theme Parks",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Theme Parks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Disney parks",
+        "Universal parks",
+        "Regional parks",
+        "Water parks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 theme parks ranked by Attendance from operator reports and industry associations.",
+        "metric": "Attendance from operator reports and industry associations",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.cruises",
+      "name": "Cruises",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Cruises"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ocean cruises",
+        "River cruises",
+        "Expedition cruises"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 cruises ranked by Passenger volumes from cruise industry associations.",
+        "metric": "Passenger volumes from cruise industry associations",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.pilgrimage-sites",
+      "name": "Pilgrimage Sites",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Pilgrimage Sites"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Christian",
+        "Islamic",
+        "Hindu",
+        "Buddhist",
+        "Jewish"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 pilgrimage sites ranked by Wikidata/UNESCO coverage and visitor estimates.",
+        "metric": "Wikidata/UNESCO coverage and visitor estimates",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.unesco-sites",
+      "name": "UNESCO World Heritage Sites",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "UNESCO World Heritage Sites"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cultural",
+        "Natural",
+        "Mixed",
+        "In danger"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 unesco world heritage sites ranked by Official UNESCO inscription list and criteria.",
+        "metric": "Official UNESCO inscription list and criteria",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.visa-friendly-countries",
+      "name": "Visa-Friendly Countries",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Visa-Friendly Countries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Passport power",
+        "Visa on arrival",
+        "Digital nomad visas"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 visa-friendly countries ranked by Passport index rankings; most are proprietary, build from official visa rules.",
+        "metric": "Passport index rankings; most are proprietary, build from official visa rules",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Passport indices (Henley, Arton) are proprietary. Official visa rules are fragmented by nationality."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "travel.solo-travel",
+      "name": "Solo Travel Destinations",
+      "parent_id": "travel",
+      "parent_name": "Travel",
+      "path": [
+        "Travel",
+        "Solo Travel Destinations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Safe",
+        "Social",
+        "Budget",
+        "Adventure"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 solo travel destinations ranked by Safety, cost and tourism infrastructure proxies.",
+        "metric": "Safety, cost and tourism infrastructure proxies",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

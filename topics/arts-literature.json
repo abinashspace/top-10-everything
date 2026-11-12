@@ -1,0 +1,2201 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "arts-literature",
+    "name": "Arts & Literature",
+    "description": "Books, visual art, architecture, theatre and design.",
+    "topic_count": 29,
+    "subcategory_count": 116,
+    "research_status_counts": {
+      "partial": 24,
+      "researched": 5
+    },
+    "data_availability_counts": {
+      "limited": 24,
+      "moderate": 4,
+      "strong": 1
+    }
+  },
+  "topics": [
+    {
+      "id": "arts-literature.books",
+      "name": "Books",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Books"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Most translated",
+        "Highest rated",
+        "Award winners"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "internet_archive",
+            "name": "Internet Archive APIs",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 books ranked by Open Library/Google Books metadata; ratings and sales are fragmented.",
+        "metric": "Open Library/Google Books metadata; ratings and sales are fragmented",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Open Library has no universal star-rating. Goodreads ratings are platform-private."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.novels",
+      "name": "Novels",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Novels"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Literary",
+        "Genre",
+        "Debut",
+        "Translated"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 novels ranked by Open Library coverage, pageviews and award lists.",
+        "metric": "Open Library coverage, pageviews and award lists",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.authors",
+      "name": "Authors",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Authors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Novelists",
+        "Non-fiction",
+        "Poets",
+        "Children's authors"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 authors ranked by OpenAlex/Crossref citations and Open Library coverage.",
+        "metric": "OpenAlex/Crossref citations and Open Library coverage",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.rare-book-collections",
+      "name": "Rare Book Collections",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Rare Book Collections"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Manuscripts",
+        "Incunabula",
+        "First editions",
+        "Digital facsimiles"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "internet_archive",
+            "name": "Internet Archive APIs",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 rare book collections ranked by Collection catalogues and Open Library/Wikidata coverage.",
+        "metric": "Collection catalogues and Open Library/Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.bookstores",
+      "name": "Bookstores",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Bookstores"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Independent",
+        "Chains",
+        "Specialist",
+        "Online"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 bookstores ranked by OSM bookstore density and pageviews.",
+        "metric": "OSM bookstore density and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.publishers",
+      "name": "Publishers",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Publishers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Trade",
+        "Academic",
+        "Educational",
+        "Indie"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 publishers ranked by Revenue of listed publishers; market share is commercial.",
+        "metric": "Revenue of listed publishers; market share is commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.literary-awards",
+      "name": "Literary Awards",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Literary Awards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Nobel",
+        "Booker",
+        "Pulitzer",
+        "National awards"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 literary awards ranked by Official award winners and shortlists.",
+        "metric": "Official award winners and shortlists",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.art-museums",
+      "name": "Art Museums",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Art Museums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Modern",
+        "Classical",
+        "Contemporary",
+        "Specialist"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "rijksmuseum",
+            "name": "Rijksmuseum API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "harvard_art",
+            "name": "Harvard Art Museums API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 art museums ranked by Collection size, OSM/Wikidata coverage and visitor numbers.",
+        "metric": "Collection size, OSM/Wikidata coverage and visitor numbers",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.paintings",
+      "name": "Paintings",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Paintings"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Old masters",
+        "Impressionist",
+        "Modern",
+        "Contemporary"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "rijksmuseum",
+            "name": "Rijksmuseum API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "harvard_art",
+            "name": "Harvard Art Museums API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 paintings ranked by Museum collection metadata and Wikidata coverage.",
+        "metric": "Museum collection metadata and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Ranking paintings by importance is inherently editorial; collection presence is a proxy."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.sculptures",
+      "name": "Sculptures",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Sculptures"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ancient",
+        "Classical",
+        "Modern",
+        "Public art"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 sculptures ranked by Museum/collection metadata and Wikidata coverage.",
+        "metric": "Museum/collection metadata and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.artists",
+      "name": "Artists",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Artists"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Painters",
+        "Sculptors",
+        "Photographers",
+        "Digital artists"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "rijksmuseum",
+            "name": "Rijksmuseum API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "harvard_art",
+            "name": "Harvard Art Museums API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 artists ranked by Museum collection counts, Wikidata sitelinks and auction records.",
+        "metric": "Museum collection counts, Wikidata sitelinks and auction records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.photographers",
+      "name": "Photographers",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Photographers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Documentary",
+        "Fashion",
+        "Landscape",
+        "Portrait"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 photographers ranked by Museum collections and Wikidata coverage.",
+        "metric": "Museum collections and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.architects",
+      "name": "Architects",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Architects"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Modernist",
+        "Contemporary",
+        "Landscape",
+        "Interior"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 architects ranked by Pritzker/industry awards and Wikidata coverage.",
+        "metric": "Pritzker/industry awards and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.buildings",
+      "name": "Buildings",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Buildings"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tallest",
+        "Oldest",
+        "Most visited",
+        "Iconic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 buildings ranked by OSM/Wikidata height, age and visitor data.",
+        "metric": "OSM/Wikidata height, age and visitor data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.skyscrapers",
+      "name": "Skyscrapers",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Skyscrapers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tallest",
+        "Most floors",
+        "Under construction",
+        "Historic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 skyscrapers ranked by CTBUH/Wikidata height data.",
+        "metric": "CTBUH/Wikidata height data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "CTBUH data may have reuse terms; Wikidata provides an open alternative."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.design-schools",
+      "name": "Design Schools",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Design Schools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Graphic",
+        "Industrial",
+        "Fashion",
+        "Interaction"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 design schools ranked by Research output is a weak proxy for design education quality.",
+        "metric": "Research output is a weak proxy for design education quality",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.graphic-designers",
+      "name": "Graphic Designers",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Graphic Designers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Branding",
+        "Editorial",
+        "Type",
+        "Motion"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 graphic designers ranked by Award records and Wikidata coverage.",
+        "metric": "Award records and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.illustrators",
+      "name": "Illustrators",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Illustrators"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Children's books",
+        "Editorial",
+        "Comics",
+        "Concept art"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 illustrators ranked by Award records and Wikidata coverage.",
+        "metric": "Award records and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.comics",
+      "name": "Comics",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Comics"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Superhero",
+        "Independent",
+        "Newspaper",
+        "European"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 comics ranked by Open Library metadata and community ratings.",
+        "metric": "Open Library metadata and community ratings",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.manga",
+      "name": "Manga",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Manga"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Shonen",
+        "Seinen",
+        "Shojo",
+        "Josei"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "jikan",
+            "name": "Jikan API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "anilist",
+            "name": "AniList GraphQL API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 manga ranked by MyAnimeList/AniList manga scores.",
+        "metric": "MyAnimeList/AniList manga scores",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.graphic-novels",
+      "name": "Graphic Novels",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Graphic Novels"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Literary",
+        "Memoir",
+        "Superhero",
+        "Adaptation"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 graphic novels ranked by Award lists and Open Library coverage.",
+        "metric": "Award lists and Open Library coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.theatre",
+      "name": "Theatre",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Theatre"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Broadway",
+        "West End",
+        "Regional",
+        "Experimental"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 theatre ranked by Production listings and awards; no open global audience dataset.",
+        "metric": "Production listings and awards; no open global audience dataset",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.plays",
+      "name": "Plays",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Plays"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Classical",
+        "Modern",
+        "Musicals",
+        "One-act"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 plays ranked by Award lists, Open Library coverage and production counts.",
+        "metric": "Award lists, Open Library coverage and production counts",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.musicals",
+      "name": "Musicals",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Musicals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Broadway",
+        "West End",
+        "Film",
+        "Regional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 musicals ranked by Award wins and box-office data where disclosed.",
+        "metric": "Award wins and box-office data where disclosed",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.operas",
+      "name": "Operas",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Operas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Composers",
+        "Companies",
+        "Festivals",
+        "Recordings"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 operas ranked by Operabase/MusicBrainz coverage and performance counts.",
+        "metric": "Operabase/MusicBrainz coverage and performance counts",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.ballets",
+      "name": "Ballets",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Ballets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Companies",
+        "Dancers",
+        "Choreographers",
+        "Productions"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 ballets ranked by Company/performance records and awards.",
+        "metric": "Company/performance records and awards",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.dance-companies",
+      "name": "Dance Companies",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Dance Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ballet",
+        "Contemporary",
+        "Cultural",
+        "Youth"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 dance companies ranked by Company records and performance counts.",
+        "metric": "Company records and performance counts",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.street-art",
+      "name": "Street Art",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Street Art"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Murals",
+        "Graffiti",
+        "Installations",
+        "Festivals"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 street art ranked by OSM/Wikidata coverage and pageviews.",
+        "metric": "OSM/Wikidata coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "arts-literature.digital-art",
+      "name": "Digital Art",
+      "parent_id": "arts-literature",
+      "parent_name": "Arts & Literature",
+      "path": [
+        "Arts & Literature",
+        "Digital Art"
+      ],
+      "level": 2,
+      "subcategories": [
+        "NFT art",
+        "Generative",
+        "3D",
+        "AI art"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 digital art ranked by Marketplace data is commercial; Wikidata/pageviews are weak proxies.",
+        "metric": "Marketplace data is commercial; Wikidata/pageviews are weak proxies",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

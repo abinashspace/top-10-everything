@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "health-lifestyle.longevity",
+  "topic_name": "Longevity",
+  "category": "health-lifestyle",
+  "question": "Top 10 longevity ranked by World Bank/WHO life expectancy and mortality data.",
+  "metric": "World Bank/WHO life expectancy and mortality data",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Life expectancy at birth, total population",
+    "unit": "years",
+    "provider_last_updated": "2026-10-08"
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:29+00:00",
+    "reference_period": "2024",
+    "records_considered": 217,
+    "records_ranked": 217,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SP.DYN.LE00.IN"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "MCO",
+      "name": "Monaco",
+      "value": 86.497,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "SMR",
+      "name": "San Marino",
+      "value": 85.817,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "HKG",
+      "name": "Hong Kong SAR, China",
+      "value": 85.3926829268293,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "KWT",
+      "name": "Kuwait",
+      "value": 84.580487804878,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "CHE",
+      "name": "Switzerland",
+      "value": 84.4073170731707,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "LIE",
+      "name": "Liechtenstein",
+      "value": 84.2,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "PYF",
+      "name": "French Polynesia",
+      "value": 84.192,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "AND",
+      "name": "Andorra",
+      "value": 84.188,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "SWE",
+      "name": "Sweden",
+      "value": 84.0634146341463,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "JPN",
+      "name": "Japan",
+      "value": 84.0363414634146,
+      "unit": "years",
+      "period": "2024",
+      "extra": {
+        "indicator": "SP.DYN.LE00.IN"
+      }
+    }
+  ],
+  "caveats": [
+    "Blue-zone claims rely on disputed demographic data and should be treated cautiously.",
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "high",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

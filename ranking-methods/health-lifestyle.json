@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "health-lifestyle",
+  "category_name": "Health & Lifestyle",
+  "topic_count": 26,
+  "method_counts": {
+    "human_review": 9,
+    "composite_index": 2,
+    "bibliometric": 1,
+    "market_cap": 3,
+    "approvals": 1,
+    "official_stat": 6,
+    "attention_proxy": 2,
+    "survey": 2
+  },
+  "assignments": [
+    {
+      "topic_id": "health-lifestyle.hospitals",
+      "topic_name": "Hospitals",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Hospital quality rankings require proprietary clinical/patient data",
+      "question": "Top 10 hospitals ranked by Hospital quality rankings require proprietary clinical/patient data.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.health-systems",
+      "topic_name": "Health Systems",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "WHO/World Bank indicators and published health-system indices",
+      "question": "Top 10 health systems ranked by WHO/World Bank indicators and published health-system indices.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.doctors",
+      "topic_name": "Doctors",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Doctor quality/ratings; no open global dataset",
+      "question": "Top 10 doctors ranked by Doctor quality/ratings; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.medical-schools",
+      "topic_name": "Medical Schools",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex biomedical research output and citations",
+      "question": "Top 10 medical schools ranked by OpenAlex biomedical research output and citations.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.pharmaceuticals",
+      "topic_name": "Pharmaceutical Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market capitalisation from filings",
+      "question": "Top 10 pharmaceutical companies ranked by Revenue/market capitalisation from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.biotech-companies",
+      "topic_name": "Biotech Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Market cap and pipeline data from filings",
+      "question": "Top 10 biotech companies ranked by Market cap and pipeline data from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.medical-devices",
+      "topic_name": "Medical Devices",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings; approval data from regulators",
+      "question": "Top 10 medical devices ranked by Revenue/market cap from filings; approval data from regulators.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.vaccines",
+      "topic_name": "Vaccines",
+      "method_id": "approvals",
+      "method_name": "Regulatory approval / registration",
+      "metric": "WHO/regulatory approvals and trial registries",
+      "question": "Top 10 vaccines ranked by WHO/regulatory approvals and trial registries.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubmed",
+        "clinicaltrials"
+      ],
+      "backup_sources": [
+        "europe_pmc",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.diseases",
+      "topic_name": "Diseases",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "WHO GHO/IHME burden-of-disease indicators",
+      "question": "Top 10 diseases ranked by WHO GHO/IHME burden-of-disease indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.causes-of-death",
+      "topic_name": "Causes of Death",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "WHO Global Health Estimates and World Bank indicators",
+      "question": "Top 10 causes of death ranked by WHO Global Health Estimates and World Bank indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.mental-health",
+      "topic_name": "Mental Health",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "WHO Mental Health Atlas and GHO indicators",
+      "question": "Top 10 mental health ranked by WHO Mental Health Atlas and GHO indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.fitness-apps",
+      "topic_name": "Fitness Apps",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and app-store metadata where accessible",
+      "question": "Top 10 fitness apps ranked by Wikimedia pageviews and app-store metadata where accessible.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.gyms",
+      "topic_name": "Gyms",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Gym quality/price; no open global dataset",
+      "question": "Top 10 gyms ranked by Gym quality/price; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.yoga-studios",
+      "topic_name": "Yoga Studios",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Studio quality/price; no open global dataset",
+      "question": "Top 10 yoga studios ranked by Studio quality/price; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.meditation-apps",
+      "topic_name": "Meditation Apps",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and app-store metadata",
+      "question": "Top 10 meditation apps ranked by Wikimedia pageviews and app-store metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.sleep",
+      "topic_name": "Sleep",
+      "method_id": "survey",
+      "method_name": "Survey-based ranking",
+      "metric": "Population sleep surveys and health indicators",
+      "question": "Top 10 sleep ranked by Population sleep surveys and health indicators.",
+      "basis": "survey",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.nutrition",
+      "topic_name": "Nutrition",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "USDA FoodData Central and FAO food-balance sheets",
+      "question": "Top 10 nutrition ranked by USDA FoodData Central and FAO food-balance sheets.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.supplements",
+      "topic_name": "Supplements",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Supplement quality/efficacy rankings; no open dataset",
+      "question": "Top 10 supplements ranked by Supplement quality/efficacy rankings; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.cosmetic-procedures",
+      "topic_name": "Cosmetic Procedures",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Procedure quality/outcomes; no open global dataset",
+      "question": "Top 10 cosmetic procedures ranked by Procedure quality/outcomes; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.longevity",
+      "topic_name": "Longevity",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "World Bank/WHO life expectancy and mortality data",
+      "question": "Top 10 longevity ranked by World Bank/WHO life expectancy and mortality data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.public-health",
+      "topic_name": "Public Health",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "WHO/World Bank health-system indicators",
+      "question": "Top 10 public health ranked by WHO/World Bank health-system indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.health-insurance",
+      "topic_name": "Health Insurance",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Coverage and health-spending indicators",
+      "question": "Top 10 health insurance ranked by Coverage and health-spending indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.nursing-homes",
+      "topic_name": "Nursing Homes",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Facility quality requires inspection data that is not globally open",
+      "question": "Top 10 nursing homes ranked by Facility quality requires inspection data that is not globally open.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.telehealth",
+      "topic_name": "Telehealth",
+      "method_id": "survey",
+      "method_name": "Survey-based ranking",
+      "metric": "Adoption surveys and national telehealth statistics",
+      "question": "Top 10 telehealth ranked by Adoption surveys and national telehealth statistics.",
+      "basis": "survey",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "who_gho",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "health-lifestyle.wellness-retreats",
+      "topic_name": "Wellness Retreats",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Retreat quality/price; no open dataset",
+      "question": "Top 10 wellness retreats ranked by Retreat quality/price; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "health-lifestyle.spas",
+      "topic_name": "Spas",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Spa quality/price; no open dataset",
+      "question": "Top 10 spas ranked by Spa quality/price; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    }
+  ]
+}

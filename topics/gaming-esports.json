@@ -1,0 +1,1319 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "gaming-esports",
+    "name": "Gaming & Esports",
+    "description": "Video games, platforms, esports and play culture.",
+    "topic_count": 18,
+    "subcategory_count": 72,
+    "research_status_counts": {
+      "researched": 4,
+      "partial": 13,
+      "researched_proxy": 1
+    },
+    "data_availability_counts": {
+      "moderate": 5,
+      "limited": 13
+    }
+  },
+  "topics": [
+    {
+      "id": "gaming-esports.video-games",
+      "name": "Video Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Video Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-rated",
+        "Best-selling",
+        "Most played",
+        "Most influential"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 video games ranked by RAWG/Steam user ratings and review counts; sales data is mostly commercial.",
+        "metric": "RAWG/Steam user ratings and review counts; sales data is mostly commercial",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Steam reviews and RAWG ratings reflect self-selected audiences."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.game-developers",
+      "name": "Game Developers",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Game Developers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By revenue",
+        "By ratings",
+        "Indie",
+        "AAA"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 game developers ranked by Game catalogue ratings and company disclosures.",
+        "metric": "Game catalogue ratings and company disclosures",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.game-publishers",
+      "name": "Game Publishers",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Game Publishers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By revenue",
+        "Indie",
+        "Mobile"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 game publishers ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.game-consoles",
+      "name": "Game Consoles",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Game Consoles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By sales",
+        "Current generation",
+        "Handheld",
+        "Retro"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 game consoles ranked by Manufacturer shipment disclosures; historical sales data is patchy.",
+        "metric": "Manufacturer shipment disclosures; historical sales data is patchy",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.gaming-platforms",
+      "name": "Gaming Platforms",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Gaming Platforms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "PC",
+        "Console",
+        "Mobile",
+        "Cloud"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 gaming platforms ranked by Platform catalogue/activity data and pageviews.",
+        "metric": "Platform catalogue/activity data and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.esports-teams",
+      "name": "Esports Teams",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Esports Teams"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By earnings",
+        "By championships",
+        "By game",
+        "Regional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "liquipedia",
+            "name": "Liquipedia",
+            "access_model": "restricted",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 esports teams ranked by Tournament results and prize-money records.",
+        "metric": "Tournament results and prize-money records",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.esports-players",
+      "name": "Esports Players",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Esports Players"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By earnings",
+        "By championships",
+        "By game",
+        "Regional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "liquipedia",
+            "name": "Liquipedia",
+            "access_model": "restricted",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 esports players ranked by Tournament results and prize-money records.",
+        "metric": "Tournament results and prize-money records",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.esports-tournaments",
+      "name": "Esports Tournaments",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Esports Tournaments"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By prize pool",
+        "By viewers",
+        "By game",
+        "Majors"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "liquipedia",
+            "name": "Liquipedia",
+            "access_model": "restricted",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 esports tournaments ranked by Official tournament results and prize pools.",
+        "metric": "Official tournament results and prize pools",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.streamers",
+      "name": "Streamers",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Streamers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By followers",
+        "By watch time",
+        "By game",
+        "By language"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "twitch",
+            "name": "Twitch API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 streamers ranked by Twitch API follower/viewer data; no global historical leaderboard.",
+        "metric": "Twitch API follower/viewer data; no global historical leaderboard",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.game-engines",
+      "name": "Game Engines",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Game Engines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Commercial",
+        "Open source",
+        "2D",
+        "3D"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 game engines ranked by GitHub activity and licence/adoption metadata.",
+        "metric": "GitHub activity and licence/adoption metadata",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.indie-games",
+      "name": "Indie Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Indie Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-rated",
+        "Best-selling",
+        "Experimental",
+        "Game jams"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 indie games ranked by Steam/RAWG ratings and review counts.",
+        "metric": "Steam/RAWG ratings and review counts",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.mobile-games",
+      "name": "Mobile Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Mobile Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By downloads",
+        "By revenue",
+        "Casual",
+        "Competitive"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sales_share",
+        "name": "Sales or shipment ranking",
+        "question": "Top 10 mobile games ranked by App-store revenue/download estimates are commercial (Sensor Tower, data.ai).",
+        "metric": "App-store revenue/download estimates are commercial (Sensor Tower, data.ai)",
+        "basis": "market_data",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.pc-games",
+      "name": "PC Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "PC Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-rated",
+        "Most played",
+        "Indie",
+        "Strategy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 pc games ranked by Steam/RAWG ratings and concurrent-player data.",
+        "metric": "Steam/RAWG ratings and concurrent-player data",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.vr-games",
+      "name": "VR Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "VR Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-rated",
+        "Most played",
+        "Fitness",
+        "Social"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 vr games ranked by Steam VR ratings and review counts.",
+        "metric": "Steam VR ratings and review counts",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.board-games",
+      "name": "Board Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Board Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Strategy",
+        "Party",
+        "Family",
+        "Wargames"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "boardgamegeek",
+            "name": "BoardGameGeek XML API2",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 board games ranked by BoardGameGeek community ratings and ranks.",
+        "metric": "BoardGameGeek community ratings and ranks",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.card-games",
+      "name": "Card Games",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Card Games"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Collectible",
+        "Trading card",
+        "Deck-building",
+        "Traditional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "boardgamegeek",
+            "name": "BoardGameGeek XML API2",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 card games ranked by BoardGameGeek ratings and tournament data.",
+        "metric": "BoardGameGeek ratings and tournament data",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.game-soundtracks",
+      "name": "Game Soundtracks",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Game Soundtracks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-rated",
+        "Orchestral",
+        "Chiptune",
+        "Licensed"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 game soundtracks ranked by MusicBrainz/Last.fm metadata and ratings.",
+        "metric": "MusicBrainz/Last.fm metadata and ratings",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "gaming-esports.speedruns",
+      "name": "Speedruns",
+      "parent_id": "gaming-esports",
+      "parent_name": "Gaming & Esports",
+      "path": [
+        "Gaming & Esports",
+        "Speedruns"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Any%",
+        "100%",
+        "Glitchless",
+        "Tool-assisted"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "rawg",
+            "name": "RAWG API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "steam",
+            "name": "Steam Web API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "igdb",
+            "name": "IGDB API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 speedruns ranked by Speedrun.com records; API terms should be checked.",
+        "metric": "Speedrun.com records; API terms should be checked",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Speedrun.com API is community-run and not yet catalogued as a source."
+      ],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

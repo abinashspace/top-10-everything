@@ -1,0 +1,47 @@
+name: rankings
+
+on:
+  schedule:
+    # Weekly, a little after the catalog refresh.
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/**"
+      - "scripts/validate_rankings.py"
+      - ".github/workflows/rankings.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests
+        run: python -m unittest discover -s pipeline/tests -t .
+
+      - name: Build rankings from live sources
+        # Providers rate-limit and occasionally fail; keep whatever succeeded.
+        run: python -m pipeline.run --all --refresh || true
+
+      - name: Validate rankings
+        run: python scripts/validate_rankings.py
+
+      - name: Commit refreshed rankings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rankings
+          if git diff --staged --quiet; then
+            echo "No ranking changes."
+          else
+            git commit -m "chore: refresh worked rankings"
+            git push
+          fi

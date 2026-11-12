@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "entertainment",
+  "category_name": "Entertainment",
+  "topic_count": 25,
+  "method_counts": {
+    "rating_aggregate": 8,
+    "attention_proxy": 8,
+    "market_cap": 2,
+    "sales_share": 1,
+    "canon_proxy": 3,
+    "event_outcome": 2,
+    "community_activity": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "entertainment.movies",
+      "topic_name": "Movies",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB user rating plus vote count; box office only from licensed sources",
+      "question": "Top 10 movies ranked by TMDB user rating plus vote count; box office only from licensed sources.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "imdb_datasets",
+        "omdb"
+      ]
+    },
+    {
+      "topic_id": "entertainment.tv-shows",
+      "topic_name": "TV Shows",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB/TVmaze user rating and vote counts",
+      "question": "Top 10 tv shows ranked by TMDB/TVmaze user rating and vote counts.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "imdb_datasets",
+        "omdb"
+      ]
+    },
+    {
+      "topic_id": "entertainment.web-series",
+      "topic_name": "Web Series",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB/TVmaze ratings plus Wikidata coverage",
+      "question": "Top 10 web series ranked by TMDB/TVmaze ratings plus Wikidata coverage.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.actors",
+      "topic_name": "Actors",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "TMDB popularity, Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 actors ranked by TMDB popularity, Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "imdb_datasets"
+      ]
+    },
+    {
+      "topic_id": "entertainment.directors",
+      "topic_name": "Directors",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "TMDB popularity and critical reception proxies",
+      "question": "Top 10 directors ranked by TMDB popularity and critical reception proxies.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "imdb_datasets"
+      ]
+    },
+    {
+      "topic_id": "entertainment.film-studios",
+      "topic_name": "Film Studios",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Studio revenue/market share where disclosed; most figures are commercial estimates",
+      "question": "Top 10 film studios ranked by Studio revenue/market share where disclosed; most figures are commercial estimates.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.streaming-platforms",
+      "topic_name": "Streaming Platforms",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Subscriber counts from company reports; catalogue size from TMDB",
+      "question": "Top 10 streaming platforms ranked by Subscriber counts from company reports; catalogue size from TMDB.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.box-office",
+      "topic_name": "Box Office",
+      "method_id": "sales_share",
+      "method_name": "Sales or shipment ranking",
+      "metric": "Box-office grosses; authoritative global data is licensed (Comscore)",
+      "question": "Top 10 box office ranked by Box-office grosses; authoritative global data is licensed (Comscore).",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.film-festivals",
+      "topic_name": "Film Festivals",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata coverage and award counts; festival prestige is editorial",
+      "question": "Top 10 film festivals ranked by Wikidata coverage and award counts; festival prestige is editorial.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.film-awards",
+      "topic_name": "Film Awards",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Official award winners and nominations",
+      "question": "Top 10 film awards ranked by Official award winners and nominations.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.documentaries",
+      "topic_name": "Documentaries",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB ratings and vote counts",
+      "question": "Top 10 documentaries ranked by TMDB ratings and vote counts.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.anime",
+      "topic_name": "Anime",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "MyAnimeList scores via Jikan plus AniList scores",
+      "question": "Top 10 anime ranked by MyAnimeList scores via Jikan plus AniList scores.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "jikan",
+        "anilist"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.cartoons",
+      "topic_name": "Cartoons",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB/TVmaze ratings and Wikidata coverage",
+      "question": "Top 10 cartoons ranked by TMDB/TVmaze ratings and Wikidata coverage.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.k-dramas",
+      "topic_name": "K-Dramas",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB ratings and Wikidata coverage",
+      "question": "Top 10 k-dramas ranked by TMDB ratings and Wikidata coverage.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.telenovelas",
+      "topic_name": "Telenovelas",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata coverage and Wikipedia pageviews",
+      "question": "Top 10 telenovelas ranked by Wikidata coverage and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.bollywood",
+      "topic_name": "Bollywood",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "TMDB ratings with India-specific coverage caveats",
+      "question": "Top 10 bollywood ranked by TMDB ratings with India-specific coverage caveats.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.podcasts",
+      "topic_name": "Podcasts",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Podcast Index metadata and chart presence; no open global listener counts",
+      "question": "Top 10 podcasts ranked by Podcast Index metadata and chart presence; no open global listener counts.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "podcast_index",
+        "itunes_search"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.radio-stations",
+      "topic_name": "Radio Stations",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "Radio Browser click counts and station metadata",
+      "question": "Top 10 radio stations ranked by Radio Browser click counts and station metadata.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "podcast_index",
+        "itunes_search"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "radio_browser"
+      ]
+    },
+    {
+      "topic_id": "entertainment.stand-up-comedians",
+      "topic_name": "Stand-up Comedians",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "TMDB credits, Wikipedia pageviews and Wikidata coverage",
+      "question": "Top 10 stand-up comedians ranked by TMDB credits, Wikipedia pageviews and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.movie-characters",
+      "topic_name": "Movie Characters",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata sitelinks and Wikipedia pageviews",
+      "question": "Top 10 movie characters ranked by Wikidata sitelinks and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.fictional-universes",
+      "topic_name": "Fictional Universes",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata coverage, pageviews and franchise revenue where disclosed",
+      "question": "Top 10 fictional universes ranked by Wikidata coverage, pageviews and franchise revenue where disclosed.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.memes",
+      "topic_name": "Memes",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "GDELT media mentions and Wikipedia pageviews",
+      "question": "Top 10 memes ranked by GDELT media mentions and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "gdelt",
+        "guardian"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.viral-videos",
+      "topic_name": "Viral Videos",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Media mentions and pageviews; platform view counts are not openly ranked",
+      "question": "Top 10 viral videos ranked by Media mentions and pageviews; platform view counts are not openly ranked.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "gdelt",
+        "guardian"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "entertainment.celebrity-net-worth",
+      "topic_name": "Celebrity Net Worth",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Public filings and disclosed contracts; most estimates are editorial",
+      "question": "Top 10 celebrity net worth ranked by Public filings and disclosed contracts; most estimates are editorial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "entertainment.tv-awards",
+      "topic_name": "TV Awards",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Official award winners and nominations",
+      "question": "Top 10 tv awards ranked by Official award winners and nominations.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "tvmaze",
+        "tmdb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    }
+  ]
+}

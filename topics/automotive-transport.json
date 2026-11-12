@@ -1,0 +1,1966 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "automotive-transport",
+    "name": "Automotive & Transport",
+    "description": "Vehicles, mobility systems and transport infrastructure.",
+    "topic_count": 27,
+    "subcategory_count": 107,
+    "research_status_counts": {
+      "partial": 19,
+      "researched": 7,
+      "unsupported": 1
+    },
+    "data_availability_counts": {
+      "limited": 19,
+      "moderate": 6,
+      "none": 1,
+      "strong": 1
+    }
+  },
+  "topics": [
+    {
+      "id": "automotive-transport.cars",
+      "name": "Cars",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Cars"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Safest",
+        "Most reliable",
+        "Fastest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 cars ranked by Sales/production from industry bodies; safety ratings from NHTSA/Euro NCAP.",
+        "metric": "Sales/production from industry bodies; safety ratings from NHTSA/Euro NCAP",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Global model-level sales data is commercial (JATO, MarkLines). Use national registration data where open."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.evs",
+      "name": "Electric Vehicles",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Electric Vehicles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Longest range",
+        "Fastest charging",
+        "Affordable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 electric vehicles ranked by Registration/production data and EPA range/efficiency data.",
+        "metric": "Registration/production data and EPA range/efficiency data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.luxury-cars",
+      "name": "Luxury Cars",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Luxury Cars"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Sedans",
+        "SUVs",
+        "Sports cars",
+        "Ultra-luxury"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 luxury cars ranked by Wikidata/Wikipedia attention and disclosed sales.",
+        "metric": "Wikidata/Wikipedia attention and disclosed sales",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.sports-cars",
+      "name": "Sports Cars",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Sports Cars"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Supercars",
+        "Track cars",
+        "Grand tourers",
+        "Hypercars"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "benchmark",
+        "name": "Standardised benchmark",
+        "question": "Top 10 sports cars ranked by Acceleration/top-speed specifications; independent test data is fragmented.",
+        "metric": "Acceleration/top-speed specifications; independent test data is fragmented",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.trucks",
+      "name": "Trucks",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Trucks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Heavy-duty",
+        "Pickups",
+        "Electric trucks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 trucks ranked by Registration/production statistics and EPA fuel economy.",
+        "metric": "Registration/production statistics and EPA fuel economy",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.motorcycles",
+      "name": "Motorcycles",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Motorcycles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Sport",
+        "Cruiser",
+        "Electric"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 motorcycles ranked by Registration/production data from industry associations.",
+        "metric": "Registration/production data from industry associations",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.bicycles",
+      "name": "Bicycles",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Bicycles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Road",
+        "Mountain",
+        "City",
+        "Electric"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 bicycles ranked by Wikidata coverage and product metadata.",
+        "metric": "Wikidata coverage and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.ebikes",
+      "name": "E-Bikes",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "E-Bikes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Commuter",
+        "Cargo",
+        "Mountain",
+        "Folding"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 e-bikes ranked by Product metadata and national sales statistics.",
+        "metric": "Product metadata and national sales statistics",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.scooters",
+      "name": "Scooters",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Scooters"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Kick scooters",
+        "Mopeds",
+        "Electric scooters",
+        "Shared"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nhtsa",
+            "name": "NHTSA APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "fueleconomy",
+            "name": "FuelEconomy.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 scooters ranked by Product metadata and city permit data.",
+        "metric": "Product metadata and city permit data",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.buses",
+      "name": "Buses",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Buses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Transit buses",
+        "Coach buses",
+        "Electric buses",
+        "School buses"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 buses ranked by Transit agency fleet and ridership statistics.",
+        "metric": "Transit agency fleet and ridership statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.trains",
+      "name": "Trains",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Trains"
+      ],
+      "level": 2,
+      "subcategories": [
+        "High-speed",
+        "Regional",
+        "Freight",
+        "Metro"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 trains ranked by National rail statistics and operator data.",
+        "metric": "National rail statistics and operator data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.high-speed-trains",
+      "name": "High-Speed Trains",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "High-Speed Trains"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By speed",
+        "By network length",
+        "By ridership"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 high-speed trains ranked by UIC/national rail statistics.",
+        "metric": "UIC/national rail statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.metro-systems",
+      "name": "Metro Systems",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Metro Systems"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By length",
+        "By ridership",
+        "By stations",
+        "Newest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 metro systems ranked by UITP/operator statistics.",
+        "metric": "UITP/operator statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.ports",
+      "name": "Ports",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Ports"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Container",
+        "Bulk",
+        "Passenger",
+        "Busiest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 ports ranked by Port authority and UNCTAD statistics.",
+        "metric": "Port authority and UNCTAD statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.ships",
+      "name": "Ships",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Ships"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Fastest",
+        "Container ships",
+        "Cruise ships"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 ships ranked by Ship registries and classification data.",
+        "metric": "Ship registries and classification data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.cruise-lines",
+      "name": "Cruise Lines",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Cruise Lines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Luxury",
+        "Expedition",
+        "Budget"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 cruise lines ranked by Passenger volumes and fleet data from company/industry reports.",
+        "metric": "Passenger volumes and fleet data from company/industry reports",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.ferries",
+      "name": "Ferries",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Ferries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Passenger",
+        "Vehicle",
+        "High-speed",
+        "Island"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 ferries ranked by Operator and port statistics.",
+        "metric": "Operator and port statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.car-brands",
+      "name": "Car Brands",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Car Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By sales",
+        "By revenue",
+        "By reliability",
+        "By value"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 car brands ranked by Group sales/revenue from company reports.",
+        "metric": "Group sales/revenue from company reports",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.tire-brands",
+      "name": "Tire Brands",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Tire Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By revenue",
+        "Passenger",
+        "Truck",
+        "Performance"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 tire brands ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.car-rental",
+      "name": "Car Rental",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Car Rental"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Airport",
+        "Budget",
+        "Luxury",
+        "Peer-to-peer"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 car rental ranked by Price/quality comparison requires live commercial data.",
+        "metric": "Price/quality comparison requires live commercial data",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.ride-hailing",
+      "name": "Ride-Hailing",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Ride-Hailing"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global",
+        "Regional",
+        "Bike/scooter",
+        "Autonomous"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 ride-hailing ranked by Revenue/market cap from filings; trip volumes vary.",
+        "metric": "Revenue/market cap from filings; trip volumes vary",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.autonomous-vehicles",
+      "name": "Autonomous Vehicles",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Autonomous Vehicles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Robotaxis",
+        "Consumer AVs",
+        "Trucks",
+        "Shuttles"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "patentsview",
+            "name": "PatentsView API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "epo_ops",
+            "name": "EPO Open Patent Services",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 autonomous vehicles ranked by Patent activity, disengagement reports and company disclosures.",
+        "metric": "Patent activity, disengagement reports and company disclosures",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.charging-networks",
+      "name": "EV Charging Networks",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "EV Charging Networks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fast charging",
+        "Destination",
+        "Home",
+        "Ultra-fast"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 ev charging networks ranked by Open charge-map data and network operator counts.",
+        "metric": "Open charge-map data and network operator counts",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.road-safety",
+      "name": "Road Safety",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Road Safety"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "By vehicle type",
+        "By age",
+        "Fatalities"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 road safety ranked by WHO Global Status Report on Road Safety and national data.",
+        "metric": "WHO Global Status Report on Road Safety and national data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.traffic-congestion",
+      "name": "Traffic Congestion",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Traffic Congestion"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By city",
+        "By country",
+        "Peak hours",
+        "Cost"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openflights",
+            "name": "OpenFlights",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ourairports",
+            "name": "OurAirports",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 traffic congestion ranked by TomTom/INRIX indices are commercial; use public probe data where available.",
+        "metric": "TomTom/INRIX indices are commercial; use public probe data where available",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.bridges",
+      "name": "Bridges",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Bridges"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Longest",
+        "Tallest",
+        "Oldest",
+        "Most iconic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 bridges ranked by OSM/Wikidata bridge dimensions.",
+        "metric": "OSM/Wikidata bridge dimensions",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "automotive-transport.tunnels",
+      "name": "Tunnels",
+      "parent_id": "automotive-transport",
+      "parent_name": "Automotive & Transport",
+      "path": [
+        "Automotive & Transport",
+        "Tunnels"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Longest",
+        "Deepest",
+        "Underwater",
+        "Rail"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 tunnels ranked by OSM/Wikidata tunnel length data.",
+        "metric": "OSM/Wikidata tunnel length data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

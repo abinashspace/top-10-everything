@@ -1,0 +1,1814 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "description": "Film, television, streaming, celebrity and formats built on audience data.",
+    "topic_count": 25,
+    "subcategory_count": 90,
+    "research_status_counts": {
+      "researched": 7,
+      "partial": 13,
+      "researched_proxy": 5
+    },
+    "data_availability_counts": {
+      "moderate": 9,
+      "limited": 16
+    }
+  },
+  "topics": [
+    {
+      "id": "entertainment.movies",
+      "name": "Movies",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Movies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Feature films",
+        "Box-office hits",
+        "Critically acclaimed films",
+        "Cult films"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "imdb_datasets",
+            "name": "IMDb Datasets",
+            "access_model": "restricted",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "omdb",
+            "name": "OMDb API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 movies ranked by TMDB user rating plus vote count; box office only from licensed sources.",
+        "metric": "TMDB user rating plus vote count; box office only from licensed sources",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "TMDB ratings are user-generated and skew toward English-language and recent releases."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.tv-shows",
+      "name": "TV Shows",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "TV Shows"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Drama",
+        "Comedy",
+        "Reality",
+        "Limited series"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "imdb_datasets",
+            "name": "IMDb Datasets",
+            "access_model": "restricted",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "omdb",
+            "name": "OMDb API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 tv shows ranked by TMDB/TVmaze user rating and vote counts.",
+        "metric": "TMDB/TVmaze user rating and vote counts",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.web-series",
+      "name": "Web Series",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Web Series"
+      ],
+      "level": 2,
+      "subcategories": [
+        "YouTube series",
+        "Streaming originals",
+        "Independent series"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 web series ranked by TMDB/TVmaze ratings plus Wikidata coverage.",
+        "metric": "TMDB/TVmaze ratings plus Wikidata coverage",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.actors",
+      "name": "Actors",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Actors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Film actors",
+        "TV actors",
+        "Character actors",
+        "Child actors"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "imdb_datasets",
+            "name": "IMDb Datasets",
+            "access_model": "restricted",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 actors ranked by TMDB popularity, Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "TMDB popularity, Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.directors",
+      "name": "Directors",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Directors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Film directors",
+        "TV directors",
+        "Documentary directors"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "imdb_datasets",
+            "name": "IMDb Datasets",
+            "access_model": "restricted",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 directors ranked by TMDB popularity and critical reception proxies.",
+        "metric": "TMDB popularity and critical reception proxies",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.film-studios",
+      "name": "Film Studios",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Film Studios"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Major studios",
+        "Indie studios",
+        "Animation studios"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 film studios ranked by Studio revenue/market share where disclosed; most figures are commercial estimates.",
+        "metric": "Studio revenue/market share where disclosed; most figures are commercial estimates",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.streaming-platforms",
+      "name": "Streaming Platforms",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Streaming Platforms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Video streaming",
+        "Music streaming",
+        "Live streaming"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 streaming platforms ranked by Subscriber counts from company reports; catalogue size from TMDB.",
+        "metric": "Subscriber counts from company reports; catalogue size from TMDB",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.box-office",
+      "name": "Box Office",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Box Office"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Opening weekends",
+        "All-time grosses",
+        "International grosses"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sales_share",
+        "name": "Sales or shipment ranking",
+        "question": "Top 10 box office ranked by Box-office grosses; authoritative global data is licensed (Comscore).",
+        "metric": "Box-office grosses; authoritative global data is licensed (Comscore)",
+        "basis": "market_data",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "No free comprehensive global box-office API. The Numbers/Box Office Mojo have restrictive terms."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.film-festivals",
+      "name": "Film Festivals",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Film Festivals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "A-list festivals",
+        "Genre festivals",
+        "Documentary festivals"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 film festivals ranked by Wikidata coverage and award counts; festival prestige is editorial.",
+        "metric": "Wikidata coverage and award counts; festival prestige is editorial",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.film-awards",
+      "name": "Film Awards",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Film Awards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Oscars",
+        "BAFTAs",
+        "Golden Globes",
+        "Festival awards"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 film awards ranked by Official award winners and nominations.",
+        "metric": "Official award winners and nominations",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.documentaries",
+      "name": "Documentaries",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Documentaries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Nature",
+        "True crime",
+        "Biographical",
+        "Political"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 documentaries ranked by TMDB ratings and vote counts.",
+        "metric": "TMDB ratings and vote counts",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.anime",
+      "name": "Anime",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Anime"
+      ],
+      "level": 2,
+      "subcategories": [
+        "TV anime",
+        "Films",
+        "OVAs",
+        "Seasonal anime"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "jikan",
+            "name": "Jikan API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "anilist",
+            "name": "AniList GraphQL API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 anime ranked by MyAnimeList scores via Jikan plus AniList scores.",
+        "metric": "MyAnimeList scores via Jikan plus AniList scores",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Jikan is unofficial and depends on MyAnimeList; scores are community ratings."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.cartoons",
+      "name": "Cartoons",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Cartoons"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Animated series",
+        "Animated shorts",
+        "Adult animation"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 cartoons ranked by TMDB/TVmaze ratings and Wikidata coverage.",
+        "metric": "TMDB/TVmaze ratings and Wikidata coverage",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.k-dramas",
+      "name": "K-Dramas",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "K-Dramas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Romance",
+        "Thriller",
+        "Historical",
+        "Comedy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 k-dramas ranked by TMDB ratings and Wikidata coverage.",
+        "metric": "TMDB ratings and Wikidata coverage",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.telenovelas",
+      "name": "Telenovelas",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Telenovelas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Latin American",
+        "Turkish",
+        "Asian",
+        "Remakes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 telenovelas ranked by Wikidata coverage and Wikipedia pageviews.",
+        "metric": "Wikidata coverage and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.bollywood",
+      "name": "Bollywood",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Bollywood"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Films",
+        "Actors",
+        "Directors",
+        "Soundtracks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 bollywood ranked by TMDB ratings with India-specific coverage caveats.",
+        "metric": "TMDB ratings with India-specific coverage caveats",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.podcasts",
+      "name": "Podcasts",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Podcasts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "News",
+        "Comedy",
+        "True crime",
+        "Business"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "podcast_index",
+            "name": "Podcast Index API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 podcasts ranked by Podcast Index metadata and chart presence; no open global listener counts.",
+        "metric": "Podcast Index metadata and chart presence; no open global listener counts",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Listener numbers are platform-private. Apple Podcasts charts have no free official API."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.radio-stations",
+      "name": "Radio Stations",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Radio Stations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "News/talk",
+        "Music",
+        "Public radio",
+        "Online radio"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "podcast_index",
+            "name": "Podcast Index API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "radio_browser",
+            "name": "Radio Browser API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 radio stations ranked by Radio Browser click counts and station metadata.",
+        "metric": "Radio Browser click counts and station metadata",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.stand-up-comedians",
+      "name": "Stand-up Comedians",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Stand-up Comedians"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Touring",
+        "Special-based",
+        "Club comedians"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 stand-up comedians ranked by TMDB credits, Wikipedia pageviews and Wikidata coverage.",
+        "metric": "TMDB credits, Wikipedia pageviews and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.movie-characters",
+      "name": "Movie Characters",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Movie Characters"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Franchise characters",
+        "Villains",
+        "Animated characters"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 movie characters ranked by Wikidata sitelinks and Wikipedia pageviews.",
+        "metric": "Wikidata sitelinks and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.fictional-universes",
+      "name": "Fictional Universes",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Fictional Universes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Marvel",
+        "Star Wars",
+        "DC",
+        "Fantasy worlds"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 fictional universes ranked by Wikidata coverage, pageviews and franchise revenue where disclosed.",
+        "metric": "Wikidata coverage, pageviews and franchise revenue where disclosed",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.memes",
+      "name": "Memes",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Memes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Image macros",
+        "Video memes",
+        "Catchphrases"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gdelt",
+            "name": "GDELT Project",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "guardian",
+            "name": "The Guardian Open Platform",
+            "access_model": "free_key",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 memes ranked by GDELT media mentions and Wikipedia pageviews.",
+        "metric": "GDELT media mentions and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "high",
+      "notes": [
+        "Meme datasets are ephemeral and platform-specific; no stable open ranking exists."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.viral-videos",
+      "name": "Viral Videos",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Viral Videos"
+      ],
+      "level": 2,
+      "subcategories": [
+        "YouTube",
+        "TikTok",
+        "Instagram",
+        "X/Twitter"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gdelt",
+            "name": "GDELT Project",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "guardian",
+            "name": "The Guardian Open Platform",
+            "access_model": "free_key",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 viral videos ranked by Media mentions and pageviews; platform view counts are not openly ranked.",
+        "metric": "Media mentions and pageviews; platform view counts are not openly ranked",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "daily",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.celebrity-net-worth",
+      "name": "Celebrity Net Worth",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "Celebrity Net Worth"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Actors",
+        "Musicians",
+        "Athletes",
+        "Influencers"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 celebrity net worth ranked by Public filings and disclosed contracts; most estimates are editorial.",
+        "metric": "Public filings and disclosed contracts; most estimates are editorial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Forbes/Bloomberg wealth estimates are proprietary. Do not scrape or republish them."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "entertainment.tv-awards",
+      "name": "TV Awards",
+      "parent_id": "entertainment",
+      "parent_name": "Entertainment",
+      "path": [
+        "Entertainment",
+        "TV Awards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Emmys",
+        "Golden Globes",
+        "BAFTAs",
+        "National awards"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "tvmaze",
+            "name": "TVmaze API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "tmdb",
+            "name": "The Movie Database (TMDB) API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 tv awards ranked by Official award winners and nominations.",
+        "metric": "Official award winners and nominations",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

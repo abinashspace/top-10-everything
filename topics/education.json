@@ -1,0 +1,1775 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "education",
+    "name": "Education",
+    "description": "Institutions, learning products and education system performance.",
+    "topic_count": 25,
+    "subcategory_count": 96,
+    "research_status_counts": {
+      "researched": 10,
+      "partial": 12,
+      "unsupported": 3
+    },
+    "data_availability_counts": {
+      "moderate": 4,
+      "limited": 12,
+      "none": 3,
+      "strong": 6
+    }
+  },
+  "topics": [
+    {
+      "id": "education.universities",
+      "name": "Universities",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Universities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Research universities",
+        "Teaching universities",
+        "Online universities"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 universities ranked by Research output/citations (OpenAlex) or recognised ranking methodologies.",
+        "metric": "Research output/citations (OpenAlex) or recognised ranking methodologies",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "QS/THE/ARWU are proprietary. OpenAlex bibliometrics are an independent proxy, not a teaching-quality measure."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.business-schools",
+      "name": "Business Schools",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Business Schools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "MBA",
+        "Executive education",
+        "Undergraduate business"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 business schools ranked by Business/management research output and citations.",
+        "metric": "Business/management research output and citations",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.online-learning-platforms",
+      "name": "Online Learning Platforms",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Online Learning Platforms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "MOOCs",
+        "Skill platforms",
+        "Language apps"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 online learning platforms ranked by Wikimedia pageviews and GitHub activity.",
+        "metric": "Wikimedia pageviews and GitHub activity",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.moocs",
+      "name": "MOOCs",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "MOOCs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Computer science",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 moocs ranked by Course catalogue size and enrolment claims; no open global enrolment data.",
+        "metric": "Course catalogue size and enrolment claims; no open global enrolment data",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.coding-bootcamps",
+      "name": "Coding Bootcamps",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Coding Bootcamps"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Full-time",
+        "Part-time",
+        "Online",
+        "Free"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 coding bootcamps ranked by Course catalogue and outcome claims; outcomes data is self-reported.",
+        "metric": "Course catalogue and outcome claims; outcomes data is self-reported",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.schools",
+      "name": "Schools",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Schools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Primary",
+        "Secondary",
+        "International",
+        "Private"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 schools ranked by School quality rankings; no open global school-level dataset.",
+        "metric": "School quality rankings; no open global school-level dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [
+        "National school league tables exist but are not comparable across countries."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.high-schools",
+      "name": "High Schools",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "High Schools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Public",
+        "Private",
+        "International",
+        "STEM"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 high schools ranked by School-level quality/outcomes; no open global dataset.",
+        "metric": "School-level quality/outcomes; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.research-institutions",
+      "name": "Research Institutions",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Research Institutions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Universities",
+        "National labs",
+        "Independent institutes"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "datacite",
+            "name": "DataCite REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 research institutions ranked by OpenAlex publication and citation counts.",
+        "metric": "OpenAlex publication and citation counts",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.libraries",
+      "name": "Libraries",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Libraries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "National libraries",
+        "Public libraries",
+        "University libraries",
+        "Digital libraries"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 libraries ranked by Collection size, visits and loans from national library statistics.",
+        "metric": "Collection size, visits and loans from national library statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.study-abroad-countries",
+      "name": "Study Abroad Countries",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Study Abroad Countries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "English-speaking",
+        "Europe",
+        "Asia",
+        "Affordable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 study abroad countries ranked by International student enrolment from UNESCO UIS/OECD.",
+        "metric": "International student enrolment from UNESCO UIS/OECD",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.scholarships",
+      "name": "Scholarships",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Scholarships"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fully funded",
+        "Partial",
+        "Country-specific",
+        "Field-specific"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 scholarships ranked by Scholarship listings require editorial verification; no open comprehensive database.",
+        "metric": "Scholarship listings require editorial verification; no open comprehensive database",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.courses",
+      "name": "Online Courses",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Online Courses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Free",
+        "Paid",
+        "Certificate",
+        "Microcredential"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 online courses ranked by Course catalogue metadata and enrolment claims.",
+        "metric": "Course catalogue metadata and enrolment claims",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.textbooks",
+      "name": "Textbooks",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Textbooks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Open textbooks",
+        "K-12",
+        "University",
+        "Professional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 textbooks ranked by Open Library/Google Books metadata and open-textbook catalogues.",
+        "metric": "Open Library/Google Books metadata and open-textbook catalogues",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.edtech-tools",
+      "name": "EdTech Tools",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "EdTech Tools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Classroom",
+        "Assessment",
+        "Tutoring",
+        "Administration"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 edtech tools ranked by GitHub activity and product metadata.",
+        "metric": "GitHub activity and product metadata",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.language-learning-apps",
+      "name": "Language Learning Apps",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Language Learning Apps"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Mobile apps",
+        "Tutoring",
+        "Flashcards",
+        "Immersion"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 language learning apps ranked by Wikimedia pageviews and app-store metadata where accessible.",
+        "metric": "Wikimedia pageviews and app-store metadata where accessible",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.test-prep",
+      "name": "Test Prep",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Test Prep"
+      ],
+      "level": 2,
+      "subcategories": [
+        "SAT/ACT",
+        "GRE/GMAT",
+        "Language tests",
+        "Professional exams"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 test prep ranked by Provider metadata and pageviews; no open score-improvement dataset.",
+        "metric": "Provider metadata and pageviews; no open score-improvement dataset",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.student-cities",
+      "name": "Student Cities",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Student Cities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Affordable",
+        "Academic",
+        "Nightlife",
+        "Career"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 student cities ranked by University concentration, cost of living and student share.",
+        "metric": "University concentration, cost of living and student share",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.academic-journals",
+      "name": "Academic Journals",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Academic Journals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Open access",
+        "Subscription",
+        "Review journals",
+        "Mega-journals"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "doaj",
+            "name": "Directory of Open Access Journals API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "unpaywall",
+            "name": "Unpaywall API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 academic journals ranked by OpenAlex/Crossref publication and citation metrics.",
+        "metric": "OpenAlex/Crossref publication and citation metrics",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.preprint-servers",
+      "name": "Preprint Servers",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Preprint Servers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "arXiv",
+        "bioRxiv",
+        "SSRN",
+        "OSF"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "osf",
+            "name": "OSF API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "re3data",
+            "name": "re3data.org",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 preprint servers ranked by Preprint counts and subject coverage.",
+        "metric": "Preprint counts and subject coverage",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.degree-programs",
+      "name": "Degree Programs",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Degree Programs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Undergraduate",
+        "Master's",
+        "PhD",
+        "Professional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 degree programs ranked by Programme quality and outcomes require editorial verification.",
+        "metric": "Programme quality and outcomes require editorial verification",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.vocational-training",
+      "name": "Vocational Training",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Vocational Training"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Trades",
+        "Technical",
+        "Apprenticeships",
+        "Healthcare"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 vocational training ranked by Enrolment and completion statistics from national/UNESCO sources.",
+        "metric": "Enrolment and completion statistics from national/UNESCO sources",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.tutoring-services",
+      "name": "Tutoring Services",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Tutoring Services"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Online",
+        "In-person",
+        "Test prep",
+        "Group"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 tutoring services ranked by Tutor quality/outcomes; no open comparable dataset.",
+        "metric": "Tutor quality/outcomes; no open comparable dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.education-systems",
+      "name": "Education Systems",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Education Systems"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Vocational"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 education systems ranked by Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD).",
+        "metric": "Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD)",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.literacy-rates",
+      "name": "Literacy Rates",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Literacy Rates"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Adult",
+        "Youth",
+        "Gender gap",
+        "Regional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 literacy rates ranked by UNESCO UIS literacy indicators.",
+        "metric": "UNESCO UIS literacy indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "education.student-performance",
+      "name": "Student Performance (PISA)",
+      "parent_id": "education",
+      "parent_name": "Education",
+      "path": [
+        "Education",
+        "Student Performance (PISA)"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Reading",
+        "Mathematics",
+        "Science",
+        "Equity"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 student performance (pisa) ranked by OECD PISA scores and rankings.",
+        "metric": "OECD PISA scores and rankings",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "PISA measures 15-year-olds in participating economies and is not a complete education quality measure."
+      ],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

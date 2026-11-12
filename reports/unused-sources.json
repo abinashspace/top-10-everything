@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "count": 7,
+  "explanation": "Catalogued sources that no topic currently references. They are kept because they are useful alternates for future topics or replacements for restricted sources. Map them to a topic (as primary or backup) or remove them.",
+  "sources": [
+    {
+      "source_id": "nominatim",
+      "name": "Nominatim",
+      "access_model": "open",
+      "commercial_use": "allowed_with_conditions",
+      "data_types": [
+        "geocoding",
+        "reverse geocoding"
+      ]
+    },
+    {
+      "source_id": "overpass",
+      "name": "Overpass API",
+      "access_model": "open",
+      "commercial_use": "allowed_with_conditions",
+      "data_types": [
+        "OSM queries",
+        "POI counts"
+      ]
+    },
+    {
+      "source_id": "newsapi",
+      "name": "NewsAPI",
+      "access_model": "free_tier",
+      "commercial_use": "prohibited",
+      "data_types": [
+        "news headlines",
+        "sources",
+        "search"
+      ]
+    },
+    {
+      "source_id": "qs_rankings",
+      "name": "QS World University Rankings",
+      "access_model": "restricted",
+      "commercial_use": "prohibited",
+      "data_types": [
+        "university rankings",
+        "scores",
+        "methodology"
+      ]
+    },
+    {
+      "source_id": "the_rankings",
+      "name": "Times Higher Education World University Rankings",
+      "access_model": "restricted",
+      "commercial_use": "prohibited",
+      "data_types": [
+        "university rankings",
+        "scores",
+        "methodology"
+      ]
+    },
+    {
+      "source_id": "michelin_guide",
+      "name": "MICHELIN Guide",
+      "access_model": "restricted",
+      "commercial_use": "prohibited",
+      "data_types": [
+        "restaurant ratings",
+        "stars",
+        "bib gourmand"
+      ]
+    },
+    {
+      "source_id": "kaggle",
+      "name": "Kaggle Datasets",
+      "access_model": "free_account",
+      "commercial_use": "varies",
+      "data_types": [
+        "community datasets"
+      ]
+    }
+  ]
+}

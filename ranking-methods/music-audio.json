@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "music-audio",
+  "category_name": "Music & Audio",
+  "topic_count": 20,
+  "method_counts": {
+    "attention_proxy": 10,
+    "canon_proxy": 3,
+    "rating_aggregate": 1,
+    "market_cap": 4,
+    "sales_share": 2
+  },
+  "assignments": [
+    {
+      "topic_id": "music-audio.music-artists",
+      "topic_name": "Music Artists",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz metadata, Last.fm scrobbles and Wikipedia pageviews",
+      "question": "Top 10 music artists ranked by MusicBrainz metadata, Last.fm scrobbles and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata",
+        "listenbrainz",
+        "deezer",
+        "spotify"
+      ]
+    },
+    {
+      "topic_id": "music-audio.bands",
+      "topic_name": "Bands",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz/Last.fm activity and pageviews",
+      "question": "Top 10 bands ranked by MusicBrainz/Last.fm activity and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata",
+        "discogs",
+        "listenbrainz"
+      ]
+    },
+    {
+      "topic_id": "music-audio.singers",
+      "topic_name": "Singers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews",
+      "question": "Top 10 singers ranked by MusicBrainz/Last.fm/pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    {
+      "topic_id": "music-audio.rappers",
+      "topic_name": "Rappers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews",
+      "question": "Top 10 rappers ranked by MusicBrainz/Last.fm/pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.djs",
+      "topic_name": "DJs",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews and festival line-ups",
+      "question": "Top 10 djs ranked by MusicBrainz/Last.fm/pageviews and festival line-ups.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.producers",
+      "topic_name": "Music Producers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Credits from MusicBrainz/Discogs and award records",
+      "question": "Top 10 music producers ranked by Credits from MusicBrainz/Discogs and award records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.albums",
+      "topic_name": "Albums",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Last.fm/community ratings and MusicBrainz metadata; sales are licensed",
+      "question": "Top 10 albums ranked by Last.fm/community ratings and MusicBrainz metadata; sales are licensed.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata",
+        "discogs",
+        "deezer"
+      ]
+    },
+    {
+      "topic_id": "music-audio.songs",
+      "topic_name": "Songs",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Last.fm scrobbles, MusicBrainz and pageviews; chart data is licensed",
+      "question": "Top 10 songs ranked by Last.fm scrobbles, MusicBrainz and pageviews; chart data is licensed.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    {
+      "topic_id": "music-audio.record-labels",
+      "topic_name": "Record Labels",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Market share is commercial; revenue from listed groups only",
+      "question": "Top 10 record labels ranked by Market share is commercial; revenue from listed groups only.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.music-festivals",
+      "topic_name": "Music Festivals",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Event listings, pageviews and lineup data",
+      "question": "Top 10 music festivals ranked by Event listings, pageviews and lineup data.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.concerts",
+      "topic_name": "Concerts",
+      "method_id": "sales_share",
+      "method_name": "Sales or shipment ranking",
+      "metric": "Box-office data is commercial (Pollstar, Billboard)",
+      "question": "Top 10 concerts ranked by Box-office data is commercial (Pollstar, Billboard).",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.orchestras",
+      "topic_name": "Orchestras",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "MusicBrainz/Orchestra records and pageviews",
+      "question": "Top 10 orchestras ranked by MusicBrainz/Orchestra records and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.conductors",
+      "topic_name": "Conductors",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "MusicBrainz credits, awards and pageviews",
+      "question": "Top 10 conductors ranked by MusicBrainz credits, awards and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.classical-composers",
+      "topic_name": "Classical Composers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "MusicBrainz/IMSLP coverage and performance counts",
+      "question": "Top 10 classical composers ranked by MusicBrainz/IMSLP coverage and performance counts.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.instruments",
+      "topic_name": "Instruments",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "question": "Top 10 instruments ranked by Wikidata/pageviews and product metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.guitar-brands",
+      "topic_name": "Guitar Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed/known brands; no open global ranking",
+      "question": "Top 10 guitar brands ranked by Revenue of listed/known brands; no open global ranking.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.piano-brands",
+      "topic_name": "Piano Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/company data where available",
+      "question": "Top 10 piano brands ranked by Revenue/company data where available.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.audio-brands",
+      "topic_name": "Audio Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market share from company reports",
+      "question": "Top 10 audio brands ranked by Revenue/market share from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "music-audio.speakers",
+      "topic_name": "Speakers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "question": "Top 10 speakers ranked by Wikidata/pageviews and product metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "music-audio.vinyl-records",
+      "topic_name": "Vinyl Records",
+      "method_id": "sales_share",
+      "method_name": "Sales or shipment ranking",
+      "metric": "RIAA/BPI shipment statistics; retailer data is commercial",
+      "question": "Top 10 vinyl records ranked by RIAA/BPI shipment statistics; retailer data is commercial.",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    }
+  ]
+}

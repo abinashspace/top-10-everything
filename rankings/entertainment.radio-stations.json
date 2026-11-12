@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "entertainment.radio-stations",
+  "topic_name": "Radio Stations",
+  "category": "entertainment",
+  "question": "Top 10 radio stations ranked by Radio Browser click counts and station metadata.",
+  "metric": "Radio Browser click counts and station metadata",
+  "method": {
+    "id": "community_activity",
+    "name": "Open-source / community activity",
+    "subjectivity": "proxy",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Cumulative station clicks recorded by Radio Browser",
+    "unit": "clicks (Radio Browser, all time)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:33+00:00",
+  "refresh_after": "2026-11-19",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:22+00:00",
+    "reference_period": null,
+    "records_considered": 50,
+    "records_ranked": 50,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "Radio Browser topclick, 50 stations"
+  },
+  "sources": [
+    {
+      "id": "radio_browser",
+      "name": "Radio Browser API",
+      "official_url": "https://www.radio-browser.info/",
+      "api_docs_url": "https://api.radio-browser.info/",
+      "commercial_use": "unclear",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:33+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "042d3140-227c-4fac-9387-4903b692d5f2",
+      "name": "RTL",
+      "value": 1792,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "généraliste",
+        "codec": "AAC"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "31074f8a-e6f4-11e9-a96c-52543be04c81",
+      "name": "France Info",
+      "value": 1366,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "aac,information,public radio,radio france",
+        "codec": "AAC"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "d1a54d2e-623e-4970-ab11-35f7b56c5ec3",
+      "name": "Classic Vinyl HD",
+      "value": 1184,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "The United States Of America",
+        "tags": "1930,1940,1950,1960,beautiful music,big band,classic hits,crooners,easy,easy listening,hd,jazz,light orchestral,lounge,o",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "78012206-1aa1-11e9-a80b-52543be04c81",
+      "name": "MANGORADIO",
+      "value": 902,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "Germany",
+        "tags": "music,variety",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "51775b57-e11a-40ef-8894-38b07d80bb73",
+      "name": "Europe 1",
+      "value": 892,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "génaraliste",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "b6fa9d93-97bf-48b0-8624-e8f84b817823",
+      "name": "Anon.FM",
+      "value": 794,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "The Russian Federation",
+        "tags": "anime,dnb,downtempo,experimental,jazz,psychedelic,rock,trance",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "12e68964-5928-4623-b82e-4bf9a4963780",
+      "name": "RMC Info Talk Sport ",
+      "value": 733,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "sports news",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "d28420a4-eccf-47a2-ace1-088c7e7cb7e0",
+      "name": "101 SMOOTH JAZZ",
+      "value": 714,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "The United States Of America",
+        "tags": "easy listening,jazz,smooth jazz",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "71ab8906-a508-4f98-a498-8840b41b79d5",
+      "name": "France Inter",
+      "value": 708,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "debate,music,news",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "9617a958-0601-11e8-ae97-52543be04c81",
+      "name": "Radio Paradise Main Mix (EU) 320k AAC",
+      "value": 699,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "The United States Of America",
+        "tags": "california,eclectic,free,internet,non-commercial,paradise,radio",
+        "codec": "AAC"
+      }
+    }
+  ],
+  "caveats": [
+    "Community interaction counts reflect the size and habits of one platform's audience.",
+    "Platform-specific metrics are not comparable across platforms.",
+    "Click counts are accumulated by the Radio Browser community and favour stations listed there for a long time.",
+    "Station metadata is crowd-maintained and can contain duplicates or stale entries."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "limited",
+  "research_status": "researched_proxy"
+}

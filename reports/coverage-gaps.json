@@ -1,0 +1,3140 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "count": 311,
+  "explanation": "Topics in this list have workable sources, but the ranking is either incomplete or based on a proxy. Treat them as candidates for deeper source work, not as finished products.",
+  "by_category": {
+    "technology": 32,
+    "entertainment": 18,
+    "travel": 17,
+    "education": 12,
+    "science": 15,
+    "business-finance": 18,
+    "sports": 17,
+    "food-drink": 21,
+    "health-lifestyle": 5,
+    "environment-nature": 10,
+    "history-culture": 24,
+    "automotive-transport": 19,
+    "fashion-beauty": 15,
+    "society-politics": 5,
+    "gaming-esports": 14,
+    "arts-literature": 24,
+    "music-audio": 20,
+    "home-garden": 8,
+    "pets-animals": 8,
+    "industrial-agriculture": 9
+  },
+  "topics": [
+    {
+      "topic_id": "technology.smartphones",
+      "topic_name": "Smartphones",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks, used as an attention proxy; no free global unit-sales series",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.laptops",
+      "topic_name": "Laptops",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks as a popularity proxy",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.tablets",
+      "topic_name": "Tablets",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.smartwatches",
+      "topic_name": "Smartwatches",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.cameras",
+      "topic_name": "Cameras",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.headphones",
+      "topic_name": "Headphones",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.processors",
+      "topic_name": "Processors",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "benchmark",
+      "metric": "Standardised benchmark scores from benchmark databases; redistribution requires permission",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.graphics-cards",
+      "topic_name": "Graphics Cards",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "benchmark",
+      "metric": "Benchmark scores and specification data; benchmark database reuse is restricted",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.operating-systems",
+      "topic_name": "Operating Systems",
+      "category": "Technology",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews plus GitHub activity for open-source projects",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.programming-languages",
+      "topic_name": "Programming Languages",
+      "category": "Technology",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "GitHub repository/contributor activity, package-registry downloads and Stack Overflow tag activity",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.ai-tools",
+      "topic_name": "AI Tools",
+      "category": "Technology",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "GitHub stars, Hugging Face downloads/likes and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.ai-models",
+      "topic_name": "AI Models",
+      "category": "Technology",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "Hugging Face downloads/likes plus OpenAlex citations to model papers",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.cloud-platforms",
+      "topic_name": "Cloud Platforms",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sales_share",
+      "metric": "Cloud revenue disclosed in SEC filings where reported; market-share estimates are paid",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.cybersecurity-tools",
+      "topic_name": "Cybersecurity Tools",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "GitHub activity for open-source tools plus Wikipedia attention",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.software-apps",
+      "topic_name": "Software Applications",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and GitHub activity",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.web-browsers",
+      "topic_name": "Web Browsers",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and GitHub activity; usage-share panels are commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.databases",
+      "topic_name": "Databases",
+      "category": "Technology",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "GitHub activity, package downloads and DB-Engines-style popularity proxies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.3d-printers",
+      "topic_name": "3D Printers",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.drones",
+      "topic_name": "Drones",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.robots",
+      "topic_name": "Robots",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent counts and company disclosures; shipment data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.smart-home-devices",
+      "topic_name": "Smart Home Devices",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.wearables",
+      "topic_name": "Wearables",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.monitors",
+      "topic_name": "Monitors",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.keyboards",
+      "topic_name": "Keyboards",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Community mentions and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.routers",
+      "topic_name": "Routers",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.gaming-pcs",
+      "topic_name": "Gaming PCs",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.vr-headsets",
+      "topic_name": "VR Headsets",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.ar-glasses",
+      "topic_name": "AR Glasses",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent activity and product announcements; no open shipment dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.batteries",
+      "topic_name": "Batteries",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent counts and research output via OpenAlex/PatentsView",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.tech-startups",
+      "topic_name": "Tech Startups",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Valuations from funding announcements; no comprehensive open global dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.search-engines",
+      "topic_name": "Search Engines",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and usage-share panels where openly available",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.social-media-platforms",
+      "topic_name": "Social Media Platforms",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Monthly active users from company reports where disclosed; pageview proxies otherwise",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.web-series",
+      "topic_name": "Web Series",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "TMDB/TVmaze ratings plus Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.actors",
+      "topic_name": "Actors",
+      "category": "Entertainment",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "TMDB popularity, Wikipedia pageviews and Wikidata sitelinks",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.directors",
+      "topic_name": "Directors",
+      "category": "Entertainment",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "TMDB popularity and critical reception proxies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.film-studios",
+      "topic_name": "Film Studios",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Studio revenue/market share where disclosed; most figures are commercial estimates",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.box-office",
+      "topic_name": "Box Office",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sales_share",
+      "metric": "Box-office grosses; authoritative global data is licensed (Comscore)",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.film-festivals",
+      "topic_name": "Film Festivals",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata coverage and award counts; festival prestige is editorial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.cartoons",
+      "topic_name": "Cartoons",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "TMDB/TVmaze ratings and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.k-dramas",
+      "topic_name": "K-Dramas",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "TMDB ratings and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.telenovelas",
+      "topic_name": "Telenovelas",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata coverage and Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.bollywood",
+      "topic_name": "Bollywood",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "TMDB ratings with India-specific coverage caveats",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.podcasts",
+      "topic_name": "Podcasts",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Podcast Index metadata and chart presence; no open global listener counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.radio-stations",
+      "topic_name": "Radio Stations",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "Radio Browser click counts and station metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.stand-up-comedians",
+      "topic_name": "Stand-up Comedians",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "TMDB credits, Wikipedia pageviews and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.movie-characters",
+      "topic_name": "Movie Characters",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "canon_proxy",
+      "metric": "Wikidata sitelinks and Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.fictional-universes",
+      "topic_name": "Fictional Universes",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata coverage, pageviews and franchise revenue where disclosed",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "entertainment.memes",
+      "topic_name": "Memes",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "GDELT media mentions and Wikipedia pageviews",
+      "licensing_risk": "high"
+    },
+    {
+      "topic_id": "entertainment.viral-videos",
+      "topic_name": "Viral Videos",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Media mentions and pageviews; platform view counts are not openly ranked",
+      "licensing_risk": "high"
+    },
+    {
+      "topic_id": "entertainment.celebrity-net-worth",
+      "topic_name": "Celebrity Net Worth",
+      "category": "Entertainment",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Public filings and disclosed contracts; most estimates are editorial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.tourist-destinations",
+      "topic_name": "Tourist Destinations",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "UNESCO/OSM site density plus Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.beaches",
+      "topic_name": "Beaches",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM beach features and Wikimedia attention; water quality where monitored",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.historical-monuments",
+      "topic_name": "Historical Monuments",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "UNESCO/Wikidata coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.museums",
+      "topic_name": "Museums",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/Wikidata coverage and visitor numbers where published",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.landmarks",
+      "topic_name": "Landmarks",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "Wikidata sitelinks and Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.waterfalls",
+      "topic_name": "Waterfalls",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Height/flow data from OSM and Wikidata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.ski-resorts",
+      "topic_name": "Ski Resorts",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM ski features and Wikidata coverage; snow/quality data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.airlines",
+      "topic_name": "Airlines",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Fleet/route data from OpenFlights and airline disclosures; quality ratings proprietary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.train-stations",
+      "topic_name": "Train Stations",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "OSM station features and national passenger statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.road-trips",
+      "topic_name": "Road Trips",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "OSM route coverage and editorial/traveller attention",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.honeymoon-destinations",
+      "topic_name": "Honeymoon Destinations",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/Wikimedia attention; no open demand dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.food-destinations",
+      "topic_name": "Food Destinations",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "OSM food POI density and Wikidata attention",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.nightlife-cities",
+      "topic_name": "Nightlife Cities",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM nightlife POI density and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.cruises",
+      "topic_name": "Cruises",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Passenger volumes from cruise industry associations",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.pilgrimage-sites",
+      "topic_name": "Pilgrimage Sites",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/UNESCO coverage and visitor estimates",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.visa-friendly-countries",
+      "topic_name": "Visa-Friendly Countries",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "composite_index",
+      "metric": "Passport index rankings; most are proprietary, build from official visa rules",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "travel.solo-travel",
+      "topic_name": "Solo Travel Destinations",
+      "category": "Travel",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "composite_index",
+      "metric": "Safety, cost and tourism infrastructure proxies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.business-schools",
+      "topic_name": "Business Schools",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "bibliometric",
+      "metric": "Business/management research output and citations",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.online-learning-platforms",
+      "topic_name": "Online Learning Platforms",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and GitHub activity",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.moocs",
+      "topic_name": "MOOCs",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Course catalogue size and enrolment claims; no open global enrolment data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.coding-bootcamps",
+      "topic_name": "Coding Bootcamps",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Course catalogue and outcome claims; outcomes data is self-reported",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.libraries",
+      "topic_name": "Libraries",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Collection size, visits and loans from national library statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.scholarships",
+      "topic_name": "Scholarships",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "human_review",
+      "metric": "Scholarship listings require editorial verification; no open comprehensive database",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.courses",
+      "topic_name": "Online Courses",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Course catalogue metadata and enrolment claims",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.textbooks",
+      "topic_name": "Textbooks",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Open Library/Google Books metadata and open-textbook catalogues",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.edtech-tools",
+      "topic_name": "EdTech Tools",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "community_activity",
+      "metric": "GitHub activity and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.language-learning-apps",
+      "topic_name": "Language Learning Apps",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and app-store metadata where accessible",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.test-prep",
+      "topic_name": "Test Prep",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Provider metadata and pageviews; no open score-improvement dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "education.degree-programs",
+      "topic_name": "Degree Programs",
+      "category": "Education",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "human_review",
+      "metric": "Programme quality and outcomes require editorial verification",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.satellites",
+      "topic_name": "Satellites",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Satellite catalogues and launch records; mass/operator data is partial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.telescopes",
+      "topic_name": "Telescopes",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Aperture, wavelength and location data from observatory registries/Wikidata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.observatories",
+      "topic_name": "Observatories",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/OpenAlex coverage of facilities and publications",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.space-agencies",
+      "topic_name": "Space Agencies",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Budget and launch counts from agency reports/launch databases",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.mathematicians",
+      "topic_name": "Mathematicians",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "bibliometric",
+      "metric": "OpenAlex/zbMATH-style citation and prize records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.scientific-discoveries",
+      "topic_name": "Scientific Discoveries",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Citation impact, Nobel/prize records and encyclopedic coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.inventions",
+      "topic_name": "Inventions",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent citations and encyclopedic coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.particle-accelerators",
+      "topic_name": "Particle Accelerators",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Energy, circumference and facility records from Wikidata/INSPIRE",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.superconductors",
+      "topic_name": "Superconductors",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "bibliometric",
+      "metric": "OpenAlex/arXiv research output and citation impact",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.minerals",
+      "topic_name": "Minerals",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Mineralogical databases and production statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.fossils",
+      "topic_name": "Fossils",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Paleobiology Database/GBIF occurrence records; specimen size data is fragmented",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.dinosaurs",
+      "topic_name": "Dinosaurs",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Fossil occurrence records and described-species counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.genomes",
+      "topic_name": "Genomes",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "NCBI/Ensembl genome records; assembly statistics are open",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.proteins",
+      "topic_name": "Proteins",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "UniProt/PDB records; structure counts are open",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "science.drugs",
+      "topic_name": "Drugs",
+      "category": "Science",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "approvals",
+      "metric": "Regulatory approval and trial registries; sales data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.brands",
+      "topic_name": "Brands",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Brand valuations are proprietary; use market cap/revenue as a public-company proxy",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.startups",
+      "topic_name": "Startups",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Funding/valuation announcements; no comprehensive open dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.unicorns",
+      "topic_name": "Unicorns",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Private valuations from funding announcements/CRMs",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.entrepreneurs",
+      "topic_name": "Entrepreneurs",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Company value/ownership from filings; private wealth is editorial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.ceos",
+      "topic_name": "CEOs",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Executive compensation from SEC proxy filings (US)",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.richest-people",
+      "topic_name": "Richest People",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Public holdings from filings; private wealth requires proprietary estimates",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.fintechs",
+      "topic_name": "Fintechs",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Market cap for public fintechs; private valuations are press-reported",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.crypto-exchanges",
+      "topic_name": "Crypto Exchanges",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Exchange volume/reserve data from aggregators",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.etfs",
+      "topic_name": "ETFs",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Fund assets under management from issuer/regulator data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.mutual-funds",
+      "topic_name": "Mutual Funds",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Fund AUM and returns from regulators/fund filings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.hedge-funds",
+      "topic_name": "Hedge Funds",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "AUM/returns are largely proprietary; SEC Form D/13F gives partial signals",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.venture-capital",
+      "topic_name": "Venture Capital Firms",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Deal data from announcements; comprehensive databases are paid",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.private-equity",
+      "topic_name": "Private Equity Firms",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "AUM/deal data from disclosures; comprehensive data is paid",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.accounting-firms",
+      "topic_name": "Accounting Firms",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Revenue and headcount from firm disclosures",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.consulting-firms",
+      "topic_name": "Consulting Firms",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Revenue/headcount from firm disclosures; private data is incomplete",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.advertising-agencies",
+      "topic_name": "Advertising Agencies",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Holding-company revenue from filings; agency billings are commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.logistics-companies",
+      "topic_name": "Logistics Companies",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Revenue and volume from filings/industry data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "business-finance.ipos",
+      "topic_name": "IPOs",
+      "category": "Business & Finance",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "IPO proceeds and first-day performance from exchange/SEC data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.boxing",
+      "topic_name": "Boxing",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Sanctioning-body rankings and fight results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.mma",
+      "topic_name": "MMA",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official promotion rankings and fight results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.wrestling",
+      "topic_name": "Wrestling",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official competition results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.volleyball",
+      "topic_name": "Volleyball",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official rankings and competition results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.table-tennis",
+      "topic_name": "Table Tennis",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "ITTF rankings and results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.snooker",
+      "topic_name": "Snooker",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official rankings and match results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.darts",
+      "topic_name": "Darts",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official rankings and tournament results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.stadiums",
+      "topic_name": "Stadiums",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Capacity/location from Wikidata/OSM; attendance data is partial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.sports-brands",
+      "topic_name": "Sports Brands",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap of listed brands",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.athletes",
+      "topic_name": "Athletes",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Medals/results plus disclosed earnings; wealth lists are proprietary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.coaches",
+      "topic_name": "Coaches",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Trophies and win records from league data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.triathlons",
+      "topic_name": "Triathlons",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official race results and rankings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.surfing",
+      "topic_name": "Surfing",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "WSL rankings and contest results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.skateboarding",
+      "topic_name": "Skateboarding",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official contest results and world rankings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.snowboarding",
+      "topic_name": "Snowboarding",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official contest results and world rankings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.climbing",
+      "topic_name": "Climbing",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "IFSC rankings and competition results",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "sports.sailing",
+      "topic_name": "Sailing",
+      "category": "Sports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sports_result",
+      "metric": "Official race results and rankings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.cuisines",
+      "topic_name": "Cuisines",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/OSM restaurant density and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.dishes",
+      "topic_name": "Dishes",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe database coverage and Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.desserts",
+      "topic_name": "Desserts",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.cheeses",
+      "topic_name": "Cheeses",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Open Food Facts product counts and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.wines",
+      "topic_name": "Wines",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Wine ratings are proprietary (Vivino, Wine Advocate); Open Food Facts lacks ratings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.beers",
+      "topic_name": "Beers",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Open Food Facts product counts and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.spirits",
+      "topic_name": "Spirits",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Brand sales from company reports; industry rankings are commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.chocolates",
+      "topic_name": "Chocolates",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "trade_flow",
+      "metric": "Cocoa production/trade data and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.snacks",
+      "topic_name": "Snacks",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Brand sales from company reports; no open global snack ranking",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.breakfasts",
+      "topic_name": "Breakfasts",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.street-foods",
+      "topic_name": "Street Foods",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "OSM street-food POI density and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.pizzas",
+      "topic_name": "Pizzas",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.burgers",
+      "topic_name": "Burgers",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.noodles",
+      "topic_name": "Noodles",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.breads",
+      "topic_name": "Breads",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Recipe coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.superfoods",
+      "topic_name": "Superfoods",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Nutrient composition from USDA FoodData Central",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.diets",
+      "topic_name": "Diets",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "survey",
+      "metric": "Diet prevalence surveys and nutrition studies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.cookbooks",
+      "topic_name": "Cookbooks",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Open Library/Google Books metadata; sales data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.food-festivals",
+      "topic_name": "Food Festivals",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/event listings and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.breweries",
+      "topic_name": "Breweries",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "trade_flow",
+      "metric": "Beer production/trade statistics; brewery-level data is patchy",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "food-drink.distilleries",
+      "topic_name": "Distilleries",
+      "category": "Food & Drink",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "trade_flow",
+      "metric": "Spirits production/trade statistics; company-level data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "health-lifestyle.medical-devices",
+      "topic_name": "Medical Devices",
+      "category": "Health & Lifestyle",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap from filings; approval data from regulators",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "health-lifestyle.fitness-apps",
+      "topic_name": "Fitness Apps",
+      "category": "Health & Lifestyle",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and app-store metadata where accessible",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "health-lifestyle.meditation-apps",
+      "topic_name": "Meditation Apps",
+      "category": "Health & Lifestyle",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikimedia pageviews and app-store metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "health-lifestyle.sleep",
+      "topic_name": "Sleep",
+      "category": "Health & Lifestyle",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "survey",
+      "metric": "Population sleep surveys and health indicators",
+      "licensing_risk": "high"
+    },
+    {
+      "topic_id": "health-lifestyle.telehealth",
+      "topic_name": "Telehealth",
+      "category": "Health & Lifestyle",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "survey",
+      "metric": "Adoption surveys and national telehealth statistics",
+      "licensing_risk": "high"
+    },
+    {
+      "topic_id": "environment-nature.greenest-cities",
+      "topic_name": "Greenest Cities",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "composite_index",
+      "metric": "City-level emissions, green space and transport indicators",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.solar-companies",
+      "topic_name": "Solar Companies",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap from filings; installation data is fragmented",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.wind-farms",
+      "topic_name": "Wind Farms",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "OSM/IRENA facility data and capacity records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.zoos",
+      "topic_name": "Zoos",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM facility mapping and visitor numbers where published",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.aquariums",
+      "topic_name": "Aquariums",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM mapping and published attendance",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.botanical-gardens",
+      "topic_name": "Botanical Gardens",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "OSM/BGCI garden records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.coral-reefs",
+      "topic_name": "Coral Reefs",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Global Coral Reef Monitoring Network/NOAA reef data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.floods",
+      "topic_name": "Floods",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "EM-DAT/ReliefWeb disaster records; EM-DAT has access restrictions",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.recycling",
+      "topic_name": "Recycling",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "OECD/World Bank municipal waste and recycling statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "environment-nature.waste-management",
+      "topic_name": "Waste Management",
+      "category": "Environment & Nature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "World Bank/UNEP waste statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.historical-personalities",
+      "topic_name": "Historical Personalities",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "canon_proxy",
+      "metric": "Wikidata sitelinks, Wikipedia pageviews and encyclopedic coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.leaders",
+      "topic_name": "Leaders",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/Wikipedia coverage and term records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.empires",
+      "topic_name": "Empires",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Historical extent estimates from encyclopedic/geospatial sources",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.dynasties",
+      "topic_name": "Dynasties",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/Wikipedia coverage and reign records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.civilizations",
+      "topic_name": "Civilizations",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage and archaeological evidence",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.wars",
+      "topic_name": "Wars",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Correlates of War/UCDP conflict data and historical estimates",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.battles",
+      "topic_name": "Battles",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/Wikipedia coverage; casualty figures are historiographical",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.revolutions",
+      "topic_name": "Revolutions",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage and conflict datasets",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.ancient-wonders",
+      "topic_name": "Ancient Wonders",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "UNESCO/Wikidata coverage and archaeological records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.archaeological-sites",
+      "topic_name": "Archaeological Sites",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "OSM/Wikidata site records and UNESCO data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.art-movements",
+      "topic_name": "Art Movements",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Museum collection counts, Wikidata and art-history scholarship",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.philosophers",
+      "topic_name": "Philosophers",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata sitelinks, pageviews and SEP/IEP coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.writers",
+      "topic_name": "Writers",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Open Library/Crossref/Wikidata coverage and citations",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.poets",
+      "topic_name": "Poets",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/pageviews and poetry anthologies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.religious-figures",
+      "topic_name": "Religious Figures",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage; theological significance is not measurable",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.saints",
+      "topic_name": "Saints",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Official canonisation lists and Wikidata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.generals",
+      "topic_name": "Generals",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage and battle records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.inventors",
+      "topic_name": "Inventors",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent counts and encyclopedic coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.explorers",
+      "topic_name": "Explorers",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage and expedition records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.pirates",
+      "topic_name": "Pirates",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic coverage; historical records are fragmentary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.myths",
+      "topic_name": "Myths",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/Wikipedia coverage and folklore collections",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.legends",
+      "topic_name": "Legends",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Encyclopedic/folklore coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.festivals",
+      "topic_name": "Festivals",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/event listings and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "history-culture.traditions",
+      "topic_name": "Traditions",
+      "category": "History & Culture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "UNESCO intangible heritage and encyclopedic coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.cars",
+      "topic_name": "Cars",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Sales/production from industry bodies; safety ratings from NHTSA/Euro NCAP",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.evs",
+      "topic_name": "Electric Vehicles",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Registration/production data and EPA range/efficiency data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.luxury-cars",
+      "topic_name": "Luxury Cars",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/Wikipedia attention and disclosed sales",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.sports-cars",
+      "topic_name": "Sports Cars",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "benchmark",
+      "metric": "Acceleration/top-speed specifications; independent test data is fragmented",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.trucks",
+      "topic_name": "Trucks",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Registration/production statistics and EPA fuel economy",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.motorcycles",
+      "topic_name": "Motorcycles",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Registration/production data from industry associations",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.bicycles",
+      "topic_name": "Bicycles",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata coverage and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.ebikes",
+      "topic_name": "E-Bikes",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and national sales statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.scooters",
+      "topic_name": "Scooters",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and city permit data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.buses",
+      "topic_name": "Buses",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Transit agency fleet and ridership statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.trains",
+      "topic_name": "Trains",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "National rail statistics and operator data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.ships",
+      "topic_name": "Ships",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Ship registries and classification data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.cruise-lines",
+      "topic_name": "Cruise Lines",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Passenger volumes and fleet data from company/industry reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.ferries",
+      "topic_name": "Ferries",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Operator and port statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.tire-brands",
+      "topic_name": "Tire Brands",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.ride-hailing",
+      "topic_name": "Ride-Hailing",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap from filings; trip volumes vary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.autonomous-vehicles",
+      "topic_name": "Autonomous Vehicles",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "patent",
+      "metric": "Patent activity, disengagement reports and company disclosures",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.charging-networks",
+      "topic_name": "EV Charging Networks",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "geospatial",
+      "metric": "Open charge-map data and network operator counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "automotive-transport.traffic-congestion",
+      "topic_name": "Traffic Congestion",
+      "category": "Automotive & Transport",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "TomTom/INRIX indices are commercial; use public probe data where available",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.fashion-brands",
+      "topic_name": "Fashion Brands",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap of listed groups; brand prestige is editorial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.luxury-brands",
+      "topic_name": "Luxury Brands",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap of listed luxury groups; brand value is proprietary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.sneakers",
+      "topic_name": "Sneakers",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and resale-market data (mostly proprietary)",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.watches",
+      "topic_name": "Watches",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed watch groups; auction results are commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.jewelry",
+      "topic_name": "Jewelry",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed jewellery groups",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.handbags",
+      "topic_name": "Handbags",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Brand revenue where disclosed; resale data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.sunglasses",
+      "topic_name": "Sunglasses",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.denim",
+      "topic_name": "Denim",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Brand revenue where disclosed",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.fashion-designers",
+      "topic_name": "Fashion Designers",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/pageviews and museum coverage; influence is editorial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.models",
+      "topic_name": "Models",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Wikidata/pageviews and magazine coverage; no open industry ranking",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.fashion-weeks",
+      "topic_name": "Fashion Weeks",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Event coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.beauty-brands",
+      "topic_name": "Beauty Brands",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed beauty groups; brand rankings are commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.cosmetics",
+      "topic_name": "Cosmetics",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and Open Beauty Facts coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.fragrances",
+      "topic_name": "Fragrances",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "fashion-beauty.sustainable-fashion",
+      "topic_name": "Sustainable Fashion",
+      "category": "Fashion & Beauty",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "composite_index",
+      "metric": "Certification and supply-chain disclosures; no comprehensive open index",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "society-politics.mayors",
+      "topic_name": "Mayors",
+      "category": "Society & Politics",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Official city records and Wikidata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "society-politics.quality-of-life-cities",
+      "topic_name": "Quality of Life Cities",
+      "category": "Society & Politics",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "composite_index",
+      "metric": "Mercer/EIU indices are proprietary; build transparent composite from open indicators",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "society-politics.ngos",
+      "topic_name": "NGOs",
+      "category": "Society & Politics",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Revenue and programme data from charity regulators",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "society-politics.international-organizations",
+      "topic_name": "International Organizations",
+      "category": "Society & Politics",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Membership, budget and mandate records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "society-politics.happiness",
+      "topic_name": "Happiness",
+      "category": "Society & Politics",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "survey",
+      "metric": "World Happiness Report / Gallup World Poll; underlying data is proprietary",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.game-developers",
+      "topic_name": "Game Developers",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Game catalogue ratings and company disclosures",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.game-publishers",
+      "topic_name": "Game Publishers",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market cap from filings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.game-consoles",
+      "topic_name": "Game Consoles",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Manufacturer shipment disclosures; historical sales data is patchy",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.gaming-platforms",
+      "topic_name": "Gaming Platforms",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Platform catalogue/activity data and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.esports-teams",
+      "topic_name": "Esports Teams",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "Tournament results and prize-money records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.esports-players",
+      "topic_name": "Esports Players",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "Tournament results and prize-money records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.esports-tournaments",
+      "topic_name": "Esports Tournaments",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "Official tournament results and prize pools",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.streamers",
+      "topic_name": "Streamers",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Twitch API follower/viewer data; no global historical leaderboard",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.game-engines",
+      "topic_name": "Game Engines",
+      "category": "Gaming & Esports",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "community_activity",
+      "metric": "GitHub activity and licence/adoption metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.mobile-games",
+      "topic_name": "Mobile Games",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sales_share",
+      "metric": "App-store revenue/download estimates are commercial (Sensor Tower, data.ai)",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.vr-games",
+      "topic_name": "VR Games",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Steam VR ratings and review counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.card-games",
+      "topic_name": "Card Games",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "BoardGameGeek ratings and tournament data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.game-soundtracks",
+      "topic_name": "Game Soundtracks",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "MusicBrainz/Last.fm metadata and ratings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "gaming-esports.speedruns",
+      "topic_name": "Speedruns",
+      "category": "Gaming & Esports",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "Speedrun.com records; API terms should be checked",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.books",
+      "topic_name": "Books",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Open Library/Google Books metadata; ratings and sales are fragmented",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.novels",
+      "topic_name": "Novels",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Open Library coverage, pageviews and award lists",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.authors",
+      "topic_name": "Authors",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "bibliometric",
+      "metric": "OpenAlex/Crossref citations and Open Library coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.rare-book-collections",
+      "topic_name": "Rare Book Collections",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Collection catalogues and Open Library/Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.bookstores",
+      "topic_name": "Bookstores",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM bookstore density and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.publishers",
+      "topic_name": "Publishers",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed publishers; market share is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.art-museums",
+      "topic_name": "Art Museums",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Collection size, OSM/Wikidata coverage and visitor numbers",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.sculptures",
+      "topic_name": "Sculptures",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Museum/collection metadata and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.artists",
+      "topic_name": "Artists",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Museum collection counts, Wikidata sitelinks and auction records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.photographers",
+      "topic_name": "Photographers",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Museum collections and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.architects",
+      "topic_name": "Architects",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Pritzker/industry awards and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.design-schools",
+      "topic_name": "Design Schools",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "bibliometric",
+      "metric": "Research output is a weak proxy for design education quality",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.graphic-designers",
+      "topic_name": "Graphic Designers",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Award records and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.illustrators",
+      "topic_name": "Illustrators",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Award records and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.comics",
+      "topic_name": "Comics",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Open Library metadata and community ratings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.graphic-novels",
+      "topic_name": "Graphic Novels",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Award lists and Open Library coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.theatre",
+      "topic_name": "Theatre",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Production listings and awards; no open global audience dataset",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.plays",
+      "topic_name": "Plays",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Award lists, Open Library coverage and production counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.musicals",
+      "topic_name": "Musicals",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "event_outcome",
+      "metric": "Award wins and box-office data where disclosed",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.operas",
+      "topic_name": "Operas",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Operabase/MusicBrainz coverage and performance counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.ballets",
+      "topic_name": "Ballets",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Company/performance records and awards",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.dance-companies",
+      "topic_name": "Dance Companies",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Company records and performance counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.street-art",
+      "topic_name": "Street Art",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/Wikidata coverage and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "arts-literature.digital-art",
+      "topic_name": "Digital Art",
+      "category": "Arts & Literature",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Marketplace data is commercial; Wikidata/pageviews are weak proxies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.music-artists",
+      "topic_name": "Music Artists",
+      "category": "Music & Audio",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz metadata, Last.fm scrobbles and Wikipedia pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.bands",
+      "topic_name": "Bands",
+      "category": "Music & Audio",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz/Last.fm activity and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.singers",
+      "topic_name": "Singers",
+      "category": "Music & Audio",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.rappers",
+      "topic_name": "Rappers",
+      "category": "Music & Audio",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.djs",
+      "topic_name": "DJs",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz/Last.fm/pageviews and festival line-ups",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.producers",
+      "topic_name": "Music Producers",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Credits from MusicBrainz/Discogs and award records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.albums",
+      "topic_name": "Albums",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "rating_aggregate",
+      "metric": "Last.fm/community ratings and MusicBrainz metadata; sales are licensed",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.songs",
+      "topic_name": "Songs",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Last.fm scrobbles, MusicBrainz and pageviews; chart data is licensed",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.record-labels",
+      "topic_name": "Record Labels",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Market share is commercial; revenue from listed groups only",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.music-festivals",
+      "topic_name": "Music Festivals",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Event listings, pageviews and lineup data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.concerts",
+      "topic_name": "Concerts",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sales_share",
+      "metric": "Box-office data is commercial (Pollstar, Billboard)",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.orchestras",
+      "topic_name": "Orchestras",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "MusicBrainz/Orchestra records and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.conductors",
+      "topic_name": "Conductors",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "MusicBrainz credits, awards and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.classical-composers",
+      "topic_name": "Classical Composers",
+      "category": "Music & Audio",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "method": "canon_proxy",
+      "metric": "MusicBrainz/IMSLP coverage and performance counts",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.instruments",
+      "topic_name": "Instruments",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.guitar-brands",
+      "topic_name": "Guitar Brands",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed/known brands; no open global ranking",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.piano-brands",
+      "topic_name": "Piano Brands",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/company data where available",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.audio-brands",
+      "topic_name": "Audio Brands",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.speakers",
+      "topic_name": "Speakers",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "music-audio.vinyl-records",
+      "topic_name": "Vinyl Records",
+      "category": "Music & Audio",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "sales_share",
+      "metric": "RIAA/BPI shipment statistics; retailer data is commercial",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.furniture-brands",
+      "topic_name": "Furniture Brands",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed furniture groups; private brands are underrepresented",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.home-appliance-brands",
+      "topic_name": "Home Appliance Brands",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.kitchen-appliances",
+      "topic_name": "Kitchen Appliances",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.cookware",
+      "topic_name": "Cookware",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and pageviews; no open quality rankings",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.vacuums",
+      "topic_name": "Vacuums",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.interior-designers",
+      "topic_name": "Interior Designers",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "canon_proxy",
+      "metric": "Award records and Wikidata coverage",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.lawn-mowers",
+      "topic_name": "Lawn Mowers",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "home-garden.candles",
+      "topic_name": "Candles",
+      "category": "Home & Garden",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Product metadata and pageviews",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.dog-breeds",
+      "topic_name": "Dog Breeds",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "community_activity",
+      "metric": "Kennel-club registrations and breed popularity where published",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.cat-breeds",
+      "topic_name": "Cat Breeds",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "community_activity",
+      "metric": "Kennel-club registrations where published; otherwise Wikidata",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.pet-brands",
+      "topic_name": "Pet Brands",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue of listed pet companies",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.horses",
+      "topic_name": "Horses",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "community_activity",
+      "metric": "Breed registries and sport records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.livestock-breeds",
+      "topic_name": "Livestock Breeds",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "FAO breed/genetic resources data and national registries",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.service-dogs",
+      "topic_name": "Service Dogs",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "Programme records and pageviews; no open global ranking",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.animal-charities",
+      "topic_name": "Animal Charities",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Charity regulator filings and programme data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "pets-animals.wildlife-parks",
+      "topic_name": "Wildlife Parks",
+      "category": "Pets & Animals",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "attention_proxy",
+      "metric": "OSM/protected-area data and visitor numbers where published",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.beer-producers",
+      "topic_name": "Beer Producers",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Industry association and company production data",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.seed-companies",
+      "topic_name": "Seed Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.fertilizer-companies",
+      "topic_name": "Fertilizer Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.tractor-brands",
+      "topic_name": "Tractor Brands",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/market share from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.farm-equipment",
+      "topic_name": "Farm Equipment",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "official_stat",
+      "metric": "Production/trade statistics and company disclosures",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.cement-companies",
+      "topic_name": "Cement Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/capacity from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.packaging-companies",
+      "topic_name": "Packaging Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue from company reports",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.textile-companies",
+      "topic_name": "Textile Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue from company reports and trade statistics",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "industrial-agriculture.timber-companies",
+      "topic_name": "Timber Companies",
+      "category": "Industrial & Agriculture",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "method": "market_cap",
+      "metric": "Revenue/production from company reports",
+      "licensing_risk": "medium"
+    }
+  ]
+}

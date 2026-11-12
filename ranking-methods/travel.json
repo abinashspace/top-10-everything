@@ -1,0 +1,649 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "travel",
+  "category_name": "Travel",
+  "topic_count": 30,
+  "method_counts": {
+    "official_stat": 5,
+    "composite_index": 3,
+    "attention_proxy": 9,
+    "geospatial": 8,
+    "human_review": 1,
+    "canon_proxy": 3,
+    "price_index": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "travel.countries",
+      "topic_name": "Countries",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements",
+      "question": "Top 10 countries ranked by UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc",
+        "natural_earth",
+        "geoboundaries"
+      ]
+    },
+    {
+      "topic_id": "travel.cities",
+      "topic_name": "Cities",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "City population, POI density and published quality-of-life indices",
+      "question": "Top 10 cities ranked by City population, POI density and published quality-of-life indices.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia",
+        "geoboundaries",
+        "worldpop"
+      ]
+    },
+    {
+      "topic_id": "travel.tourist-destinations",
+      "topic_name": "Tourist Destinations",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "UNESCO/OSM site density plus Wikipedia pageviews",
+      "question": "Top 10 tourist destinations ranked by UNESCO/OSM site density plus Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.beaches",
+      "topic_name": "Beaches",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM beach features and Wikimedia attention; water quality where monitored",
+      "question": "Top 10 beaches ranked by OSM beach features and Wikimedia attention; water quality where monitored.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.mountains",
+      "topic_name": "Mountains",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Elevation and prominence from OSM/Wikidata",
+      "question": "Top 10 mountains ranked by Elevation and prominence from OSM/Wikidata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia",
+        "natural_earth"
+      ]
+    },
+    {
+      "topic_id": "travel.islands",
+      "topic_name": "Islands",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Area and population from OSM/Wikidata",
+      "question": "Top 10 islands ranked by Area and population from OSM/Wikidata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.hotels",
+      "topic_name": "Hotels",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Guest ratings and editorial inspection; no open global hotel quality dataset",
+      "question": "Top 10 hotels ranked by Guest ratings and editorial inspection; no open global hotel quality dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "travel.national-parks",
+      "topic_name": "National Parks",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Protected-area boundaries and visitor counts where agencies publish them",
+      "question": "Top 10 national parks ranked by Protected-area boundaries and visitor counts where agencies publish them.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc",
+        "protected_planet"
+      ]
+    },
+    {
+      "topic_id": "travel.historical-monuments",
+      "topic_name": "Historical Monuments",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "UNESCO/Wikidata coverage and pageviews",
+      "question": "Top 10 historical monuments ranked by UNESCO/Wikidata coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.museums",
+      "topic_name": "Museums",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/Wikidata coverage and visitor numbers where published",
+      "question": "Top 10 museums ranked by OSM/Wikidata coverage and visitor numbers where published.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.landmarks",
+      "topic_name": "Landmarks",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata sitelinks and Wikipedia pageviews",
+      "question": "Top 10 landmarks ranked by Wikidata sitelinks and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.waterfalls",
+      "topic_name": "Waterfalls",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Height/flow data from OSM and Wikidata",
+      "question": "Top 10 waterfalls ranked by Height/flow data from OSM and Wikidata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.lakes",
+      "topic_name": "Lakes",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Area, depth and elevation from OSM/Wikidata",
+      "question": "Top 10 lakes ranked by Area, depth and elevation from OSM/Wikidata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia",
+        "natural_earth"
+      ]
+    },
+    {
+      "topic_id": "travel.deserts",
+      "topic_name": "Deserts",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Area and climate classification from open geodata",
+      "question": "Top 10 deserts ranked by Area and climate classification from open geodata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.rainforests",
+      "topic_name": "Rainforests",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Forest cover and protected-area boundaries",
+      "question": "Top 10 rainforests ranked by Forest cover and protected-area boundaries.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.ski-resorts",
+      "topic_name": "Ski Resorts",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM ski features and Wikidata coverage; snow/quality data is commercial",
+      "question": "Top 10 ski resorts ranked by OSM ski features and Wikidata coverage; snow/quality data is commercial.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.airports",
+      "topic_name": "Airports",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Passenger and movement counts from airport/aviation authorities",
+      "question": "Top 10 airports ranked by Passenger and movement counts from airport/aviation authorities.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openflights",
+        "ourairports"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openstreetmap"
+      ]
+    },
+    {
+      "topic_id": "travel.airlines",
+      "topic_name": "Airlines",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Fleet/route data from OpenFlights and airline disclosures; quality ratings proprietary",
+      "question": "Top 10 airlines ranked by Fleet/route data from OpenFlights and airline disclosures; quality ratings proprietary.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openflights",
+        "ourairports"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openstreetmap"
+      ]
+    },
+    {
+      "topic_id": "travel.train-stations",
+      "topic_name": "Train Stations",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM station features and national passenger statistics",
+      "question": "Top 10 train stations ranked by OSM station features and national passenger statistics.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.road-trips",
+      "topic_name": "Road Trips",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "OSM route coverage and editorial/traveller attention",
+      "question": "Top 10 road trips ranked by OSM route coverage and editorial/traveller attention.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.honeymoon-destinations",
+      "topic_name": "Honeymoon Destinations",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/Wikimedia attention; no open demand dataset",
+      "question": "Top 10 honeymoon destinations ranked by OSM/Wikimedia attention; no open demand dataset.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.budget-destinations",
+      "topic_name": "Budget Destinations",
+      "method_id": "price_index",
+      "method_name": "Price or cost index",
+      "metric": "Cost-of-living and price indices from open statistical sources",
+      "question": "Top 10 budget destinations ranked by Cost-of-living and price indices from open statistical sources.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.food-destinations",
+      "topic_name": "Food Destinations",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "OSM food POI density and Wikidata attention",
+      "question": "Top 10 food destinations ranked by OSM food POI density and Wikidata attention.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.nightlife-cities",
+      "topic_name": "Nightlife Cities",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM nightlife POI density and pageviews",
+      "question": "Top 10 nightlife cities ranked by OSM nightlife POI density and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "travel.theme-parks",
+      "topic_name": "Theme Parks",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Attendance from operator reports and industry associations",
+      "question": "Top 10 theme parks ranked by Attendance from operator reports and industry associations.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.cruises",
+      "topic_name": "Cruises",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Passenger volumes from cruise industry associations",
+      "question": "Top 10 cruises ranked by Passenger volumes from cruise industry associations.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openflights",
+        "ourairports"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openstreetmap"
+      ]
+    },
+    {
+      "topic_id": "travel.pilgrimage-sites",
+      "topic_name": "Pilgrimage Sites",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/UNESCO coverage and visitor estimates",
+      "question": "Top 10 pilgrimage sites ranked by Wikidata/UNESCO coverage and visitor estimates.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.unesco-sites",
+      "topic_name": "UNESCO World Heritage Sites",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official UNESCO inscription list and criteria",
+      "question": "Top 10 unesco world heritage sites ranked by Official UNESCO inscription list and criteria.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.visa-friendly-countries",
+      "topic_name": "Visa-Friendly Countries",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Passport index rankings; most are proprietary, build from official visa rules",
+      "question": "Top 10 visa-friendly countries ranked by Passport index rankings; most are proprietary, build from official visa rules.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "wikipedia",
+        "unesco_whc"
+      ]
+    },
+    {
+      "topic_id": "travel.solo-travel",
+      "topic_name": "Solo Travel Destinations",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Safety, cost and tourism infrastructure proxies",
+      "question": "Top 10 solo travel destinations ranked by Safety, cost and tourism infrastructure proxies.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    }
+  ]
+}

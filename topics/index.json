@@ -1,0 +1,392 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "total_categories": 20,
+  "total_topics": 530,
+  "total_subcategories": 2063,
+  "research_status_counts": {
+    "researched_proxy": 35,
+    "partial": 276,
+    "researched": 190,
+    "unsupported": 29
+  },
+  "data_availability_counts": {
+    "limited": 298,
+    "moderate": 145,
+    "none": 29,
+    "strong": 58
+  },
+  "licensing_risk_counts": {
+    "medium": 490,
+    "high": 11,
+    "unknown": 28,
+    "low": 1
+  },
+  "update_frequency_counts": {
+    "monthly": 77,
+    "quarterly": 31,
+    "weekly": 32,
+    "daily": 14,
+    "yearly": 373,
+    "event": 3
+  },
+  "method_counts": {
+    "attention_proxy": 95,
+    "benchmark": 3,
+    "community_activity": 10,
+    "sales_share": 5,
+    "patent": 7,
+    "market_cap": 62,
+    "rating_aggregate": 21,
+    "canon_proxy": 47,
+    "event_outcome": 10,
+    "official_stat": 123,
+    "composite_index": 22,
+    "geospatial": 26,
+    "human_review": 31,
+    "price_index": 1,
+    "bibliometric": 17,
+    "approvals": 2,
+    "sports_result": 37,
+    "trade_flow": 7,
+    "survey": 4
+  },
+  "categories": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "file": "topics/technology.json",
+      "topic_count": 34,
+      "subcategory_count": 121,
+      "research_status_counts": {
+        "researched_proxy": 21,
+        "partial": 11,
+        "researched": 2
+      },
+      "data_availability_counts": {
+        "limited": 27,
+        "moderate": 7
+      }
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "file": "topics/entertainment.json",
+      "topic_count": 25,
+      "subcategory_count": 90,
+      "research_status_counts": {
+        "researched": 7,
+        "partial": 13,
+        "researched_proxy": 5
+      },
+      "data_availability_counts": {
+        "moderate": 9,
+        "limited": 16
+      }
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "file": "topics/travel.json",
+      "topic_count": 30,
+      "subcategory_count": 112,
+      "research_status_counts": {
+        "researched": 12,
+        "researched_proxy": 2,
+        "partial": 15,
+        "unsupported": 1
+      },
+      "data_availability_counts": {
+        "moderate": 11,
+        "limited": 17,
+        "none": 1,
+        "strong": 1
+      }
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "file": "topics/education.json",
+      "topic_count": 25,
+      "subcategory_count": 96,
+      "research_status_counts": {
+        "researched": 10,
+        "partial": 12,
+        "unsupported": 3
+      },
+      "data_availability_counts": {
+        "moderate": 4,
+        "limited": 12,
+        "none": 3,
+        "strong": 6
+      }
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "file": "topics/science.json",
+      "topic_count": 35,
+      "subcategory_count": 133,
+      "research_status_counts": {
+        "researched": 20,
+        "partial": 15
+      },
+      "data_availability_counts": {
+        "moderate": 10,
+        "limited": 15,
+        "strong": 10
+      }
+    },
+    {
+      "id": "business-finance",
+      "name": "Business & Finance",
+      "file": "topics/business-finance.json",
+      "topic_count": 33,
+      "subcategory_count": 127,
+      "research_status_counts": {
+        "researched": 11,
+        "partial": 18,
+        "unsupported": 4
+      },
+      "data_availability_counts": {
+        "moderate": 10,
+        "limited": 18,
+        "strong": 1,
+        "none": 4
+      }
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "file": "topics/sports.json",
+      "topic_count": 39,
+      "subcategory_count": 154,
+      "research_status_counts": {
+        "researched": 22,
+        "partial": 17
+      },
+      "data_availability_counts": {
+        "moderate": 19,
+        "strong": 3,
+        "limited": 17
+      }
+    },
+    {
+      "id": "food-drink",
+      "name": "Food & Drink",
+      "file": "topics/food-drink.json",
+      "topic_count": 29,
+      "subcategory_count": 119,
+      "research_status_counts": {
+        "unsupported": 2,
+        "partial": 21,
+        "researched": 6
+      },
+      "data_availability_counts": {
+        "none": 2,
+        "limited": 21,
+        "moderate": 4,
+        "strong": 2
+      }
+    },
+    {
+      "id": "health-lifestyle",
+      "name": "Health & Lifestyle",
+      "file": "topics/health-lifestyle.json",
+      "topic_count": 26,
+      "subcategory_count": 102,
+      "research_status_counts": {
+        "unsupported": 9,
+        "researched": 12,
+        "partial": 5
+      },
+      "data_availability_counts": {
+        "none": 9,
+        "strong": 6,
+        "moderate": 6,
+        "limited": 5
+      }
+    },
+    {
+      "id": "environment-nature",
+      "name": "Environment & Nature",
+      "file": "topics/environment-nature.json",
+      "topic_count": 29,
+      "subcategory_count": 115,
+      "research_status_counts": {
+        "researched": 19,
+        "partial": 10
+      },
+      "data_availability_counts": {
+        "strong": 7,
+        "limited": 10,
+        "moderate": 12
+      }
+    },
+    {
+      "id": "history-culture",
+      "name": "History & Culture",
+      "file": "topics/history-culture.json",
+      "topic_count": 30,
+      "subcategory_count": 120,
+      "research_status_counts": {
+        "researched_proxy": 1,
+        "partial": 23,
+        "researched": 6
+      },
+      "data_availability_counts": {
+        "limited": 24,
+        "moderate": 6
+      }
+    },
+    {
+      "id": "automotive-transport",
+      "name": "Automotive & Transport",
+      "file": "topics/automotive-transport.json",
+      "topic_count": 27,
+      "subcategory_count": 107,
+      "research_status_counts": {
+        "partial": 19,
+        "researched": 7,
+        "unsupported": 1
+      },
+      "data_availability_counts": {
+        "limited": 19,
+        "moderate": 6,
+        "none": 1,
+        "strong": 1
+      }
+    },
+    {
+      "id": "fashion-beauty",
+      "name": "Fashion & Beauty",
+      "file": "topics/fashion-beauty.json",
+      "topic_count": 18,
+      "subcategory_count": 72,
+      "research_status_counts": {
+        "partial": 15,
+        "researched": 1,
+        "unsupported": 2
+      },
+      "data_availability_counts": {
+        "limited": 15,
+        "moderate": 1,
+        "none": 2
+      }
+    },
+    {
+      "id": "society-politics",
+      "name": "Society & Politics",
+      "file": "topics/society-politics.json",
+      "topic_count": 30,
+      "subcategory_count": 113,
+      "research_status_counts": {
+        "researched": 25,
+        "partial": 5
+      },
+      "data_availability_counts": {
+        "strong": 11,
+        "moderate": 14,
+        "limited": 5
+      }
+    },
+    {
+      "id": "gaming-esports",
+      "name": "Gaming & Esports",
+      "file": "topics/gaming-esports.json",
+      "topic_count": 18,
+      "subcategory_count": 72,
+      "research_status_counts": {
+        "researched": 4,
+        "partial": 13,
+        "researched_proxy": 1
+      },
+      "data_availability_counts": {
+        "moderate": 5,
+        "limited": 13
+      }
+    },
+    {
+      "id": "arts-literature",
+      "name": "Arts & Literature",
+      "file": "topics/arts-literature.json",
+      "topic_count": 29,
+      "subcategory_count": 116,
+      "research_status_counts": {
+        "partial": 24,
+        "researched": 5
+      },
+      "data_availability_counts": {
+        "limited": 24,
+        "moderate": 4,
+        "strong": 1
+      }
+    },
+    {
+      "id": "music-audio",
+      "name": "Music & Audio",
+      "file": "topics/music-audio.json",
+      "topic_count": 20,
+      "subcategory_count": 81,
+      "research_status_counts": {
+        "researched_proxy": 5,
+        "partial": 15
+      },
+      "data_availability_counts": {
+        "moderate": 5,
+        "limited": 15
+      }
+    },
+    {
+      "id": "home-garden",
+      "name": "Home & Garden",
+      "file": "topics/home-garden.json",
+      "topic_count": 15,
+      "subcategory_count": 60,
+      "research_status_counts": {
+        "partial": 8,
+        "unsupported": 3,
+        "researched": 4
+      },
+      "data_availability_counts": {
+        "limited": 8,
+        "none": 3,
+        "moderate": 4
+      }
+    },
+    {
+      "id": "pets-animals",
+      "name": "Pets & Animals",
+      "file": "topics/pets-animals.json",
+      "topic_count": 17,
+      "subcategory_count": 69,
+      "research_status_counts": {
+        "partial": 8,
+        "unsupported": 4,
+        "researched": 5
+      },
+      "data_availability_counts": {
+        "limited": 8,
+        "none": 4,
+        "strong": 3,
+        "moderate": 2
+      }
+    },
+    {
+      "id": "industrial-agriculture",
+      "name": "Industrial & Agriculture",
+      "file": "topics/industrial-agriculture.json",
+      "topic_count": 21,
+      "subcategory_count": 84,
+      "research_status_counts": {
+        "researched": 12,
+        "partial": 9
+      },
+      "data_availability_counts": {
+        "strong": 6,
+        "moderate": 6,
+        "limited": 9
+      }
+    }
+  ]
+}

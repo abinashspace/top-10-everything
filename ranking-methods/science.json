@@ -1,0 +1,763 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "science",
+  "category_name": "Science",
+  "topic_count": 35,
+  "method_counts": {
+    "official_stat": 18,
+    "geospatial": 4,
+    "canon_proxy": 2,
+    "bibliometric": 9,
+    "patent": 1,
+    "approvals": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "science.space-missions",
+      "topic_name": "Space Missions",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Mission milestones, launch mass and duration from NASA/Launch Library",
+      "question": "Top 10 space missions ranked by Mission milestones, launch mass and duration from NASA/Launch Library.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.rockets",
+      "topic_name": "Rockets",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Payload capacity, height and launch history from launch databases",
+      "question": "Top 10 rockets ranked by Payload capacity, height and launch history from launch databases.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.satellites",
+      "topic_name": "Satellites",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Satellite catalogues and launch records; mass/operator data is partial",
+      "question": "Top 10 satellites ranked by Satellite catalogues and launch records; mass/operator data is partial.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.telescopes",
+      "topic_name": "Telescopes",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Aperture, wavelength and location data from observatory registries/Wikidata",
+      "question": "Top 10 telescopes ranked by Aperture, wavelength and location data from observatory registries/Wikidata.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.observatories",
+      "topic_name": "Observatories",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/OpenAlex coverage of facilities and publications",
+      "question": "Top 10 observatories ranked by Wikidata/OpenAlex coverage of facilities and publications.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.planets",
+      "topic_name": "Planets",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "NASA/JPL planetary physical parameters",
+      "question": "Top 10 planets ranked by NASA/JPL planetary physical parameters.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.moons",
+      "topic_name": "Moons",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "JPL Small-Body and planetary satellite parameters",
+      "question": "Top 10 moons ranked by JPL Small-Body and planetary satellite parameters.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.asteroids",
+      "topic_name": "Asteroids",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "JPL Small-Body Database size, orbit and hazard parameters",
+      "question": "Top 10 asteroids ranked by JPL Small-Body Database size, orbit and hazard parameters.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.exoplanets",
+      "topic_name": "Exoplanets",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Mass, radius, orbital period, distance and discovery year from the NASA Exoplanet Archive",
+      "question": "Top 10 exoplanets for a chosen property (mass, radius, equilibrium temperature, distance or discovery year), using the NASA Exoplanet Archive confirmed-planet table with the query date stated.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.space-agencies",
+      "topic_name": "Space Agencies",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Budget and launch counts from agency reports/launch databases",
+      "question": "Top 10 space agencies ranked by Budget and launch counts from agency reports/launch databases.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.astronauts",
+      "topic_name": "Astronauts",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "NASA/Launch Library crew and mission-duration records",
+      "question": "Top 10 astronauts ranked by NASA/Launch Library crew and mission-duration records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "nasa_open",
+        "jpl_sbdb"
+      ],
+      "backup_sources": [
+        "launch_library",
+        "nasa_exoplanet"
+      ]
+    },
+    {
+      "topic_id": "science.physicists",
+      "topic_name": "Physicists",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "INSPIRE-HEP/OpenAlex citations and prize records",
+      "question": "Top 10 physicists ranked by INSPIRE-HEP/OpenAlex citations and prize records.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "inspire_hep",
+        "arxiv"
+      ],
+      "backup_sources": [
+        "openalex",
+        "crossref"
+      ]
+    },
+    {
+      "topic_id": "science.chemists",
+      "topic_name": "Chemists",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex citations and prize records",
+      "question": "Top 10 chemists ranked by OpenAlex citations and prize records.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubchem",
+        "chembl"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "science.biologists",
+      "topic_name": "Biologists",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/PubMed citation and publication metrics",
+      "question": "Top 10 biologists ranked by OpenAlex/PubMed citation and publication metrics.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.mathematicians",
+      "topic_name": "Mathematicians",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/zbMATH-style citation and prize records",
+      "question": "Top 10 mathematicians ranked by OpenAlex/zbMATH-style citation and prize records.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "oeis",
+        "arxiv"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.scientific-discoveries",
+      "topic_name": "Scientific Discoveries",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Citation impact, Nobel/prize records and encyclopedic coverage",
+      "question": "Top 10 scientific discoveries ranked by Citation impact, Nobel/prize records and encyclopedic coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed"
+      ]
+    },
+    {
+      "topic_id": "science.inventions",
+      "topic_name": "Inventions",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent citations and encyclopedic coverage",
+      "question": "Top 10 inventions ranked by Patent citations and encyclopedic coverage.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "patentsview",
+        "epo_ops"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.research-papers",
+      "topic_name": "Research Papers",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/Crossref citation counts",
+      "question": "Top 10 research papers ranked by OpenAlex/Crossref citation counts.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed",
+        "core",
+        "semantic_scholar",
+        "unpaywall"
+      ]
+    },
+    {
+      "topic_id": "science.scientific-journals",
+      "topic_name": "Scientific Journals",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/Crossref publication and citation metrics",
+      "question": "Top 10 scientific journals ranked by OpenAlex/Crossref publication and citation metrics.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed",
+        "doaj",
+        "datacite"
+      ]
+    },
+    {
+      "topic_id": "science.research-labs",
+      "topic_name": "Research Labs",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex institution/publication metrics",
+      "question": "Top 10 research labs ranked by OpenAlex institution/publication metrics.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed",
+        "zenodo",
+        "figshare"
+      ]
+    },
+    {
+      "topic_id": "science.particle-accelerators",
+      "topic_name": "Particle Accelerators",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Energy, circumference and facility records from Wikidata/INSPIRE",
+      "question": "Top 10 particle accelerators ranked by Energy, circumference and facility records from Wikidata/INSPIRE.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "inspire_hep",
+        "arxiv"
+      ],
+      "backup_sources": [
+        "openalex",
+        "crossref"
+      ]
+    },
+    {
+      "topic_id": "science.superconductors",
+      "topic_name": "Superconductors",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/arXiv research output and citation impact",
+      "question": "Top 10 superconductors ranked by OpenAlex/arXiv research output and citation impact.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "inspire_hep",
+        "arxiv"
+      ],
+      "backup_sources": [
+        "openalex",
+        "crossref"
+      ]
+    },
+    {
+      "topic_id": "science.chemical-elements",
+      "topic_name": "Chemical Elements",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "IUPAC/PubChem element properties and abundance tables",
+      "question": "Top 10 chemical elements ranked by IUPAC/PubChem element properties and abundance tables.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubchem",
+        "chembl"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "science.minerals",
+      "topic_name": "Minerals",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Mineralogical databases and production statistics",
+      "question": "Top 10 minerals ranked by Mineralogical databases and production statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubchem",
+        "chembl"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "science.fossils",
+      "topic_name": "Fossils",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Paleobiology Database/GBIF occurrence records; specimen size data is fragmented",
+      "question": "Top 10 fossils ranked by Paleobiology Database/GBIF occurrence records; specimen size data is fragmented.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.dinosaurs",
+      "topic_name": "Dinosaurs",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Fossil occurrence records and described-species counts",
+      "question": "Top 10 dinosaurs ranked by Fossil occurrence records and described-species counts.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.genomes",
+      "topic_name": "Genomes",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "NCBI/Ensembl genome records; assembly statistics are open",
+      "question": "Top 10 genomes ranked by NCBI/Ensembl genome records; assembly statistics are open.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata",
+        "dryad",
+        "harvard_dataverse"
+      ]
+    },
+    {
+      "topic_id": "science.proteins",
+      "topic_name": "Proteins",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UniProt/PDB records; structure counts are open",
+      "question": "Top 10 proteins ranked by UniProt/PDB records; structure counts are open.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubchem",
+        "chembl"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "science.drugs",
+      "topic_name": "Drugs",
+      "method_id": "approvals",
+      "method_name": "Regulatory approval / registration",
+      "metric": "Regulatory approval and trial registries; sales data is commercial",
+      "question": "Top 10 drugs ranked by Regulatory approval and trial registries; sales data is commercial.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "pubmed",
+        "clinicaltrials"
+      ],
+      "backup_sources": [
+        "europe_pmc",
+        "openalex"
+      ]
+    },
+    {
+      "topic_id": "science.climate-models",
+      "topic_name": "Climate Models",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "Model intercomparison publications and CMIP documentation",
+      "question": "Top 10 climate models ranked by Model intercomparison publications and CMIP documentation.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data",
+        "nasa_power"
+      ]
+    },
+    {
+      "topic_id": "science.weather-forecasting",
+      "topic_name": "Weather Forecasting",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Forecast verification statistics from meteorological agencies",
+      "question": "Top 10 weather forecasting ranked by Forecast verification statistics from meteorological agencies.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "openaq",
+        "epa_aqs"
+      ],
+      "backup_sources": [
+        "open_meteo",
+        "world_bank",
+        "nws"
+      ]
+    },
+    {
+      "topic_id": "science.earthquake-monitoring",
+      "topic_name": "Earthquake Monitoring",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "USGS earthquake catalogue (magnitude, depth, location)",
+      "question": "Top 10 earthquake monitoring ranked by USGS earthquake catalogue (magnitude, depth, location).",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "usgs_earthquake",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "noaa_ncei",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.volcanoes",
+      "topic_name": "Volcanoes",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Smithsonian/USGS volcano records and elevation data",
+      "question": "Top 10 volcanoes ranked by Smithsonian/USGS volcano records and elevation data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "usgs_earthquake",
+        "openstreetmap"
+      ],
+      "backup_sources": [
+        "noaa_ncei",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "science.oceans",
+      "topic_name": "Oceans",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "NOAA oceanographic data and geospatial boundaries",
+      "question": "Top 10 oceans ranked by NOAA oceanographic data and geospatial boundaries.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "science.species-extremes",
+      "topic_name": "Species Extremes",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF occurrence/taxonomy and IUCN Red List status",
+      "question": "Top 10 species extremes ranked by GBIF occurrence/taxonomy and IUCN Red List status.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    }
+  ]
+}

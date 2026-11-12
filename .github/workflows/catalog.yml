@@ -1,0 +1,77 @@
+name: catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "schema/**"
+      - ".github/workflows/catalog.yml"
+  pull_request:
+  schedule:
+    # Re-verify sources and refresh the artifacts every Monday at 06:00 UTC.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install optional schema validator
+        run: python -m pip install --quiet jsonschema
+      - name: Build
+        run: python scripts/build_catalog.py
+      - name: Validate
+        run: python scripts/validate_catalog.py
+      - name: Pipeline tests (offline)
+        run: python -m unittest discover -s pipeline/tests -t .
+      - name: Check generated files are committed
+        run: |
+          # generated_at is a build timestamp, so ignore it when comparing.
+          changed=$(git diff -U0 -- topics sources ranking-methods reports | grep -E '^[+-]' | grep -v 'generated_at' | grep -vE '^(\+\+\+|---)' || true)
+          if [ -n "$changed" ]; then
+            echo "Generated JSON is out of date. Run python scripts/build_catalog.py and commit."
+            echo "$changed" | head -40
+            exit 1
+          fi
+
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install optional schema validator
+        run: python -m pip install --quiet jsonschema
+      - name: Build from the curated catalogs
+        run: python scripts/build_catalog.py
+      - name: Verify sources (network)
+        run: python scripts/verify_sources.py
+        continue-on-error: true
+      - name: Rebuild with verification results
+        run: python scripts/build_catalog.py
+      - name: Validate
+        run: python scripts/validate_catalog.py
+      - name: Pipeline tests (offline)
+        run: python -m unittest discover -s pipeline/tests -t .
+      - name: Commit refreshed artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add topics sources ranking-methods reports
+          if git diff --staged --quiet; then
+            echo "No catalog changes."
+          else
+            git commit -m "chore: refresh catalog and source verification"
+            git push
+          fi

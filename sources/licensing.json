@@ -1,0 +1,2263 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "warning": "This is a research aid, not legal advice. Licences change and dataset-level terms can differ from the provider-level licence. Re-check before commercial publication.",
+  "commercial_use_summary": {
+    "allowed": 42,
+    "allowed_with_conditions": 43,
+    "unclear": 31,
+    "varies": 16,
+    "prohibited": 11
+  },
+  "license_groups": [
+    {
+      "license": "Public domain (US Government work)",
+      "source_count": 18,
+      "sources": [
+        {
+          "source_id": "pubchem",
+          "name": "PubChem PUG REST",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "clinicaltrials",
+          "name": "ClinicalTrials.gov API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "natural_earth",
+          "name": "Natural Earth",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": null
+        },
+        {
+          "source_id": "ourairports",
+          "name": "OurAirports",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": null
+        },
+        {
+          "source_id": "sec_edgar",
+          "name": "SEC EDGAR APIs",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "patentsview",
+          "name": "PatentsView API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "usda_fooddata",
+          "name": "USDA FoodData Central API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "nhtsa",
+          "name": "NHTSA APIs",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "fueleconomy",
+          "name": "FuelEconomy.gov API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "nasa_open",
+          "name": "NASA Open APIs",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "jpl_sbdb",
+          "name": "JPL Small-Body Database API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "nasa_exoplanet",
+          "name": "NASA Exoplanet Archive TAP",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "eia",
+          "name": "US Energy Information Administration API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "noaa_ncei",
+          "name": "NOAA NCEI Data Access",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "nasa_power",
+          "name": "NASA POWER API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "usgs_earthquake",
+          "name": "USGS Earthquake Catalog API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "nws",
+          "name": "National Weather Service API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "epa_aqs",
+          "name": "US EPA Air Quality System API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Creative Commons Attribution 4.0",
+      "source_count": 6,
+      "sources": [
+        {
+          "source_id": "world_bank",
+          "name": "World Bank Open Data API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "worldpop",
+          "name": "WorldPop",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "geonames",
+          "name": "GeoNames",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "geoboundaries",
+          "name": "geoBoundaries",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "wri_aqueduct",
+          "name": "WRI Aqueduct",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "ember",
+          "name": "Ember Data API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 1.0 Universal",
+      "source_count": 5,
+      "sources": [
+        {
+          "source_id": "wikidata",
+          "name": "Wikidata Query Service",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "source_id": "openalex",
+          "name": "OpenAlex",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "source_id": "datacite",
+          "name": "DataCite REST API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "source_id": "listenbrainz",
+          "name": "ListenBrainz API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "source_id": "gleif",
+          "name": "GLEIF LEI API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "Open Database License 1.0",
+      "source_count": 4,
+      "sources": [
+        {
+          "source_id": "openstreetmap",
+          "name": "OpenStreetMap",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+        },
+        {
+          "source_id": "nominatim",
+          "name": "Nominatim",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+        },
+        {
+          "source_id": "overpass",
+          "name": "Overpass API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+        },
+        {
+          "source_id": "openflights",
+          "name": "OpenFlights",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+        }
+      ]
+    },
+    {
+      "license": "Creative Commons Attribution-ShareAlike 4.0",
+      "source_count": 3,
+      "sources": [
+        {
+          "source_id": "dbpedia",
+          "name": "DBpedia",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "source_id": "chembl",
+          "name": "ChEMBL API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "source_id": "oeis",
+          "name": "OEIS API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "API terms; repository content licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "github",
+          "name": "GitHub REST API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Alpha Vantage terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "alphavantage",
+          "name": "Alpha Vantage",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "AniList terms; user content and metadata",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "anilist",
+          "name": "AniList GraphQL API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Apple Search API terms; content copyright Apple/rights holders",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "itunes_search",
+          "name": "Apple iTunes Search API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "BGG terms; ratings are community-generated",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "boardgamegeek",
+          "name": "BoardGameGeek XML API2",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "BallDontLie terms; NBA data rights",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "balldontlie",
+          "name": "BallDontLie API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (Climate TRACE data, verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "climate_trace",
+          "name": "Climate TRACE API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (Eurostat, generally)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "eurostat",
+          "name": "Eurostat API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (FAO data, generally)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "faostat",
+          "name": "FAOSTAT",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (Gapminder data, verify dataset)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "gapminder",
+          "name": "Gapminder Data",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (ILOSTAT, generally)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "ilostat",
+          "name": "ILOSTAT",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (OWID-authored data); third-party data varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "our_world_in_data",
+          "name": "Our World in Data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (Olympedia, verify site)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "olympedia",
+          "name": "Olympedia",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (ParlGov, verify version)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "parlgov",
+          "name": "ParlGov",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (data); API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "open_meteo",
+          "name": "Open-Meteo",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 (re3data metadata)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "re3data",
+          "name": "re3data.org",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY 4.0 for GFW data; underlying datasets vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "global_forest_watch",
+          "name": "Global Forest Watch API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY-NC-SA 3.0 IGO (WHO GHO, verify dataset)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "who_gho",
+          "name": "WHO Global Health Observatory",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY-SA 3.0 (wiki text)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "liquipedia",
+          "name": "Liquipedia",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "CC BY-SA 4.0 (TVmaze data, per site)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "tvmaze",
+          "name": "TVmaze API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY-SA 4.0 (V-Dem dataset, verify current version)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "vdem",
+          "name": "V-Dem Dataset",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY-SA 4.0 (text); individual media licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "wikipedia",
+          "name": "Wikipedia / Wikimedia REST API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC BY-SA 4.0 user content",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "stack_exchange",
+          "name": "Stack Exchange API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for data (Dryad policy)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "dryad",
+          "name": "Dryad API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for metadata (INSPIRE)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "inspire_hep",
+          "name": "INSPIRE-HEP API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for metadata (per DOAJ)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "doaj",
+          "name": "Directory of Open Access Journals API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for metadata; article licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "crossref",
+          "name": "Crossref REST API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for public-domain images/metadata",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "met_museum",
+          "name": "The Metropolitan Museum of Art Collection API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CC0 for public-domain metadata/images; some works still in copyright",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "artic",
+          "name": "Art Institute of Chicago API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": false,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "CORE terms; individual paper licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "core",
+          "name": "CORE API",
+          "commercial_use": "unclear",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Chess.com API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "chess_com",
+          "name": "Chess.com Published-Data API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "CoinGecko API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "coingecko",
+          "name": "CoinGecko API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "CoinMarketCap terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "coinmarketcap",
+          "name": "CoinMarketCap API",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Content licences vary; API metadata terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "reliefweb",
+          "name": "ReliefWeb API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Content licences vary; metadata is generally open",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "osf",
+          "name": "OSF API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Copernicus licence (free, attribution required)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "copernicus_cds",
+          "name": "Copernicus Climate Data Store",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Core data CC0; supplementary data CC BY-NC-SA 3.0",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "musicbrainz",
+          "name": "MusicBrainz API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "Data derived from public F1 results; service terms apply",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "jolpica_f1",
+          "name": "Jolpica F1 API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Data dumps are published by Open Library; record-level licensing varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "open_library",
+          "name": "Open Library API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://openlibrary.org/developers/dumps"
+        }
+      ]
+    },
+    {
+      "license": "Data is CC0 per Unpaywall",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "unpaywall",
+          "name": "Unpaywall API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "Dataset licences vary; CC0 is common",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "harvard_dataverse",
+          "name": "Harvard Dataverse API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Deezer API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "deezer",
+          "name": "Deezer API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Discogs API terms; user-contributed content",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "discogs",
+          "name": "Discogs API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "EPO terms of use",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "epo_ops",
+          "name": "EPO Open Patent Services",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "GDELT terms; source articles retain publisher copyright",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "gdelt",
+          "name": "GDELT Project",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Google Books API Terms; book content copyright remains with rights holders",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "google_books",
+          "name": "Google Books API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://developers.google.com/books/terms"
+        }
+      ]
+    },
+    {
+      "license": "Guardian content copyright; Open Platform terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "guardian",
+          "name": "The Guardian Open Platform",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Hub metadata terms; model/dataset licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "huggingface",
+          "name": "Hugging Face Hub API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IGDB/Twitch terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "igdb",
+          "name": "IGDB API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IMDb non-commercial dataset licence",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "imdb_datasets",
+          "name": "IMDb Datasets",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IMF terms of use",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "imf",
+          "name": "IMF Data API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IRENA terms; many datasets CC BY 4.0",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "irena",
+          "name": "IRENA Statistics",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IUCN Red List terms of use",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "iucn_redlist",
+          "name": "IUCN Red List API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Image and metadata rights vary by object",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "harvard_art",
+          "name": "Harvard Art Museums API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Jikan is unofficial; MyAnimeList content rights remain with MAL",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "jikan",
+          "name": "Jikan API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Last.fm API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "lastfm",
+          "name": "Last.fm API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Launch Library 2 terms; upstream data varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "launch_library",
+          "name": "Launch Library 2 API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Lichess terms; game data generally open",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "lichess",
+          "name": "Lichess API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "MLB terms; statistics may be subject to MLB rights",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "mlb_stats",
+          "name": "MLB Stats API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Manifesto Project terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "manifesto_project",
+          "name": "Manifesto Project Database",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Metadata CC0; files vary by record",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "zenodo",
+          "name": "Zenodo API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "license": "Metadata CC0; media licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "europeana",
+          "name": "Europeana API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Metadata is CC0; individual papers carry arXiv/perpetual licences",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "arxiv",
+          "name": "arXiv API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://info.arxiv.org/help/license/index.html"
+        }
+      ]
+    },
+    {
+      "license": "Metadata terms; item licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "figshare",
+          "name": "Figshare API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Metadata varies; open-access subset carries article-specific licences",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "europe_pmc",
+          "name": "Europe PMC REST API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Michelin proprietary terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "michelin_guide",
+          "name": "MICHELIN Guide",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "NLM terms; abstracts may be copyrighted",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "pubmed",
+          "name": "NCBI E-utilities (PubMed)",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "NewsAPI terms; article content belongs to publishers",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "newsapi",
+          "name": "NewsAPI",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Numbeo proprietary terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "numbeo",
+          "name": "Numbeo",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "ODbL for database; contents CC BY-SA",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "open_food_facts",
+          "name": "Open Food Facts API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": true,
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+        }
+      ]
+    },
+    {
+      "license": "OECD terms and conditions",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "oecd",
+          "name": "OECD Data API / SDMX",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "OMDb terms; ratings sourced from third parties",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "omdb",
+          "name": "OMDb API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Observation licences vary (CC0/CC BY/CC BY-NC)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "inaturalist",
+          "name": "iNaturalist API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Open Government Licence v3.0",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "companies_house",
+          "name": "Companies House API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ]
+    },
+    {
+      "license": "Open source; exchange-rate data sourced from ECB",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "frankfurter",
+          "name": "Frankfurter API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "OpenAQ data licences vary by source; API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "openaq",
+          "name": "OpenAQ API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "OpenCorporates terms; underlying registry data varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "opencorporates",
+          "name": "OpenCorporates",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Package licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "crates_io",
+          "name": "crates.io API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Package licences vary; registry metadata terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "npm",
+          "name": "npm Registry API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Package metadata licences vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "pypi",
+          "name": "PyPI JSON API",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Podcast Index API terms; podcast content varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "podcast_index",
+          "name": "Podcast Index API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Protected Planet terms; WDPA licence",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "protected_planet",
+          "name": "Protected Planet",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Public-domain images; metadata terms vary",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "rijksmuseum",
+          "name": "Rijksmuseum API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "QS proprietary terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "qs_rankings",
+          "name": "QS World University Rankings",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "RAWG API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "rawg",
+          "name": "RAWG API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Radio Browser data (community); station streams have their own rights",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "radio_browser",
+          "name": "Radio Browser API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Semantic Scholar API terms; paper content varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "semantic_scholar",
+          "name": "Semantic Scholar API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://www.semanticscholar.org/product/api"
+        }
+      ]
+    },
+    {
+      "license": "Spotify Developer Terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "spotify",
+          "name": "Spotify Web API",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Steam Web API terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "steam",
+          "name": "Steam Web API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "THE proprietary terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "the_rankings",
+          "name": "Times Higher Education World University Rankings",
+          "commercial_use": "prohibited",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "TMDB API terms; content supplied by TMDB and contributors",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "tmdb",
+          "name": "The Movie Database (TMDB) API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://www.themoviedb.org/documentation/api/terms-of-use"
+        }
+      ]
+    },
+    {
+      "license": "TheCocktailDB terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "thecocktaildb",
+          "name": "TheCocktailDB",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "TheMealDB terms; recipe content varies",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "themealdb",
+          "name": "TheMealDB",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "TheSportsDB terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "thesportsdb",
+          "name": "TheSportsDB",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Twitch Developer Agreement",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "twitch",
+          "name": "Twitch API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UN Comtrade terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "un_comtrade",
+          "name": "UN Comtrade API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UN terms; dataset-specific",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "un_data",
+          "name": "UNdata",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UNESCO UIS terms; CC BY-SA 3.0 IGO for many datasets",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "unesco_uis",
+          "name": "UNESCO Institute for Statistics",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UNESCO terms; site texts and images have separate rights",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "unesco_whc",
+          "name": "UNESCO World Heritage Convention",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UNHCR data terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "unhcr",
+          "name": "UNHCR Refugee Data Finder",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "UNICEF data terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "unicef",
+          "name": "UNICEF Data",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Varies by dataset",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "kaggle",
+          "name": "Kaggle Datasets",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Varies by dataset (CC0, CC BY, CC BY-NC)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "gbif",
+          "name": "GBIF API",
+          "commercial_use": "varies",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "Varies by item",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "internet_archive",
+          "name": "Internet Archive APIs",
+          "commercial_use": "varies",
+          "attribution_required": null,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "WVS terms of use",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "world_values_survey",
+          "name": "World Values Survey",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "eBird data terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "ebird",
+          "name": "eBird API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "football-data.org terms",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "football_data",
+          "name": "football-data.org",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": null
+        }
+      ]
+    }
+  ],
+  "high_risk_sources": [
+    {
+      "id": "open_library",
+      "name": "Open Library API",
+      "reason": "unclear",
+      "caveats": [
+        "Covers are not all openly licensed; check per image.",
+        "No reliable global sales or quality ranking is included."
+      ]
+    },
+    {
+      "id": "internet_archive",
+      "name": "Internet Archive APIs",
+      "reason": "varies",
+      "caveats": [
+        "Do not redistribute in-copyright or lending-only items."
+      ]
+    },
+    {
+      "id": "semantic_scholar",
+      "name": "Semantic Scholar API",
+      "reason": "unclear",
+      "caveats": [
+        "Commercial use may require an agreement; verify before production use."
+      ]
+    },
+    {
+      "id": "core",
+      "name": "CORE API",
+      "reason": "unclear",
+      "caveats": [
+        "Free access is primarily intended for research; check commercial terms."
+      ]
+    },
+    {
+      "id": "europe_pmc",
+      "name": "Europe PMC REST API",
+      "reason": "varies",
+      "caveats": [
+        "Not all records are open access."
+      ]
+    },
+    {
+      "id": "pubmed",
+      "name": "NCBI E-utilities (PubMed)",
+      "reason": "unclear",
+      "caveats": [
+        "Do not assume abstracts are freely redistributable."
+      ]
+    },
+    {
+      "id": "zenodo",
+      "name": "Zenodo API",
+      "reason": "varies",
+      "caveats": [
+        "Always inspect the licence of the individual record."
+      ]
+    },
+    {
+      "id": "figshare",
+      "name": "Figshare API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "harvard_dataverse",
+      "name": "Harvard Dataverse API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "osf",
+      "name": "OSF API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "world_values_survey",
+      "name": "World Values Survey",
+      "reason": "unclear",
+      "caveats": [
+        "Commercial use and redistribution require checking the current WVSA terms."
+      ]
+    },
+    {
+      "id": "manifesto_project",
+      "name": "Manifesto Project Database",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "un_comtrade",
+      "name": "UN Comtrade API",
+      "reason": "unclear",
+      "caveats": [
+        "Free access is limited; large extractions may require a subscription."
+      ]
+    },
+    {
+      "id": "un_data",
+      "name": "UNdata",
+      "reason": "unclear",
+      "caveats": [
+        "API availability varies by database. Do not assume a single REST endpoint."
+      ]
+    },
+    {
+      "id": "who_gho",
+      "name": "WHO Global Health Observatory",
+      "reason": "prohibited",
+      "caveats": [
+        "Non-commercial restriction is significant for a commercial platform. Seek written permission or use World Bank/OWID alternatives."
+      ]
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF Data",
+      "reason": "unclear",
+      "caveats": [
+        "Bulk files and APIs vary by indicator; check each dataset page."
+      ]
+    },
+    {
+      "id": "unhcr",
+      "name": "UNHCR Refugee Data Finder",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "reliefweb",
+      "name": "ReliefWeb API",
+      "reason": "varies",
+      "caveats": [
+        "Reports are copyrighted by their publishers; do not republish full text without permission."
+      ]
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Hub API",
+      "reason": "varies",
+      "caveats": [
+        "Download counts are inflated by CI, mirrors and evaluation harnesses.",
+        "Each model has its own licence, often non-commercial or gated."
+      ]
+    },
+    {
+      "id": "pypi",
+      "name": "PyPI JSON API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "npm",
+      "name": "npm Registry API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "crates_io",
+      "name": "crates.io API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "omdb",
+      "name": "OMDb API",
+      "reason": "unclear",
+      "caveats": [
+        "Ratings are licensed from IMDb/Rotten Tomatoes; do not redistribute as your own dataset."
+      ]
+    },
+    {
+      "id": "jikan",
+      "name": "Jikan API",
+      "reason": "unclear",
+      "caveats": [
+        "Unofficial dependency; MAL can change or block access. Not suitable as a sole commercial source."
+      ]
+    },
+    {
+      "id": "anilist",
+      "name": "AniList GraphQL API",
+      "reason": "unclear",
+      "caveats": [
+        "GraphQL POST required; check terms before commercial use."
+      ]
+    },
+    {
+      "id": "rawg",
+      "name": "RAWG API",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "steam",
+      "name": "Steam Web API",
+      "reason": "unclear",
+      "caveats": [
+        "No official global sales data; concurrent players are a partial proxy."
+      ]
+    },
+    {
+      "id": "boardgamegeek",
+      "name": "BoardGameGeek XML API2",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "lastfm",
+      "name": "Last.fm API",
+      "reason": "unclear",
+      "caveats": [
+        "Commercial use likely requires an agreement; verify."
+      ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer API",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify Web API",
+      "reason": "prohibited",
+      "caveats": [
+        "Spotify's developer terms restrict commercial use and data storage. Not suitable for an open commercial rankings dataset without an agreement."
+      ]
+    },
+    {
+      "id": "radio_browser",
+      "name": "Radio Browser API",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian Open Platform",
+      "reason": "prohibited",
+      "caveats": [
+        "Free tier is for non-commercial use; article text cannot be republished wholesale."
+      ]
+    },
+    {
+      "id": "newsapi",
+      "name": "NewsAPI",
+      "reason": "prohibited",
+      "caveats": [
+        "Free plan is explicitly non-commercial and not for production."
+      ]
+    },
+    {
+      "id": "chess_com",
+      "name": "Chess.com Published-Data API",
+      "reason": "unclear",
+      "caveats": [
+        "Published-data API is not a complete historical archive."
+      ]
+    },
+    {
+      "id": "thesportsdb",
+      "name": "TheSportsDB",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "football_data",
+      "name": "football-data.org",
+      "reason": "unclear",
+      "caveats": [
+        "Free tier excludes some major competitions and has limited history."
+      ]
+    },
+    {
+      "id": "mlb_stats",
+      "name": "MLB Stats API",
+      "reason": "unclear",
+      "caveats": [
+        "Unofficial public endpoint; could change without notice."
+      ]
+    },
+    {
+      "id": "balldontlie",
+      "name": "BallDontLie API",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "jolpica_f1",
+      "name": "Jolpica F1 API",
+      "reason": "unclear",
+      "caveats": [
+        "Community service with no SLA; verify results against official F1 sources."
+      ]
+    },
+    {
+      "id": "coinmarketcap",
+      "name": "CoinMarketCap API",
+      "reason": "prohibited",
+      "caveats": [
+        "Free tier is for personal/development use only."
+      ]
+    },
+    {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "thecocktaildb",
+      "name": "TheCocktailDB",
+      "reason": "unclear",
+      "caveats": []
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "harvard_art",
+      "name": "Harvard Art Museums API",
+      "reason": "varies",
+      "caveats": []
+    },
+    {
+      "id": "unesco_whc",
+      "name": "UNESCO World Heritage Convention",
+      "reason": "unclear",
+      "caveats": [
+        "Reference source only. Do not scrape at scale without permission."
+      ]
+    },
+    {
+      "id": "qs_rankings",
+      "name": "QS World University Rankings",
+      "reason": "prohibited",
+      "caveats": [
+        "Cannot be harvested or republished without a QS licence. Use OpenAlex bibliometrics for an independent proxy."
+      ]
+    },
+    {
+      "id": "the_rankings",
+      "name": "Times Higher Education World University Rankings",
+      "reason": "prohibited",
+      "caveats": [
+        "Cannot be republished without a licence."
+      ]
+    },
+    {
+      "id": "michelin_guide",
+      "name": "MICHELIN Guide",
+      "reason": "prohibited",
+      "caveats": [
+        "Reference only; republication requires a Michelin licence."
+      ]
+    },
+    {
+      "id": "imdb_datasets",
+      "name": "IMDb Datasets",
+      "reason": "prohibited",
+      "caveats": [
+        "Explicitly non-commercial. Cannot be used by a commercial platform without an IMDb licence."
+      ]
+    },
+    {
+      "id": "numbeo",
+      "name": "Numbeo",
+      "reason": "prohibited",
+      "caveats": [
+        "Crowd-sourced data; commercial reuse needs a licence."
+      ]
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle Datasets",
+      "reason": "varies",
+      "caveats": [
+        "A discovery layer, not a rights clearance. Verify each dataset licence and provenance."
+      ]
+    },
+    {
+      "id": "unesco_uis",
+      "name": "UNESCO Institute for Statistics",
+      "reason": "unclear",
+      "caveats": [
+        "Country coverage and year coverage are uneven."
+      ]
+    },
+    {
+      "id": "gbif",
+      "name": "GBIF API",
+      "reason": "varies",
+      "caveats": [
+        "Occurrence records are presence-only and biased by observer effort.",
+        "Licence must be checked per dataset; some are non-commercial."
+      ]
+    },
+    {
+      "id": "inaturalist",
+      "name": "iNaturalist API",
+      "reason": "varies",
+      "caveats": [
+        "Citizen-science data has strong geographic and taxonomic bias."
+      ]
+    },
+    {
+      "id": "ebird",
+      "name": "eBird API",
+      "reason": "unclear",
+      "caveats": [
+        "Check eBird data use terms; bulk access may require an application."
+      ]
+    },
+    {
+      "id": "protected_planet",
+      "name": "Protected Planet",
+      "reason": "unclear",
+      "caveats": [
+        "Boundary data quality varies by country."
+      ]
+    },
+    {
+      "id": "open_meteo",
+      "name": "Open-Meteo",
+      "reason": "prohibited",
+      "caveats": [
+        "Free tier is non-commercial only. A commercial licence is required for this platform."
+      ]
+    }
+  ]
+}

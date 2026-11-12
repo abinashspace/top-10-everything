@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "business-finance.cryptocurrencies",
+  "topic_name": "Cryptocurrencies",
+  "category": "business-finance",
+  "question": "Top 10 cryptocurrencies ranked by CoinGecko/CoinMarketCap market capitalisation.",
+  "metric": "CoinGecko/CoinMarketCap market capitalisation",
+  "method": {
+    "id": "market_cap",
+    "name": "Market capitalisation or disclosed financials",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Market capitalisation (circulating supply x price)",
+    "unit": "USD market capitalisation",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:33+00:00",
+  "refresh_after": "2026-11-13",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:19+00:00",
+    "reference_period": null,
+    "records_considered": 100,
+    "records_ranked": 100,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "CoinGecko /coins/markets, order=market_cap_desc"
+  },
+  "sources": [
+    {
+      "id": "coingecko",
+      "name": "CoinGecko API",
+      "official_url": "https://www.coingecko.com/",
+      "api_docs_url": "https://docs.coingecko.com/",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:13+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "bitcoin",
+      "name": "Bitcoin",
+      "value": 1464479294809,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "btc",
+        "price_usd": 72820,
+        "provider_rank": 1
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "ethereum",
+      "name": "Ethereum",
+      "value": 246691929781,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "eth",
+        "price_usd": 2018.55,
+        "provider_rank": 2
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "tether",
+      "name": "Tether",
+      "value": 175710368455,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "usdt",
+        "price_usd": 0.999042,
+        "provider_rank": 3
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "binancecoin",
+      "name": "BNB",
+      "value": 87211096597,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "bnb",
+        "price_usd": 663.15,
+        "provider_rank": 4
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "usd-coin",
+      "name": "USDC",
+      "value": 69409360492,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "usdc",
+        "price_usd": 0.999466,
+        "provider_rank": 5
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "ripple",
+      "name": "XRP",
+      "value": 65860405056,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "xrp",
+        "price_usd": 1.037,
+        "provider_rank": 6
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "solana",
+      "name": "Solana",
+      "value": 48676427972,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "sol",
+        "price_usd": 82.3,
+        "provider_rank": 7
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "tron",
+      "name": "TRON",
+      "value": 30040757782,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "trx",
+        "price_usd": 0.316095,
+        "provider_rank": 8
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "figure-heloc",
+      "name": "Figure Heloc",
+      "value": 28319400596,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "figr_heloc",
+        "price_usd": 1.066,
+        "provider_rank": 9
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "hyperliquid",
+      "name": "Hyperliquid",
+      "value": 16920230854,
+      "unit": "USD market capitalisation",
+      "extra": {
+        "symbol": "hype",
+        "price_usd": 70.68,
+        "provider_rank": 10
+      }
+    }
+  ],
+  "caveats": [
+    "Market capitalisation is volatile and reflects expectations, not fundamentals alone.",
+    "Private companies and non-listed entities are excluded by construction.",
+    "Market capitalisation is circulating supply times price and changes continuously.",
+    "The free CoinGecko API requires attribution and is rate-limited; check the current terms before commercial use."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "moderate",
+  "research_status": "researched"
+}

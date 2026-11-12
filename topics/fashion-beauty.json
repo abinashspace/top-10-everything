@@ -1,0 +1,1202 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "fashion-beauty",
+    "name": "Fashion & Beauty",
+    "description": "Apparel, luxury, beauty and personal style. Weak open-data coverage; most value rankings are editorial.",
+    "topic_count": 18,
+    "subcategory_count": 72,
+    "research_status_counts": {
+      "partial": 15,
+      "researched": 1,
+      "unsupported": 2
+    },
+    "data_availability_counts": {
+      "limited": 15,
+      "moderate": 1,
+      "none": 2
+    }
+  },
+  "topics": [
+    {
+      "id": "fashion-beauty.fashion-brands",
+      "name": "Fashion Brands",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Fashion Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Fast fashion",
+        "Sportswear",
+        "Streetwear"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 fashion brands ranked by Revenue/market cap of listed groups; brand prestige is editorial.",
+        "metric": "Revenue/market cap of listed groups; brand prestige is editorial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.luxury-brands",
+      "name": "Luxury Brands",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Luxury Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fashion",
+        "Leather goods",
+        "Watches",
+        "Jewellery"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 luxury brands ranked by Revenue/market cap of listed luxury groups; brand value is proprietary.",
+        "metric": "Revenue/market cap of listed luxury groups; brand value is proprietary",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.clothing-retailers",
+      "name": "Clothing Retailers",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Clothing Retailers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fast fashion",
+        "Department stores",
+        "Online",
+        "Discount"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 clothing retailers ranked by Revenue from filings and retail statistics.",
+        "metric": "Revenue from filings and retail statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.sneakers",
+      "name": "Sneakers",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Sneakers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Running",
+        "Basketball",
+        "Lifestyle",
+        "Limited editions"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 sneakers ranked by Wikidata/pageviews and resale-market data (mostly proprietary).",
+        "metric": "Wikidata/pageviews and resale-market data (mostly proprietary)",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.watches",
+      "name": "Watches",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Watches"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Sports",
+        "Smartwatches",
+        "Vintage"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 watches ranked by Revenue of listed watch groups; auction results are commercial.",
+        "metric": "Revenue of listed watch groups; auction results are commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.jewelry",
+      "name": "Jewelry",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Jewelry"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Fine",
+        "Fashion",
+        "Ethical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 jewelry ranked by Revenue of listed jewellery groups.",
+        "metric": "Revenue of listed jewellery groups",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.handbags",
+      "name": "Handbags",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Handbags"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Everyday",
+        "Sustainable",
+        "Collectible"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 handbags ranked by Brand revenue where disclosed; resale data is commercial.",
+        "metric": "Brand revenue where disclosed; resale data is commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.sunglasses",
+      "name": "Sunglasses",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Sunglasses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Sport",
+        "Polarised",
+        "Budget"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 sunglasses ranked by Wikidata/pageviews and product metadata.",
+        "metric": "Wikidata/pageviews and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.denim",
+      "name": "Denim",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Denim"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Jeans",
+        "Jackets",
+        "Selvedge",
+        "Sustainable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 denim ranked by Brand revenue where disclosed.",
+        "metric": "Brand revenue where disclosed",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.fashion-designers",
+      "name": "Fashion Designers",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Fashion Designers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Couture",
+        "Ready-to-wear",
+        "Streetwear",
+        "Accessories"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 fashion designers ranked by Wikidata/pageviews and museum coverage; influence is editorial.",
+        "metric": "Wikidata/pageviews and museum coverage; influence is editorial",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.models",
+      "name": "Models",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Models"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Runway",
+        "Commercial",
+        "Editorial",
+        "Plus-size"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 models ranked by Wikidata/pageviews and magazine coverage; no open industry ranking.",
+        "metric": "Wikidata/pageviews and magazine coverage; no open industry ranking",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.fashion-weeks",
+      "name": "Fashion Weeks",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Fashion Weeks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Paris",
+        "Milan",
+        "London",
+        "New York"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 fashion weeks ranked by Event coverage and pageviews.",
+        "metric": "Event coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.beauty-brands",
+      "name": "Beauty Brands",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Beauty Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Mass",
+        "Prestige",
+        "Indie",
+        "Clean beauty"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 beauty brands ranked by Revenue of listed beauty groups; brand rankings are commercial.",
+        "metric": "Revenue of listed beauty groups; brand rankings are commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.cosmetics",
+      "name": "Cosmetics",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Cosmetics"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Makeup",
+        "Nail",
+        "Foundation",
+        "Vegan"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cosmetics ranked by Product metadata and Open Beauty Facts coverage.",
+        "metric": "Product metadata and Open Beauty Facts coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Open Beauty Facts is the relevant open cosmetics database but coverage is thin."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.skincare",
+      "name": "Skincare",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Skincare"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Moisturisers",
+        "Cleansers",
+        "Sunscreen",
+        "Anti-ageing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 skincare ranked by Efficacy/safety rankings require clinical and editorial data.",
+        "metric": "Efficacy/safety rankings require clinical and editorial data",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.fragrances",
+      "name": "Fragrances",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Fragrances"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Designer",
+        "Niche",
+        "Celebrity",
+        "Arabic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 fragrances ranked by Wikidata/pageviews and product metadata.",
+        "metric": "Wikidata/pageviews and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.haircare",
+      "name": "Haircare",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Haircare"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Shampoo",
+        "Conditioner",
+        "Treatments",
+        "Tools"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 haircare ranked by Product efficacy rankings require testing; no open dataset.",
+        "metric": "Product efficacy rankings require testing; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "fashion-beauty.sustainable-fashion",
+      "name": "Sustainable Fashion",
+      "parent_id": "fashion-beauty",
+      "parent_name": "Fashion & Beauty",
+      "path": [
+        "Fashion & Beauty",
+        "Sustainable Fashion"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ethical brands",
+        "Circular",
+        "Second-hand",
+        "Materials"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 sustainable fashion ranked by Certification and supply-chain disclosures; no comprehensive open index.",
+        "metric": "Certification and supply-chain disclosures; no comprehensive open index",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

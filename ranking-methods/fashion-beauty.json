@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "fashion-beauty",
+  "category_name": "Fashion & Beauty",
+  "topic_count": 18,
+  "method_counts": {
+    "market_cap": 7,
+    "official_stat": 1,
+    "attention_proxy": 5,
+    "canon_proxy": 2,
+    "human_review": 2,
+    "composite_index": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "fashion-beauty.fashion-brands",
+      "topic_name": "Fashion Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap of listed groups; brand prestige is editorial",
+      "question": "Top 10 fashion brands ranked by Revenue/market cap of listed groups; brand prestige is editorial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.luxury-brands",
+      "topic_name": "Luxury Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap of listed luxury groups; brand value is proprietary",
+      "question": "Top 10 luxury brands ranked by Revenue/market cap of listed luxury groups; brand value is proprietary.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.clothing-retailers",
+      "topic_name": "Clothing Retailers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue from filings and retail statistics",
+      "question": "Top 10 clothing retailers ranked by Revenue from filings and retail statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.sneakers",
+      "topic_name": "Sneakers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and resale-market data (mostly proprietary)",
+      "question": "Top 10 sneakers ranked by Wikidata/pageviews and resale-market data (mostly proprietary).",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.watches",
+      "topic_name": "Watches",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed watch groups; auction results are commercial",
+      "question": "Top 10 watches ranked by Revenue of listed watch groups; auction results are commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.jewelry",
+      "topic_name": "Jewelry",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed jewellery groups",
+      "question": "Top 10 jewelry ranked by Revenue of listed jewellery groups.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.handbags",
+      "topic_name": "Handbags",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Brand revenue where disclosed; resale data is commercial",
+      "question": "Top 10 handbags ranked by Brand revenue where disclosed; resale data is commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.sunglasses",
+      "topic_name": "Sunglasses",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "question": "Top 10 sunglasses ranked by Wikidata/pageviews and product metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.denim",
+      "topic_name": "Denim",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Brand revenue where disclosed",
+      "question": "Top 10 denim ranked by Brand revenue where disclosed.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.fashion-designers",
+      "topic_name": "Fashion Designers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/pageviews and museum coverage; influence is editorial",
+      "question": "Top 10 fashion designers ranked by Wikidata/pageviews and museum coverage; influence is editorial.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.models",
+      "topic_name": "Models",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/pageviews and magazine coverage; no open industry ranking",
+      "question": "Top 10 models ranked by Wikidata/pageviews and magazine coverage; no open industry ranking.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.fashion-weeks",
+      "topic_name": "Fashion Weeks",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Event coverage and pageviews",
+      "question": "Top 10 fashion weeks ranked by Event coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.beauty-brands",
+      "topic_name": "Beauty Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed beauty groups; brand rankings are commercial",
+      "question": "Top 10 beauty brands ranked by Revenue of listed beauty groups; brand rankings are commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.cosmetics",
+      "topic_name": "Cosmetics",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Product metadata and Open Beauty Facts coverage",
+      "question": "Top 10 cosmetics ranked by Product metadata and Open Beauty Facts coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.skincare",
+      "topic_name": "Skincare",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Efficacy/safety rankings require clinical and editorial data",
+      "question": "Top 10 skincare ranked by Efficacy/safety rankings require clinical and editorial data.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "fashion-beauty.fragrances",
+      "topic_name": "Fragrances",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "question": "Top 10 fragrances ranked by Wikidata/pageviews and product metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "fashion-beauty.haircare",
+      "topic_name": "Haircare",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Product efficacy rankings require testing; no open dataset",
+      "question": "Top 10 haircare ranked by Product efficacy rankings require testing; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "fashion-beauty.sustainable-fashion",
+      "topic_name": "Sustainable Fashion",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Certification and supply-chain disclosures; no comprehensive open index",
+      "question": "Top 10 sustainable fashion ranked by Certification and supply-chain disclosures; no comprehensive open index.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    }
+  ]
+}

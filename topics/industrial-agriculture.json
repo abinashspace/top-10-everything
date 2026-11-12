@@ -1,0 +1,1555 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "industrial-agriculture",
+    "name": "Industrial & Agriculture",
+    "description": "Production, commodities, food supply chains and heavy industry.",
+    "topic_count": 21,
+    "subcategory_count": 84,
+    "research_status_counts": {
+      "researched": 12,
+      "partial": 9
+    },
+    "data_availability_counts": {
+      "strong": 6,
+      "moderate": 6,
+      "limited": 9
+    }
+  },
+  "topics": [
+    {
+      "id": "industrial-agriculture.agricultural-countries",
+      "name": "Agricultural Countries",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Agricultural Countries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By output",
+        "By exports",
+        "By crop",
+        "By livestock"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 agricultural countries ranked by FAOSTAT production value and trade data.",
+        "metric": "FAOSTAT production value and trade data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.crops",
+      "name": "Crops",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Crops"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By production",
+        "By area",
+        "By value",
+        "By yield"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 crops ranked by FAOSTAT crop production and area harvested.",
+        "metric": "FAOSTAT crop production and area harvested",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.coffee-producers",
+      "name": "Coffee Producers",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Coffee Producers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By volume",
+        "By value",
+        "Arabica",
+        "Robusta"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 coffee producers ranked by FAOSTAT/UN Comtrade coffee production and exports.",
+        "metric": "FAOSTAT/UN Comtrade coffee production and exports",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.wine-producers",
+      "name": "Wine Producers",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Wine Producers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By volume",
+        "By value",
+        "By region",
+        "Organic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 wine producers ranked by OIV/FAOSTAT wine production and trade.",
+        "metric": "OIV/FAOSTAT wine production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.beer-producers",
+      "name": "Beer Producers",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Beer Producers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By volume",
+        "By revenue",
+        "Craft",
+        "Non-alcoholic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 beer producers ranked by Industry association and company production data.",
+        "metric": "Industry association and company production data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.livestock",
+      "name": "Livestock",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Livestock"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By population",
+        "By production",
+        "By country",
+        "By breed"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 livestock ranked by FAOSTAT livestock production and stocks.",
+        "metric": "FAOSTAT livestock production and stocks",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.dairy-companies",
+      "name": "Dairy Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Dairy Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By revenue",
+        "Cooperatives",
+        "Plant-based"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 dairy companies ranked by Revenue from company reports.",
+        "metric": "Revenue from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.food-companies",
+      "name": "Food Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Food Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By revenue",
+        "Packaged food",
+        "Beverages"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 food companies ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.seed-companies",
+      "name": "Seed Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Seed Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "GM seeds",
+        "Organic",
+        "Vegetable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 seed companies ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.fertilizer-companies",
+      "name": "Fertilizer Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Fertilizer Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Nitrogen",
+        "Phosphate",
+        "Potash"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 fertilizer companies ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.tractor-brands",
+      "name": "Tractor Brands",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Tractor Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By sales",
+        "Compact",
+        "Row crop",
+        "Electric"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 tractor brands ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.farm-equipment",
+      "name": "Farm Equipment",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Farm Equipment"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tractors",
+        "Harvesters",
+        "Planters",
+        "Irrigation"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 farm equipment ranked by Production/trade statistics and company disclosures.",
+        "metric": "Production/trade statistics and company disclosures",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.commodity-producers",
+      "name": "Commodity Producers",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Commodity Producers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Oil",
+        "Gas",
+        "Metals",
+        "Agricultural"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "oecd",
+            "name": "OECD Data API / SDMX",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 commodity producers ranked by UN Comtrade and company production disclosures.",
+        "metric": "UN Comtrade and company production disclosures",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.steel-companies",
+      "name": "Steel Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Steel Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By production",
+        "By revenue",
+        "Green steel"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 steel companies ranked by Revenue/production from company reports.",
+        "metric": "Revenue/production from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.cement-companies",
+      "name": "Cement Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Cement Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By capacity",
+        "By revenue",
+        "Low-carbon"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 cement companies ranked by Revenue/capacity from company reports.",
+        "metric": "Revenue/capacity from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.chemical-companies",
+      "name": "Chemical Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Chemical Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Specialty",
+        "Commodity",
+        "Agrochemical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 chemical companies ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.packaging-companies",
+      "name": "Packaging Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Packaging Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Paper",
+        "Plastic",
+        "Sustainable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 packaging companies ranked by Revenue from company reports.",
+        "metric": "Revenue from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.textile-companies",
+      "name": "Textile Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Textile Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By revenue",
+        "Synthetic",
+        "Natural"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 textile companies ranked by Revenue from company reports and trade statistics.",
+        "metric": "Revenue from company reports and trade statistics",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.timber-companies",
+      "name": "Timber Companies",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Timber Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By production",
+        "Sustainable",
+        "Paper"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 timber companies ranked by Revenue/production from company reports.",
+        "metric": "Revenue/production from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.fisheries",
+      "name": "Fisheries",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Fisheries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By catch",
+        "By country",
+        "By species",
+        "Sustainable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 fisheries ranked by FAO fisheries and aquaculture statistics.",
+        "metric": "FAO fisheries and aquaculture statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "industrial-agriculture.aquaculture",
+      "name": "Aquaculture",
+      "parent_id": "industrial-agriculture",
+      "parent_name": "Industrial & Agriculture",
+      "path": [
+        "Industrial & Agriculture",
+        "Aquaculture"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By production",
+        "By species",
+        "By country",
+        "Sustainable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 aquaculture ranked by FAO aquaculture production statistics.",
+        "metric": "FAO aquaculture production statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

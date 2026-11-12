@@ -1,0 +1,2218 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "history-culture",
+    "name": "History & Culture",
+    "description": "Historical people, civilizations, heritage and cultural traditions.",
+    "topic_count": 30,
+    "subcategory_count": 120,
+    "research_status_counts": {
+      "researched_proxy": 1,
+      "partial": 23,
+      "researched": 6
+    },
+    "data_availability_counts": {
+      "limited": 24,
+      "moderate": 6
+    }
+  },
+  "topics": [
+    {
+      "id": "history-culture.historical-personalities",
+      "name": "Historical Personalities",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Historical Personalities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Leaders",
+        "Scientists",
+        "Artists",
+        "Philosophers"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 historical personalities ranked by Wikidata sitelinks, Wikipedia pageviews and encyclopedic coverage.",
+        "metric": "Wikidata sitelinks, Wikipedia pageviews and encyclopedic coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "Coverage reflects historical documentation and Wikipedia editor attention, not objective importance."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.leaders",
+      "name": "Leaders",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Leaders"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Presidents",
+        "Prime ministers",
+        "Monarchs",
+        "Revolutionary leaders"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 leaders ranked by Wikidata/Wikipedia coverage and term records.",
+        "metric": "Wikidata/Wikipedia coverage and term records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.empires",
+      "name": "Empires",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Empires"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Longest-lasting",
+        "Most populous",
+        "Colonial"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 empires ranked by Historical extent estimates from encyclopedic/geospatial sources.",
+        "metric": "Historical extent estimates from encyclopedic/geospatial sources",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.dynasties",
+      "name": "Dynasties",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Dynasties"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chinese",
+        "Egyptian",
+        "European",
+        "Islamic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 dynasties ranked by Wikidata/Wikipedia coverage and reign records.",
+        "metric": "Wikidata/Wikipedia coverage and reign records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.civilizations",
+      "name": "Civilizations",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Civilizations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ancient",
+        "Classical",
+        "Medieval",
+        "Pre-Columbian"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 civilizations ranked by Encyclopedic coverage and archaeological evidence.",
+        "metric": "Encyclopedic coverage and archaeological evidence",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.wars",
+      "name": "Wars",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Wars"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By deaths",
+        "By duration",
+        "World wars",
+        "Civil wars"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 wars ranked by Correlates of War/UCDP conflict data and historical estimates.",
+        "metric": "Correlates of War/UCDP conflict data and historical estimates",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Death tolls for pre-modern wars are estimates with wide uncertainty."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.battles",
+      "name": "Battles",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Battles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By casualties",
+        "Decisive battles",
+        "Naval battles",
+        "Sieges"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 battles ranked by Wikidata/Wikipedia coverage; casualty figures are historiographical.",
+        "metric": "Wikidata/Wikipedia coverage; casualty figures are historiographical",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.revolutions",
+      "name": "Revolutions",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Revolutions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Political",
+        "Social",
+        "Industrial",
+        "Colour revolutions"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 revolutions ranked by Encyclopedic coverage and conflict datasets.",
+        "metric": "Encyclopedic coverage and conflict datasets",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.ancient-wonders",
+      "name": "Ancient Wonders",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Ancient Wonders"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Seven Wonders",
+        "Lost wonders",
+        "Megastructures"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 ancient wonders ranked by UNESCO/Wikidata coverage and archaeological records.",
+        "metric": "UNESCO/Wikidata coverage and archaeological records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.heritage-at-risk",
+      "name": "Heritage at Risk",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Heritage at Risk"
+      ],
+      "level": 2,
+      "subcategories": [
+        "World Heritage in danger",
+        "Conflict zones",
+        "Climate-threatened",
+        "Neglected monuments"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "unesco_whc",
+            "name": "UNESCO World Heritage Convention",
+            "access_model": "restricted",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 heritage at risk ranked by UNESCO in-danger listings and threat assessments.",
+        "metric": "UNESCO in-danger listings and threat assessments",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.archaeological-sites",
+      "name": "Archaeological Sites",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Archaeological Sites"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Prehistoric",
+        "Classical",
+        "Underwater",
+        "Urban"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 archaeological sites ranked by OSM/Wikidata site records and UNESCO data.",
+        "metric": "OSM/Wikidata site records and UNESCO data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.art-movements",
+      "name": "Art Movements",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Art Movements"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Renaissance",
+        "Modernism",
+        "Impressionism",
+        "Contemporary"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 art movements ranked by Museum collection counts, Wikidata and art-history scholarship.",
+        "metric": "Museum collection counts, Wikidata and art-history scholarship",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.philosophers",
+      "name": "Philosophers",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Philosophers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ancient",
+        "Modern",
+        "Eastern",
+        "Political"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 philosophers ranked by Wikidata sitelinks, pageviews and SEP/IEP coverage.",
+        "metric": "Wikidata sitelinks, pageviews and SEP/IEP coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.writers",
+      "name": "Writers",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Writers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Novelists",
+        "Poets",
+        "Playwrights",
+        "Essayists"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 writers ranked by Open Library/Crossref/Wikidata coverage and citations.",
+        "metric": "Open Library/Crossref/Wikidata coverage and citations",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.poets",
+      "name": "Poets",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Poets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Classical",
+        "Romantic",
+        "Modern",
+        "Non-English"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 poets ranked by Wikidata/pageviews and poetry anthologies.",
+        "metric": "Wikidata/pageviews and poetry anthologies",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.religious-figures",
+      "name": "Religious Figures",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Religious Figures"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Founders",
+        "Prophets",
+        "Saints",
+        "Scholars"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 religious figures ranked by Encyclopedic coverage; theological significance is not measurable.",
+        "metric": "Encyclopedic coverage; theological significance is not measurable",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.saints",
+      "name": "Saints",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Saints"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Catholic",
+        "Orthodox",
+        "Coptic",
+        "Anglican"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 saints ranked by Official canonisation lists and Wikidata.",
+        "metric": "Official canonisation lists and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.popes",
+      "name": "Popes",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Popes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By tenure",
+        "By influence",
+        "Historical",
+        "Modern"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 popes ranked by Official papal lists and Wikidata.",
+        "metric": "Official papal lists and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.monarchs",
+      "name": "Monarchs",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Monarchs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Longest-reigning",
+        "Most influential",
+        "Current",
+        "Constitutional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 monarchs ranked by Reign dates from official/Wikidata records.",
+        "metric": "Reign dates from official/Wikidata records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.generals",
+      "name": "Generals",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Generals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By victories",
+        "By campaigns",
+        "Ancient",
+        "Modern"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 generals ranked by Encyclopedic coverage and battle records.",
+        "metric": "Encyclopedic coverage and battle records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.inventors",
+      "name": "Inventors",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Inventors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Historical",
+        "Modern",
+        "Patent holders",
+        "Women inventors"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "patentsview",
+            "name": "PatentsView API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "epo_ops",
+            "name": "EPO Open Patent Services",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 inventors ranked by Patent counts and encyclopedic coverage.",
+        "metric": "Patent counts and encyclopedic coverage",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.explorers",
+      "name": "Explorers",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Explorers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Age of Discovery",
+        "Polar",
+        "Space",
+        "Underwater"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 explorers ranked by Encyclopedic coverage and expedition records.",
+        "metric": "Encyclopedic coverage and expedition records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.pirates",
+      "name": "Pirates",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Pirates"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Historical",
+        "Fictional",
+        "Privateers",
+        "Modern piracy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 pirates ranked by Encyclopedic coverage; historical records are fragmentary.",
+        "metric": "Encyclopedic coverage; historical records are fragmentary",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.myths",
+      "name": "Myths",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Myths"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Greek",
+        "Norse",
+        "Hindu",
+        "African",
+        "Indigenous"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 myths ranked by Wikidata/Wikipedia coverage and folklore collections.",
+        "metric": "Wikidata/Wikipedia coverage and folklore collections",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.legends",
+      "name": "Legends",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Legends"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Folk heroes",
+        "Urban legends",
+        "Religious legends",
+        "Local legends"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 legends ranked by Encyclopedic/folklore coverage.",
+        "metric": "Encyclopedic/folklore coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.festivals",
+      "name": "Festivals",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Festivals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Religious",
+        "Music",
+        "Cultural",
+        "Harvest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 festivals ranked by OSM/event listings and pageviews.",
+        "metric": "OSM/event listings and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.traditions",
+      "name": "Traditions",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Traditions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Culinary",
+        "Music",
+        "Craft",
+        "Ritual"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 traditions ranked by UNESCO intangible heritage and encyclopedic coverage.",
+        "metric": "UNESCO intangible heritage and encyclopedic coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.languages",
+      "name": "Languages",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Languages"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By speakers",
+        "By countries",
+        "Official languages",
+        "Sign languages"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 languages ranked by Ethnologue/Glottolog/UNESCO language data.",
+        "metric": "Ethnologue/Glottolog/UNESCO language data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Speaker counts are estimates; Ethnologue is proprietary, Glottolog is open."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.endangered-languages",
+      "name": "Endangered Languages",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Endangered Languages"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Critically endangered",
+        "Revitalising",
+        "Extinct",
+        "By region"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 endangered languages ranked by UNESCO Atlas of the World's Languages in Danger and Glottolog.",
+        "metric": "UNESCO Atlas of the World's Languages in Danger and Glottolog",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "history-culture.scripts",
+      "name": "Writing Scripts",
+      "parent_id": "history-culture",
+      "parent_name": "History & Culture",
+      "path": [
+        "History & Culture",
+        "Writing Scripts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Alphabets",
+        "Abjads",
+        "Syllabaries",
+        "Logographies"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 writing scripts ranked by Unicode script data and Wikidata.",
+        "metric": "Unicode script data and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

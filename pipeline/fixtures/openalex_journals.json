@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "count": 4
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/S1",
+   "display_name": "Big Journal",
+   "works_count": 10000,
+   "cited_by_count": 100000,
+   "issn_l": "1111-1111",
+   "type": "journal"
+  },
+  {
+   "id": "https://openalex.org/S2",
+   "display_name": "Dense Journal",
+   "works_count": 4000,
+   "cited_by_count": 80000,
+   "issn_l": "2222-2222",
+   "type": "journal"
+  },
+  {
+   "id": "https://openalex.org/S3",
+   "display_name": "Tiny Journal",
+   "works_count": 1999,
+   "cited_by_count": 9999999,
+   "issn_l": "3333-3333",
+   "type": "journal"
+  },
+  {
+   "id": "https://openalex.org/S4",
+   "display_name": "A Book Series",
+   "works_count": 9000,
+   "cited_by_count": 900000,
+   "issn_l": "4444-4444",
+   "type": "book series"
+  }
+ ]
+}

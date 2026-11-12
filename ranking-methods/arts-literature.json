@@ -1,0 +1,635 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "arts-literature",
+  "category_name": "Arts & Literature",
+  "topic_count": 29,
+  "method_counts": {
+    "rating_aggregate": 3,
+    "canon_proxy": 13,
+    "bibliometric": 2,
+    "attention_proxy": 6,
+    "market_cap": 1,
+    "event_outcome": 2,
+    "geospatial": 2
+  },
+  "assignments": [
+    {
+      "topic_id": "arts-literature.books",
+      "topic_name": "Books",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Open Library/Google Books metadata; ratings and sales are fragmented",
+      "question": "Top 10 books ranked by Open Library/Google Books metadata; ratings and sales are fragmented.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata",
+        "internet_archive"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.novels",
+      "topic_name": "Novels",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Open Library coverage, pageviews and award lists",
+      "question": "Top 10 novels ranked by Open Library coverage, pageviews and award lists.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.authors",
+      "topic_name": "Authors",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/Crossref citations and Open Library coverage",
+      "question": "Top 10 authors ranked by OpenAlex/Crossref citations and Open Library coverage.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.rare-book-collections",
+      "topic_name": "Rare Book Collections",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Collection catalogues and Open Library/Wikidata coverage",
+      "question": "Top 10 rare book collections ranked by Collection catalogues and Open Library/Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata",
+        "internet_archive"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.bookstores",
+      "topic_name": "Bookstores",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM bookstore density and pageviews",
+      "question": "Top 10 bookstores ranked by OSM bookstore density and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.publishers",
+      "topic_name": "Publishers",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed publishers; market share is commercial",
+      "question": "Top 10 publishers ranked by Revenue of listed publishers; market share is commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.literary-awards",
+      "topic_name": "Literary Awards",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Official award winners and shortlists",
+      "question": "Top 10 literary awards ranked by Official award winners and shortlists.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.art-museums",
+      "topic_name": "Art Museums",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Collection size, OSM/Wikidata coverage and visitor numbers",
+      "question": "Top 10 art museums ranked by Collection size, OSM/Wikidata coverage and visitor numbers.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana",
+        "rijksmuseum",
+        "harvard_art"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.paintings",
+      "topic_name": "Paintings",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Museum collection metadata and Wikidata coverage",
+      "question": "Top 10 paintings ranked by Museum collection metadata and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana",
+        "rijksmuseum",
+        "harvard_art"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.sculptures",
+      "topic_name": "Sculptures",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Museum/collection metadata and Wikidata coverage",
+      "question": "Top 10 sculptures ranked by Museum/collection metadata and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.artists",
+      "topic_name": "Artists",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Museum collection counts, Wikidata sitelinks and auction records",
+      "question": "Top 10 artists ranked by Museum collection counts, Wikidata sitelinks and auction records.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana",
+        "rijksmuseum",
+        "harvard_art"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.photographers",
+      "topic_name": "Photographers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Museum collections and Wikidata coverage",
+      "question": "Top 10 photographers ranked by Museum collections and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.architects",
+      "topic_name": "Architects",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Pritzker/industry awards and Wikidata coverage",
+      "question": "Top 10 architects ranked by Pritzker/industry awards and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.buildings",
+      "topic_name": "Buildings",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/Wikidata height, age and visitor data",
+      "question": "Top 10 buildings ranked by OSM/Wikidata height, age and visitor data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.skyscrapers",
+      "topic_name": "Skyscrapers",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "CTBUH/Wikidata height data",
+      "question": "Top 10 skyscrapers ranked by CTBUH/Wikidata height data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.design-schools",
+      "topic_name": "Design Schools",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "Research output is a weak proxy for design education quality",
+      "question": "Top 10 design schools ranked by Research output is a weak proxy for design education quality.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.graphic-designers",
+      "topic_name": "Graphic Designers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Award records and Wikidata coverage",
+      "question": "Top 10 graphic designers ranked by Award records and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.illustrators",
+      "topic_name": "Illustrators",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Award records and Wikidata coverage",
+      "question": "Top 10 illustrators ranked by Award records and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.comics",
+      "topic_name": "Comics",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Open Library metadata and community ratings",
+      "question": "Top 10 comics ranked by Open Library metadata and community ratings.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.manga",
+      "topic_name": "Manga",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "MyAnimeList/AniList manga scores",
+      "question": "Top 10 manga ranked by MyAnimeList/AniList manga scores.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "jikan",
+        "anilist"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.graphic-novels",
+      "topic_name": "Graphic Novels",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Award lists and Open Library coverage",
+      "question": "Top 10 graphic novels ranked by Award lists and Open Library coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.theatre",
+      "topic_name": "Theatre",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Production listings and awards; no open global audience dataset",
+      "question": "Top 10 theatre ranked by Production listings and awards; no open global audience dataset.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.plays",
+      "topic_name": "Plays",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Award lists, Open Library coverage and production counts",
+      "question": "Top 10 plays ranked by Award lists, Open Library coverage and production counts.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.musicals",
+      "topic_name": "Musicals",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Award wins and box-office data where disclosed",
+      "question": "Top 10 musicals ranked by Award wins and box-office data where disclosed.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.operas",
+      "topic_name": "Operas",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Operabase/MusicBrainz coverage and performance counts",
+      "question": "Top 10 operas ranked by Operabase/MusicBrainz coverage and performance counts.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.ballets",
+      "topic_name": "Ballets",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Company/performance records and awards",
+      "question": "Top 10 ballets ranked by Company/performance records and awards.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.dance-companies",
+      "topic_name": "Dance Companies",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Company records and performance counts",
+      "question": "Top 10 dance companies ranked by Company records and performance counts.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.street-art",
+      "topic_name": "Street Art",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/Wikidata coverage and pageviews",
+      "question": "Top 10 street art ranked by OSM/Wikidata coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "arts-literature.digital-art",
+      "topic_name": "Digital Art",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Marketplace data is commercial; Wikidata/pageviews are weak proxies",
+      "question": "Top 10 digital art ranked by Marketplace data is commercial; Wikidata/pageviews are weak proxies.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    }
+  ]
+}

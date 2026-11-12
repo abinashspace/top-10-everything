@@ -1,0 +1,616 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "food-drink",
+  "category_name": "Food & Drink",
+  "topic_count": 29,
+  "method_counts": {
+    "human_review": 2,
+    "canon_proxy": 2,
+    "attention_proxy": 11,
+    "official_stat": 4,
+    "rating_aggregate": 1,
+    "market_cap": 2,
+    "trade_flow": 6,
+    "survey": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "food-drink.restaurants",
+      "topic_name": "Restaurants",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Restaurant quality requires inspections/reviews; no open global dataset",
+      "question": "Top 10 restaurants ranked by Restaurant quality requires inspections/reviews; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "food-drink.chefs",
+      "topic_name": "Chefs",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Chef rankings are editorial; no open quality dataset",
+      "question": "Top 10 chefs ranked by Chef rankings are editorial; no open quality dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "food-drink.cuisines",
+      "topic_name": "Cuisines",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Wikidata/OSM restaurant density and pageviews",
+      "question": "Top 10 cuisines ranked by Wikidata/OSM restaurant density and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "food-drink.dishes",
+      "topic_name": "Dishes",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe database coverage and Wikipedia pageviews",
+      "question": "Top 10 dishes ranked by Recipe database coverage and Wikipedia pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.foods",
+      "topic_name": "Foods",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT production and USDA nutrient data",
+      "question": "Top 10 foods ranked by FAOSTAT production and USDA nutrient data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.desserts",
+      "topic_name": "Desserts",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 desserts ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.cheeses",
+      "topic_name": "Cheeses",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Open Food Facts product counts and Wikidata coverage",
+      "question": "Top 10 cheeses ranked by Open Food Facts product counts and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.wines",
+      "topic_name": "Wines",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Wine ratings are proprietary (Vivino, Wine Advocate); Open Food Facts lacks ratings",
+      "question": "Top 10 wines ranked by Wine ratings are proprietary (Vivino, Wine Advocate); Open Food Facts lacks ratings.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.beers",
+      "topic_name": "Beers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Open Food Facts product counts and Wikidata coverage",
+      "question": "Top 10 beers ranked by Open Food Facts product counts and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.spirits",
+      "topic_name": "Spirits",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Brand sales from company reports; industry rankings are commercial",
+      "question": "Top 10 spirits ranked by Brand sales from company reports; industry rankings are commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.coffees",
+      "topic_name": "Coffees",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "FAOSTAT/UN Comtrade coffee production and trade",
+      "question": "Top 10 coffees ranked by FAOSTAT/UN Comtrade coffee production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.teas",
+      "topic_name": "Teas",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "FAOSTAT/UN Comtrade tea production and trade",
+      "question": "Top 10 teas ranked by FAOSTAT/UN Comtrade tea production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.chocolates",
+      "topic_name": "Chocolates",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "Cocoa production/trade data and product metadata",
+      "question": "Top 10 chocolates ranked by Cocoa production/trade data and product metadata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.snacks",
+      "topic_name": "Snacks",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Brand sales from company reports; no open global snack ranking",
+      "question": "Top 10 snacks ranked by Brand sales from company reports; no open global snack ranking.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.breakfasts",
+      "topic_name": "Breakfasts",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 breakfasts ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.street-foods",
+      "topic_name": "Street Foods",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "OSM street-food POI density and pageviews",
+      "question": "Top 10 street foods ranked by OSM street-food POI density and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "food-drink.pizzas",
+      "topic_name": "Pizzas",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 pizzas ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.burgers",
+      "topic_name": "Burgers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 burgers ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.noodles",
+      "topic_name": "Noodles",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 noodles ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.breads",
+      "topic_name": "Breads",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Recipe coverage and pageviews",
+      "question": "Top 10 breads ranked by Recipe coverage and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "themealdb",
+        "thecocktaildb"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "open_food_facts"
+      ]
+    },
+    {
+      "topic_id": "food-drink.spices",
+      "topic_name": "Spices",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "FAOSTAT/UN Comtrade production and trade",
+      "question": "Top 10 spices ranked by FAOSTAT/UN Comtrade production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.fruits",
+      "topic_name": "Fruits",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT production and trade",
+      "question": "Top 10 fruits ranked by FAOSTAT production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.vegetables",
+      "topic_name": "Vegetables",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT production and trade",
+      "question": "Top 10 vegetables ranked by FAOSTAT production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.superfoods",
+      "topic_name": "Superfoods",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Nutrient composition from USDA FoodData Central",
+      "question": "Top 10 superfoods ranked by Nutrient composition from USDA FoodData Central.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.diets",
+      "topic_name": "Diets",
+      "method_id": "survey",
+      "method_name": "Survey-based ranking",
+      "metric": "Diet prevalence surveys and nutrition studies",
+      "question": "Top 10 diets ranked by Diet prevalence surveys and nutrition studies.",
+      "basis": "survey",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "usda_fooddata",
+        "open_food_facts"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "faostat"
+      ]
+    },
+    {
+      "topic_id": "food-drink.cookbooks",
+      "topic_name": "Cookbooks",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Open Library/Google Books metadata; sales data is commercial",
+      "question": "Top 10 cookbooks ranked by Open Library/Google Books metadata; sales data is commercial.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "food-drink.food-festivals",
+      "topic_name": "Food Festivals",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/event listings and pageviews",
+      "question": "Top 10 food festivals ranked by OSM/event listings and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "food-drink.breweries",
+      "topic_name": "Breweries",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "Beer production/trade statistics; brewery-level data is patchy",
+      "question": "Top 10 breweries ranked by Beer production/trade statistics; brewery-level data is patchy.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "food-drink.distilleries",
+      "topic_name": "Distilleries",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "Spirits production/trade statistics; company-level data is commercial",
+      "question": "Top 10 distilleries ranked by Spirits production/trade statistics; company-level data is commercial.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    }
+  ]
+}

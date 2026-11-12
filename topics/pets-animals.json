@@ -1,0 +1,1162 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "pets-animals",
+    "name": "Pets & Animals",
+    "description": "Breeds, species, pet products and animal welfare.",
+    "topic_count": 17,
+    "subcategory_count": 69,
+    "research_status_counts": {
+      "partial": 8,
+      "unsupported": 4,
+      "researched": 5
+    },
+    "data_availability_counts": {
+      "limited": 8,
+      "none": 4,
+      "strong": 3,
+      "moderate": 2
+    }
+  },
+  "topics": [
+    {
+      "id": "pets-animals.dog-breeds",
+      "name": "Dog Breeds",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Dog Breeds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Most popular",
+        "Largest",
+        "Smallest",
+        "Healthiest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 dog breeds ranked by Kennel-club registrations and breed popularity where published.",
+        "metric": "Kennel-club registrations and breed popularity where published",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.cat-breeds",
+      "name": "Cat Breeds",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Cat Breeds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Most popular",
+        "Long-haired",
+        "Short-haired",
+        "Hypoallergenic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 cat breeds ranked by Kennel-club registrations where published; otherwise Wikidata.",
+        "metric": "Kennel-club registrations where published; otherwise Wikidata",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.pet-brands",
+      "name": "Pet Brands",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Pet Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Food",
+        "Toys",
+        "Accessories",
+        "Health"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 pet brands ranked by Revenue of listed pet companies.",
+        "metric": "Revenue of listed pet companies",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.pet-food",
+      "name": "Pet Food",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Pet Food"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Dry",
+        "Wet",
+        "Raw",
+        "Prescription"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 pet food ranked by Pet-food quality/safety requires regulatory and veterinary data.",
+        "metric": "Pet-food quality/safety requires regulatory and veterinary data",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [
+        "AAFCO/FEDIAF standards exist but there is no open global product ranking."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.veterinarians",
+      "name": "Veterinarians",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Veterinarians"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Clinics",
+        "Specialists",
+        "Emergency",
+        "Mobile"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 veterinarians ranked by Veterinarian quality/price; no open global dataset.",
+        "metric": "Veterinarian quality/price; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.animal-hospitals",
+      "name": "Animal Hospitals",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Animal Hospitals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Specialist",
+        "Emergency",
+        "Charity",
+        "University"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 animal hospitals ranked by Facility quality; no open global dataset.",
+        "metric": "Facility quality; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.animal-species",
+      "name": "Animal Species",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Animal Species"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By population",
+        "By size",
+        "By speed",
+        "By lifespan"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 animal species ranked by GBIF/IUCN species records.",
+        "metric": "GBIF/IUCN species records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.birds",
+      "name": "Birds",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Birds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By species count",
+        "By size",
+        "By migration",
+        "Endangered"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "ebird",
+            "name": "eBird API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 birds ranked by GBIF/eBird/IUCN bird records.",
+        "metric": "GBIF/eBird/IUCN bird records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.fishes",
+      "name": "Fishes",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Fishes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By size",
+        "By species count",
+        "Commercial",
+        "Aquarium"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 fishes ranked by GBIF/IUCN/FishBase records.",
+        "metric": "GBIF/IUCN/FishBase records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.reptiles",
+      "name": "Reptiles",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Reptiles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By size",
+        "By venom",
+        "By species count",
+        "Endangered"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 reptiles ranked by GBIF/IUCN reptile records.",
+        "metric": "GBIF/IUCN reptile records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.horses",
+      "name": "Horses",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Horses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Breeds",
+        "Fastest",
+        "Largest",
+        "Sport horses"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 horses ranked by Breed registries and sport records.",
+        "metric": "Breed registries and sport records",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.livestock-breeds",
+      "name": "Livestock Breeds",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Livestock Breeds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cattle",
+        "Sheep",
+        "Goats",
+        "Pigs",
+        "Poultry"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "un_comtrade",
+            "name": "UN Comtrade API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 livestock breeds ranked by FAO breed/genetic resources data and national registries.",
+        "metric": "FAO breed/genetic resources data and national registries",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.service-dogs",
+      "name": "Service Dogs",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Service Dogs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Guide dogs",
+        "Assistance dogs",
+        "Therapy dogs",
+        "Police dogs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 service dogs ranked by Programme records and pageviews; no open global ranking.",
+        "metric": "Programme records and pageviews; no open global ranking",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.pet-insurance",
+      "name": "Pet Insurance",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Pet Insurance"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Accident",
+        "Comprehensive",
+        "Lifetime",
+        "Budget"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 pet insurance ranked by Insurance pricing/quality is commercial and jurisdiction-specific.",
+        "metric": "Insurance pricing/quality is commercial and jurisdiction-specific",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.animal-charities",
+      "name": "Animal Charities",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Animal Charities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Shelters",
+        "Wildlife",
+        "Conservation",
+        "Rescue"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 animal charities ranked by Charity regulator filings and programme data.",
+        "metric": "Charity regulator filings and programme data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.wildlife-parks",
+      "name": "Wildlife Parks",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Wildlife Parks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Safari parks",
+        "Reserves",
+        "Rehabilitation",
+        "Marine"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "protected_planet",
+            "name": "Protected Planet",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 wildlife parks ranked by OSM/protected-area data and visitor numbers where published.",
+        "metric": "OSM/protected-area data and visitor numbers where published",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "pets-animals.insects",
+      "name": "Insects",
+      "parent_id": "pets-animals",
+      "parent_name": "Pets & Animals",
+      "path": [
+        "Pets & Animals",
+        "Insects"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By species count",
+        "By size",
+        "Pollinators",
+        "Pests"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 insects ranked by GBIF/IUCN insect records.",
+        "metric": "GBIF/IUCN insect records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

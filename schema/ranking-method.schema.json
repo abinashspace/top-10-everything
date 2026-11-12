@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://top10everything.example/schema/ranking-method.schema.json",
+  "title": "Top 10 Everything ranking method",
+  "description": "A reusable ranking recipe referenced by topics. A method describes how a ranking must be computed; it does not assert that the data exists for every topic that uses it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "basis",
+    "subjectivity",
+    "description",
+    "criteria",
+    "indicators",
+    "scoring",
+    "data_requirements",
+    "human_verification_required",
+    "strengths",
+    "limitations",
+    "example_topics",
+    "usage_count",
+    "example_topic_ids"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z_]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "basis": {
+      "type": "string",
+      "enum": [
+        "objective_statistic",
+        "expert_index",
+        "bibliometric",
+        "official_result",
+        "user_rating",
+        "proxy_attention",
+        "proxy_activity",
+        "market_data",
+        "objective_measurement",
+        "editorial",
+        "survey",
+        "official_record"
+      ]
+    },
+    "subjectivity": {
+      "type": "string",
+      "enum": ["objective", "subjective", "mixed", "proxy"]
+    },
+    "description": { "type": "string", "minLength": 20 },
+    "criteria": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "type": "string" }
+    },
+    "indicators": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "scoring": {
+      "type": "string",
+      "minLength": 40,
+      "description": "Prescriptive scoring rule. Must be specific enough for two analysts to reproduce the same ranking."
+    },
+    "data_requirements": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "human_verification_required": { "type": "boolean" },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "limitations": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "example_topics": { "type": "array", "items": { "type": "string" } },
+    "usage_count": { "type": "integer", "minimum": 0 },
+    "example_topic_ids": { "type": "array", "items": { "type": "string" } }
+  }
+}

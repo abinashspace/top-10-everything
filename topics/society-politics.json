@@ -1,0 +1,2346 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "society-politics",
+    "name": "Society & Politics",
+    "description": "Governance, rights, international relations and social conditions.",
+    "topic_count": 30,
+    "subcategory_count": 113,
+    "research_status_counts": {
+      "researched": 25,
+      "partial": 5
+    },
+    "data_availability_counts": {
+      "strong": 11,
+      "moderate": 14,
+      "limited": 5
+    }
+  },
+  "topics": [
+    {
+      "id": "society-politics.governance",
+      "name": "Governance",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Governance"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Rule of law",
+        "Government effectiveness",
+        "Corruption",
+        "Voice and accountability"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 governance ranked by World Bank WGI and V-Dem governance indicators.",
+        "metric": "World Bank WGI and V-Dem governance indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Governance indices are expert-coded and correlated; do not present them as objective truth."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.democracies",
+      "name": "Democracies",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Democracies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Electoral democracy",
+        "Liberal democracy",
+        "Participatory",
+        "Hybrid regimes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 democracies ranked by V-Dem liberal democracy index and related measures.",
+        "metric": "V-Dem liberal democracy index and related measures",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.presidents",
+      "name": "Presidents",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Presidents"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Current",
+        "By tenure",
+        "By country",
+        "Historical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 presidents ranked by Official government records and Wikidata.",
+        "metric": "Official government records and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.prime-ministers",
+      "name": "Prime Ministers",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Prime Ministers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Current",
+        "By tenure",
+        "By country",
+        "Historical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 prime ministers ranked by Official government records and Wikidata.",
+        "metric": "Official government records and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.political-parties",
+      "name": "Political Parties",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Political Parties"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By membership",
+        "By vote share",
+        "By seats",
+        "By ideology"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_values_survey",
+            "name": "World Values Survey",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "parlgov",
+            "name": "ParlGov",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "manifesto_project",
+            "name": "Manifesto Project Database",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 political parties ranked by Election results and party registries.",
+        "metric": "Election results and party registries",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.elections",
+      "name": "Elections",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Elections"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Turnout",
+        "Closeness",
+        "Recent",
+        "Referendums"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_values_survey",
+            "name": "World Values Survey",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "parlgov",
+            "name": "ParlGov",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "manifesto_project",
+            "name": "Manifesto Project Database",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 elections ranked by Official election results and turnout data.",
+        "metric": "Official election results and turnout data",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "event",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.parliaments",
+      "name": "Parliaments",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Parliaments"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By seats",
+        "By women's representation",
+        "By turnover",
+        "Bicameral"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 parliaments ranked by IPU Parline and national parliament data.",
+        "metric": "IPU Parline and national parliament data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.mayors",
+      "name": "Mayors",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Mayors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By city size",
+        "By tenure",
+        "Notable mayors"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 mayors ranked by Official city records and Wikidata.",
+        "metric": "Official city records and Wikidata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.quality-of-life-cities",
+      "name": "Quality of Life Cities",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Quality of Life Cities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cost of living",
+        "Safety",
+        "Healthcare",
+        "Environment"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "numbeo",
+            "name": "Numbeo",
+            "access_model": "paid",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 quality of life cities ranked by Mercer/EIU indices are proprietary; build transparent composite from open indicators.",
+        "metric": "Mercer/EIU indices are proprietary; build transparent composite from open indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.peaceful-countries",
+      "name": "Peaceful Countries",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Peaceful Countries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global Peace Index",
+        "Conflict deaths",
+        "Militarisation"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 peaceful countries ranked by Global Peace Index (proprietary) or UCDP/World Bank conflict indicators.",
+        "metric": "Global Peace Index (proprietary) or UCDP/World Bank conflict indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.human-rights",
+      "name": "Human Rights",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Human Rights"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Civil liberties",
+        "Political rights",
+        "Freedom",
+        "Torture"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 human rights ranked by V-Dem, CIRI and UN human-rights indicators.",
+        "metric": "V-Dem, CIRI and UN human-rights indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.press-freedom",
+      "name": "Press Freedom",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Press Freedom"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global index",
+        "Journalist safety",
+        "Internet freedom"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 press freedom ranked by RSF/V-Dem media indicators; RSF index terms restrict commercial reuse.",
+        "metric": "RSF/V-Dem media indicators; RSF index terms restrict commercial reuse",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "RSF and Freedom House indices have licensing restrictions. Check before redistribution."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.corruption",
+      "name": "Corruption",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Corruption"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Perceived corruption",
+        "Bribery",
+        "Public integrity"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 corruption ranked by Transparency International CPI (CC BY-ND) or World Bank control of corruption.",
+        "metric": "Transparency International CPI (CC BY-ND) or World Bank control of corruption",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "CPI is CC BY-ND: redistribution of modified rankings may be restricted."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.rule-of-law",
+      "name": "Rule of Law",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Rule of Law"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Index",
+        "Judicial independence",
+        "Property rights"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 rule of law ranked by World Justice Project Rule of Law Index and World Bank WGI.",
+        "metric": "World Justice Project Rule of Law Index and World Bank WGI",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.ngos",
+      "name": "NGOs",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "NGOs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Most effective",
+        "By cause",
+        "International"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 ngos ranked by Revenue and programme data from charity regulators.",
+        "metric": "Revenue and programme data from charity regulators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.charities",
+      "name": "Charities",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Charities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By donations",
+        "By transparency",
+        "By impact",
+        "Local"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 charities ranked by Charity regulator filings (US IRS 990, UK Charity Commission).",
+        "metric": "Charity regulator filings (US IRS 990, UK Charity Commission)",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.humanitarian-aid",
+      "name": "Humanitarian Aid",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Humanitarian Aid"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By donor",
+        "By recipient",
+        "By sector",
+        "By agency"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "reliefweb",
+            "name": "ReliefWeb API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "unhcr",
+            "name": "UNHCR Refugee Data Finder",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 humanitarian aid ranked by UN OCHA FTS and OECD DAC aid statistics.",
+        "metric": "UN OCHA FTS and OECD DAC aid statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.international-organizations",
+      "name": "International Organizations",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "International Organizations"
+      ],
+      "level": 2,
+      "subcategories": [
+        "UN agencies",
+        "Financial institutions",
+        "Security",
+        "Trade"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "dbpedia",
+            "name": "DBpedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 international organizations ranked by Membership, budget and mandate records.",
+        "metric": "Membership, budget and mandate records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.treaties",
+      "name": "Treaties",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Treaties"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Multilateral",
+        "Bilateral",
+        "Environmental",
+        "Human rights"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 treaties ranked by UN Treaty Collection and official registries.",
+        "metric": "UN Treaty Collection and official registries",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.constitutions",
+      "name": "Constitutions",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Constitutions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Oldest",
+        "Longest",
+        "Amended",
+        "Written/unwritten"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 constitutions ranked by Constitute Project and official texts.",
+        "metric": "Constitute Project and official texts",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.immigration",
+      "name": "Immigration",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Immigration"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Net migration",
+        "Immigrant share",
+        "Refugee resettlement",
+        "Citizenship"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 immigration ranked by UN DESA/World Bank migration indicators.",
+        "metric": "UN DESA/World Bank migration indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.refugees",
+      "name": "Refugees",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Refugees"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By origin",
+        "By host country",
+        "By displacement",
+        "Resettlement"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "unhcr",
+            "name": "UNHCR Refugee Data Finder",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "reliefweb",
+            "name": "ReliefWeb API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 refugees ranked by UNHCR Refugee Data Finder.",
+        "metric": "UNHCR Refugee Data Finder",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.happiness",
+      "name": "Happiness",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Happiness"
+      ],
+      "level": 2,
+      "subcategories": [
+        "World Happiness Report",
+        "Life satisfaction",
+        "Wellbeing"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_values_survey",
+            "name": "World Values Survey",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "survey",
+        "name": "Survey-based ranking",
+        "question": "Top 10 happiness ranked by World Happiness Report / Gallup World Poll; underlying data is proprietary.",
+        "metric": "World Happiness Report / Gallup World Poll; underlying data is proprietary",
+        "basis": "survey",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Gallup microdata is commercial. World Happiness Report summary tables may be usable with attribution."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.social-progress",
+      "name": "Social Progress",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Social Progress"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Basic needs",
+        "Wellbeing",
+        "Opportunity"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 social progress ranked by Social Progress Index and related open indicators.",
+        "metric": "Social Progress Index and related open indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.inequality",
+      "name": "Inequality",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Inequality"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Gini",
+        "Income share",
+        "Wealth inequality",
+        "Gender"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "imf",
+            "name": "IMF Data API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "eurostat",
+            "name": "Eurostat API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 inequality ranked by World Bank PIP/WID inequality data.",
+        "metric": "World Bank PIP/WID inequality data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.poverty",
+      "name": "Poverty",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Poverty"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Extreme poverty",
+        "Multidimensional",
+        "Child poverty",
+        "By country"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "unicef",
+            "name": "UNICEF Data",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "worldpop",
+            "name": "WorldPop",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 poverty ranked by World Bank PIP and UNDP MPI.",
+        "metric": "World Bank PIP and UNDP MPI",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.development",
+      "name": "Development",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Development"
+      ],
+      "level": 2,
+      "subcategories": [
+        "HDI",
+        "GDP per capita",
+        "Life expectancy",
+        "Education"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "gapminder",
+            "name": "Gapminder Data",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "imf",
+            "name": "IMF Data API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 development ranked by UNDP Human Development Index and World Bank indicators.",
+        "metric": "UNDP Human Development Index and World Bank indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.gender-gap",
+      "name": "Gender Gap",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Gender Gap"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Economic participation",
+        "Education",
+        "Health",
+        "Political empowerment"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 gender gap ranked by WEF Global Gender Gap (proprietary) or UN/World Bank gender indicators.",
+        "metric": "WEF Global Gender Gap (proprietary) or UN/World Bank gender indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.aging",
+      "name": "Aging",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Aging"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Median age",
+        "65+ share",
+        "Dependency ratio",
+        "Healthy ageing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "unicef",
+            "name": "UNICEF Data",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "worldpop",
+            "name": "WorldPop",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 aging ranked by UN World Population Prospects and World Bank indicators.",
+        "metric": "UN World Population Prospects and World Bank indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "society-politics.youth",
+      "name": "Youth",
+      "parent_id": "society-politics",
+      "parent_name": "Society & Politics",
+      "path": [
+        "Society & Politics",
+        "Youth"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Population share",
+        "Unemployment",
+        "Education",
+        "Participation"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "ilostat",
+            "name": "ILOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "unicef",
+            "name": "UNICEF Data",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 youth ranked by UN/ILO/World Bank youth indicators.",
+        "metric": "UN/ILO/World Bank youth indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

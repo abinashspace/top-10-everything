@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "count": 12,
+  "description": "Worked rankings produced by pipeline/run.py from the catalogued sources and methods.",
+  "rankings": [
+    {
+      "topic_id": "business-finance.cryptocurrencies",
+      "topic_name": "Cryptocurrencies",
+      "category": "business-finance",
+      "method": "market_cap",
+      "file": "rankings/business-finance.cryptocurrencies.json",
+      "generated_at": "2026-11-12T12:14:33+00:00",
+      "refresh_after": "2026-11-13",
+      "leader": "Bitcoin",
+      "item_count": 10,
+      "records_considered": 100
+    },
+    {
+      "topic_id": "business-finance.economies",
+      "topic_name": "Economies",
+      "category": "business-finance",
+      "method": "official_stat",
+      "file": "rankings/business-finance.economies.json",
+      "generated_at": "2026-11-12T12:14:33+00:00",
+      "refresh_after": "2027-02-10",
+      "leader": "United States",
+      "item_count": 10,
+      "records_considered": 214
+    },
+    {
+      "topic_id": "education.research-institutions",
+      "topic_name": "Research Institutions",
+      "category": "education",
+      "method": "bibliometric",
+      "file": "rankings/education.research-institutions.json",
+      "generated_at": "2026-11-12T12:14:33+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "Centre National de la Recherche Scientifique",
+      "item_count": 10,
+      "records_considered": 91
+    },
+    {
+      "topic_id": "entertainment.radio-stations",
+      "topic_name": "Radio Stations",
+      "category": "entertainment",
+      "method": "community_activity",
+      "file": "rankings/entertainment.radio-stations.json",
+      "generated_at": "2026-11-12T12:14:33+00:00",
+      "refresh_after": "2026-11-19",
+      "leader": "RTL",
+      "item_count": 10,
+      "records_considered": 50
+    },
+    {
+      "topic_id": "environment-nature.carbon-emitters",
+      "topic_name": "Carbon Emitters",
+      "category": "environment-nature",
+      "method": "official_stat",
+      "file": "rankings/environment-nature.carbon-emitters.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "China",
+      "item_count": 10,
+      "records_considered": 220
+    },
+    {
+      "topic_id": "environment-nature.renewable-energy",
+      "topic_name": "Renewable Energy",
+      "category": "environment-nature",
+      "method": "official_stat",
+      "file": "rankings/environment-nature.renewable-energy.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "Paraguay",
+      "item_count": 10,
+      "records_considered": 90
+    },
+    {
+      "topic_id": "health-lifestyle.longevity",
+      "topic_name": "Longevity",
+      "category": "health-lifestyle",
+      "method": "official_stat",
+      "file": "rankings/health-lifestyle.longevity.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "Monaco",
+      "item_count": 10,
+      "records_considered": 217
+    },
+    {
+      "topic_id": "science.asteroids",
+      "topic_name": "Asteroids",
+      "category": "science",
+      "method": "official_stat",
+      "file": "rankings/science.asteroids.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2026-12-12",
+      "leader": "1 Ceres (A801 AA)",
+      "item_count": 10,
+      "records_considered": 643
+    },
+    {
+      "topic_id": "science.earthquake-monitoring",
+      "topic_name": "Earthquake Monitoring",
+      "category": "science",
+      "method": "official_stat",
+      "file": "rankings/science.earthquake-monitoring.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2026-11-13",
+      "leader": "1960 Great Chilean Earthquake (Valdivia Earthquake)",
+      "item_count": 10,
+      "records_considered": 100
+    },
+    {
+      "topic_id": "science.exoplanets",
+      "topic_name": "Exoplanets",
+      "category": "science",
+      "method": "official_stat",
+      "file": "rankings/science.exoplanets.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2026-12-12",
+      "leader": "11 UMi b",
+      "item_count": 10,
+      "records_considered": 50
+    },
+    {
+      "topic_id": "science.scientific-journals",
+      "topic_name": "Scientific Journals",
+      "category": "science",
+      "method": "bibliometric",
+      "file": "rankings/science.scientific-journals.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "Chemical Reviews",
+      "item_count": 10,
+      "records_considered": 200
+    },
+    {
+      "topic_id": "society-politics.aging",
+      "topic_name": "Aging",
+      "category": "society-politics",
+      "method": "official_stat",
+      "file": "rankings/society-politics.aging.json",
+      "generated_at": "2026-11-12T12:14:34+00:00",
+      "refresh_after": "2027-11-12",
+      "leader": "Monaco",
+      "item_count": 10,
+      "records_considered": 217
+    }
+  ]
+}

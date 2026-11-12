@@ -1,0 +1,29 @@
+{
+ "fields": [
+  "full_name",
+  "diameter",
+  "class"
+ ],
+ "data": [
+  [
+   "     1 Ceres",
+   939.4,
+   "MBA"
+  ],
+  [
+   "2 Pallas",
+   null,
+   "MBA"
+  ],
+  [
+   "     4 Vesta",
+   525.4,
+   "MBA"
+  ],
+  [
+   "20000 Varuna",
+   900.0,
+   "CEN"
+  ]
+ ]
+}

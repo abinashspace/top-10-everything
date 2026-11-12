@@ -1,0 +1,31 @@
+{
+ "meta": {
+  "count": 3
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/I1",
+   "display_name": "University A",
+   "works_count": 10,
+   "cited_by_count": 100,
+   "country_code": "US",
+   "type": "education"
+  },
+  {
+   "id": "https://openalex.org/I2",
+   "display_name": "Company Labs",
+   "works_count": 5,
+   "cited_by_count": 50,
+   "country_code": "US",
+   "type": "company"
+  },
+  {
+   "id": "https://openalex.org/I3",
+   "display_name": "University B",
+   "works_count": 3,
+   "cited_by_count": null,
+   "country_code": "GB",
+   "type": "education"
+  }
+ ]
+}

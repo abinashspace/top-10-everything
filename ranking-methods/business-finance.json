@@ -1,0 +1,692 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "business-finance",
+  "category_name": "Business & Finance",
+  "topic_count": 33,
+  "method_counts": {
+    "market_cap": 18,
+    "official_stat": 9,
+    "human_review": 4,
+    "patent": 1,
+    "event_outcome": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "business-finance.companies",
+      "topic_name": "Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market capitalisation from filings and market data",
+      "question": "Top 10 companies ranked by Revenue/market capitalisation from filings and market data.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata",
+        "companies_house"
+      ]
+    },
+    {
+      "topic_id": "business-finance.brands",
+      "topic_name": "Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Brand valuations are proprietary; use market cap/revenue as a public-company proxy",
+      "question": "Top 10 brands ranked by Brand valuations are proprietary; use market cap/revenue as a public-company proxy.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.startups",
+      "topic_name": "Startups",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Funding/valuation announcements; no comprehensive open dataset",
+      "question": "Top 10 startups ranked by Funding/valuation announcements; no comprehensive open dataset.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.unicorns",
+      "topic_name": "Unicorns",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Private valuations from funding announcements/CRMs",
+      "question": "Top 10 unicorns ranked by Private valuations from funding announcements/CRMs.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.entrepreneurs",
+      "topic_name": "Entrepreneurs",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Company value/ownership from filings; private wealth is editorial",
+      "question": "Top 10 entrepreneurs ranked by Company value/ownership from filings; private wealth is editorial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.ceos",
+      "topic_name": "CEOs",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Executive compensation from SEC proxy filings (US)",
+      "question": "Top 10 ceos ranked by Executive compensation from SEC proxy filings (US).",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.richest-people",
+      "topic_name": "Richest People",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Public holdings from filings; private wealth requires proprietary estimates",
+      "question": "Top 10 richest people ranked by Public holdings from filings; private wealth requires proprietary estimates.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.economies",
+      "topic_name": "Economies",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "World Bank/IMF national accounts",
+      "question": "Top 10 economies ranked by World Bank/IMF national accounts.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "imf",
+        "eurostat"
+      ]
+    },
+    {
+      "topic_id": "business-finance.stock-exchanges",
+      "topic_name": "Stock Exchanges",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Exchange market capitalisation/volume from exchange and regulator data",
+      "question": "Top 10 stock exchanges ranked by Exchange market capitalisation/volume from exchange and regulator data.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.banks",
+      "topic_name": "Banks",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Bank assets and capital from regulatory filings",
+      "question": "Top 10 banks ranked by Bank assets and capital from regulatory filings.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.fintechs",
+      "topic_name": "Fintechs",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Market cap for public fintechs; private valuations are press-reported",
+      "question": "Top 10 fintechs ranked by Market cap for public fintechs; private valuations are press-reported.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.cryptocurrencies",
+      "topic_name": "Cryptocurrencies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "CoinGecko/CoinMarketCap market capitalisation",
+      "question": "Top 10 cryptocurrencies ranked by CoinGecko/CoinMarketCap market capitalisation.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter",
+        "coinmarketcap"
+      ]
+    },
+    {
+      "topic_id": "business-finance.crypto-exchanges",
+      "topic_name": "Crypto Exchanges",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Exchange volume/reserve data from aggregators",
+      "question": "Top 10 crypto exchanges ranked by Exchange volume/reserve data from aggregators.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter",
+        "coinmarketcap"
+      ]
+    },
+    {
+      "topic_id": "business-finance.stocks",
+      "topic_name": "Stocks",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Market capitalisation and price performance from market APIs",
+      "question": "Top 10 stocks ranked by Market capitalisation and price performance from market APIs.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.etfs",
+      "topic_name": "ETFs",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Fund assets under management from issuer/regulator data",
+      "question": "Top 10 etfs ranked by Fund assets under management from issuer/regulator data.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.mutual-funds",
+      "topic_name": "Mutual Funds",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Fund AUM and returns from regulators/fund filings",
+      "question": "Top 10 mutual funds ranked by Fund AUM and returns from regulators/fund filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.hedge-funds",
+      "topic_name": "Hedge Funds",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "AUM/returns are largely proprietary; SEC Form D/13F gives partial signals",
+      "question": "Top 10 hedge funds ranked by AUM/returns are largely proprietary; SEC Form D/13F gives partial signals.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.venture-capital",
+      "topic_name": "Venture Capital Firms",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Deal data from announcements; comprehensive databases are paid",
+      "question": "Top 10 venture capital firms ranked by Deal data from announcements; comprehensive databases are paid.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.private-equity",
+      "topic_name": "Private Equity Firms",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "AUM/deal data from disclosures; comprehensive data is paid",
+      "question": "Top 10 private equity firms ranked by AUM/deal data from disclosures; comprehensive data is paid.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.accounting-firms",
+      "topic_name": "Accounting Firms",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue and headcount from firm disclosures",
+      "question": "Top 10 accounting firms ranked by Revenue and headcount from firm disclosures.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.consulting-firms",
+      "topic_name": "Consulting Firms",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue/headcount from firm disclosures; private data is incomplete",
+      "question": "Top 10 consulting firms ranked by Revenue/headcount from firm disclosures; private data is incomplete.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.advertising-agencies",
+      "topic_name": "Advertising Agencies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Holding-company revenue from filings; agency billings are commercial",
+      "question": "Top 10 advertising agencies ranked by Holding-company revenue from filings; agency billings are commercial.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.ecommerce-companies",
+      "topic_name": "E-commerce Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 e-commerce companies ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.retailers",
+      "topic_name": "Retailers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Retail revenue from filings and statistical agencies",
+      "question": "Top 10 retailers ranked by Retail revenue from filings and statistical agencies.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.employers",
+      "topic_name": "Employers",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Employee satisfaction rankings; proprietary survey data",
+      "question": "Top 10 employers ranked by Employee satisfaction rankings; proprietary survey data.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": [
+        "companies_house"
+      ]
+    },
+    {
+      "topic_id": "business-finance.remote-work-companies",
+      "topic_name": "Remote Work Companies",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Remote-work quality; no open comparable dataset",
+      "question": "Top 10 remote work companies ranked by Remote-work quality; no open comparable dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "business-finance.logistics-companies",
+      "topic_name": "Logistics Companies",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue and volume from filings/industry data",
+      "question": "Top 10 logistics companies ranked by Revenue and volume from filings/industry data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.patents",
+      "topic_name": "Patents",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent counts and citations from PatentsView/EPO",
+      "question": "Top 10 patents ranked by Patent counts and citations from PatentsView/EPO.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "patentsview",
+        "epo_ops"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.ipos",
+      "topic_name": "IPOs",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "IPO proceeds and first-day performance from exchange/SEC data",
+      "question": "Top 10 ipos ranked by IPO proceeds and first-day performance from exchange/SEC data.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "alphavantage",
+        "sec_edgar"
+      ],
+      "backup_sources": [
+        "coingecko",
+        "frankfurter"
+      ]
+    },
+    {
+      "topic_id": "business-finance.credit-cards",
+      "topic_name": "Credit Cards",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Card terms change constantly and are not available as an open dataset",
+      "question": "Top 10 credit cards ranked by Card terms change constantly and are not available as an open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "monthly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "business-finance.insurance-companies",
+      "topic_name": "Insurance Companies",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Premiums/assets from regulatory filings",
+      "question": "Top 10 insurance companies ranked by Premiums/assets from regulatory filings.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "business-finance.real-estate-markets",
+      "topic_name": "Real Estate Markets",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "House price/rent indices from statistical agencies and BIS/OECD",
+      "question": "Top 10 real estate markets ranked by House price/rent indices from statistical agencies and BIS/OECD.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "business-finance.coworking-spaces",
+      "topic_name": "Coworking Spaces",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Quality and pricing; no open global dataset",
+      "question": "Top 10 coworking spaces ranked by Quality and pricing; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    }
+  ]
+}

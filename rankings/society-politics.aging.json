@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "society-politics.aging",
+  "topic_name": "Aging",
+  "category": "society-politics",
+  "question": "Top 10 aging ranked by UN World Population Prospects and World Bank indicators.",
+  "metric": "UN World Population Prospects and World Bank indicators",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Population aged 65 and above, % of total",
+    "unit": "share of population (%)",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:41+00:00",
+    "reference_period": "2025",
+    "records_considered": 217,
+    "records_ranked": 217,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SP.POP.65UP.TO.ZS"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "MCO",
+      "name": "Monaco",
+      "value": 36.0110586578337,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "JPN",
+      "name": "Japan",
+      "value": 29.9940966737423,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "PRI",
+      "name": "Puerto Rico (US)",
+      "value": 25.2728697076413,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "ITA",
+      "name": "Italy",
+      "value": 25.0981380733118,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "PRT",
+      "name": "Portugal",
+      "value": 24.9426193763087,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "GRC",
+      "name": "Greece",
+      "value": 24.3998585549859,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "FIN",
+      "name": "Finland",
+      "value": 24.2018896456272,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "DEU",
+      "name": "Germany",
+      "value": 23.7031981458429,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "HKG",
+      "name": "Hong Kong SAR, China",
+      "value": 23.667320346627,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "HRV",
+      "name": "Croatia",
+      "value": 23.6095692486799,
+      "unit": "share of population (%)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.65UP.TO.ZS"
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

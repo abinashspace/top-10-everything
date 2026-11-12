@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "science.asteroids",
+  "topic_name": "Asteroids",
+  "category": "science",
+  "question": "Top 10 asteroids ranked by JPL Small-Body Database size, orbit and hazard parameters.",
+  "metric": "JPL Small-Body Database size, orbit and hazard parameters",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Estimated effective diameter",
+    "unit": "km",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2026-12-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:08:52+00:00",
+    "reference_period": null,
+    "records_considered": 643,
+    "records_ranked": 643,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "catalogue": "JPL Small-Body Database, main-belt asteroids with diameter >= 50 km"
+  },
+  "sources": [
+    {
+      "id": "jpl_sbdb",
+      "name": "JPL Small-Body Database API",
+      "official_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html",
+      "api_docs_url": "https://ssd-api.jpl.nasa.gov/doc/sbdb.html",
+      "commercial_use": "allowed",
+      "attribution_required": false,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:22+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "1 Ceres (A801 AA)",
+      "name": "1 Ceres (A801 AA)",
+      "value": 939.4,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "4 Vesta (A807 FA)",
+      "name": "4 Vesta (A807 FA)",
+      "value": 522.77,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "2 Pallas (A802 FA)",
+      "name": "2 Pallas (A802 FA)",
+      "value": 513.0,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "10 Hygiea (A849 GA)",
+      "name": "10 Hygiea (A849 GA)",
+      "value": 407.12,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "704 Interamnia (A910 TC)",
+      "name": "704 Interamnia (A910 TC)",
+      "value": 306.313,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "52 Europa (A858 CA)",
+      "name": "52 Europa (A858 CA)",
+      "value": 303.918,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "511 Davida (A903 KB)",
+      "name": "511 Davida (A903 KB)",
+      "value": 270.327,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "31 Euphrosyne (A854 RA)",
+      "name": "31 Euphrosyne (A854 RA)",
+      "value": 267.08,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "451 Patientia (A899 XA)",
+      "name": "451 Patientia (A899 XA)",
+      "value": 253.9,
+      "unit": "km",
+      "extra": {
+        "class": "MBA"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "87 Sylvia (A866 KA)",
+      "name": "87 Sylvia (A866 KA)",
+      "value": 253.051,
+      "unit": "km",
+      "extra": {
+        "class": "OMB"
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "Candidate set is every main-belt asteroid (MBA/IMB/OMB) in the JPL Small-Body Database with an estimated diameter of at least 50 km.",
+    "Diameter is an estimated effective diameter; values come from IRAS, WISE/NEOWISE and similar surveys."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

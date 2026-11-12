@@ -1,0 +1,993 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "home-garden",
+    "name": "Home & Garden",
+    "description": "Home products, interiors and gardening. Mostly retail categories with weak open-data coverage.",
+    "topic_count": 15,
+    "subcategory_count": 60,
+    "research_status_counts": {
+      "partial": 8,
+      "unsupported": 3,
+      "researched": 4
+    },
+    "data_availability_counts": {
+      "limited": 8,
+      "none": 3,
+      "moderate": 4
+    }
+  },
+  "topics": [
+    {
+      "id": "home-garden.furniture-brands",
+      "name": "Furniture Brands",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Furniture Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Flat-pack",
+        "Office",
+        "Outdoor"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 furniture brands ranked by Revenue of listed furniture groups; private brands are underrepresented.",
+        "metric": "Revenue of listed furniture groups; private brands are underrepresented",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.home-appliance-brands",
+      "name": "Home Appliance Brands",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Home Appliance Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Kitchen",
+        "Laundry",
+        "Cleaning",
+        "Smart"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 home appliance brands ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.kitchen-appliances",
+      "name": "Kitchen Appliances",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Kitchen Appliances"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ovens",
+        "Refrigerators",
+        "Dishwashers",
+        "Small appliances"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 kitchen appliances ranked by Wikidata/pageviews and product metadata.",
+        "metric": "Wikidata/pageviews and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.cookware",
+      "name": "Cookware",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Cookware"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Pots and pans",
+        "Cast iron",
+        "Non-stick",
+        "Bakeware"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cookware ranked by Product metadata and pageviews; no open quality rankings.",
+        "metric": "Product metadata and pageviews; no open quality rankings",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.mattresses",
+      "name": "Mattresses",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Mattresses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Memory foam",
+        "Spring",
+        "Hybrid",
+        "Budget"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 mattresses ranked by Mattress quality requires testing; no open dataset.",
+        "metric": "Mattress quality requires testing; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.vacuums",
+      "name": "Vacuums",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Vacuums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Robot",
+        "Cordless",
+        "Upright",
+        "Canister"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 vacuums ranked by Product metadata and pageviews.",
+        "metric": "Product metadata and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.interior-designers",
+      "name": "Interior Designers",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Interior Designers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Residential",
+        "Commercial",
+        "Hospitality",
+        "Sustainable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "met_museum",
+            "name": "The Metropolitan Museum of Art Collection API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          },
+          {
+            "id": "artic",
+            "name": "Art Institute of Chicago API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "europeana",
+            "name": "Europeana API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 interior designers ranked by Award records and Wikidata coverage.",
+        "metric": "Award records and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.houseplants",
+      "name": "Houseplants",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Houseplants"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Low-light",
+        "Pet-safe",
+        "Flowering",
+        "Succulents"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 houseplants ranked by GBIF/iNaturalist species records and horticultural metadata.",
+        "metric": "GBIF/iNaturalist species records and horticultural metadata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.flowers",
+      "name": "Flowers",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Flowers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cut flowers",
+        "Garden flowers",
+        "Wildflowers",
+        "Orchids"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 flowers ranked by GBIF species records and FAOSTAT cut-flower trade.",
+        "metric": "GBIF species records and FAOSTAT cut-flower trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.trees",
+      "name": "Trees",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Trees"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tallest",
+        "Oldest",
+        "Fastest-growing",
+        "Native"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 trees ranked by GBIF/Wikidata species and specimen records.",
+        "metric": "GBIF/Wikidata species and specimen records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.gardening-tools",
+      "name": "Gardening Tools",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Gardening Tools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Hand tools",
+        "Power tools",
+        "Irrigation",
+        "Greenhouse"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 gardening tools ranked by Tool quality rankings require testing; no open dataset.",
+        "metric": "Tool quality rankings require testing; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.lawn-mowers",
+      "name": "Lawn Mowers",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Lawn Mowers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Robotic",
+        "Petrol",
+        "Electric",
+        "Ride-on"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 lawn mowers ranked by Product metadata and pageviews.",
+        "metric": "Product metadata and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.home-improvement-retailers",
+      "name": "Home Improvement Retailers",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Home Improvement Retailers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global",
+        "Regional",
+        "Online",
+        "Trade"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 home improvement retailers ranked by Revenue from filings and retail statistics.",
+        "metric": "Revenue from filings and retail statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.cleaning-products",
+      "name": "Cleaning Products",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Cleaning Products"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Household",
+        "Eco",
+        "Industrial",
+        "Laundry"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 cleaning products ranked by Product efficacy requires testing; no open dataset.",
+        "metric": "Product efficacy requires testing; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "home-garden.candles",
+      "name": "Candles",
+      "parent_id": "home-garden",
+      "parent_name": "Home & Garden",
+      "path": [
+        "Home & Garden",
+        "Candles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Scented",
+        "Decorative",
+        "Religious",
+        "DIY"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 candles ranked by Product metadata and pageviews.",
+        "metric": "Product metadata and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

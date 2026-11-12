@@ -1,0 +1,638 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "environment-nature",
+  "category_name": "Environment & Nature",
+  "topic_count": 29,
+  "method_counts": {
+    "composite_index": 3,
+    "official_stat": 13,
+    "market_cap": 4,
+    "geospatial": 6,
+    "attention_proxy": 2,
+    "bibliometric": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "environment-nature.countries-environment",
+      "topic_name": "Countries by Environmental Performance",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Yale EPI or a transparent composite of World Bank/OWID indicators",
+      "question": "Top 10 countries by environmental performance ranked by Yale EPI or a transparent composite of World Bank/OWID indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.greenest-cities",
+      "topic_name": "Greenest Cities",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "City-level emissions, green space and transport indicators",
+      "question": "Top 10 greenest cities ranked by City-level emissions, green space and transport indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.renewable-energy",
+      "topic_name": "Renewable Energy",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Ember/IRENA/EIA capacity and generation statistics",
+      "question": "Top 10 renewable energy ranked by Ember/IRENA/EIA capacity and generation statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "ember",
+        "eia"
+      ],
+      "backup_sources": [
+        "irena",
+        "world_bank"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.solar-companies",
+      "topic_name": "Solar Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings; installation data is fragmented",
+      "question": "Top 10 solar companies ranked by Revenue/market cap from filings; installation data is fragmented.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata",
+        "irena"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.wind-farms",
+      "topic_name": "Wind Farms",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/IRENA facility data and capacity records",
+      "question": "Top 10 wind farms ranked by OSM/IRENA facility data and capacity records.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "ember",
+        "eia"
+      ],
+      "backup_sources": [
+        "irena",
+        "world_bank"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.hydropower",
+      "topic_name": "Hydropower",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "IRENA/EIA capacity and generation data",
+      "question": "Top 10 hydropower ranked by IRENA/EIA capacity and generation data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "ember",
+        "eia"
+      ],
+      "backup_sources": [
+        "irena",
+        "world_bank"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.nuclear-plants",
+      "topic_name": "Nuclear Plants",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "IAEA PRIS/EIA plant and reactor data",
+      "question": "Top 10 nuclear plants ranked by IAEA PRIS/EIA plant and reactor data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "ember",
+        "eia"
+      ],
+      "backup_sources": [
+        "irena",
+        "world_bank"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.oil-companies",
+      "topic_name": "Oil Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap and production from filings",
+      "question": "Top 10 oil companies ranked by Revenue/market cap and production from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.gas-companies",
+      "topic_name": "Gas Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 gas companies ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.mining-companies",
+      "topic_name": "Mining Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 mining companies ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.carbon-emitters",
+      "topic_name": "Carbon Emitters",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Climate TRACE facility data and Global Carbon Budget country data",
+      "question": "Top 10 carbon emitters ranked by Climate TRACE facility data and Global Carbon Budget country data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data",
+        "climate_trace",
+        "ember"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.biodiversity-hotspots",
+      "topic_name": "Biodiversity Hotspots",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "GBIF/IUCN range and richness data",
+      "question": "Top 10 biodiversity hotspots ranked by GBIF/IUCN range and richness data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data",
+        "protected_planet",
+        "ebird"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.endangered-species",
+      "topic_name": "Endangered Species",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "IUCN Red List categories and GBIF taxonomy",
+      "question": "Top 10 endangered species ranked by IUCN Red List categories and GBIF taxonomy.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata",
+        "protected_planet"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.zoos",
+      "topic_name": "Zoos",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM facility mapping and visitor numbers where published",
+      "question": "Top 10 zoos ranked by OSM facility mapping and visitor numbers where published.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.aquariums",
+      "topic_name": "Aquariums",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM mapping and published attendance",
+      "question": "Top 10 aquariums ranked by OSM mapping and published attendance.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.botanical-gardens",
+      "topic_name": "Botanical Gardens",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/BGCI garden records",
+      "question": "Top 10 botanical gardens ranked by OSM/BGCI garden records.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.forests",
+      "topic_name": "Forests",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAO FRA and Global Forest Watch tree-cover data",
+      "question": "Top 10 forests ranked by FAO FRA and Global Forest Watch tree-cover data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data",
+        "global_forest_watch"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.rivers",
+      "topic_name": "Rivers",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/Wikidata river length and basin data",
+      "question": "Top 10 rivers ranked by OSM/Wikidata river length and basin data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.oceanography",
+      "topic_name": "Oceanography",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/NOAA research output and ocean-observation datasets",
+      "question": "Top 10 oceanography ranked by OpenAlex/NOAA research output and ocean-observation datasets.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.coral-reefs",
+      "topic_name": "Coral Reefs",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Global Coral Reef Monitoring Network/NOAA reef data",
+      "question": "Top 10 coral reefs ranked by Global Coral Reef Monitoring Network/NOAA reef data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.glaciers",
+      "topic_name": "Glaciers",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "GLIMS/World Glacier Monitoring Service data",
+      "question": "Top 10 glaciers ranked by GLIMS/World Glacier Monitoring Service data.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.hurricanes",
+      "topic_name": "Hurricanes",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "NOAA HURDAT and IBTrACS best-track data",
+      "question": "Top 10 hurricanes ranked by NOAA HURDAT and IBTrACS best-track data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.floods",
+      "topic_name": "Floods",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "EM-DAT/ReliefWeb disaster records; EM-DAT has access restrictions",
+      "question": "Top 10 floods ranked by EM-DAT/ReliefWeb disaster records; EM-DAT has access restrictions.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.wildfires",
+      "topic_name": "Wildfires",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "NASA FIRMS/GFW fire data and national records",
+      "question": "Top 10 wildfires ranked by NASA FIRMS/GFW fire data and national records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data",
+        "global_forest_watch",
+        "nasa_power"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.air-quality",
+      "topic_name": "Air Quality",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "OpenAQ/EPA AQS/WHO ambient air quality data",
+      "question": "Top 10 air quality ranked by OpenAQ/EPA AQS/WHO ambient air quality data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "openaq",
+        "epa_aqs"
+      ],
+      "backup_sources": [
+        "open_meteo",
+        "world_bank"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.water-quality",
+      "topic_name": "Water Quality",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "WHO/UNICEF JMP and WRI Aqueduct data",
+      "question": "Top 10 water quality ranked by WHO/UNICEF JMP and WRI Aqueduct data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data",
+        "wri_aqueduct"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.recycling",
+      "topic_name": "Recycling",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "OECD/World Bank municipal waste and recycling statistics",
+      "question": "Top 10 recycling ranked by OECD/World Bank municipal waste and recycling statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.waste-management",
+      "topic_name": "Waste Management",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "World Bank/UNEP waste statistics",
+      "question": "Top 10 waste management ranked by World Bank/UNEP waste statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "environment-nature.climate-risk",
+      "topic_name": "Climate Risk",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "ND-GAIN, WRI Aqueduct and climate-hazard indicators",
+      "question": "Top 10 climate risk ranked by ND-GAIN, WRI Aqueduct and climate-hazard indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "copernicus_cds",
+        "noaa_ncei"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "our_world_in_data",
+        "wri_aqueduct",
+        "nasa_power"
+      ]
+    }
+  ]
+}

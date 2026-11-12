@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "science.exoplanets",
+  "topic_name": "Exoplanets",
+  "category": "science",
+  "question": "Top 10 exoplanets for a chosen property (mass, radius, equilibrium temperature, distance or discovery year), using the NASA Exoplanet Archive confirmed-planet table with the query date stated.",
+  "metric": "Mass, radius, orbital period, distance and discovery year from the NASA Exoplanet Archive",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Planet mass (Earth masses, archive estimate)",
+    "unit": "Earth masses",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2026-12-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:38+00:00",
+    "reference_period": "2009",
+    "records_considered": 50,
+    "records_ranked": 50,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "query": "ps where default_flag=1 order by pl_bmasse desc"
+  },
+  "sources": [
+    {
+      "id": "nasa_exoplanet",
+      "name": "NASA Exoplanet Archive TAP",
+      "official_url": "https://exoplanetarchive.ipac.caltech.edu/",
+      "api_docs_url": "https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html",
+      "commercial_use": "allowed",
+      "attribution_required": false,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:24+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "11 UMi b",
+      "name": "11 UMi b",
+      "value": 4684.8142,
+      "unit": "Earth masses",
+      "period": "2009",
+      "extra": {
+        "discovery_year": 2009
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "AB Pic b",
+      "name": "AB Pic b",
+      "value": 4290.5,
+      "unit": "Earth masses",
+      "period": "2005",
+      "extra": {
+        "discovery_year": 2005
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "1RXS J160929.1-210524 b",
+      "name": "1RXS J160929.1-210524 b",
+      "value": 3000.0,
+      "unit": "Earth masses",
+      "period": "2008",
+      "extra": {
+        "discovery_year": 2008
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "18 Del b",
+      "name": "18 Del b",
+      "value": 2926.24614325,
+      "unit": "Earth masses",
+      "period": "2008",
+      "extra": {
+        "discovery_year": 2008
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "14 Her b",
+      "name": "14 Her b",
+      "value": 2828.6728223,
+      "unit": "Earth masses",
+      "period": "2002",
+      "extra": {
+        "discovery_year": 2002
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "4 UMa b",
+      "name": "4 UMa b",
+      "value": 2511.48007211,
+      "unit": "Earth masses",
+      "period": "2006",
+      "extra": {
+        "discovery_year": 2006
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "2MASS J04414489+2301513 b",
+      "name": "2MASS J04414489+2301513 b",
+      "value": 2383.6,
+      "unit": "Earth masses",
+      "period": "2010",
+      "extra": {
+        "discovery_year": 2010
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "70 Vir b",
+      "name": "70 Vir b",
+      "value": 2357.02728,
+      "unit": "Earth masses",
+      "period": "1996",
+      "extra": {
+        "discovery_year": 1996
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "2MASS J12073346-3932539 b",
+      "name": "2MASS J12073346-3932539 b",
+      "value": 1652.7077164,
+      "unit": "Earth masses",
+      "period": "2004",
+      "extra": {
+        "radius_earth": 15.69257298,
+        "discovery_year": 2004
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "55 Cnc d",
+      "name": "55 Cnc d",
+      "value": 1214.10451474,
+      "unit": "Earth masses",
+      "period": "2002",
+      "extra": {
+        "discovery_year": 2002
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "Uses the confirmed-planet table (default_flag=1) and the archive's mass estimate; some masses are minimum masses (M sin i).",
+    "Mass is not a quality measure; a 'most massive planet' list is a physical-property ranking."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

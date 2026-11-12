@@ -1,0 +1,1547 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "music-audio",
+    "name": "Music & Audio",
+    "description": "Artists, recordings, live music and audio equipment.",
+    "topic_count": 20,
+    "subcategory_count": 81,
+    "research_status_counts": {
+      "researched_proxy": 5,
+      "partial": 15
+    },
+    "data_availability_counts": {
+      "moderate": 5,
+      "limited": 15
+    }
+  },
+  "topics": [
+    {
+      "id": "music-audio.music-artists",
+      "name": "Music Artists",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Music Artists"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By streams",
+        "By sales",
+        "By influence",
+        "By country"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "listenbrainz",
+            "name": "ListenBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "deezer",
+            "name": "Deezer API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "spotify",
+            "name": "Spotify Web API",
+            "access_model": "free_key",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 5,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 music artists ranked by MusicBrainz metadata, Last.fm scrobbles and Wikipedia pageviews.",
+        "metric": "MusicBrainz metadata, Last.fm scrobbles and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "Streaming counts are platform-private. Last.fm users are not representative."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.bands",
+      "name": "Bands",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Bands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Rock",
+        "Pop",
+        "Jazz",
+        "Metal"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "discogs",
+            "name": "Discogs API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "listenbrainz",
+            "name": "ListenBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 bands ranked by MusicBrainz/Last.fm activity and pageviews.",
+        "metric": "MusicBrainz/Last.fm activity and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.singers",
+      "name": "Singers",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Singers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Pop",
+        "Classical",
+        "Country",
+        "K-pop"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "deezer",
+            "name": "Deezer API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "listenbrainz",
+            "name": "ListenBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 singers ranked by MusicBrainz/Last.fm/pageviews.",
+        "metric": "MusicBrainz/Last.fm/pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.rappers",
+      "name": "Rappers",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Rappers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "US",
+        "UK",
+        "Latin",
+        "African"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 rappers ranked by MusicBrainz/Last.fm/pageviews.",
+        "metric": "MusicBrainz/Last.fm/pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.djs",
+      "name": "DJs",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "DJs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Club",
+        "Festival",
+        "Radio",
+        "Producer-DJs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 djs ranked by MusicBrainz/Last.fm/pageviews and festival line-ups.",
+        "metric": "MusicBrainz/Last.fm/pageviews and festival line-ups",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.producers",
+      "name": "Music Producers",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Music Producers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Hip-hop",
+        "Pop",
+        "Electronic",
+        "Classical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 music producers ranked by Credits from MusicBrainz/Discogs and award records.",
+        "metric": "Credits from MusicBrainz/Discogs and award records",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.albums",
+      "name": "Albums",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Albums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Best-rated",
+        "Recent",
+        "Debut"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "discogs",
+            "name": "Discogs API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "deezer",
+            "name": "Deezer API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 albums ranked by Last.fm/community ratings and MusicBrainz metadata; sales are licensed.",
+        "metric": "Last.fm/community ratings and MusicBrainz metadata; sales are licensed",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.songs",
+      "name": "Songs",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Songs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Streaming",
+        "Chart",
+        "Classic",
+        "Viral"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "deezer",
+            "name": "Deezer API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "listenbrainz",
+            "name": "ListenBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 songs ranked by Last.fm scrobbles, MusicBrainz and pageviews; chart data is licensed.",
+        "metric": "Last.fm scrobbles, MusicBrainz and pageviews; chart data is licensed",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.record-labels",
+      "name": "Record Labels",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Record Labels"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Major",
+        "Independent",
+        "Specialist",
+        "Digital"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 record labels ranked by Market share is commercial; revenue from listed groups only.",
+        "metric": "Market share is commercial; revenue from listed groups only",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.music-festivals",
+      "name": "Music Festivals",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Music Festivals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Rock",
+        "Electronic",
+        "Jazz",
+        "Classical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 music festivals ranked by Event listings, pageviews and lineup data.",
+        "metric": "Event listings, pageviews and lineup data",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.concerts",
+      "name": "Concerts",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Concerts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Highest-grossing",
+        "Most attended",
+        "Residencies",
+        "Tours"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sales_share",
+        "name": "Sales or shipment ranking",
+        "question": "Top 10 concerts ranked by Box-office data is commercial (Pollstar, Billboard).",
+        "metric": "Box-office data is commercial (Pollstar, Billboard)",
+        "basis": "market_data",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.orchestras",
+      "name": "Orchestras",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Orchestras"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Symphony",
+        "Chamber",
+        "Youth",
+        "Period-instrument"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 orchestras ranked by MusicBrainz/Orchestra records and pageviews.",
+        "metric": "MusicBrainz/Orchestra records and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.conductors",
+      "name": "Conductors",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Conductors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Symphonic",
+        "Operatic",
+        "Choral",
+        "Historical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 conductors ranked by MusicBrainz credits, awards and pageviews.",
+        "metric": "MusicBrainz credits, awards and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.classical-composers",
+      "name": "Classical Composers",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Classical Composers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Baroque",
+        "Classical",
+        "Romantic",
+        "Modern"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 classical composers ranked by MusicBrainz/IMSLP coverage and performance counts.",
+        "metric": "MusicBrainz/IMSLP coverage and performance counts",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.instruments",
+      "name": "Instruments",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Instruments"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Guitars",
+        "Pianos",
+        "Violins",
+        "Drums",
+        "Synthesisers"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 instruments ranked by Wikidata/pageviews and product metadata.",
+        "metric": "Wikidata/pageviews and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.guitar-brands",
+      "name": "Guitar Brands",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Guitar Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Acoustic",
+        "Electric",
+        "Bass",
+        "Classical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 guitar brands ranked by Revenue of listed/known brands; no open global ranking.",
+        "metric": "Revenue of listed/known brands; no open global ranking",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.piano-brands",
+      "name": "Piano Brands",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Piano Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Grand",
+        "Upright",
+        "Digital",
+        "Historical"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 piano brands ranked by Revenue/company data where available.",
+        "metric": "Revenue/company data where available",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.audio-brands",
+      "name": "Audio Brands",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Audio Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Headphones",
+        "Speakers",
+        "Hi-fi",
+        "Professional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 audio brands ranked by Revenue/market share from company reports.",
+        "metric": "Revenue/market share from company reports",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.speakers",
+      "name": "Speakers",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Speakers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Smart speakers",
+        "Bluetooth",
+        "Hi-fi",
+        "Studio monitors"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 speakers ranked by Wikidata/pageviews and product metadata.",
+        "metric": "Wikidata/pageviews and product metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "music-audio.vinyl-records",
+      "name": "Vinyl Records",
+      "parent_id": "music-audio",
+      "parent_name": "Music & Audio",
+      "path": [
+        "Music & Audio",
+        "Vinyl Records"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best-selling",
+        "Reissues",
+        "Audiophile",
+        "Collectible"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "musicbrainz",
+            "name": "MusicBrainz API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "lastfm",
+            "name": "Last.fm API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "itunes_search",
+            "name": "Apple iTunes Search API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sales_share",
+        "name": "Sales or shipment ranking",
+        "question": "Top 10 vinyl records ranked by RIAA/BPI shipment statistics; retailer data is commercial.",
+        "metric": "RIAA/BPI shipment statistics; retailer data is commercial",
+        "basis": "market_data",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

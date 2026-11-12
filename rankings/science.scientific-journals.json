@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "science.scientific-journals",
+  "topic_name": "Scientific Journals",
+  "category": "science",
+  "question": "Top 10 scientific journals ranked by OpenAlex/Crossref publication and citation metrics.",
+  "metric": "OpenAlex/Crossref publication and citation metrics",
+  "method": {
+    "id": "bibliometric",
+    "name": "Bibliometric ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "All-time citations per published work",
+    "unit": "citations per published work (OpenAlex, all time)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:12:59+00:00",
+    "reference_period": null,
+    "records_considered": 200,
+    "records_ranked": 200,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "OpenAlex sources filtered to type=journal",
+    "candidate_set": "top 200 journals by all-time citations",
+    "minimum_works": 2000
+  },
+  "sources": [
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "official_url": "https://openalex.org/",
+      "api_docs_url": "https://docs.openalex.org/",
+      "commercial_use": "allowed",
+      "attribution_required": false,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:29+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "https://openalex.org/S41143188",
+      "name": "Chemical Reviews",
+      "value": 393.5409272507665,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 10763,
+        "cited_by_count": 4235681,
+        "issn_l": "0009-2665",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "https://openalex.org/S110447773",
+      "name": "Cell",
+      "value": 328.518096490267,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 27381,
+        "cited_by_count": 8995154,
+        "issn_l": "0092-8674",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "https://openalex.org/S316438",
+      "name": "Chemical Society Reviews",
+      "value": 265.0669478123353,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 9485,
+        "cited_by_count": 2514160,
+        "issn_l": "0306-0012",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "https://openalex.org/S137905309",
+      "name": "Nature Genetics",
+      "value": 250.67592826471332,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 11877,
+        "cited_by_count": 2977278,
+        "issn_l": "1061-4036",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "https://openalex.org/S103895331",
+      "name": "Nature Materials",
+      "value": 247.2742413549753,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 7085,
+        "cited_by_count": 1751938,
+        "issn_l": "1476-1122",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "https://openalex.org/S29984966",
+      "name": "Journal of Personality and Social Psychology",
+      "value": 245.24543124121394,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 12093,
+        "cited_by_count": 2965753,
+        "issn_l": "0022-3514",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "https://openalex.org/S95464858",
+      "name": "Econometrica",
+      "value": 234.9276135741653,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 7308,
+        "cited_by_count": 1716851,
+        "issn_l": "0012-9682",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "https://openalex.org/S168778273",
+      "name": "Genes & Development",
+      "value": 222.81806860636252,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 8833,
+        "cited_by_count": 1968152,
+        "issn_l": "0890-9369",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "https://openalex.org/S2298632",
+      "name": "Nature Neuroscience",
+      "value": 201.43152015541526,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 8236,
+        "cited_by_count": 1658990,
+        "issn_l": "1097-6256",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "https://openalex.org/S75627607",
+      "name": "Psychological Bulletin",
+      "value": 198.87959287531805,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 9825,
+        "cited_by_count": 1953992,
+        "issn_l": "0033-2909",
+        "type": "journal"
+      }
+    }
+  ],
+  "caveats": [
+    "Citation counts favour large, English-language and health/life-science fields.",
+    "Entity and institution name disambiguation is imperfect in any bibliographic database.",
+    "Measured as all-time citations divided by works published, which stops the largest journals from winning on volume alone.",
+    "The candidate set is the 200 journals with the most all-time citations in OpenAlex, so a small, highly cited journal outside that set is not considered.",
+    "Journals with fewer than 2,000 published works are excluded, because a handful of papers can produce a meaningless ratio.",
+    "OpenAlex source types and citation coverage are not complete for every region, and per-work ratios are not field-normalised."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

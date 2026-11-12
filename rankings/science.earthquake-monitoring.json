@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "science.earthquake-monitoring",
+  "topic_name": "Earthquake Monitoring",
+  "category": "science",
+  "question": "Top 10 earthquake monitoring ranked by USGS earthquake catalogue (magnitude, depth, location).",
+  "metric": "USGS earthquake catalogue (magnitude, depth, location)",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Moment magnitude of catalogued events",
+    "unit": "moment magnitude (Mw)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2026-11-13",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:05:07+00:00",
+    "reference_period": "-303281320000",
+    "records_considered": 100,
+    "records_ranked": 100,
+    "records_missing_value": 0,
+    "tied_at_cut": true,
+    "query": "USGS FDSN minmagnitude=8 since 1900-01-01, limit=200"
+  },
+  "sources": [
+    {
+      "id": "usgs_earthquake",
+      "name": "USGS Earthquake Catalog API",
+      "official_url": "https://earthquake.usgs.gov/",
+      "api_docs_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "commercial_use": "allowed",
+      "attribution_required": false,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:41+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "official19600522191120_30",
+      "name": "1960 Great Chilean Earthquake (Valdivia Earthquake)",
+      "value": 9.5,
+      "unit": "moment magnitude (Mw)",
+      "period": "-303281320000",
+      "extra": {
+        "time_utc": -303281320000,
+        "depth_km": 25,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "official19640328033616_30",
+      "name": "The 1964 Prince William Sound, Alaska Earthquake",
+      "value": 9.2,
+      "unit": "moment magnitude (Mw)",
+      "period": "-181859024000",
+      "extra": {
+        "time_utc": -181859024000,
+        "depth_km": 25,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "official20110311054624120_30",
+      "name": "2011 Great Tohoku Earthquake, Japan",
+      "value": 9.1,
+      "unit": "moment magnitude (Mw)",
+      "period": "1299822384120",
+      "extra": {
+        "time_utc": 1299822384120,
+        "depth_km": 29,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "official20041226005853450_30",
+      "name": "2004 Sumatra - Andaman Islands Earthquake",
+      "value": 9.1,
+      "unit": "moment magnitude (Mw)",
+      "period": "1104022733450",
+      "extra": {
+        "time_utc": 1104022733450,
+        "depth_km": 30,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "official19521104165830_30",
+      "name": "89 km ESE of Petropavlovsk-Kamchatsky, Russia",
+      "value": 9,
+      "unit": "moment magnitude (Mw)",
+      "period": "-541407690000",
+      "extra": {
+        "time_utc": -541407690000,
+        "depth_km": 21.6,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "us6000qw60",
+      "name": "2025 Kamchatka Peninsula, Russia Earthquake",
+      "value": 8.8,
+      "unit": "moment magnitude (Mw)",
+      "period": "1753831492483",
+      "extra": {
+        "time_utc": 1753831492483,
+        "depth_km": 35,
+        "tsunami": 1
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "official20100227063411530_30",
+      "name": "2010 Maule, Chile Earthquake",
+      "value": 8.8,
+      "unit": "moment magnitude (Mw)",
+      "period": "1267252451530",
+      "extra": {
+        "time_utc": 1267252451530,
+        "depth_km": 22.9,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "official19060131153610_30",
+      "name": "1906 Ecuador-Colombia Earthquake",
+      "value": 8.8,
+      "unit": "moment magnitude (Mw)",
+      "period": "-2017038230000",
+      "extra": {
+        "time_utc": -2017038230000,
+        "depth_km": 20,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "official19650204050122_30",
+      "name": "1965 Western Aleutian Islands (Hawadax/Rat Islands) Earthquake",
+      "value": 8.7,
+      "unit": "moment magnitude (Mw)",
+      "period": "-154810718000",
+      "extra": {
+        "time_utc": -154810718000,
+        "depth_km": 30.3,
+        "tsunami": 0
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "official19460401122901_30",
+      "name": "The 1946 Unimak Island, Alaska Earthquake",
+      "value": 8.6,
+      "unit": "moment magnitude (Mw)",
+      "period": "-749561459000",
+      "extra": {
+        "time_utc": -749561459000,
+        "depth_km": 15,
+        "tsunami": 0
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "Includes catalogued events of magnitude 8.0 and above; the catalogue is not complete before the 20th century.",
+    "Magnitude is a physical measure of energy release, not of human impact."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

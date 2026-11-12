@@ -1,0 +1,61 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 400
+ },
+ [
+  {
+   "id": "USA",
+   "iso2Code": "US",
+   "name": "United States",
+   "region": {
+    "id": "NAC",
+    "value": "North America"
+   },
+   "incomeLevel": {
+    "id": "HIC",
+    "value": "High income"
+   }
+  },
+  {
+   "id": "CHN",
+   "iso2Code": "CN",
+   "name": "China",
+   "region": {
+    "id": "EAS",
+    "value": "East Asia & Pacific"
+   },
+   "incomeLevel": {
+    "id": "UMC",
+    "value": "Upper middle income"
+   }
+  },
+  {
+   "id": "AFE",
+   "iso2Code": "ZH",
+   "name": "Africa Eastern and Southern",
+   "region": {
+    "id": "",
+    "value": "Aggregates"
+   },
+   "incomeLevel": {
+    "id": "NA",
+    "value": "Aggregates"
+   }
+  },
+  {
+   "id": "WLD",
+   "iso2Code": "1W",
+   "name": "World",
+   "region": {
+    "id": "",
+    "value": "Aggregates"
+   },
+   "incomeLevel": {
+    "id": "NA",
+    "value": "Aggregates"
+   }
+  }
+ ]
+]

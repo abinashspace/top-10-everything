@@ -1,0 +1,1035 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "method_count": 20,
+  "methods": [
+    {
+      "id": "official_stat",
+      "name": "Official statistical ranking",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "description": "Rank entities by a single, well-defined indicator published by an official statistical authority or regulator.",
+      "criteria": [
+        "Indicator definition is stable",
+        "Coverage is comparable across entities",
+        "Reference year is recorded"
+      ],
+      "indicators": [
+        "Population",
+        "GDP",
+        "production volume",
+        "mortality rate",
+        "passenger counts",
+        "emissions"
+      ],
+      "scoring": "Use the latest common reference year; convert to a common unit; exclude aggregates; rank descending or ascending as appropriate; show ties and missing values.",
+      "data_requirements": [
+        "Indicator code/definition",
+        "reference year",
+        "entity identifiers",
+        "unit",
+        "coverage notes"
+      ],
+      "human_verification_required": false,
+      "strengths": [
+        "Transparent and reproducible",
+        "Easy to audit",
+        "Usually has official provenance"
+      ],
+      "limitations": [
+        "Only as good as the indicator",
+        "Reporting lags and revisions",
+        "Cross-country comparability is imperfect"
+      ],
+      "example_topics": [
+        "countries by population",
+        "earthquakes by magnitude",
+        "universities by research output"
+      ],
+      "usage_count": 123,
+      "example_topic_ids": [
+        "travel.countries",
+        "travel.airports",
+        "travel.theme-parks",
+        "travel.cruises",
+        "travel.unesco-sites",
+        "education.libraries",
+        "education.study-abroad-countries",
+        "education.preprint-servers"
+      ]
+    },
+    {
+      "id": "composite_index",
+      "name": "Composite index",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "description": "Combine several normalized indicators into a single score, either by adopting a published index or by documenting your own weights.",
+      "criteria": [
+        "Indicator selection is justified",
+        "Normalization method is disclosed",
+        "Weights are documented",
+        "Sensitivity is tested"
+      ],
+      "indicators": [
+        "governance",
+        "environmental performance",
+        "quality of life",
+        "development",
+        "health system performance"
+      ],
+      "scoring": "Winsorize outliers; min-max or z-score normalize; apply explicit weights; publish the formula and a sensitivity analysis with alternative weights.",
+      "data_requirements": [
+        "All component indicators",
+        "normalization parameters",
+        "weight vector",
+        "missing-data policy"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Captures multidimensional concepts",
+        "Can be transparent if documented"
+      ],
+      "limitations": [
+        "Weights are value judgements",
+        "Rankings are sensitive to normalization",
+        "Can hide poor performance on one dimension"
+      ],
+      "example_topics": [
+        "quality of life",
+        "environmental performance",
+        "health systems"
+      ],
+      "usage_count": 22,
+      "example_topic_ids": [
+        "travel.cities",
+        "travel.visa-friendly-countries",
+        "travel.solo-travel",
+        "education.student-cities",
+        "education.education-systems",
+        "health-lifestyle.health-systems",
+        "health-lifestyle.public-health",
+        "environment-nature.countries-environment"
+      ]
+    },
+    {
+      "id": "bibliometric",
+      "name": "Bibliometric ranking",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "description": "Rank researchers, institutions, journals or papers using publication and citation data, ideally field-normalized.",
+      "criteria": [
+        "Field normalization",
+        "Document type filtering",
+        "Author/institution disambiguation",
+        "Citation window"
+      ],
+      "indicators": [
+        "publication count",
+        "citation count",
+        "field-weighted citation impact",
+        "h-index",
+        "highly cited papers"
+      ],
+      "scoring": "Use OpenAlex works and citations; filter to relevant years and document types; normalize by field and year where possible; never rank individuals solely on raw citation counts.",
+      "data_requirements": [
+        "OpenAlex IDs",
+        "publication year",
+        "field/topic classification",
+        "citation counts",
+        "author disambiguation"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Large open dataset",
+        "Reproducible",
+        "Good coverage of research"
+      ],
+      "limitations": [
+        "Citation bias against non-English and applied work",
+        "Gaming and self-citation",
+        "Poor proxy for teaching quality"
+      ],
+      "example_topics": [
+        "research institutions",
+        "scientific journals",
+        "physicists"
+      ],
+      "usage_count": 17,
+      "example_topic_ids": [
+        "education.universities",
+        "education.business-schools",
+        "education.research-institutions",
+        "education.academic-journals",
+        "science.physicists",
+        "science.chemists",
+        "science.biologists",
+        "science.mathematicians"
+      ]
+    },
+    {
+      "id": "sports_result",
+      "name": "Official competition results",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "description": "Rank athletes, teams or competitions from official standings, rankings, medals and match results.",
+      "criteria": [
+        "Official governing body source",
+        "Season/competition window",
+        "Tie-breaking rules"
+      ],
+      "indicators": [
+        "wins",
+        "points",
+        "goals",
+        "medals",
+        "world ranking",
+        "championship titles"
+      ],
+      "scoring": "Use the governing body's official ranking where one exists; otherwise compute a documented points system and preserve head-to-head and tie-break rules.",
+      "data_requirements": [
+        "Competition ID",
+        "season",
+        "official results",
+        "tie-break rules"
+      ],
+      "human_verification_required": false,
+      "strengths": [
+        "Well-defined and verifiable",
+        "Strong audience interest",
+        "Frequent updates"
+      ],
+      "limitations": [
+        "Fragmented across sports",
+        "Some APIs restrict commercial use",
+        "Historical depth varies"
+      ],
+      "example_topics": [
+        "Formula 1 standings",
+        "tennis rankings",
+        "Olympic medal tables"
+      ],
+      "usage_count": 37,
+      "example_topic_ids": [
+        "sports.football-soccer",
+        "sports.football-clubs",
+        "sports.football-players",
+        "sports.basketball",
+        "sports.nba-teams",
+        "sports.nfl-teams",
+        "sports.baseball",
+        "sports.cricket"
+      ]
+    },
+    {
+      "id": "rating_aggregate",
+      "name": "Audience rating aggregate",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "description": "Rank titles or products by an aggregate of user ratings, with a minimum-vote threshold and Bayesian smoothing.",
+      "criteria": [
+        "Minimum vote count",
+        "Bayesian shrinkage",
+        "Brigading/outlier detection",
+        "Audience representativeness"
+      ],
+      "indicators": [
+        "average rating",
+        "number of votes",
+        "review sentiment",
+        "completion rate"
+      ],
+      "scoring": "Bayesian average: (v/(v+m))*R + (m/(v+m))*C, where R is the item's mean, v its vote count, C the global mean and m a minimum-vote prior. Publish m and the snapshot date.",
+      "data_requirements": [
+        "Item IDs",
+        "mean rating",
+        "vote count",
+        "global mean",
+        "snapshot date"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Simple and explainable",
+        "Reflects audience reception"
+      ],
+      "limitations": [
+        "Self-selected audiences",
+        "Manipulation and review bombing",
+        "Not a measure of objective quality"
+      ],
+      "example_topics": [
+        "movies",
+        "board games",
+        "anime"
+      ],
+      "usage_count": 21,
+      "example_topic_ids": [
+        "entertainment.movies",
+        "entertainment.tv-shows",
+        "entertainment.web-series",
+        "entertainment.documentaries",
+        "entertainment.anime",
+        "entertainment.cartoons",
+        "entertainment.k-dramas",
+        "entertainment.bollywood"
+      ]
+    },
+    {
+      "id": "attention_proxy",
+      "name": "Attention proxy",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "description": "Use Wikimedia pageviews, Wikidata sitelinks or media mentions as a proxy for public attention when no direct usage or sales data is open.",
+      "criteria": [
+        "Proxy is explicitly labelled",
+        "Multiple attention signals are combined",
+        "Bots and spikes are filtered"
+      ],
+      "indicators": [
+        "Wikipedia pageviews",
+        "Wikidata sitelinks",
+        "GDELT media mentions",
+        "search-interest panels where licensed"
+      ],
+      "scoring": "Normalize each signal (log or percentile); combine with documented weights; exclude bot traffic and anomalous spikes; never call the result sales or quality.",
+      "data_requirements": [
+        "Entity-to-article mapping",
+        "daily pageview series",
+        "language editions",
+        "spike filter"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Free and broad coverage",
+        "Works for long-tail topics",
+        "Easy to update"
+      ],
+      "limitations": [
+        "Attention is not popularity, sales or quality",
+        "Strong English/Western bias",
+        "Manipulable and event-driven"
+      ],
+      "example_topics": [
+        "smartphones",
+        "actors",
+        "historical personalities"
+      ],
+      "usage_count": 95,
+      "example_topic_ids": [
+        "technology.smartphones",
+        "technology.laptops",
+        "technology.tablets",
+        "technology.smartwatches",
+        "technology.cameras",
+        "technology.headphones",
+        "technology.operating-systems",
+        "technology.cybersecurity-tools"
+      ]
+    },
+    {
+      "id": "sales_share",
+      "name": "Sales or shipment ranking",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "description": "Rank products, companies or titles by unit sales, revenue or shipment volumes.",
+      "criteria": [
+        "Sales definition (units vs revenue)",
+        "Channel coverage",
+        "Geographic scope",
+        "Time period"
+      ],
+      "indicators": [
+        "unit sales",
+        "revenue",
+        "shipments",
+        "box office",
+        "streams"
+      ],
+      "scoring": "Use audited or official disclosures where possible; state whether the figures are units or value; do not mix retail sell-in and sell-through; record the source period.",
+      "data_requirements": [
+        "Product/company identifiers",
+        "period",
+        "units",
+        "currency",
+        "geography"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Direct commercial relevance",
+        "Intuitive to users"
+      ],
+      "limitations": [
+        "Comprehensive global data is usually paid",
+        "Company disclosures are selective",
+        "Definitions vary"
+      ],
+      "example_topics": [
+        "box office",
+        "cloud platforms",
+        "mobile games"
+      ],
+      "usage_count": 5,
+      "example_topic_ids": [
+        "technology.cloud-platforms",
+        "entertainment.box-office",
+        "gaming-esports.mobile-games",
+        "music-audio.concerts",
+        "music-audio.vinyl-records"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "name": "Standardised benchmark",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "description": "Rank technical products by reproducible benchmark scores or measured specifications.",
+      "criteria": [
+        "Benchmark version",
+        "Test conditions",
+        "Multiple runs",
+        "License to redistribute results"
+      ],
+      "indicators": [
+        "CPU/GPU benchmark scores",
+        "battery life",
+        "charging speed",
+        "range",
+        "latency"
+      ],
+      "scoring": "Use the same benchmark version and test protocol for all devices; report medians of multiple runs; disclose thermal throttling and test environment.",
+      "data_requirements": [
+        "Device identifiers",
+        "benchmark name/version",
+        "score",
+        "test conditions"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Comparable and quantitative",
+        "Useful for technical audiences"
+      ],
+      "limitations": [
+        "Benchmark databases are often licensed",
+        "Scores do not capture real-world experience",
+        "Vendor optimisation"
+      ],
+      "example_topics": [
+        "processors",
+        "graphics cards",
+        "sports cars"
+      ],
+      "usage_count": 3,
+      "example_topic_ids": [
+        "technology.processors",
+        "technology.graphics-cards",
+        "automotive-transport.sports-cars"
+      ]
+    },
+    {
+      "id": "editorial",
+      "name": "Editorial / expert ranking",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "description": "Use a published expert ranking or curated list. This is a reference methodology, not a free-data methodology.",
+      "criteria": [
+        "Named experts",
+        "Disclosed methodology",
+        "Conflict-of-interest policy",
+        "Licence for reuse"
+      ],
+      "indicators": [
+        "expert scores",
+        "editorial selections",
+        "awards"
+      ],
+      "scoring": "Do not reproduce proprietary lists without a licence. If building an original expert panel, document panellists, criteria, voting and conflicts.",
+      "data_requirements": [
+        "Expert scores or votes",
+        "criteria",
+        "panel composition",
+        "licence"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Can capture quality dimensions that statistics miss",
+        "Strong brand recognition"
+      ],
+      "limitations": [
+        "Expensive and slow",
+        "Subjective",
+        "Proprietary lists cannot be republished"
+      ],
+      "example_topics": [
+        "restaurants",
+        "hospitals",
+        "universities"
+      ],
+      "usage_count": 0,
+      "example_topic_ids": []
+    },
+    {
+      "id": "community_activity",
+      "name": "Open-source / community activity",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "description": "Rank software, models or communities by observable activity such as stars, contributors, downloads or questions.",
+      "criteria": [
+        "Multiple activity signals",
+        "Bot/CI filtering",
+        "Age normalization",
+        "Ecosystem bias"
+      ],
+      "indicators": [
+        "GitHub stars/forks/contributors",
+        "package downloads",
+        "Hugging Face likes/downloads",
+        "Stack Overflow questions"
+      ],
+      "scoring": "Combine at least three signals; use log scales; normalize by project age; exclude CI downloads and mirror traffic where possible; publish the snapshot date.",
+      "data_requirements": [
+        "Repository/model IDs",
+        "activity metrics",
+        "creation date",
+        "bot filter"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Free and timely",
+        "Good for developer tools",
+        "Transparent"
+      ],
+      "limitations": [
+        "Stars are attention, not adoption",
+        "Ecosystem size biases results",
+        "Commercial usage is invisible"
+      ],
+      "example_topics": [
+        "AI tools",
+        "programming languages",
+        "databases"
+      ],
+      "usage_count": 10,
+      "example_topic_ids": [
+        "technology.programming-languages",
+        "technology.ai-tools",
+        "technology.ai-models",
+        "technology.databases",
+        "entertainment.radio-stations",
+        "education.edtech-tools",
+        "gaming-esports.game-engines",
+        "pets-animals.dog-breeds"
+      ]
+    },
+    {
+      "id": "market_cap",
+      "name": "Market capitalisation or disclosed financials",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "description": "Rank public companies by market capitalisation, revenue, assets or another reported financial measure.",
+      "criteria": [
+        "Listing/currency",
+        "Share class treatment",
+        "Reporting period",
+        "Market-data licence"
+      ],
+      "indicators": [
+        "market capitalisation",
+        "revenue",
+        "net income",
+        "assets under management",
+        "enterprise value"
+      ],
+      "scoring": "Use a single timestamp for market caps; convert currencies with a documented rate; exclude double counting of share classes; cite the filing or market-data provider.",
+      "data_requirements": [
+        "Ticker/LEI",
+        "price",
+        "shares outstanding",
+        "currency",
+        "timestamp"
+      ],
+      "human_verification_required": false,
+      "strengths": [
+        "Objective for public companies",
+        "Frequent updates",
+        "Directly comparable within a market"
+      ],
+      "limitations": [
+        "Private companies excluded",
+        "Market caps are volatile",
+        "Free market APIs have redistribution limits"
+      ],
+      "example_topics": [
+        "technology companies",
+        "banks",
+        "cryptocurrencies"
+      ],
+      "usage_count": 62,
+      "example_topic_ids": [
+        "technology.semiconductors",
+        "technology.tech-companies",
+        "technology.tech-startups",
+        "entertainment.film-studios",
+        "entertainment.celebrity-net-worth",
+        "business-finance.companies",
+        "business-finance.brands",
+        "business-finance.startups"
+      ]
+    },
+    {
+      "id": "event_outcome",
+      "name": "Event outcome",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "description": "Rank by winners, medals, nominations or awards from a defined event.",
+      "criteria": [
+        "Official event record",
+        "Category definition",
+        "Ties and shared awards"
+      ],
+      "indicators": [
+        "wins",
+        "medals",
+        "nominations",
+        "awards",
+        "prize money"
+      ],
+      "scoring": "Use the official results; weight categories only if explicitly justified; preserve ties and shared awards.",
+      "data_requirements": [
+        "Event ID",
+        "year",
+        "category",
+        "result"
+      ],
+      "human_verification_required": false,
+      "strengths": [
+        "Unambiguous and verifiable",
+        "Strong editorial hook"
+      ],
+      "limitations": [
+        "Event-only, not an ongoing measure",
+        "Award prestige is subjective"
+      ],
+      "example_topics": [
+        "film awards",
+        "Olympic medals",
+        "esports tournaments"
+      ],
+      "usage_count": 10,
+      "example_topic_ids": [
+        "entertainment.film-awards",
+        "entertainment.tv-awards",
+        "business-finance.ipos",
+        "society-politics.elections",
+        "gaming-esports.esports-teams",
+        "gaming-esports.esports-players",
+        "gaming-esports.esports-tournaments",
+        "gaming-esports.speedruns"
+      ]
+    },
+    {
+      "id": "approvals",
+      "name": "Regulatory approval / registration",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "description": "Count or rank products by regulatory approvals, registrations or clinical trial phases.",
+      "criteria": [
+        "Regulator scope",
+        "Approval type",
+        "Date window",
+        "Combination products"
+      ],
+      "indicators": [
+        "number of approvals",
+        "trial phase",
+        "indication count",
+        "authorisation date"
+      ],
+      "scoring": "Use a named regulator or harmonise several; state whether approvals, authorisations and registrations are combined; count only distinct products.",
+      "data_requirements": [
+        "Product ID",
+        "regulator",
+        "approval type",
+        "date",
+        "indication"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Authoritative",
+        "Clear event definition"
+      ],
+      "limitations": [
+        "Approval is not efficacy or quality",
+        "Jurisdictional fragmentation",
+        "Data access varies"
+      ],
+      "example_topics": [
+        "vaccines",
+        "drugs"
+      ],
+      "usage_count": 2,
+      "example_topic_ids": [
+        "science.drugs",
+        "health-lifestyle.vaccines"
+      ]
+    },
+    {
+      "id": "geospatial",
+      "name": "Geospatial measurement",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "description": "Rank places or physical objects by measurable geometry: area, length, height, elevation or feature counts.",
+      "criteria": [
+        "Geometry source",
+        "Projection/units",
+        "Feature completeness",
+        "Boundary disputes"
+      ],
+      "indicators": [
+        "area",
+        "length",
+        "height",
+        "elevation",
+        "population within boundary",
+        "POI density"
+      ],
+      "scoring": "Use a consistent projection and unit; document whether boundaries are de facto or de jure; compute from a dated OSM/authoritative snapshot; avoid double-counting overlapping features.",
+      "data_requirements": [
+        "Geometries",
+        "crs/projection",
+        "units",
+        "snapshot date",
+        "boundary definitions"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Open data availability",
+        "Highly reproducible",
+        "Works globally"
+      ],
+      "limitations": [
+        "OSM completeness varies",
+        "Boundary disputes",
+        "Geometry is not quality"
+      ],
+      "example_topics": [
+        "mountains",
+        "lakes",
+        "bridges"
+      ],
+      "usage_count": 26,
+      "example_topic_ids": [
+        "travel.mountains",
+        "travel.islands",
+        "travel.national-parks",
+        "travel.waterfalls",
+        "travel.lakes",
+        "travel.deserts",
+        "travel.rainforests",
+        "travel.train-stations"
+      ]
+    },
+    {
+      "id": "canon_proxy",
+      "name": "Cultural canon proxy",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "description": "Use encyclopedic coverage, Wikidata sitelinks, museum collections and citations as a proxy for cultural prominence.",
+      "criteria": [
+        "Multiple signals",
+        "Language bias correction",
+        "Historical documentation bias"
+      ],
+      "indicators": [
+        "Wikidata sitelinks",
+        "Wikipedia pageviews",
+        "museum object counts",
+        "award citations"
+      ],
+      "scoring": "Combine sitelinks and pageviews with log normalization; report language coverage; never present the result as a definitive measure of artistic merit.",
+      "data_requirements": [
+        "Wikidata IDs",
+        "sitelink counts",
+        "pageview series",
+        "collection counts"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Broad coverage",
+        "Free",
+        "Useful for long-tail cultural topics"
+      ],
+      "limitations": [
+        "Reflects documentation and editor bias",
+        "Western/English skew",
+        "Not a quality measure"
+      ],
+      "example_topics": [
+        "historical personalities",
+        "paintings",
+        "philosophers"
+      ],
+      "usage_count": 47,
+      "example_topic_ids": [
+        "entertainment.film-festivals",
+        "entertainment.movie-characters",
+        "entertainment.fictional-universes",
+        "travel.historical-monuments",
+        "travel.road-trips",
+        "travel.food-destinations",
+        "science.observatories",
+        "science.scientific-discoveries"
+      ]
+    },
+    {
+      "id": "survey",
+      "name": "Survey-based ranking",
+      "basis": "survey",
+      "subjectivity": "subjective",
+      "description": "Rank using representative survey estimates, such as happiness, trust or public opinion.",
+      "criteria": [
+        "Sample design",
+        "Question wording",
+        "Country coverage",
+        "Margin of error"
+      ],
+      "indicators": [
+        "life satisfaction",
+        "trust",
+        "opinion shares",
+        "prevalence estimates"
+      ],
+      "scoring": "Use the survey's own weights; report sample size, field dates and confidence intervals; do not compare incompatible questions across surveys.",
+      "data_requirements": [
+        "Survey microdata or published estimates",
+        "weights",
+        "field dates",
+        "question wording"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Captures subjective wellbeing and opinions",
+        "Can be representative"
+      ],
+      "limitations": [
+        "Question-wording effects",
+        "Cultural response bias",
+        "Microdata often proprietary"
+      ],
+      "example_topics": [
+        "happiness",
+        "sleep",
+        "diets"
+      ],
+      "usage_count": 4,
+      "example_topic_ids": [
+        "food-drink.diets",
+        "health-lifestyle.sleep",
+        "health-lifestyle.telehealth",
+        "society-politics.happiness"
+      ]
+    },
+    {
+      "id": "trade_flow",
+      "name": "Trade flow ranking",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "description": "Rank countries, commodities or companies by exports, imports, production or trade value.",
+      "criteria": [
+        "Reporter/partner definitions",
+        "Commodity classification",
+        "Value vs quantity",
+        "Re-exports"
+      ],
+      "indicators": [
+        "export value",
+        "import value",
+        "net trade",
+        "production volume"
+      ],
+      "scoring": "Use a consistent HS/CPC classification and reference year; distinguish value from quantity; decide explicitly whether re-exports are included.",
+      "data_requirements": [
+        "Reporter",
+        "partner",
+        "commodity code",
+        "flow",
+        "year",
+        "value/quantity"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Detailed and official",
+        "Strong global coverage",
+        "Good for commodities"
+      ],
+      "limitations": [
+        "Mirror-data discrepancies",
+        "Illicit trade excluded",
+        "Free API quotas"
+      ],
+      "example_topics": [
+        "coffee producers",
+        "commodity producers",
+        "fisheries"
+      ],
+      "usage_count": 7,
+      "example_topic_ids": [
+        "food-drink.coffees",
+        "food-drink.teas",
+        "food-drink.chocolates",
+        "food-drink.spices",
+        "food-drink.breweries",
+        "food-drink.distilleries",
+        "industrial-agriculture.commodity-producers"
+      ]
+    },
+    {
+      "id": "patent",
+      "name": "Patent activity ranking",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "description": "Rank companies, countries or technologies by patent filings, grants or citations.",
+      "criteria": [
+        "Patent office",
+        "Filing vs grant",
+        "Family deduplication",
+        "Technology classification"
+      ],
+      "indicators": [
+        "patent families",
+        "granted patents",
+        "forward citations",
+        "inventor counts"
+      ],
+      "scoring": "Prefer patent families over individual filings to avoid double counting; use CPC/IPC classes; normalize by technology field and year.",
+      "data_requirements": [
+        "Patent IDs",
+        "family ID",
+        "assignee",
+        "filing date",
+        "CPC/IPC",
+        "citations"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Objective records",
+        "Good for innovation analysis",
+        "Open US/EPO data"
+      ],
+      "limitations": [
+        "Filings measure strategy, not quality",
+        "Citation lag",
+        "Assignee name disambiguation"
+      ],
+      "example_topics": [
+        "patents by company",
+        "autonomous vehicles",
+        "semiconductors"
+      ],
+      "usage_count": 7,
+      "example_topic_ids": [
+        "technology.robots",
+        "technology.ar-glasses",
+        "technology.batteries",
+        "science.inventions",
+        "business-finance.patents",
+        "history-culture.inventors",
+        "automotive-transport.autonomous-vehicles"
+      ]
+    },
+    {
+      "id": "price_index",
+      "name": "Price or cost index",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "description": "Rank places or products by price levels, cost of living or affordability indices.",
+      "criteria": [
+        "Basket definition",
+        "Currency conversion",
+        "Urban/rural coverage",
+        "Date"
+      ],
+      "indicators": [
+        "consumer price index",
+        "rent index",
+        "cost of living",
+        "purchasing power parity"
+      ],
+      "scoring": "Use a consistent basket and PPP conversion; distinguish cost of living from affordability; document the reference city or country.",
+      "data_requirements": [
+        "Price observations",
+        "basket weights",
+        "currency",
+        "PPP rate",
+        "date"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Practical for travellers and residents",
+        "Official indices exist"
+      ],
+      "limitations": [
+        "Baskets differ across countries",
+        "City-level data is patchy",
+        "Crowd-sourced indices are commercial"
+      ],
+      "example_topics": [
+        "budget destinations",
+        "cost of living"
+      ],
+      "usage_count": 1,
+      "example_topic_ids": [
+        "travel.budget-destinations"
+      ]
+    },
+    {
+      "id": "human_review",
+      "name": "Human review required",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "description": "A ranking cannot be responsibly automated with the currently available free data. It requires human testing, inspection or a licensed dataset.",
+      "criteria": [
+        "Named reviewers",
+        "Disclosed rubric",
+        "Evidence trail",
+        "Conflict-of-interest policy"
+      ],
+      "indicators": [
+        "expert scores",
+        "test results",
+        "inspections",
+        "licensed third-party ratings"
+      ],
+      "scoring": "Do not publish a data-derived ranking. Either commission human review with a documented rubric or license a reputable ranking dataset.",
+      "data_requirements": [
+        "Human evaluations",
+        "rubric",
+        "reviewer credentials",
+        "licence for any third-party data"
+      ],
+      "human_verification_required": true,
+      "strengths": [
+        "Honest about data limits",
+        "Protects users from fake precision"
+      ],
+      "limitations": [
+        "Expensive and slow",
+        "Not scalable to thousands of topics"
+      ],
+      "example_topics": [
+        "restaurants",
+        "hospitals",
+        "hotels"
+      ],
+      "usage_count": 31,
+      "example_topic_ids": [
+        "travel.hotels",
+        "education.schools",
+        "education.high-schools",
+        "education.scholarships",
+        "education.degree-programs",
+        "education.tutoring-services",
+        "business-finance.employers",
+        "business-finance.remote-work-companies"
+      ]
+    }
+  ]
+}

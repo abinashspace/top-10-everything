@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "pets-animals",
+  "category_name": "Pets & Animals",
+  "topic_count": 17,
+  "method_counts": {
+    "community_activity": 3,
+    "market_cap": 1,
+    "human_review": 4,
+    "official_stat": 7,
+    "attention_proxy": 2
+  },
+  "assignments": [
+    {
+      "topic_id": "pets-animals.dog-breeds",
+      "topic_name": "Dog Breeds",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "Kennel-club registrations and breed popularity where published",
+      "question": "Top 10 dog breeds ranked by Kennel-club registrations and breed popularity where published.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.cat-breeds",
+      "topic_name": "Cat Breeds",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "Kennel-club registrations where published; otherwise Wikidata",
+      "question": "Top 10 cat breeds ranked by Kennel-club registrations where published; otherwise Wikidata.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.pet-brands",
+      "topic_name": "Pet Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed pet companies",
+      "question": "Top 10 pet brands ranked by Revenue of listed pet companies.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.pet-food",
+      "topic_name": "Pet Food",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Pet-food quality/safety requires regulatory and veterinary data",
+      "question": "Top 10 pet food ranked by Pet-food quality/safety requires regulatory and veterinary data.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "pets-animals.veterinarians",
+      "topic_name": "Veterinarians",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Veterinarian quality/price; no open global dataset",
+      "question": "Top 10 veterinarians ranked by Veterinarian quality/price; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "pets-animals.animal-hospitals",
+      "topic_name": "Animal Hospitals",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Facility quality; no open global dataset",
+      "question": "Top 10 animal hospitals ranked by Facility quality; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "pets-animals.animal-species",
+      "topic_name": "Animal Species",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/IUCN species records",
+      "question": "Top 10 animal species ranked by GBIF/IUCN species records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.birds",
+      "topic_name": "Birds",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/eBird/IUCN bird records",
+      "question": "Top 10 birds ranked by GBIF/eBird/IUCN bird records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata",
+        "ebird"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.fishes",
+      "topic_name": "Fishes",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/IUCN/FishBase records",
+      "question": "Top 10 fishes ranked by GBIF/IUCN/FishBase records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.reptiles",
+      "topic_name": "Reptiles",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/IUCN reptile records",
+      "question": "Top 10 reptiles ranked by GBIF/IUCN reptile records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.horses",
+      "topic_name": "Horses",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "Breed registries and sport records",
+      "question": "Top 10 horses ranked by Breed registries and sport records.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.livestock-breeds",
+      "topic_name": "Livestock Breeds",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAO breed/genetic resources data and national registries",
+      "question": "Top 10 livestock breeds ranked by FAO breed/genetic resources data and national registries.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.service-dogs",
+      "topic_name": "Service Dogs",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Programme records and pageviews; no open global ranking",
+      "question": "Top 10 service dogs ranked by Programme records and pageviews; no open global ranking.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "iucn_redlist",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.pet-insurance",
+      "topic_name": "Pet Insurance",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Insurance pricing/quality is commercial and jurisdiction-specific",
+      "question": "Top 10 pet insurance ranked by Insurance pricing/quality is commercial and jurisdiction-specific.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "pets-animals.animal-charities",
+      "topic_name": "Animal Charities",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Charity regulator filings and programme data",
+      "question": "Top 10 animal charities ranked by Charity regulator filings and programme data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.wildlife-parks",
+      "topic_name": "Wildlife Parks",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "OSM/protected-area data and visitor numbers where published",
+      "question": "Top 10 wildlife parks ranked by OSM/protected-area data and visitor numbers where published.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia",
+        "protected_planet"
+      ]
+    },
+    {
+      "topic_id": "pets-animals.insects",
+      "topic_name": "Insects",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/IUCN insect records",
+      "question": "Top 10 insects ranked by GBIF/IUCN insect records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    }
+  ]
+}

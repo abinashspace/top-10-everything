@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "industrial-agriculture",
+  "category_name": "Industrial & Agriculture",
+  "topic_count": 21,
+  "method_counts": {
+    "official_stat": 9,
+    "market_cap": 11,
+    "trade_flow": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "industrial-agriculture.agricultural-countries",
+      "topic_name": "Agricultural Countries",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT production value and trade data",
+      "question": "Top 10 agricultural countries ranked by FAOSTAT production value and trade data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.crops",
+      "topic_name": "Crops",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT crop production and area harvested",
+      "question": "Top 10 crops ranked by FAOSTAT crop production and area harvested.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.coffee-producers",
+      "topic_name": "Coffee Producers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT/UN Comtrade coffee production and exports",
+      "question": "Top 10 coffee producers ranked by FAOSTAT/UN Comtrade coffee production and exports.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.wine-producers",
+      "topic_name": "Wine Producers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "OIV/FAOSTAT wine production and trade",
+      "question": "Top 10 wine producers ranked by OIV/FAOSTAT wine production and trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.beer-producers",
+      "topic_name": "Beer Producers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Industry association and company production data",
+      "question": "Top 10 beer producers ranked by Industry association and company production data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.livestock",
+      "topic_name": "Livestock",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAOSTAT livestock production and stocks",
+      "question": "Top 10 livestock ranked by FAOSTAT livestock production and stocks.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.dairy-companies",
+      "topic_name": "Dairy Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue from company reports",
+      "question": "Top 10 dairy companies ranked by Revenue from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.food-companies",
+      "topic_name": "Food Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 food companies ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.seed-companies",
+      "topic_name": "Seed Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market share from company reports",
+      "question": "Top 10 seed companies ranked by Revenue/market share from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.fertilizer-companies",
+      "topic_name": "Fertilizer Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market share from company reports",
+      "question": "Top 10 fertilizer companies ranked by Revenue/market share from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.tractor-brands",
+      "topic_name": "Tractor Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market share from company reports",
+      "question": "Top 10 tractor brands ranked by Revenue/market share from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.farm-equipment",
+      "topic_name": "Farm Equipment",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Production/trade statistics and company disclosures",
+      "question": "Top 10 farm equipment ranked by Production/trade statistics and company disclosures.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.commodity-producers",
+      "topic_name": "Commodity Producers",
+      "method_id": "trade_flow",
+      "method_name": "Trade flow ranking",
+      "metric": "UN Comtrade and company production disclosures",
+      "question": "Top 10 commodity producers ranked by UN Comtrade and company production disclosures.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "un_comtrade",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "faostat",
+        "oecd"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.steel-companies",
+      "topic_name": "Steel Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/production from company reports",
+      "question": "Top 10 steel companies ranked by Revenue/production from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.cement-companies",
+      "topic_name": "Cement Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/capacity from company reports",
+      "question": "Top 10 cement companies ranked by Revenue/capacity from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.chemical-companies",
+      "topic_name": "Chemical Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 chemical companies ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.packaging-companies",
+      "topic_name": "Packaging Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue from company reports",
+      "question": "Top 10 packaging companies ranked by Revenue from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.textile-companies",
+      "topic_name": "Textile Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue from company reports and trade statistics",
+      "question": "Top 10 textile companies ranked by Revenue from company reports and trade statistics.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.timber-companies",
+      "topic_name": "Timber Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/production from company reports",
+      "question": "Top 10 timber companies ranked by Revenue/production from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.fisheries",
+      "topic_name": "Fisheries",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAO fisheries and aquaculture statistics",
+      "question": "Top 10 fisheries ranked by FAO fisheries and aquaculture statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "industrial-agriculture.aquaculture",
+      "topic_name": "Aquaculture",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "FAO aquaculture production statistics",
+      "question": "Top 10 aquaculture ranked by FAO aquaculture production statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "faostat",
+        "un_comtrade"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    }
+  ]
+}

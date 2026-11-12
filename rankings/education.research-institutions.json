@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "education.research-institutions",
+  "topic_name": "Research Institutions",
+  "category": "education",
+  "question": "Top 10 research institutions ranked by OpenAlex publication and citation counts.",
+  "metric": "OpenAlex publication and citation counts",
+  "method": {
+    "id": "bibliometric",
+    "name": "Bibliometric ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "All-time citations to works affiliated with the institution",
+    "unit": "citations (OpenAlex, all time)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:33+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:20+00:00",
+    "reference_period": null,
+    "records_considered": 91,
+    "records_ranked": 91,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "OpenAlex institutions, sorted by cited_by_count"
+  },
+  "sources": [
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "official_url": "https://openalex.org/",
+      "api_docs_url": "https://docs.openalex.org/",
+      "commercial_use": "allowed",
+      "attribution_required": false,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:29+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "https://openalex.org/I1294671590",
+      "name": "Centre National de la Recherche Scientifique",
+      "value": 223086628,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 1622310,
+        "country_code": "FR",
+        "type": "government"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "https://openalex.org/I136199984",
+      "name": "Harvard University",
+      "value": 197258174,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 959552,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "https://openalex.org/I19820366",
+      "name": "Chinese Academy of Sciences",
+      "value": 145464774,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 1214954,
+        "country_code": "CN",
+        "type": "government"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "https://openalex.org/I201448701",
+      "name": "University of Washington",
+      "value": 114821658,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 523426,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "https://openalex.org/I97018004",
+      "name": "Stanford University",
+      "value": 102591237,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 546878,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "https://openalex.org/I1299303238",
+      "name": "National Institutes of Health",
+      "value": 101987978,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 398476,
+        "country_code": "US",
+        "type": "government"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "https://openalex.org/I67311998",
+      "name": "European Organization for Nuclear Research",
+      "value": 88830560,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 79486,
+        "country_code": "CH",
+        "type": "facility"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "https://openalex.org/I145311948",
+      "name": "Johns Hopkins University",
+      "value": 86551179,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 510339,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "https://openalex.org/I63966007",
+      "name": "Massachusetts Institute of Technology",
+      "value": 85928825,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 391658,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "https://openalex.org/I154526488",
+      "name": "Inserm",
+      "value": 85739768,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 482464,
+        "country_code": "FR",
+        "type": "government"
+      }
+    }
+  ],
+  "caveats": [
+    "Citation counts favour large, English-language and health/life-science fields.",
+    "Entity and institution name disambiguation is imperfect in any bibliographic database.",
+    "OpenAlex mixes universities, hospitals, government labs and corporate research groups; the type is kept per record.",
+    "All-time citation counts are not field- or age-normalised."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

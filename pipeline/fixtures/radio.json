@@ -1,0 +1,18 @@
+[
+ {
+  "stationuuid": "a",
+  "name": "RTL &amp; Co",
+  "clickcount": 10,
+  "country": "France",
+  "tags": "pop",
+  "codec": "MP3"
+ },
+ {
+  "stationuuid": "b",
+  "name": "Never Clicked",
+  "clickcount": 0,
+  "country": "Nowhere",
+  "tags": "",
+  "codec": "MP3"
+ }
+]

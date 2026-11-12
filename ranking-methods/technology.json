@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "technology",
+  "category_name": "Technology",
+  "topic_count": 34,
+  "method_counts": {
+    "attention_proxy": 21,
+    "benchmark": 2,
+    "community_activity": 4,
+    "sales_share": 1,
+    "patent": 3,
+    "market_cap": 3
+  },
+  "assignments": [
+    {
+      "topic_id": "technology.smartphones",
+      "topic_name": "Smartphones",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks, used as an attention proxy; no free global unit-sales series",
+      "question": "Top 10 smartphones ranked by Wikipedia pageviews and Wikidata sitelinks, used as an attention proxy; no free global unit-sales series.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.laptops",
+      "topic_name": "Laptops",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks as a popularity proxy",
+      "question": "Top 10 laptops ranked by Wikipedia pageviews and Wikidata sitelinks as a popularity proxy.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.tablets",
+      "topic_name": "Tablets",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 tablets ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.smartwatches",
+      "topic_name": "Smartwatches",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 smartwatches ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.cameras",
+      "topic_name": "Cameras",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 cameras ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.headphones",
+      "topic_name": "Headphones",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 headphones ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.processors",
+      "topic_name": "Processors",
+      "method_id": "benchmark",
+      "method_name": "Standardised benchmark",
+      "metric": "Standardised benchmark scores from benchmark databases; redistribution requires permission",
+      "question": "Top 10 processors ranked by Standardised benchmark scores from benchmark databases; redistribution requires permission.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.graphics-cards",
+      "topic_name": "Graphics Cards",
+      "method_id": "benchmark",
+      "method_name": "Standardised benchmark",
+      "metric": "Benchmark scores and specification data; benchmark database reuse is restricted",
+      "question": "Top 10 graphics cards ranked by Benchmark scores and specification data; benchmark database reuse is restricted.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.operating-systems",
+      "topic_name": "Operating Systems",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews plus GitHub activity for open-source projects",
+      "question": "Top 10 operating systems ranked by Wikimedia pageviews plus GitHub activity for open-source projects.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.programming-languages",
+      "topic_name": "Programming Languages",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "GitHub repository/contributor activity, package-registry downloads and Stack Overflow tag activity",
+      "question": "Top 10 programming languages ranked by GitHub repository/contributor activity, package-registry downloads and Stack Overflow tag activity.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "pypi",
+        "npm",
+        "crates_io",
+        "stack_exchange"
+      ]
+    },
+    {
+      "topic_id": "technology.ai-tools",
+      "topic_name": "AI Tools",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "GitHub stars, Hugging Face downloads/likes and product metadata",
+      "question": "Top 10 ai tools ranked by GitHub stars, Hugging Face downloads/likes and product metadata.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "huggingface",
+        "github"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata",
+        "stack_exchange"
+      ]
+    },
+    {
+      "topic_id": "technology.ai-models",
+      "topic_name": "AI Models",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "Hugging Face downloads/likes plus OpenAlex citations to model papers",
+      "question": "Top 10 ai models ranked by Hugging Face downloads/likes plus OpenAlex citations to model papers.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "huggingface",
+        "github"
+      ],
+      "backup_sources": [
+        "openalex",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "technology.cloud-platforms",
+      "topic_name": "Cloud Platforms",
+      "method_id": "sales_share",
+      "method_name": "Sales or shipment ranking",
+      "metric": "Cloud revenue disclosed in SEC filings where reported; market-share estimates are paid",
+      "question": "Top 10 cloud platforms ranked by Cloud revenue disclosed in SEC filings where reported; market-share estimates are paid.",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "technology.cybersecurity-tools",
+      "topic_name": "Cybersecurity Tools",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "GitHub activity for open-source tools plus Wikipedia attention",
+      "question": "Top 10 cybersecurity tools ranked by GitHub activity for open-source tools plus Wikipedia attention.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.software-apps",
+      "topic_name": "Software Applications",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and GitHub activity",
+      "question": "Top 10 software applications ranked by Wikimedia pageviews and GitHub activity.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "stack_exchange"
+      ]
+    },
+    {
+      "topic_id": "technology.web-browsers",
+      "topic_name": "Web Browsers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and GitHub activity; usage-share panels are commercial",
+      "question": "Top 10 web browsers ranked by Wikimedia pageviews and GitHub activity; usage-share panels are commercial.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.databases",
+      "topic_name": "Databases",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "GitHub activity, package downloads and DB-Engines-style popularity proxies",
+      "question": "Top 10 databases ranked by GitHub activity, package downloads and DB-Engines-style popularity proxies.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "stack_exchange"
+      ]
+    },
+    {
+      "topic_id": "technology.3d-printers",
+      "topic_name": "3D Printers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 3d printers ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.drones",
+      "topic_name": "Drones",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 drones ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.robots",
+      "topic_name": "Robots",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent counts and company disclosures; shipment data is commercial",
+      "question": "Top 10 robots ranked by Patent counts and company disclosures; shipment data is commercial.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.smart-home-devices",
+      "topic_name": "Smart Home Devices",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 smart home devices ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.wearables",
+      "topic_name": "Wearables",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 wearables ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.monitors",
+      "topic_name": "Monitors",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 monitors ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.keyboards",
+      "topic_name": "Keyboards",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Community mentions and Wikidata coverage",
+      "question": "Top 10 keyboards ranked by Community mentions and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.routers",
+      "topic_name": "Routers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 routers ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.gaming-pcs",
+      "topic_name": "Gaming PCs",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 gaming pcs ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.vr-headsets",
+      "topic_name": "VR Headsets",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikipedia pageviews and Wikidata sitelinks",
+      "question": "Top 10 vr headsets ranked by Wikipedia pageviews and Wikidata sitelinks.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.ar-glasses",
+      "topic_name": "AR Glasses",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent activity and product announcements; no open shipment dataset",
+      "question": "Top 10 ar glasses ranked by Patent activity and product announcements; no open shipment dataset.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.batteries",
+      "topic_name": "Batteries",
+      "method_id": "patent",
+      "method_name": "Patent activity ranking",
+      "metric": "Patent counts and research output via OpenAlex/PatentsView",
+      "question": "Top 10 batteries ranked by Patent counts and research output via OpenAlex/PatentsView.",
+      "basis": "official_record",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.semiconductors",
+      "topic_name": "Semiconductors",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue and market capitalisation from SEC filings and market data",
+      "question": "Top 10 semiconductors ranked by Revenue and market capitalisation from SEC filings and market data.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "technology.tech-companies",
+      "topic_name": "Technology Companies",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Market capitalisation and revenue from filings/market APIs",
+      "question": "Top 10 technology companies ranked by Market capitalisation and revenue from filings/market APIs.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "technology.tech-startups",
+      "topic_name": "Tech Startups",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Valuations from funding announcements; no comprehensive open global dataset",
+      "question": "Top 10 tech startups ranked by Valuations from funding announcements; no comprehensive open global dataset.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "technology.search-engines",
+      "topic_name": "Search Engines",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and usage-share panels where openly available",
+      "question": "Top 10 search engines ranked by Wikimedia pageviews and usage-share panels where openly available.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.social-media-platforms",
+      "topic_name": "Social Media Platforms",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Monthly active users from company reports where disclosed; pageview proxies otherwise",
+      "question": "Top 10 social media platforms ranked by Monthly active users from company reports where disclosed; pageview proxies otherwise.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    }
+  ]
+}

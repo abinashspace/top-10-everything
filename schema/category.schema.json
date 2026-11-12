@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://top10everything.example/schema/category.schema.json",
+  "title": "Top 10 Everything category file",
+  "description": "One file per top-level category, containing the category summary and all of its topics.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "category", "topics"],
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "description",
+        "topic_count",
+        "subcategory_count",
+        "research_status_counts",
+        "data_availability_counts"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 10 },
+        "topic_count": { "type": "integer", "minimum": 1 },
+        "subcategory_count": { "type": "integer", "minimum": 1 },
+        "research_status_counts": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "data_availability_counts": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "topic.schema.json" }
+    }
+  }
+}

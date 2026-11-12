@@ -1,0 +1,2228 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "environment-nature",
+    "name": "Environment & Nature",
+    "description": "Climate, energy, biodiversity, natural hazards and environmental performance.",
+    "topic_count": 29,
+    "subcategory_count": 115,
+    "research_status_counts": {
+      "researched": 19,
+      "partial": 10
+    },
+    "data_availability_counts": {
+      "strong": 7,
+      "limited": 10,
+      "moderate": 12
+    }
+  },
+  "topics": [
+    {
+      "id": "environment-nature.countries-environment",
+      "name": "Countries by Environmental Performance",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Countries by Environmental Performance"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Emissions",
+        "Air quality",
+        "Biodiversity",
+        "Policy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 countries by environmental performance ranked by Yale EPI or a transparent composite of World Bank/OWID indicators.",
+        "metric": "Yale EPI or a transparent composite of World Bank/OWID indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "The Environmental Performance Index is a specific methodology, not a neutral truth. Document weights."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.greenest-cities",
+      "name": "Greenest Cities",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Greenest Cities"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Emissions",
+        "Green space",
+        "Transport",
+        "Energy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 greenest cities ranked by City-level emissions, green space and transport indicators.",
+        "metric": "City-level emissions, green space and transport indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.renewable-energy",
+      "name": "Renewable Energy",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Renewable Energy"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "By source",
+        "Capacity",
+        "Generation"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "ember",
+            "name": "Ember Data API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "eia",
+            "name": "US Energy Information Administration API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "irena",
+            "name": "IRENA Statistics",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 renewable energy ranked by Ember/IRENA/EIA capacity and generation statistics.",
+        "metric": "Ember/IRENA/EIA capacity and generation statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.solar-companies",
+      "name": "Solar Companies",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Solar Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Manufacturers",
+        "Developers",
+        "Installers",
+        "Inverters"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "irena",
+            "name": "IRENA Statistics",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 solar companies ranked by Revenue/market cap from filings; installation data is fragmented.",
+        "metric": "Revenue/market cap from filings; installation data is fragmented",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.wind-farms",
+      "name": "Wind Farms",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Wind Farms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Onshore",
+        "Offshore",
+        "Largest",
+        "Newest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "ember",
+            "name": "Ember Data API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "eia",
+            "name": "US Energy Information Administration API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "irena",
+            "name": "IRENA Statistics",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 wind farms ranked by OSM/IRENA facility data and capacity records.",
+        "metric": "OSM/IRENA facility data and capacity records",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.hydropower",
+      "name": "Hydropower",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Hydropower"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By capacity",
+        "By generation",
+        "Dams",
+        "Pumped storage"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "ember",
+            "name": "Ember Data API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "eia",
+            "name": "US Energy Information Administration API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "irena",
+            "name": "IRENA Statistics",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 hydropower ranked by IRENA/EIA capacity and generation data.",
+        "metric": "IRENA/EIA capacity and generation data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.nuclear-plants",
+      "name": "Nuclear Plants",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Nuclear Plants"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By capacity",
+        "By generation",
+        "Reactors",
+        "Decommissioning"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "ember",
+            "name": "Ember Data API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "eia",
+            "name": "US Energy Information Administration API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "irena",
+            "name": "IRENA Statistics",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 nuclear plants ranked by IAEA PRIS/EIA plant and reactor data.",
+        "metric": "IAEA PRIS/EIA plant and reactor data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "IAEA PRIS access terms should be checked before automated reuse."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.oil-companies",
+      "name": "Oil Companies",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Oil Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By production",
+        "By reserves",
+        "National oil companies"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 oil companies ranked by Revenue/market cap and production from filings.",
+        "metric": "Revenue/market cap and production from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.gas-companies",
+      "name": "Gas Companies",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Gas Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By production",
+        "LNG",
+        "Distribution"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 gas companies ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.mining-companies",
+      "name": "Mining Companies",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Mining Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "By commodity",
+        "Critical minerals",
+        "Coal"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 mining companies ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.carbon-emitters",
+      "name": "Carbon Emitters",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Carbon Emitters"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "By company",
+        "By facility",
+        "Per capita"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "climate_trace",
+            "name": "Climate TRACE API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "ember",
+            "name": "Ember Data API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 carbon emitters ranked by Climate TRACE facility data and Global Carbon Budget country data.",
+        "metric": "Climate TRACE facility data and Global Carbon Budget country data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Facility estimates are modelled; country inventories use different methodologies."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.biodiversity-hotspots",
+      "name": "Biodiversity Hotspots",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Biodiversity Hotspots"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By species richness",
+        "By endemism",
+        "By threat"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "protected_planet",
+            "name": "Protected Planet",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "ebird",
+            "name": "eBird API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 biodiversity hotspots ranked by GBIF/IUCN range and richness data.",
+        "metric": "GBIF/IUCN range and richness data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.endangered-species",
+      "name": "Endangered Species",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Endangered Species"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Critically endangered",
+        "By country",
+        "By taxon",
+        "Recovering"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "protected_planet",
+            "name": "Protected Planet",
+            "access_model": "free_account",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 endangered species ranked by IUCN Red List categories and GBIF taxonomy.",
+        "metric": "IUCN Red List categories and GBIF taxonomy",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.zoos",
+      "name": "Zoos",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Zoos"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Conservation",
+        "Aquariums",
+        "Safari parks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 zoos ranked by OSM facility mapping and visitor numbers where published.",
+        "metric": "OSM facility mapping and visitor numbers where published",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.aquariums",
+      "name": "Aquariums",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Aquariums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Public",
+        "Research",
+        "Tourist"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 aquariums ranked by OSM mapping and published attendance.",
+        "metric": "OSM mapping and published attendance",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.botanical-gardens",
+      "name": "Botanical Gardens",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Botanical Gardens"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Historic",
+        "Conservation",
+        "Research"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 botanical gardens ranked by OSM/BGCI garden records.",
+        "metric": "OSM/BGCI garden records",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.forests",
+      "name": "Forests",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Forests"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By area",
+        "By loss",
+        "Primary forest",
+        "Planted forest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "global_forest_watch",
+            "name": "Global Forest Watch API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 forests ranked by FAO FRA and Global Forest Watch tree-cover data.",
+        "metric": "FAO FRA and Global Forest Watch tree-cover data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.rivers",
+      "name": "Rivers",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Rivers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Longest",
+        "Largest by discharge",
+        "Most polluted",
+        "Transboundary"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 rivers ranked by OSM/Wikidata river length and basin data.",
+        "metric": "OSM/Wikidata river length and basin data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.oceanography",
+      "name": "Oceanography",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Oceanography"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ocean circulation",
+        "Marine chemistry",
+        "Ocean warming",
+        "Deep-sea research"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 oceanography ranked by OpenAlex/NOAA research output and ocean-observation datasets.",
+        "metric": "OpenAlex/NOAA research output and ocean-observation datasets",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.coral-reefs",
+      "name": "Coral Reefs",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Coral Reefs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Most biodiverse",
+        "Bleaching risk",
+        "Restoration"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 coral reefs ranked by Global Coral Reef Monitoring Network/NOAA reef data.",
+        "metric": "Global Coral Reef Monitoring Network/NOAA reef data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.glaciers",
+      "name": "Glaciers",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Glaciers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Fastest retreating",
+        "By volume",
+        "Ice caps"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 glaciers ranked by GLIMS/World Glacier Monitoring Service data.",
+        "metric": "GLIMS/World Glacier Monitoring Service data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.hurricanes",
+      "name": "Hurricanes",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Hurricanes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Costliest",
+        "Deadliest",
+        "Most intense",
+        "By basin"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 hurricanes ranked by NOAA HURDAT and IBTrACS best-track data.",
+        "metric": "NOAA HURDAT and IBTrACS best-track data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.floods",
+      "name": "Floods",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Floods"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Deadliest",
+        "Costliest",
+        "Most frequent",
+        "By country"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 floods ranked by EM-DAT/ReliefWeb disaster records; EM-DAT has access restrictions.",
+        "metric": "EM-DAT/ReliefWeb disaster records; EM-DAT has access restrictions",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.wildfires",
+      "name": "Wildfires",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Wildfires"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Deadliest",
+        "By country",
+        "Recent"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "global_forest_watch",
+            "name": "Global Forest Watch API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_power",
+            "name": "NASA POWER API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 wildfires ranked by NASA FIRMS/GFW fire data and national records.",
+        "metric": "NASA FIRMS/GFW fire data and national records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.air-quality",
+      "name": "Air Quality",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Air Quality"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By city",
+        "By country",
+        "PM2.5",
+        "Ozone"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openaq",
+            "name": "OpenAQ API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "epa_aqs",
+            "name": "US EPA Air Quality System API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_meteo",
+            "name": "Open-Meteo",
+            "access_model": "free_tier",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 air quality ranked by OpenAQ/EPA AQS/WHO ambient air quality data.",
+        "metric": "OpenAQ/EPA AQS/WHO ambient air quality data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.water-quality",
+      "name": "Water Quality",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Water Quality"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Drinking water",
+        "Sanitation",
+        "Water stress",
+        "Pollution"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wri_aqueduct",
+            "name": "WRI Aqueduct",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 water quality ranked by WHO/UNICEF JMP and WRI Aqueduct data.",
+        "metric": "WHO/UNICEF JMP and WRI Aqueduct data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.recycling",
+      "name": "Recycling",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Recycling"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Rates",
+        "By material",
+        "By country",
+        "Municipal waste"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 recycling ranked by OECD/World Bank municipal waste and recycling statistics.",
+        "metric": "OECD/World Bank municipal waste and recycling statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.waste-management",
+      "name": "Waste Management",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Waste Management"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Municipal waste",
+        "Plastic",
+        "E-waste",
+        "Landfill"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 waste management ranked by World Bank/UNEP waste statistics.",
+        "metric": "World Bank/UNEP waste statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "environment-nature.climate-risk",
+      "name": "Climate Risk",
+      "parent_id": "environment-nature",
+      "parent_name": "Environment & Nature",
+      "path": [
+        "Environment & Nature",
+        "Climate Risk"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "By city",
+        "Flood risk",
+        "Heat risk"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wri_aqueduct",
+            "name": "WRI Aqueduct",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_power",
+            "name": "NASA POWER API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 climate risk ranked by ND-GAIN, WRI Aqueduct and climate-hazard indicators.",
+        "metric": "ND-GAIN, WRI Aqueduct and climate-hazard indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

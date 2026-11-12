@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "environment-nature.renewable-energy",
+  "topic_name": "Renewable Energy",
+  "category": "environment-nature",
+  "question": "Top 10 renewable energy ranked by Ember/IRENA/EIA capacity and generation statistics.",
+  "metric": "Ember/IRENA/EIA capacity and generation statistics",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Renewable share of electricity generation",
+    "unit": "% of electricity",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T12:14:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T12:04:29+00:00",
+    "reference_period": "2025",
+    "records_considered": 90,
+    "records_ranked": 90,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "reference_year": 2025,
+    "grapher_slug": "share-electricity-renewables"
+  },
+  "sources": [
+    {
+      "id": "our_world_in_data",
+      "name": "Our World in Data",
+      "official_url": "https://ourworldindata.org/",
+      "api_docs_url": "https://ourworldindata.org/using-our-data",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:30+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "PRY",
+      "name": "Paraguay",
+      "value": 100.0,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 1,
+      "entity_id": "ETH",
+      "name": "Ethiopia",
+      "value": 100.0,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 1,
+      "entity_id": "CRI",
+      "name": "Costa Rica",
+      "value": 100.0,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 2,
+      "entity_id": "NOR",
+      "name": "Norway",
+      "value": 98.99882,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 3,
+      "entity_id": "URY",
+      "name": "Uruguay",
+      "value": 97.82245,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 4,
+      "entity_id": "TJK",
+      "name": "Tajikistan",
+      "value": 94.36563,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 5,
+      "entity_id": "LUX",
+      "name": "Luxembourg",
+      "value": 91.55844,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 6,
+      "entity_id": "DNK",
+      "name": "Denmark",
+      "value": 91.17117,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 7,
+      "entity_id": "KEN",
+      "name": "Kenya",
+      "value": 90.028496,
+      "unit": "% of electricity",
+      "period": "2025"
+    },
+    {
+      "rank": 8,
+      "entity_id": "NZL",
+      "name": "New Zealand",
+      "value": 88.53253,
+      "unit": "% of electricity",
+      "period": "2025"
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "Single reference year (2025) selected as the latest year with at least 50 country rows.",
+    "Share of generation, not total renewable capacity; small hydro-heavy grids rank high."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

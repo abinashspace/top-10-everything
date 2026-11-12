@@ -1,0 +1,2365 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "business-finance",
+    "name": "Business & Finance",
+    "description": "Companies, markets, money and the people who control them.",
+    "topic_count": 33,
+    "subcategory_count": 127,
+    "research_status_counts": {
+      "researched": 11,
+      "partial": 18,
+      "unsupported": 4
+    },
+    "data_availability_counts": {
+      "moderate": 10,
+      "limited": 18,
+      "strong": 1,
+      "none": 4
+    }
+  },
+  "topics": [
+    {
+      "id": "business-finance.companies",
+      "name": "Companies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest by revenue",
+        "Largest by market cap",
+        "Most profitable",
+        "Fastest growing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "companies_house",
+            "name": "Companies House API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 companies ranked by Revenue/market capitalisation from filings and market data.",
+        "metric": "Revenue/market capitalisation from filings and market data",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Free coverage is strong for US-listed firms and weak for private/emerging-market firms."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.brands",
+      "name": "Brands",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Most valuable",
+        "Most trusted",
+        "Fastest growing",
+        "Global brands"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 brands ranked by Brand valuations are proprietary; use market cap/revenue as a public-company proxy.",
+        "metric": "Brand valuations are proprietary; use market cap/revenue as a public-company proxy",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Interbrand, Brand Finance and Kantar brand valuations are commercial and cannot be republished."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.startups",
+      "name": "Startups",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Startups"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Unicorns",
+        "Seed-stage",
+        "AI startups",
+        "Climate startups"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 startups ranked by Funding/valuation announcements; no comprehensive open dataset.",
+        "metric": "Funding/valuation announcements; no comprehensive open dataset",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.unicorns",
+      "name": "Unicorns",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Unicorns"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By valuation",
+        "By country",
+        "By sector",
+        "Newest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 unicorns ranked by Private valuations from funding announcements/CRMs.",
+        "metric": "Private valuations from funding announcements/CRMs",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.entrepreneurs",
+      "name": "Entrepreneurs",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Entrepreneurs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Founders",
+        "Serial entrepreneurs",
+        "Social entrepreneurs"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 entrepreneurs ranked by Company value/ownership from filings; private wealth is editorial.",
+        "metric": "Company value/ownership from filings; private wealth is editorial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.ceos",
+      "name": "CEOs",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "CEOs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By compensation",
+        "By tenure",
+        "Most influential",
+        "Founder-CEOs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 ceos ranked by Executive compensation from SEC proxy filings (US).",
+        "metric": "Executive compensation from SEC proxy filings (US)",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.richest-people",
+      "name": "Richest People",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Richest People"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Billionaires",
+        "By country",
+        "Self-made",
+        "Heirs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 richest people ranked by Public holdings from filings; private wealth requires proprietary estimates.",
+        "metric": "Public holdings from filings; private wealth requires proprietary estimates",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Forbes/Bloomberg wealth lists are proprietary. A public-filings-only list is incomplete."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.economies",
+      "name": "Economies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Economies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "GDP",
+        "GDP per capita",
+        "Growth",
+        "Purchasing power"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "imf",
+            "name": "IMF Data API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "eurostat",
+            "name": "Eurostat API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 economies ranked by World Bank/IMF national accounts.",
+        "metric": "World Bank/IMF national accounts",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.stock-exchanges",
+      "name": "Stock Exchanges",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Stock Exchanges"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By market cap",
+        "By volume",
+        "By listings"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 stock exchanges ranked by Exchange market capitalisation/volume from exchange and regulator data.",
+        "metric": "Exchange market capitalisation/volume from exchange and regulator data",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.banks",
+      "name": "Banks",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Banks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest by assets",
+        "Most profitable",
+        "Retail banks",
+        "Investment banks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 banks ranked by Bank assets and capital from regulatory filings.",
+        "metric": "Bank assets and capital from regulatory filings",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.fintechs",
+      "name": "Fintechs",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Fintechs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Payments",
+        "Lending",
+        "Neobanks",
+        "Insurtech"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 fintechs ranked by Market cap for public fintechs; private valuations are press-reported.",
+        "metric": "Market cap for public fintechs; private valuations are press-reported",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.cryptocurrencies",
+      "name": "Cryptocurrencies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Cryptocurrencies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By market cap",
+        "By volume",
+        "Stablecoins",
+        "DeFi tokens"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "coinmarketcap",
+            "name": "CoinMarketCap API",
+            "access_model": "free_tier",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 cryptocurrencies ranked by CoinGecko/CoinMarketCap market capitalisation.",
+        "metric": "CoinGecko/CoinMarketCap market capitalisation",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.crypto-exchanges",
+      "name": "Crypto Exchanges",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Crypto Exchanges"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Spot",
+        "Derivatives",
+        "Decentralised"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "coinmarketcap",
+            "name": "CoinMarketCap API",
+            "access_model": "free_tier",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 crypto exchanges ranked by Exchange volume/reserve data from aggregators.",
+        "metric": "Exchange volume/reserve data from aggregators",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Exchange volumes are partly self-reported and can be inflated."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.stocks",
+      "name": "Stocks",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Stocks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Large cap",
+        "Dividend",
+        "Growth",
+        "Value"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 stocks ranked by Market capitalisation and price performance from market APIs.",
+        "metric": "Market capitalisation and price performance from market APIs",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Free market APIs have limited history and strict redistribution terms."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.etfs",
+      "name": "ETFs",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "ETFs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Equity",
+        "Bond",
+        "Commodity",
+        "Thematic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 etfs ranked by Fund assets under management from issuer/regulator data.",
+        "metric": "Fund assets under management from issuer/regulator data",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.mutual-funds",
+      "name": "Mutual Funds",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Mutual Funds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Equity",
+        "Bond",
+        "Index",
+        "Money market"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 mutual funds ranked by Fund AUM and returns from regulators/fund filings.",
+        "metric": "Fund AUM and returns from regulators/fund filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.hedge-funds",
+      "name": "Hedge Funds",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Hedge Funds"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By AUM",
+        "By returns",
+        "Activist",
+        "Quant"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 hedge funds ranked by AUM/returns are largely proprietary; SEC Form D/13F gives partial signals.",
+        "metric": "AUM/returns are largely proprietary; SEC Form D/13F gives partial signals",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.venture-capital",
+      "name": "Venture Capital Firms",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Venture Capital Firms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By deals",
+        "By AUM",
+        "Early-stage",
+        "Growth"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 venture capital firms ranked by Deal data from announcements; comprehensive databases are paid.",
+        "metric": "Deal data from announcements; comprehensive databases are paid",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.private-equity",
+      "name": "Private Equity Firms",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Private Equity Firms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By AUM",
+        "By deals",
+        "Buyout",
+        "Growth"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 private equity firms ranked by AUM/deal data from disclosures; comprehensive data is paid.",
+        "metric": "AUM/deal data from disclosures; comprehensive data is paid",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.accounting-firms",
+      "name": "Accounting Firms",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Accounting Firms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Big Four",
+        "Mid-tier",
+        "Audit",
+        "Advisory"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 accounting firms ranked by Revenue and headcount from firm disclosures.",
+        "metric": "Revenue and headcount from firm disclosures",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.consulting-firms",
+      "name": "Consulting Firms",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Consulting Firms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Strategy",
+        "Management",
+        "Technology",
+        "Boutique"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 consulting firms ranked by Revenue/headcount from firm disclosures; private data is incomplete.",
+        "metric": "Revenue/headcount from firm disclosures; private data is incomplete",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.advertising-agencies",
+      "name": "Advertising Agencies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Advertising Agencies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Creative",
+        "Media",
+        "Digital",
+        "Holding companies"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 advertising agencies ranked by Holding-company revenue from filings; agency billings are commercial.",
+        "metric": "Holding-company revenue from filings; agency billings are commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.ecommerce-companies",
+      "name": "E-commerce Companies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "E-commerce Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Marketplaces",
+        "Retailers",
+        "D2C",
+        "Logistics"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 e-commerce companies ranked by Revenue/market cap from filings.",
+        "metric": "Revenue/market cap from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.retailers",
+      "name": "Retailers",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Retailers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Grocery",
+        "Fashion",
+        "Electronics",
+        "Discount"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 retailers ranked by Retail revenue from filings and statistical agencies.",
+        "metric": "Retail revenue from filings and statistical agencies",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.employers",
+      "name": "Employers",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Employers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best places to work",
+        "Largest employers",
+        "Remote-first"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [
+          {
+            "id": "companies_house",
+            "name": "Companies House API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 0,
+        "backup_count": 1,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 employers ranked by Employee satisfaction rankings; proprietary survey data.",
+        "metric": "Employee satisfaction rankings; proprietary survey data",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "low",
+      "notes": [
+        "Great Place to Work, Glassdoor and LinkedIn rankings are proprietary or platform-bound."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.remote-work-companies",
+      "name": "Remote Work Companies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Remote Work Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Remote-first",
+        "Hybrid",
+        "Distributed teams"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 remote work companies ranked by Remote-work quality; no open comparable dataset.",
+        "metric": "Remote-work quality; no open comparable dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.logistics-companies",
+      "name": "Logistics Companies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Logistics Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Freight",
+        "Parcel",
+        "Shipping",
+        "3PL"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 logistics companies ranked by Revenue and volume from filings/industry data.",
+        "metric": "Revenue and volume from filings/industry data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.patents",
+      "name": "Patents",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Patents"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "By company",
+        "By technology",
+        "Most cited"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "patentsview",
+            "name": "PatentsView API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "epo_ops",
+            "name": "EPO Open Patent Services",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 patents ranked by Patent counts and citations from PatentsView/EPO.",
+        "metric": "Patent counts and citations from PatentsView/EPO",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Patent counts measure filings, not innovation quality; citation lag is long."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.ipos",
+      "name": "IPOs",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "IPOs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Best performing",
+        "By sector",
+        "Recent"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "alphavantage",
+            "name": "Alpha Vantage",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "coingecko",
+            "name": "CoinGecko API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "frankfurter",
+            "name": "Frankfurter API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "event_outcome",
+        "name": "Event outcome",
+        "question": "Top 10 ipos ranked by IPO proceeds and first-day performance from exchange/SEC data.",
+        "metric": "IPO proceeds and first-day performance from exchange/SEC data",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.credit-cards",
+      "name": "Credit Cards",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Credit Cards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cashback",
+        "Travel",
+        "Rewards",
+        "Secured"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 credit cards ranked by Card terms change constantly and are not available as an open dataset.",
+        "metric": "Card terms change constantly and are not available as an open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.insurance-companies",
+      "name": "Insurance Companies",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Insurance Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Life",
+        "Property",
+        "Health",
+        "Reinsurance"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 insurance companies ranked by Premiums/assets from regulatory filings.",
+        "metric": "Premiums/assets from regulatory filings",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.real-estate-markets",
+      "name": "Real Estate Markets",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Real Estate Markets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "House prices",
+        "Rents",
+        "Affordability",
+        "Commercial"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "vdem",
+            "name": "V-Dem Dataset",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 real estate markets ranked by House price/rent indices from statistical agencies and BIS/OECD.",
+        "metric": "House price/rent indices from statistical agencies and BIS/OECD",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "business-finance.coworking-spaces",
+      "name": "Coworking Spaces",
+      "parent_id": "business-finance",
+      "parent_name": "Business & Finance",
+      "path": [
+        "Business & Finance",
+        "Coworking Spaces"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chains",
+        "Boutique",
+        "Flex",
+        "Rural"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 coworking spaces ranked by Quality and pricing; no open global dataset.",
+        "metric": "Quality and pricing; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

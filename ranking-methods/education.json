@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "education",
+  "category_name": "Education",
+  "topic_count": 25,
+  "method_counts": {
+    "bibliometric": 4,
+    "attention_proxy": 7,
+    "human_review": 5,
+    "official_stat": 6,
+    "community_activity": 1,
+    "composite_index": 2
+  },
+  "assignments": [
+    {
+      "topic_id": "education.universities",
+      "topic_name": "Universities",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "Research output/citations (OpenAlex) or recognised ranking methodologies",
+      "question": "Top 10 universities ranked by Research output/citations (OpenAlex) or recognised ranking methodologies.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.business-schools",
+      "topic_name": "Business Schools",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "Business/management research output and citations",
+      "question": "Top 10 business schools ranked by Business/management research output and citations.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.online-learning-platforms",
+      "topic_name": "Online Learning Platforms",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and GitHub activity",
+      "question": "Top 10 online learning platforms ranked by Wikimedia pageviews and GitHub activity.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "education.moocs",
+      "topic_name": "MOOCs",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Course catalogue size and enrolment claims; no open global enrolment data",
+      "question": "Top 10 moocs ranked by Course catalogue size and enrolment claims; no open global enrolment data.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.coding-bootcamps",
+      "topic_name": "Coding Bootcamps",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Course catalogue and outcome claims; outcomes data is self-reported",
+      "question": "Top 10 coding bootcamps ranked by Course catalogue and outcome claims; outcomes data is self-reported.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.schools",
+      "topic_name": "Schools",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "School quality rankings; no open global school-level dataset",
+      "question": "Top 10 schools ranked by School quality rankings; no open global school-level dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "education.high-schools",
+      "topic_name": "High Schools",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "School-level quality/outcomes; no open global dataset",
+      "question": "Top 10 high schools ranked by School-level quality/outcomes; no open global dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "education.research-institutions",
+      "topic_name": "Research Institutions",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex publication and citation counts",
+      "question": "Top 10 research institutions ranked by OpenAlex publication and citation counts.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata",
+        "datacite"
+      ]
+    },
+    {
+      "topic_id": "education.libraries",
+      "topic_name": "Libraries",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Collection size, visits and loans from national library statistics",
+      "question": "Top 10 libraries ranked by Collection size, visits and loans from national library statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.study-abroad-countries",
+      "topic_name": "Study Abroad Countries",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "International student enrolment from UNESCO UIS/OECD",
+      "question": "Top 10 study abroad countries ranked by International student enrolment from UNESCO UIS/OECD.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.scholarships",
+      "topic_name": "Scholarships",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Scholarship listings require editorial verification; no open comprehensive database",
+      "question": "Top 10 scholarships ranked by Scholarship listings require editorial verification; no open comprehensive database.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.courses",
+      "topic_name": "Online Courses",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Course catalogue metadata and enrolment claims",
+      "question": "Top 10 online courses ranked by Course catalogue metadata and enrolment claims.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.textbooks",
+      "topic_name": "Textbooks",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Open Library/Google Books metadata and open-textbook catalogues",
+      "question": "Top 10 textbooks ranked by Open Library/Google Books metadata and open-textbook catalogues.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "open_library",
+        "google_books"
+      ],
+      "backup_sources": [
+        "crossref",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.edtech-tools",
+      "topic_name": "EdTech Tools",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "GitHub activity and product metadata",
+      "question": "Top 10 edtech tools ranked by GitHub activity and product metadata.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "education.language-learning-apps",
+      "topic_name": "Language Learning Apps",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikimedia pageviews and app-store metadata where accessible",
+      "question": "Top 10 language learning apps ranked by Wikimedia pageviews and app-store metadata where accessible.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "education.test-prep",
+      "topic_name": "Test Prep",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Provider metadata and pageviews; no open score-improvement dataset",
+      "question": "Top 10 test prep ranked by Provider metadata and pageviews; no open score-improvement dataset.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.student-cities",
+      "topic_name": "Student Cities",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "University concentration, cost of living and student share",
+      "question": "Top 10 student cities ranked by University concentration, cost of living and student share.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.academic-journals",
+      "topic_name": "Academic Journals",
+      "method_id": "bibliometric",
+      "method_name": "Bibliometric ranking",
+      "metric": "OpenAlex/Crossref publication and citation metrics",
+      "question": "Top 10 academic journals ranked by OpenAlex/Crossref publication and citation metrics.",
+      "basis": "bibliometric",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed",
+        "doaj",
+        "unpaywall"
+      ]
+    },
+    {
+      "topic_id": "education.preprint-servers",
+      "topic_name": "Preprint Servers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Preprint counts and subject coverage",
+      "question": "Top 10 preprint servers ranked by Preprint counts and subject coverage.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "arxiv",
+        "pubmed",
+        "osf",
+        "re3data"
+      ]
+    },
+    {
+      "topic_id": "education.degree-programs",
+      "topic_name": "Degree Programs",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Programme quality and outcomes require editorial verification",
+      "question": "Top 10 degree programs ranked by Programme quality and outcomes require editorial verification.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "openalex",
+        "crossref"
+      ],
+      "backup_sources": [
+        "unesco_uis",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.vocational-training",
+      "topic_name": "Vocational Training",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Enrolment and completion statistics from national/UNESCO sources",
+      "question": "Top 10 vocational training ranked by Enrolment and completion statistics from national/UNESCO sources.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.tutoring-services",
+      "topic_name": "Tutoring Services",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Tutor quality/outcomes; no open comparable dataset",
+      "question": "Top 10 tutoring services ranked by Tutor quality/outcomes; no open comparable dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "education.education-systems",
+      "topic_name": "Education Systems",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD)",
+      "question": "Top 10 education systems ranked by Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD).",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.literacy-rates",
+      "topic_name": "Literacy Rates",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UNESCO UIS literacy indicators",
+      "question": "Top 10 literacy rates ranked by UNESCO UIS literacy indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "education.student-performance",
+      "topic_name": "Student Performance (PISA)",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "OECD PISA scores and rankings",
+      "question": "Top 10 student performance (pisa) ranked by OECD PISA scores and rankings.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "unesco_uis",
+        "oecd"
+      ],
+      "backup_sources": [
+        "world_bank",
+        "wikidata"
+      ]
+    }
+  ]
+}

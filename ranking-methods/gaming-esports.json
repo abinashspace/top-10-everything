@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "gaming-esports",
+  "category_name": "Gaming & Esports",
+  "topic_count": 18,
+  "method_counts": {
+    "rating_aggregate": 8,
+    "market_cap": 1,
+    "official_stat": 1,
+    "attention_proxy": 2,
+    "event_outcome": 4,
+    "community_activity": 1,
+    "sales_share": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "gaming-esports.video-games",
+      "topic_name": "Video Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "RAWG/Steam user ratings and review counts; sales data is mostly commercial",
+      "question": "Top 10 video games ranked by RAWG/Steam user ratings and review counts; sales data is mostly commercial.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.game-developers",
+      "topic_name": "Game Developers",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Game catalogue ratings and company disclosures",
+      "question": "Top 10 game developers ranked by Game catalogue ratings and company disclosures.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.game-publishers",
+      "topic_name": "Game Publishers",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap from filings",
+      "question": "Top 10 game publishers ranked by Revenue/market cap from filings.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.game-consoles",
+      "topic_name": "Game Consoles",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Manufacturer shipment disclosures; historical sales data is patchy",
+      "question": "Top 10 game consoles ranked by Manufacturer shipment disclosures; historical sales data is patchy.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.gaming-platforms",
+      "topic_name": "Gaming Platforms",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Platform catalogue/activity data and pageviews",
+      "question": "Top 10 gaming platforms ranked by Platform catalogue/activity data and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.esports-teams",
+      "topic_name": "Esports Teams",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Tournament results and prize-money records",
+      "question": "Top 10 esports teams ranked by Tournament results and prize-money records.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "liquipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.esports-players",
+      "topic_name": "Esports Players",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Tournament results and prize-money records",
+      "question": "Top 10 esports players ranked by Tournament results and prize-money records.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "liquipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.esports-tournaments",
+      "topic_name": "Esports Tournaments",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Official tournament results and prize pools",
+      "question": "Top 10 esports tournaments ranked by Official tournament results and prize pools.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia",
+        "liquipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.streamers",
+      "topic_name": "Streamers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Twitch API follower/viewer data; no global historical leaderboard",
+      "question": "Top 10 streamers ranked by Twitch API follower/viewer data; no global historical leaderboard.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "twitch"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.game-engines",
+      "topic_name": "Game Engines",
+      "method_id": "community_activity",
+      "method_name": "Open-source / community activity",
+      "metric": "GitHub activity and licence/adoption metadata",
+      "question": "Top 10 game engines ranked by GitHub activity and licence/adoption metadata.",
+      "basis": "proxy_activity",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "github"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.indie-games",
+      "topic_name": "Indie Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Steam/RAWG ratings and review counts",
+      "question": "Top 10 indie games ranked by Steam/RAWG ratings and review counts.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.mobile-games",
+      "topic_name": "Mobile Games",
+      "method_id": "sales_share",
+      "method_name": "Sales or shipment ranking",
+      "metric": "App-store revenue/download estimates are commercial (Sensor Tower, data.ai)",
+      "question": "Top 10 mobile games ranked by App-store revenue/download estimates are commercial (Sensor Tower, data.ai).",
+      "basis": "market_data",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.pc-games",
+      "topic_name": "PC Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Steam/RAWG ratings and concurrent-player data",
+      "question": "Top 10 pc games ranked by Steam/RAWG ratings and concurrent-player data.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.vr-games",
+      "topic_name": "VR Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "Steam VR ratings and review counts",
+      "question": "Top 10 vr games ranked by Steam VR ratings and review counts.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.board-games",
+      "topic_name": "Board Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "BoardGameGeek community ratings and ranks",
+      "question": "Top 10 board games ranked by BoardGameGeek community ratings and ranks.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "boardgamegeek"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.card-games",
+      "topic_name": "Card Games",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "BoardGameGeek ratings and tournament data",
+      "question": "Top 10 card games ranked by BoardGameGeek ratings and tournament data.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "boardgamegeek"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.game-soundtracks",
+      "topic_name": "Game Soundtracks",
+      "method_id": "rating_aggregate",
+      "method_name": "Audience rating aggregate",
+      "metric": "MusicBrainz/Last.fm metadata and ratings",
+      "question": "Top 10 game soundtracks ranked by MusicBrainz/Last.fm metadata and ratings.",
+      "basis": "user_rating",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "musicbrainz",
+        "lastfm"
+      ],
+      "backup_sources": [
+        "itunes_search",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "gaming-esports.speedruns",
+      "topic_name": "Speedruns",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Speedrun.com records; API terms should be checked",
+      "question": "Top 10 speedruns ranked by Speedrun.com records; API terms should be checked.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "rawg",
+        "steam"
+      ],
+      "backup_sources": [
+        "igdb",
+        "wikidata"
+      ]
+    }
+  ]
+}

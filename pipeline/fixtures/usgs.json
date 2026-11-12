@@ -1,0 +1,39 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "us1",
+   "properties": {
+    "mag": 9.5,
+    "place": "Valdivia, Chile",
+    "time": 1234567890,
+    "tsunami": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.0,
+     -38.0,
+     25.0
+    ]
+   }
+  },
+  {
+   "id": "us2",
+   "properties": {
+    "mag": null,
+    "place": "Unknown",
+    "time": 1234567891,
+    "tsunami": 0
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     0.0,
+     10.0
+    ]
+   }
+  }
+ ]
+}

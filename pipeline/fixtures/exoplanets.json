@@ -1,0 +1,20 @@
+[
+ {
+  "pl_name": "Null b",
+  "pl_bmasse": null,
+  "pl_rade": 1.0,
+  "disc_year": 2010
+ },
+ {
+  "pl_name": "Small b",
+  "pl_bmasse": 5.0,
+  "pl_rade": 1.2,
+  "disc_year": 2015
+ },
+ {
+  "pl_name": "Heavy b",
+  "pl_bmasse": 12.5,
+  "pl_rade": 0.9,
+  "disc_year": 2020
+ }
+]

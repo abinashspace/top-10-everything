@@ -1,0 +1,2219 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "technology",
+    "name": "Technology",
+    "description": "Consumer devices, software, AI, infrastructure and the companies that build them.",
+    "topic_count": 34,
+    "subcategory_count": 121,
+    "research_status_counts": {
+      "researched_proxy": 21,
+      "partial": 11,
+      "researched": 2
+    },
+    "data_availability_counts": {
+      "limited": 27,
+      "moderate": 7
+    }
+  },
+  "topics": [
+    {
+      "id": "technology.smartphones",
+      "name": "Smartphones",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Smartphones"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Flagship smartphones",
+        "Budget smartphones",
+        "Camera phones",
+        "Gaming phones"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 smartphones ranked by Wikipedia pageviews and Wikidata sitelinks, used as an attention proxy; no free global unit-sales series.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks, used as an attention proxy; no free global unit-sales series",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "No free, global, product-level sales dataset. IDC and Counterpoint are commercial.",
+        "A 'best phone' ranking needs editorial testing and cannot be derived from open data alone."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.laptops",
+      "name": "Laptops",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Laptops"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ultrabooks",
+        "Gaming laptops",
+        "Budget laptops",
+        "Workstation laptops"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 laptops ranked by Wikipedia pageviews and Wikidata sitelinks as a popularity proxy.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks as a popularity proxy",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.tablets",
+      "name": "Tablets",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Tablets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Premium tablets",
+        "Budget tablets",
+        "Drawing tablets"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 tablets ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.smartwatches",
+      "name": "Smartwatches",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Smartwatches"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fitness watches",
+        "Luxury smartwatches",
+        "Kids' smartwatches"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 smartwatches ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.cameras",
+      "name": "Cameras",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Cameras"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Mirrorless cameras",
+        "DSLRs",
+        "Compact cameras",
+        "Action cameras"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cameras ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.headphones",
+      "name": "Headphones",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Headphones"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Wireless earbuds",
+        "Over-ear headphones",
+        "Studio headphones"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 headphones ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.processors",
+      "name": "Processors",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Processors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Desktop CPUs",
+        "Mobile SoCs",
+        "Server CPUs"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "benchmark",
+        "name": "Standardised benchmark",
+        "question": "Top 10 processors ranked by Standardised benchmark scores from benchmark databases; redistribution requires permission.",
+        "metric": "Standardised benchmark scores from benchmark databases; redistribution requires permission",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Geekbench/PassMark result databases have terms that restrict bulk reuse. Confirm a licence before publishing scores."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.graphics-cards",
+      "name": "Graphics Cards",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Graphics Cards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Gaming GPUs",
+        "Workstation GPUs",
+        "Integrated graphics"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "benchmark",
+        "name": "Standardised benchmark",
+        "question": "Top 10 graphics cards ranked by Benchmark scores and specification data; benchmark database reuse is restricted.",
+        "metric": "Benchmark scores and specification data; benchmark database reuse is restricted",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.operating-systems",
+      "name": "Operating Systems",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Operating Systems"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Desktop OS",
+        "Mobile OS",
+        "Server OS",
+        "Embedded OS"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 operating systems ranked by Wikimedia pageviews plus GitHub activity for open-source projects.",
+        "metric": "Wikimedia pageviews plus GitHub activity for open-source projects",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.programming-languages",
+      "name": "Programming Languages",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Programming Languages"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Systems languages",
+        "Web languages",
+        "Data/science languages",
+        "Functional languages"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pypi",
+            "name": "PyPI JSON API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "npm",
+            "name": "npm Registry API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "crates_io",
+            "name": "crates.io API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "stack_exchange",
+            "name": "Stack Exchange API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 6,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 programming languages ranked by GitHub repository/contributor activity, package-registry downloads and Stack Overflow tag activity.",
+        "metric": "GitHub repository/contributor activity, package-registry downloads and Stack Overflow tag activity",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "Popularity is not quality. Survey data (Stack Overflow Developer Survey) is not openly redistributable in bulk."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.ai-tools",
+      "name": "AI Tools",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "AI Tools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chat assistants",
+        "Image generators",
+        "Coding assistants",
+        "Writing tools"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "huggingface",
+            "name": "Hugging Face Hub API",
+            "access_model": "free_tier",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "stack_exchange",
+            "name": "Stack Exchange API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 ai tools ranked by GitHub stars, Hugging Face downloads/likes and product metadata.",
+        "metric": "GitHub stars, Hugging Face downloads/likes and product metadata",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "Adoption proxies are noisy; many commercial AI tools publish no usage data."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.ai-models",
+      "name": "AI Models",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "AI Models"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Language models",
+        "Image models",
+        "Speech models",
+        "Open-weight models"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "huggingface",
+            "name": "Hugging Face Hub API",
+            "access_model": "free_tier",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 ai models ranked by Hugging Face downloads/likes plus OpenAlex citations to model papers.",
+        "metric": "Hugging Face downloads/likes plus OpenAlex citations to model papers",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.cloud-platforms",
+      "name": "Cloud Platforms",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Cloud Platforms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "IaaS",
+        "PaaS",
+        "Serverless",
+        "CDN/edge"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sales_share",
+        "name": "Sales or shipment ranking",
+        "question": "Top 10 cloud platforms ranked by Cloud revenue disclosed in SEC filings where reported; market-share estimates are paid.",
+        "metric": "Cloud revenue disclosed in SEC filings where reported; market-share estimates are paid",
+        "basis": "market_data",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Hyperscalers do not all disclose comparable cloud revenue. Synergy/Canalys estimates are commercial."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.cybersecurity-tools",
+      "name": "Cybersecurity Tools",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Cybersecurity Tools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Endpoint security",
+        "Network security",
+        "Identity",
+        "SIEM"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cybersecurity tools ranked by GitHub activity for open-source tools plus Wikipedia attention.",
+        "metric": "GitHub activity for open-source tools plus Wikipedia attention",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.software-apps",
+      "name": "Software Applications",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Software Applications"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Productivity",
+        "Creative",
+        "Developer tools",
+        "Collaboration"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "stack_exchange",
+            "name": "Stack Exchange API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 software applications ranked by Wikimedia pageviews and GitHub activity.",
+        "metric": "Wikimedia pageviews and GitHub activity",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.web-browsers",
+      "name": "Web Browsers",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Web Browsers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Desktop browsers",
+        "Mobile browsers",
+        "Privacy browsers"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 web browsers ranked by Wikimedia pageviews and GitHub activity; usage-share panels are commercial.",
+        "metric": "Wikimedia pageviews and GitHub activity; usage-share panels are commercial",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.databases",
+      "name": "Databases",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Databases"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Relational",
+        "NoSQL",
+        "Graph",
+        "Time-series"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "stack_exchange",
+            "name": "Stack Exchange API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "community_activity",
+        "name": "Open-source / community activity",
+        "question": "Top 10 databases ranked by GitHub activity, package downloads and DB-Engines-style popularity proxies.",
+        "metric": "GitHub activity, package downloads and DB-Engines-style popularity proxies",
+        "basis": "proxy_activity",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.3d-printers",
+      "name": "3D Printers",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "3D Printers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "FDM printers",
+        "Resin printers",
+        "Industrial printers"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 3d printers ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.drones",
+      "name": "Drones",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Drones"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Consumer drones",
+        "Cinema drones",
+        "Industrial drones",
+        "FPV drones"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 drones ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.robots",
+      "name": "Robots",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Robots"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Industrial robots",
+        "Humanoid robots",
+        "Service robots",
+        "Medical robots"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 robots ranked by Patent counts and company disclosures; shipment data is commercial.",
+        "metric": "Patent counts and company disclosures; shipment data is commercial",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.smart-home-devices",
+      "name": "Smart Home Devices",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Smart Home Devices"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Hubs",
+        "Lighting",
+        "Security",
+        "Thermostats"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 smart home devices ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.wearables",
+      "name": "Wearables",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Wearables"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fitness bands",
+        "Smart rings",
+        "Smart glasses"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 wearables ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.monitors",
+      "name": "Monitors",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Monitors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Gaming monitors",
+        "Professional monitors",
+        "Portable monitors"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 monitors ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.keyboards",
+      "name": "Keyboards",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Keyboards"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Mechanical keyboards",
+        "Ergonomic keyboards",
+        "Mobile keyboards"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 keyboards ranked by Community mentions and Wikidata coverage.",
+        "metric": "Community mentions and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.routers",
+      "name": "Routers",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Routers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Wi-Fi routers",
+        "Mesh systems",
+        "Enterprise routers"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 routers ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.gaming-pcs",
+      "name": "Gaming PCs",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Gaming PCs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Prebuilt PCs",
+        "Gaming laptops",
+        "Handheld PCs"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 gaming pcs ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.vr-headsets",
+      "name": "VR Headsets",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "VR Headsets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "PC VR",
+        "Standalone VR",
+        "Mixed reality"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 vr headsets ranked by Wikipedia pageviews and Wikidata sitelinks.",
+        "metric": "Wikipedia pageviews and Wikidata sitelinks",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.ar-glasses",
+      "name": "AR Glasses",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "AR Glasses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Consumer AR",
+        "Enterprise AR",
+        "Smart glasses"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 ar glasses ranked by Patent activity and product announcements; no open shipment dataset.",
+        "metric": "Patent activity and product announcements; no open shipment dataset",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.batteries",
+      "name": "Batteries",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Batteries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Lithium-ion",
+        "Solid-state",
+        "Flow batteries",
+        "Consumer batteries"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 batteries ranked by Patent counts and research output via OpenAlex/PatentsView.",
+        "metric": "Patent counts and research output via OpenAlex/PatentsView",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.semiconductors",
+      "name": "Semiconductors",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Semiconductors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chip designers",
+        "Foundries",
+        "Memory",
+        "Equipment makers"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 semiconductors ranked by Revenue and market capitalisation from SEC filings and market data.",
+        "metric": "Revenue and market capitalisation from SEC filings and market data",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.tech-companies",
+      "name": "Technology Companies",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Technology Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Big Tech",
+        "Semiconductors",
+        "SaaS",
+        "Hardware"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 technology companies ranked by Market capitalisation and revenue from filings/market APIs.",
+        "metric": "Market capitalisation and revenue from filings/market APIs",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Private companies and non-US listings are underrepresented in free filings data."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.tech-startups",
+      "name": "Tech Startups",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Tech Startups"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Unicorns",
+        "AI startups",
+        "Fintech startups",
+        "Climate-tech startups"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 tech startups ranked by Valuations from funding announcements; no comprehensive open global dataset.",
+        "metric": "Valuations from funding announcements; no comprehensive open global dataset",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Valuations are self-reported or press-reported and often stale. Crunchbase/PitchBook are paid."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.search-engines",
+      "name": "Search Engines",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Search Engines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "General search",
+        "Privacy search",
+        "Vertical search"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 search engines ranked by Wikimedia pageviews and usage-share panels where openly available.",
+        "metric": "Wikimedia pageviews and usage-share panels where openly available",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.social-media-platforms",
+      "name": "Social Media Platforms",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Social Media Platforms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Social networks",
+        "Video platforms",
+        "Messaging",
+        "Forums"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 social media platforms ranked by Monthly active users from company reports where disclosed; pageview proxies otherwise.",
+        "metric": "Monthly active users from company reports where disclosed; pageview proxies otherwise",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Platforms use non-comparable MAU definitions and many no longer disclose them."
+      ],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

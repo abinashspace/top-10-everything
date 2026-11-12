@@ -1,0 +1,2088 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "food-drink",
+    "name": "Food & Drink",
+    "description": "What people eat and drink, from nutrition data to cuisines and beverages.",
+    "topic_count": 29,
+    "subcategory_count": 119,
+    "research_status_counts": {
+      "unsupported": 2,
+      "partial": 21,
+      "researched": 6
+    },
+    "data_availability_counts": {
+      "none": 2,
+      "limited": 21,
+      "moderate": 4,
+      "strong": 2
+    }
+  },
+  "topics": [
+    {
+      "id": "food-drink.restaurants",
+      "name": "Restaurants",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Restaurants"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fine dining",
+        "Casual",
+        "Street food",
+        "Vegetarian"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 restaurants ranked by Restaurant quality requires inspections/reviews; no open global dataset.",
+        "metric": "Restaurant quality requires inspections/reviews; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [
+        "MICHELIN, World's 50 Best and TripAdvisor data are proprietary. OSM only maps locations."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.chefs",
+      "name": "Chefs",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Chefs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Michelin-starred",
+        "Celebrity chefs",
+        "Pastry chefs",
+        "Home cooks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 chefs ranked by Chef rankings are editorial; no open quality dataset.",
+        "metric": "Chef rankings are editorial; no open quality dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.cuisines",
+      "name": "Cuisines",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Cuisines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Asian",
+        "European",
+        "African",
+        "American",
+        "Middle Eastern"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 cuisines ranked by Wikidata/OSM restaurant density and pageviews.",
+        "metric": "Wikidata/OSM restaurant density and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.dishes",
+      "name": "Dishes",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Dishes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Main dishes",
+        "Street food",
+        "Desserts",
+        "Vegetarian"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 dishes ranked by Recipe database coverage and Wikipedia pageviews.",
+        "metric": "Recipe database coverage and Wikipedia pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.foods",
+      "name": "Foods",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Foods"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Staples",
+        "Superfoods",
+        "Fermented foods",
+        "Snacks"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 foods ranked by FAOSTAT production and USDA nutrient data.",
+        "metric": "FAOSTAT production and USDA nutrient data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.desserts",
+      "name": "Desserts",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Desserts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Cakes",
+        "Pastries",
+        "Ice cream",
+        "Puddings"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 desserts ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.cheeses",
+      "name": "Cheeses",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Cheeses"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Hard",
+        "Soft",
+        "Blue",
+        "Fresh"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cheeses ranked by Open Food Facts product counts and Wikidata coverage.",
+        "metric": "Open Food Facts product counts and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.wines",
+      "name": "Wines",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Wines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Red",
+        "White",
+        "Sparkling",
+        "Rose"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "question": "Top 10 wines ranked by Wine ratings are proprietary (Vivino, Wine Advocate); Open Food Facts lacks ratings.",
+        "metric": "Wine ratings are proprietary (Vivino, Wine Advocate); Open Food Facts lacks ratings",
+        "basis": "user_rating",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.beers",
+      "name": "Beers",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Beers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Lager",
+        "Ale",
+        "Stout",
+        "Craft"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 beers ranked by Open Food Facts product counts and Wikidata coverage.",
+        "metric": "Open Food Facts product counts and Wikidata coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.spirits",
+      "name": "Spirits",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Spirits"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Whisky",
+        "Vodka",
+        "Gin",
+        "Rum",
+        "Tequila"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 spirits ranked by Brand sales from company reports; industry rankings are commercial.",
+        "metric": "Brand sales from company reports; industry rankings are commercial",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.coffees",
+      "name": "Coffees",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Coffees"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Coffee beans",
+        "Coffee drinks",
+        "Instant",
+        "Specialty"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 coffees ranked by FAOSTAT/UN Comtrade coffee production and trade.",
+        "metric": "FAOSTAT/UN Comtrade coffee production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.teas",
+      "name": "Teas",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Teas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Black",
+        "Green",
+        "Oolong",
+        "Herbal"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 teas ranked by FAOSTAT/UN Comtrade tea production and trade.",
+        "metric": "FAOSTAT/UN Comtrade tea production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.chocolates",
+      "name": "Chocolates",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Chocolates"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Dark",
+        "Milk",
+        "White",
+        "Bean-to-bar"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 chocolates ranked by Cocoa production/trade data and product metadata.",
+        "metric": "Cocoa production/trade data and product metadata",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.snacks",
+      "name": "Snacks",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Snacks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chips",
+        "Nuts",
+        "Popcorn",
+        "Bars"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 snacks ranked by Brand sales from company reports; no open global snack ranking.",
+        "metric": "Brand sales from company reports; no open global snack ranking",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.breakfasts",
+      "name": "Breakfasts",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Breakfasts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Traditional",
+        "Cereals",
+        "Savory",
+        "Healthy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 breakfasts ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.street-foods",
+      "name": "Street Foods",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Street Foods"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Asia",
+        "Latin America",
+        "Africa",
+        "Europe"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 street foods ranked by OSM street-food POI density and pageviews.",
+        "metric": "OSM street-food POI density and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.pizzas",
+      "name": "Pizzas",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Pizzas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Neapolitan",
+        "New York",
+        "Deep dish",
+        "Frozen"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 pizzas ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.burgers",
+      "name": "Burgers",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Burgers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Beef",
+        "Chicken",
+        "Vegan",
+        "Fast food"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 burgers ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.noodles",
+      "name": "Noodles",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Noodles"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ramen",
+        "Pasta",
+        "Rice noodles",
+        "Instant"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 noodles ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.breads",
+      "name": "Breads",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Breads"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Sourdough",
+        "Flatbread",
+        "Rye",
+        "Baguette"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "themealdb",
+            "name": "TheMealDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "thecocktaildb",
+            "name": "TheCocktailDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 breads ranked by Recipe coverage and pageviews.",
+        "metric": "Recipe coverage and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.spices",
+      "name": "Spices",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Spices"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Pepper",
+        "Chili",
+        "Cinnamon",
+        "Saffron"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 spices ranked by FAOSTAT/UN Comtrade production and trade.",
+        "metric": "FAOSTAT/UN Comtrade production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.fruits",
+      "name": "Fruits",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Fruits"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Tropical",
+        "Berries",
+        "Citrus",
+        "Stone fruit"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 fruits ranked by FAOSTAT production and trade.",
+        "metric": "FAOSTAT production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.vegetables",
+      "name": "Vegetables",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Vegetables"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Leafy",
+        "Root",
+        "Cruciferous",
+        "Legumes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 vegetables ranked by FAOSTAT production and trade.",
+        "metric": "FAOSTAT production and trade",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.superfoods",
+      "name": "Superfoods",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Superfoods"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Berries",
+        "Seeds",
+        "Greens",
+        "Fermented"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 superfoods ranked by Nutrient composition from USDA FoodData Central.",
+        "metric": "Nutrient composition from USDA FoodData Central",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Superfood is a marketing term, not a scientific classification."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.diets",
+      "name": "Diets",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Diets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Mediterranean",
+        "Vegetarian",
+        "Vegan",
+        "Keto",
+        "Intermittent fasting"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "survey",
+        "name": "Survey-based ranking",
+        "question": "Top 10 diets ranked by Diet prevalence surveys and nutrition studies.",
+        "metric": "Diet prevalence surveys and nutrition studies",
+        "basis": "survey",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.cookbooks",
+      "name": "Cookbooks",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Cookbooks"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Bestsellers",
+        "Cuisine-specific",
+        "Diet",
+        "Professional"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "open_library",
+            "name": "Open Library API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "google_books",
+            "name": "Google Books API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 cookbooks ranked by Open Library/Google Books metadata; sales data is commercial.",
+        "metric": "Open Library/Google Books metadata; sales data is commercial",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.food-festivals",
+      "name": "Food Festivals",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Food Festivals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Street food",
+        "Wine",
+        "Beer",
+        "Harvest"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 food festivals ranked by OSM/event listings and pageviews.",
+        "metric": "OSM/event listings and pageviews",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.breweries",
+      "name": "Breweries",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Breweries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Craft",
+        "Regional",
+        "Brewpubs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 breweries ranked by Beer production/trade statistics; brewery-level data is patchy.",
+        "metric": "Beer production/trade statistics; brewery-level data is patchy",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "food-drink.distilleries",
+      "name": "Distilleries",
+      "parent_id": "food-drink",
+      "parent_name": "Food & Drink",
+      "path": [
+        "Food & Drink",
+        "Distilleries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Whisky",
+        "Gin",
+        "Rum",
+        "Brandy"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "trade_flow",
+        "name": "Trade flow ranking",
+        "question": "Top 10 distilleries ranked by Spirits production/trade statistics; company-level data is commercial.",
+        "metric": "Spirits production/trade statistics; company-level data is commercial",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

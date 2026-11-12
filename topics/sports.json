@@ -1,0 +1,2861 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "sports",
+    "name": "Sports",
+    "description": "Competitions, athletes, teams and sports business, ranked from official results where possible.",
+    "topic_count": 39,
+    "subcategory_count": 154,
+    "research_status_counts": {
+      "researched": 22,
+      "partial": 17
+    },
+    "data_availability_counts": {
+      "moderate": 19,
+      "strong": 3,
+      "limited": 17
+    }
+  },
+  "topics": [
+    {
+      "id": "sports.football-soccer",
+      "name": "Football (Soccer)",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Football (Soccer)"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Leagues",
+        "Cups",
+        "National teams",
+        "Women's football"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 football (soccer) ranked by League tables, match results and tournament outcomes.",
+        "metric": "League tables, match results and tournament outcomes",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Free APIs cover selected leagues; global historical depth is limited."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.football-clubs",
+      "name": "Football Clubs",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Football Clubs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By trophies",
+        "By revenue",
+        "By market value",
+        "By attendance"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 football clubs ranked by Trophies/results plus revenue where disclosed.",
+        "metric": "Trophies/results plus revenue where disclosed",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.football-players",
+      "name": "Football Players",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Football Players"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Goals",
+        "Assists",
+        "Appearances",
+        "Market value"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 football players ranked by Goals/assists/appearances from league data; market values are proprietary.",
+        "metric": "Goals/assists/appearances from league data; market values are proprietary",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Transfermarkt market values are proprietary; use performance statistics instead."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.basketball",
+      "name": "Basketball",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Basketball"
+      ],
+      "level": 2,
+      "subcategories": [
+        "NBA",
+        "EuroLeague",
+        "WNBA",
+        "College"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "balldontlie",
+            "name": "BallDontLie API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "mlb_stats",
+            "name": "MLB Stats API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 basketball ranked by Official standings, scores and player statistics.",
+        "metric": "Official standings, scores and player statistics",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.nba-teams",
+      "name": "NBA Teams",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "NBA Teams"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By championships",
+        "By wins",
+        "By valuation",
+        "By attendance"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "balldontlie",
+            "name": "BallDontLie API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "mlb_stats",
+            "name": "MLB Stats API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 nba teams ranked by Standings/championships; valuations are commercial estimates.",
+        "metric": "Standings/championships; valuations are commercial estimates",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.nfl-teams",
+      "name": "NFL Teams",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "NFL Teams"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By championships",
+        "By wins",
+        "By valuation",
+        "By attendance"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "balldontlie",
+            "name": "BallDontLie API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "mlb_stats",
+            "name": "MLB Stats API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 nfl teams ranked by Standings/championships; valuations are commercial estimates.",
+        "metric": "Standings/championships; valuations are commercial estimates",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.baseball",
+      "name": "Baseball",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Baseball"
+      ],
+      "level": 2,
+      "subcategories": [
+        "MLB",
+        "NPB",
+        "College",
+        "International"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "balldontlie",
+            "name": "BallDontLie API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "mlb_stats",
+            "name": "MLB Stats API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 baseball ranked by Official standings and player statistics.",
+        "metric": "Official standings and player statistics",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.cricket",
+      "name": "Cricket",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Cricket"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Test",
+        "ODI",
+        "T20",
+        "Leagues"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 cricket ranked by ICC/league rankings and match results.",
+        "metric": "ICC/league rankings and match results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.tennis",
+      "name": "Tennis",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Tennis"
+      ],
+      "level": 2,
+      "subcategories": [
+        "ATP",
+        "WTA",
+        "Grand Slams",
+        "Doubles"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 tennis ranked by Official rankings and tournament results.",
+        "metric": "Official rankings and tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.golf",
+      "name": "Golf",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Golf"
+      ],
+      "level": 2,
+      "subcategories": [
+        "PGA",
+        "LPGA",
+        "Majors",
+        "Amateur"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 golf ranked by Official rankings and tournament results.",
+        "metric": "Official rankings and tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.formula-1",
+      "name": "Formula 1",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Formula 1"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Drivers",
+        "Constructors",
+        "Races",
+        "Circuits"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "jolpica_f1",
+            "name": "Jolpica F1 API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 formula 1 ranked by Official championship standings and race results.",
+        "metric": "Official championship standings and race results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.motogp",
+      "name": "MotoGP",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "MotoGP"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Riders",
+        "Manufacturers",
+        "Circuits"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 motogp ranked by Official championship standings and race results.",
+        "metric": "Official championship standings and race results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.cycling",
+      "name": "Cycling",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Cycling"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Grand Tours",
+        "Classics",
+        "Track",
+        "Women's cycling"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 cycling ranked by Official race results and UCI rankings.",
+        "metric": "Official race results and UCI rankings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.athletics",
+      "name": "Athletics",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Athletics"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Sprints",
+        "Distance",
+        "Field",
+        "Marathons"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 athletics ranked by World Athletics results and records.",
+        "metric": "World Athletics results and records",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.swimming",
+      "name": "Swimming",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Swimming"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Freestyle",
+        "Olympic events",
+        "Open water",
+        "Records"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 swimming ranked by World Aquatics results and records.",
+        "metric": "World Aquatics results and records",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.boxing",
+      "name": "Boxing",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Boxing"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Heavyweight",
+        "Pound-for-pound",
+        "Olympic",
+        "Women's boxing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 boxing ranked by Sanctioning-body rankings and fight results.",
+        "metric": "Sanctioning-body rankings and fight results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "Multiple competing sanctioning bodies make a single ranking contested."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.mma",
+      "name": "MMA",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "MMA"
+      ],
+      "level": 2,
+      "subcategories": [
+        "UFC",
+        "Bellator/PFL",
+        "Women's MMA",
+        "Amateur"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 mma ranked by Official promotion rankings and fight results.",
+        "metric": "Official promotion rankings and fight results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.wrestling",
+      "name": "Wrestling",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Wrestling"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Freestyle",
+        "Greco-Roman",
+        "Professional",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 wrestling ranked by Official competition results.",
+        "metric": "Official competition results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.rugby",
+      "name": "Rugby",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Rugby"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Union",
+        "League",
+        "Sevens",
+        "Women's rugby"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 rugby ranked by Official rankings and match results.",
+        "metric": "Official rankings and match results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.hockey",
+      "name": "Hockey",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Hockey"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ice hockey",
+        "Field hockey",
+        "NHL",
+        "International"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 hockey ranked by Official standings and tournament results.",
+        "metric": "Official standings and tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.volleyball",
+      "name": "Volleyball",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Volleyball"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Indoor",
+        "Beach",
+        "Leagues",
+        "International"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 volleyball ranked by Official rankings and competition results.",
+        "metric": "Official rankings and competition results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.badminton",
+      "name": "Badminton",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Badminton"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Singles",
+        "Doubles",
+        "BWF World Tour",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 badminton ranked by BWF rankings and tournament results.",
+        "metric": "BWF rankings and tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.table-tennis",
+      "name": "Table Tennis",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Table Tennis"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Singles",
+        "Doubles",
+        "ITTF events",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 table tennis ranked by ITTF rankings and results.",
+        "metric": "ITTF rankings and results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.snooker",
+      "name": "Snooker",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Snooker"
+      ],
+      "level": 2,
+      "subcategories": [
+        "World Championship",
+        "Ranking events",
+        "Century breaks"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 snooker ranked by Official rankings and match results.",
+        "metric": "Official rankings and match results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.darts",
+      "name": "Darts",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Darts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "PDC",
+        "WDF",
+        "Major tournaments",
+        "Women's darts"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 darts ranked by Official rankings and tournament results.",
+        "metric": "Official rankings and tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "weekly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.olympics",
+      "name": "Olympics",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Olympics"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Summer",
+        "Winter",
+        "Medal tables",
+        "Athletes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "olympedia",
+            "name": "Olympedia",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 1,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 olympics ranked by Official medal tables and athlete results.",
+        "metric": "Official medal tables and athlete results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "event",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.world-cups",
+      "name": "World Cups",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "World Cups"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Football",
+        "Cricket",
+        "Rugby",
+        "Basketball"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 world cups ranked by Official tournament results and standings.",
+        "metric": "Official tournament results and standings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "event",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.stadiums",
+      "name": "Stadiums",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Stadiums"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By capacity",
+        "Most visited",
+        "Newest",
+        "Historic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 stadiums ranked by Capacity/location from Wikidata/OSM; attendance data is partial.",
+        "metric": "Capacity/location from Wikidata/OSM; attendance data is partial",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.sports-brands",
+      "name": "Sports Brands",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Sports Brands"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Apparel",
+        "Footwear",
+        "Equipment",
+        "Luxury sport"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 sports brands ranked by Revenue/market cap of listed brands.",
+        "metric": "Revenue/market cap of listed brands",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.athletes",
+      "name": "Athletes",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Athletes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By earnings",
+        "By medals",
+        "By influence",
+        "By sport"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 athletes ranked by Medals/results plus disclosed earnings; wealth lists are proprietary.",
+        "metric": "Medals/results plus disclosed earnings; wealth lists are proprietary",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.coaches",
+      "name": "Coaches",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Coaches"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By trophies",
+        "By win rate",
+        "Football",
+        "Basketball"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 coaches ranked by Trophies and win records from league data.",
+        "metric": "Trophies and win records from league data",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.marathons",
+      "name": "Marathons",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Marathons"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Fastest",
+        "Largest",
+        "Major marathons",
+        "Charity"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 marathons ranked by Official race results and finisher counts.",
+        "metric": "Official race results and finisher counts",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.triathlons",
+      "name": "Triathlons",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Triathlons"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ironman",
+        "Olympic distance",
+        "Sprint",
+        "Long course"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 triathlons ranked by Official race results and rankings.",
+        "metric": "Official race results and rankings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.surfing",
+      "name": "Surfing",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Surfing"
+      ],
+      "level": 2,
+      "subcategories": [
+        "World Surf League",
+        "Big wave",
+        "Longboard",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 surfing ranked by WSL rankings and contest results.",
+        "metric": "WSL rankings and contest results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.skateboarding",
+      "name": "Skateboarding",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Skateboarding"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Street",
+        "Park",
+        "Vert",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 skateboarding ranked by Official contest results and world rankings.",
+        "metric": "Official contest results and world rankings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.snowboarding",
+      "name": "Snowboarding",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Snowboarding"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Halfpipe",
+        "Slopestyle",
+        "Big air",
+        "Olympic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 snowboarding ranked by Official contest results and world rankings.",
+        "metric": "Official contest results and world rankings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.climbing",
+      "name": "Climbing",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Climbing"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Sport climbing",
+        "Bouldering",
+        "Speed",
+        "Mountaineering"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 climbing ranked by IFSC rankings and competition results.",
+        "metric": "IFSC rankings and competition results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.sailing",
+      "name": "Sailing",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Sailing"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Olympic classes",
+        "Offshore",
+        "America's Cup",
+        "World Sailing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "thesportsdb",
+            "name": "TheSportsDB",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "football_data",
+            "name": "football-data.org",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 sailing ranked by Official race results and rankings.",
+        "metric": "Official race results and rankings",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "sports.chess",
+      "name": "Chess",
+      "parent_id": "sports",
+      "parent_name": "Sports",
+      "path": [
+        "Sports",
+        "Chess"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Classical",
+        "Rapid",
+        "Blitz",
+        "Correspondence"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "lichess",
+            "name": "Lichess API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "chess_com",
+            "name": "Chess.com Published-Data API",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "question": "Top 10 chess ranked by FIDE and platform ratings plus tournament results.",
+        "metric": "FIDE and platform ratings plus tournament results",
+        "basis": "official_result",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [
+        "Platform ratings are not directly comparable to FIDE Elo."
+      ],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

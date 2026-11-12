@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "home-garden",
+  "category_name": "Home & Garden",
+  "topic_count": 15,
+  "method_counts": {
+    "market_cap": 2,
+    "attention_proxy": 5,
+    "human_review": 3,
+    "canon_proxy": 1,
+    "official_stat": 4
+  },
+  "assignments": [
+    {
+      "topic_id": "home-garden.furniture-brands",
+      "topic_name": "Furniture Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue of listed furniture groups; private brands are underrepresented",
+      "question": "Top 10 furniture brands ranked by Revenue of listed furniture groups; private brands are underrepresented.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.home-appliance-brands",
+      "topic_name": "Home Appliance Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market share from company reports",
+      "question": "Top 10 home appliance brands ranked by Revenue/market share from company reports.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.kitchen-appliances",
+      "topic_name": "Kitchen Appliances",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Wikidata/pageviews and product metadata",
+      "question": "Top 10 kitchen appliances ranked by Wikidata/pageviews and product metadata.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "home-garden.cookware",
+      "topic_name": "Cookware",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Product metadata and pageviews; no open quality rankings",
+      "question": "Top 10 cookware ranked by Product metadata and pageviews; no open quality rankings.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "home-garden.mattresses",
+      "topic_name": "Mattresses",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Mattress quality requires testing; no open dataset",
+      "question": "Top 10 mattresses ranked by Mattress quality requires testing; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "home-garden.vacuums",
+      "topic_name": "Vacuums",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Product metadata and pageviews",
+      "question": "Top 10 vacuums ranked by Product metadata and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "home-garden.interior-designers",
+      "topic_name": "Interior Designers",
+      "method_id": "canon_proxy",
+      "method_name": "Cultural canon proxy",
+      "metric": "Award records and Wikidata coverage",
+      "question": "Top 10 interior designers ranked by Award records and Wikidata coverage.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "met_museum",
+        "artic"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "europeana"
+      ]
+    },
+    {
+      "topic_id": "home-garden.houseplants",
+      "topic_name": "Houseplants",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/iNaturalist species records and horticultural metadata",
+      "question": "Top 10 houseplants ranked by GBIF/iNaturalist species records and horticultural metadata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.flowers",
+      "topic_name": "Flowers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF species records and FAOSTAT cut-flower trade",
+      "question": "Top 10 flowers ranked by GBIF species records and FAOSTAT cut-flower trade.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.trees",
+      "topic_name": "Trees",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "GBIF/Wikidata species and specimen records",
+      "question": "Top 10 trees ranked by GBIF/Wikidata species and specimen records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "gbif",
+        "iucn_redlist"
+      ],
+      "backup_sources": [
+        "inaturalist",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.gardening-tools",
+      "topic_name": "Gardening Tools",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Tool quality rankings require testing; no open dataset",
+      "question": "Top 10 gardening tools ranked by Tool quality rankings require testing; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "home-garden.lawn-mowers",
+      "topic_name": "Lawn Mowers",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Product metadata and pageviews",
+      "question": "Top 10 lawn mowers ranked by Product metadata and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "home-garden.home-improvement-retailers",
+      "topic_name": "Home Improvement Retailers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue from filings and retail statistics",
+      "question": "Top 10 home improvement retailers ranked by Revenue from filings and retail statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "home-garden.cleaning-products",
+      "topic_name": "Cleaning Products",
+      "method_id": "human_review",
+      "method_name": "Human review required",
+      "metric": "Product efficacy requires testing; no open dataset",
+      "question": "Top 10 cleaning products ranked by Product efficacy requires testing; no open dataset.",
+      "basis": "editorial",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "none",
+      "update_frequency": "yearly",
+      "primary_sources": [],
+      "backup_sources": []
+    },
+    {
+      "topic_id": "home-garden.candles",
+      "topic_name": "Candles",
+      "method_id": "attention_proxy",
+      "method_name": "Attention proxy",
+      "metric": "Product metadata and pageviews",
+      "question": "Top 10 candles ranked by Product metadata and pageviews.",
+      "basis": "proxy_attention",
+      "subjectivity": "proxy",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "open_library"
+      ]
+    }
+  ]
+}

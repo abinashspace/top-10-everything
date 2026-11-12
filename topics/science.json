@@ -1,0 +1,2651 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "science",
+    "name": "Science",
+    "description": "Space, physics, chemistry, life sciences and the research enterprise.",
+    "topic_count": 35,
+    "subcategory_count": 133,
+    "research_status_counts": {
+      "researched": 20,
+      "partial": 15
+    },
+    "data_availability_counts": {
+      "moderate": 10,
+      "limited": 15,
+      "strong": 10
+    }
+  },
+  "topics": [
+    {
+      "id": "science.space-missions",
+      "name": "Space Missions",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Space Missions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Crewed",
+        "Robotic",
+        "Lunar",
+        "Mars",
+        "Deep space"
+      ],
+      "subcategory_count": 5,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 space missions ranked by Mission milestones, launch mass and duration from NASA/Launch Library.",
+        "metric": "Mission milestones, launch mass and duration from NASA/Launch Library",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.rockets",
+      "name": "Rockets",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Rockets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Heavy-lift",
+        "Reusable",
+        "Small-lift",
+        "Crew-rated"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 rockets ranked by Payload capacity, height and launch history from launch databases.",
+        "metric": "Payload capacity, height and launch history from launch databases",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.satellites",
+      "name": "Satellites",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Satellites"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Earth observation",
+        "Communications",
+        "Navigation",
+        "Science"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 satellites ranked by Satellite catalogues and launch records; mass/operator data is partial.",
+        "metric": "Satellite catalogues and launch records; mass/operator data is partial",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.telescopes",
+      "name": "Telescopes",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Telescopes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Ground-based",
+        "Space-based",
+        "Radio",
+        "Infrared"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 telescopes ranked by Aperture, wavelength and location data from observatory registries/Wikidata.",
+        "metric": "Aperture, wavelength and location data from observatory registries/Wikidata",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.observatories",
+      "name": "Observatories",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Observatories"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Astronomical",
+        "Solar",
+        "Gravitational-wave",
+        "Neutrino"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 observatories ranked by Wikidata/OpenAlex coverage of facilities and publications.",
+        "metric": "Wikidata/OpenAlex coverage of facilities and publications",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.planets",
+      "name": "Planets",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Planets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By size",
+        "By mass",
+        "By distance",
+        "By moons"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 planets ranked by NASA/JPL planetary physical parameters.",
+        "metric": "NASA/JPL planetary physical parameters",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.moons",
+      "name": "Moons",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Moons"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Most geologically active",
+        "Recently discovered"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 moons ranked by JPL Small-Body and planetary satellite parameters.",
+        "metric": "JPL Small-Body and planetary satellite parameters",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.asteroids",
+      "name": "Asteroids",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Asteroids"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Near-Earth",
+        "Potentially hazardous",
+        "Belt asteroids"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 asteroids ranked by JPL Small-Body Database size, orbit and hazard parameters.",
+        "metric": "JPL Small-Body Database size, orbit and hazard parameters",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.exoplanets",
+      "name": "Exoplanets",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Exoplanets"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Confirmed",
+        "Habitable zone",
+        "Earth-sized",
+        "Recent discoveries"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 exoplanets for a chosen property (mass, radius, equilibrium temperature, distance or discovery year), using the NASA Exoplanet Archive confirmed-planet table with the query date stated.",
+        "metric": "Mass, radius, orbital period, distance and discovery year from the NASA Exoplanet Archive",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "monthly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.space-agencies",
+      "name": "Space Agencies",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Space Agencies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By budget",
+        "By launches",
+        "By workforce"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 space agencies ranked by Budget and launch counts from agency reports/launch databases.",
+        "metric": "Budget and launch counts from agency reports/launch databases",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.astronauts",
+      "name": "Astronauts",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Astronauts"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By time in space",
+        "By spaceflights",
+        "By nationality",
+        "Moonwalkers"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "nasa_open",
+            "name": "NASA Open APIs",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "jpl_sbdb",
+            "name": "JPL Small-Body Database API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "launch_library",
+            "name": "Launch Library 2 API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_exoplanet",
+            "name": "NASA Exoplanet Archive TAP",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 astronauts ranked by NASA/Launch Library crew and mission-duration records.",
+        "metric": "NASA/Launch Library crew and mission-duration records",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.physicists",
+      "name": "Physicists",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Physicists"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Living",
+        "Historical",
+        "By citations",
+        "By prizes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "inspire_hep",
+            "name": "INSPIRE-HEP API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 physicists ranked by INSPIRE-HEP/OpenAlex citations and prize records.",
+        "metric": "INSPIRE-HEP/OpenAlex citations and prize records",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.chemists",
+      "name": "Chemists",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Chemists"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Living",
+        "Historical",
+        "By citations",
+        "By prizes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubchem",
+            "name": "PubChem PUG REST",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "chembl",
+            "name": "ChEMBL API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 chemists ranked by OpenAlex citations and prize records.",
+        "metric": "OpenAlex citations and prize records",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.biologists",
+      "name": "Biologists",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Biologists"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Living",
+        "Historical",
+        "By citations",
+        "By prizes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 biologists ranked by OpenAlex/PubMed citation and publication metrics.",
+        "metric": "OpenAlex/PubMed citation and publication metrics",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.mathematicians",
+      "name": "Mathematicians",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Mathematicians"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Living",
+        "Historical",
+        "By citations",
+        "By prizes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "oeis",
+            "name": "OEIS API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 mathematicians ranked by OpenAlex/zbMATH-style citation and prize records.",
+        "metric": "OpenAlex/zbMATH-style citation and prize records",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.scientific-discoveries",
+      "name": "Scientific Discoveries",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Scientific Discoveries"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Medicine"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "canon_proxy",
+        "name": "Cultural canon proxy",
+        "question": "Top 10 scientific discoveries ranked by Citation impact, Nobel/prize records and encyclopedic coverage.",
+        "metric": "Citation impact, Nobel/prize records and encyclopedic coverage",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.inventions",
+      "name": "Inventions",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Inventions"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Historical",
+        "Modern",
+        "Patented",
+        "Consumer"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "patentsview",
+            "name": "PatentsView API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "epo_ops",
+            "name": "EPO Open Patent Services",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "patent",
+        "name": "Patent activity ranking",
+        "question": "Top 10 inventions ranked by Patent citations and encyclopedic coverage.",
+        "metric": "Patent citations and encyclopedic coverage",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.research-papers",
+      "name": "Research Papers",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Research Papers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Most cited",
+        "Most discussed",
+        "Open access",
+        "Recent"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "core",
+            "name": "CORE API",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": null
+          },
+          {
+            "id": "semantic_scholar",
+            "name": "Semantic Scholar API",
+            "access_model": "free_tier",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "unpaywall",
+            "name": "Unpaywall API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 5,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 research papers ranked by OpenAlex/Crossref citation counts.",
+        "metric": "OpenAlex/Crossref citation counts",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "weekly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.scientific-journals",
+      "name": "Scientific Journals",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Scientific Journals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Multidisciplinary",
+        "Field-specific",
+        "Open access"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "doaj",
+            "name": "Directory of Open Access Journals API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "datacite",
+            "name": "DataCite REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 scientific journals ranked by OpenAlex/Crossref publication and citation metrics.",
+        "metric": "OpenAlex/Crossref publication and citation metrics",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.research-labs",
+      "name": "Research Labs",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Research Labs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "University labs",
+        "National labs",
+        "Industry labs"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "zenodo",
+            "name": "Zenodo API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "figshare",
+            "name": "Figshare API",
+            "access_model": "free_key",
+            "commercial_use": "varies",
+            "attribution_required": null
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 research labs ranked by OpenAlex institution/publication metrics.",
+        "metric": "OpenAlex institution/publication metrics",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.particle-accelerators",
+      "name": "Particle Accelerators",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Particle Accelerators"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Colliders",
+        "Synchrotrons",
+        "LINACs"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "inspire_hep",
+            "name": "INSPIRE-HEP API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 particle accelerators ranked by Energy, circumference and facility records from Wikidata/INSPIRE.",
+        "metric": "Energy, circumference and facility records from Wikidata/INSPIRE",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.superconductors",
+      "name": "Superconductors",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Superconductors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "High-temperature",
+        "Low-temperature",
+        "Materials"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "inspire_hep",
+            "name": "INSPIRE-HEP API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "arxiv",
+            "name": "arXiv API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 superconductors ranked by OpenAlex/arXiv research output and citation impact.",
+        "metric": "OpenAlex/arXiv research output and citation impact",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.chemical-elements",
+      "name": "Chemical Elements",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Chemical Elements"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Abundance",
+        "Atomic mass",
+        "Discovery date",
+        "Toxicity"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubchem",
+            "name": "PubChem PUG REST",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "chembl",
+            "name": "ChEMBL API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 chemical elements ranked by IUPAC/PubChem element properties and abundance tables.",
+        "metric": "IUPAC/PubChem element properties and abundance tables",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.minerals",
+      "name": "Minerals",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Minerals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Most common",
+        "Hardest",
+        "Gemstones",
+        "Critical minerals"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubchem",
+            "name": "PubChem PUG REST",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "chembl",
+            "name": "ChEMBL API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 minerals ranked by Mineralogical databases and production statistics.",
+        "metric": "Mineralogical databases and production statistics",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.fossils",
+      "name": "Fossils",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Fossils"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Oldest",
+        "Most complete",
+        "Dinosaurs"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 fossils ranked by Paleobiology Database/GBIF occurrence records; specimen size data is fragmented.",
+        "metric": "Paleobiology Database/GBIF occurrence records; specimen size data is fragmented",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "The Paleobiology Database is the key open resource but is not in this first source pass."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.dinosaurs",
+      "name": "Dinosaurs",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Dinosaurs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By size",
+        "By discovery",
+        "Carnivores",
+        "Herbivores"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 dinosaurs ranked by Fossil occurrence records and described-species counts.",
+        "metric": "Fossil occurrence records and described-species counts",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.genomes",
+      "name": "Genomes",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Genomes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Smallest",
+        "Sequenced species",
+        "Human genomes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "dryad",
+            "name": "Dryad API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "harvard_dataverse",
+            "name": "Harvard Dataverse API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 4,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 genomes ranked by NCBI/Ensembl genome records; assembly statistics are open.",
+        "metric": "NCBI/Ensembl genome records; assembly statistics are open",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [
+        "NCBI datasets are open but require a dedicated source integration not yet catalogued."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.proteins",
+      "name": "Proteins",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Proteins"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By structure",
+        "By abundance",
+        "Therapeutic",
+        "Enzymes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubchem",
+            "name": "PubChem PUG REST",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "chembl",
+            "name": "ChEMBL API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 proteins ranked by UniProt/PDB records; structure counts are open.",
+        "metric": "UniProt/PDB records; structure counts are open",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.drugs",
+      "name": "Drugs",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Drugs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Approved",
+        "Best-selling",
+        "Generic",
+        "Vaccines"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "clinicaltrials",
+            "name": "ClinicalTrials.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "europe_pmc",
+            "name": "Europe PMC REST API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "approvals",
+        "name": "Regulatory approval / registration",
+        "question": "Top 10 drugs ranked by Regulatory approval and trial registries; sales data is commercial.",
+        "metric": "Regulatory approval and trial registries; sales data is commercial",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.climate-models",
+      "name": "Climate Models",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Climate Models"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global circulation",
+        "Regional",
+        "Earth system"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "nasa_power",
+            "name": "NASA POWER API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 climate models ranked by Model intercomparison publications and CMIP documentation.",
+        "metric": "Model intercomparison publications and CMIP documentation",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.weather-forecasting",
+      "name": "Weather Forecasting",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Weather Forecasting"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Forecast accuracy",
+        "Severe weather",
+        "Tropical cyclones"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openaq",
+            "name": "OpenAQ API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "epa_aqs",
+            "name": "US EPA Air Quality System API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "open_meteo",
+            "name": "Open-Meteo",
+            "access_model": "free_tier",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "nws",
+            "name": "National Weather Service API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 3,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 weather forecasting ranked by Forecast verification statistics from meteorological agencies.",
+        "metric": "Forecast verification statistics from meteorological agencies",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.earthquake-monitoring",
+      "name": "Earthquake Monitoring",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Earthquake Monitoring"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Deadliest",
+        "Most recent",
+        "Tsunamigenic"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usgs_earthquake",
+            "name": "USGS Earthquake Catalog API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 earthquake monitoring ranked by USGS earthquake catalogue (magnitude, depth, location).",
+        "metric": "USGS earthquake catalogue (magnitude, depth, location)",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "daily",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.volcanoes",
+      "name": "Volcanoes",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Volcanoes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Active",
+        "Largest",
+        "Deadliest",
+        "Recently erupted"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usgs_earthquake",
+            "name": "USGS Earthquake Catalog API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 volcanoes ranked by Smithsonian/USGS volcano records and elevation data.",
+        "metric": "Smithsonian/USGS volcano records and elevation data",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.oceans",
+      "name": "Oceans",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Oceans"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Deepest",
+        "Warmest",
+        "Most biodiverse"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "copernicus_cds",
+            "name": "Copernicus Climate Data Store",
+            "access_model": "free_account",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "noaa_ncei",
+            "name": "NOAA NCEI Data Access",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 oceans ranked by NOAA oceanographic data and geospatial boundaries.",
+        "metric": "NOAA oceanographic data and geospatial boundaries",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "science.species-extremes",
+      "name": "Species Extremes",
+      "parent_id": "science",
+      "parent_name": "Science",
+      "path": [
+        "Science",
+        "Species Extremes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Fastest",
+        "Longest-lived",
+        "Most numerous"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "gbif",
+            "name": "GBIF API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "iucn_redlist",
+            "name": "IUCN Red List API",
+            "access_model": "free_key",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "inaturalist",
+            "name": "iNaturalist API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 species extremes ranked by GBIF occurrence/taxonomy and IUCN Red List status.",
+        "metric": "GBIF occurrence/taxonomy and IUCN Red List status",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

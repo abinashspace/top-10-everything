@@ -1,0 +1,1642 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": {
+    "id": "health-lifestyle",
+    "name": "Health & Lifestyle",
+    "description": "Health systems, medicine, fitness and wellbeing.",
+    "topic_count": 26,
+    "subcategory_count": 102,
+    "research_status_counts": {
+      "unsupported": 9,
+      "researched": 12,
+      "partial": 5
+    },
+    "data_availability_counts": {
+      "none": 9,
+      "strong": 6,
+      "moderate": 6,
+      "limited": 5
+    }
+  },
+  "topics": [
+    {
+      "id": "health-lifestyle.hospitals",
+      "name": "Hospitals",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Hospitals"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Best hospitals",
+        "Largest",
+        "Specialist",
+        "Public"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 hospitals ranked by Hospital quality rankings require proprietary clinical/patient data.",
+        "metric": "Hospital quality rankings require proprietary clinical/patient data",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [
+        "US News, Newsweek and Healthgrades rankings are proprietary and methodologically contested."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.health-systems",
+      "name": "Health Systems",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Health Systems"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Universal coverage",
+        "Outcomes",
+        "Cost",
+        "Access"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 health systems ranked by WHO/World Bank indicators and published health-system indices.",
+        "metric": "WHO/World Bank indicators and published health-system indices",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.doctors",
+      "name": "Doctors",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Doctors"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By research impact",
+        "By specialty",
+        "Top-rated"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 doctors ranked by Doctor quality/ratings; no open global dataset.",
+        "metric": "Doctor quality/ratings; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.medical-schools",
+      "name": "Medical Schools",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Medical Schools"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Research",
+        "Primary care",
+        "Global health"
+      ],
+      "subcategory_count": 3,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "crossref",
+            "name": "Crossref REST API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "unesco_uis",
+            "name": "UNESCO Institute for Statistics",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "question": "Top 10 medical schools ranked by OpenAlex biomedical research output and citations.",
+        "metric": "OpenAlex biomedical research output and citations",
+        "basis": "bibliometric",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.pharmaceuticals",
+      "name": "Pharmaceutical Companies",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Pharmaceutical Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Most innovative",
+        "Generics",
+        "Vaccines"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 pharmaceutical companies ranked by Revenue/market capitalisation from filings.",
+        "metric": "Revenue/market capitalisation from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.biotech-companies",
+      "name": "Biotech Companies",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Biotech Companies"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Largest",
+        "Gene therapy",
+        "Oncology",
+        "Tools"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 biotech companies ranked by Market cap and pipeline data from filings.",
+        "metric": "Market cap and pipeline data from filings",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.medical-devices",
+      "name": "Medical Devices",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Medical Devices"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Imaging",
+        "Cardiology",
+        "Orthopaedics",
+        "Diagnostics"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "sec_edgar",
+            "name": "SEC EDGAR APIs",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "gleif",
+            "name": "GLEIF LEI API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "opencorporates",
+            "name": "OpenCorporates",
+            "access_model": "paid",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "market_cap",
+        "name": "Market capitalisation or disclosed financials",
+        "question": "Top 10 medical devices ranked by Revenue/market cap from filings; approval data from regulators.",
+        "metric": "Revenue/market cap from filings; approval data from regulators",
+        "basis": "market_data",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.vaccines",
+      "name": "Vaccines",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Vaccines"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Approved",
+        "Most administered",
+        "mRNA",
+        "Travel vaccines"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "pubmed",
+            "name": "NCBI E-utilities (PubMed)",
+            "access_model": "free_key",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          },
+          {
+            "id": "clinicaltrials",
+            "name": "ClinicalTrials.gov API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "europe_pmc",
+            "name": "Europe PMC REST API",
+            "access_model": "open",
+            "commercial_use": "varies",
+            "attribution_required": null
+          },
+          {
+            "id": "openalex",
+            "name": "OpenAlex",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "approvals",
+        "name": "Regulatory approval / registration",
+        "question": "Top 10 vaccines ranked by WHO/regulatory approvals and trial registries.",
+        "metric": "WHO/regulatory approvals and trial registries",
+        "basis": "official_record",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.diseases",
+      "name": "Diseases",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Diseases"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By prevalence",
+        "By mortality",
+        "Neglected tropical",
+        "Infectious"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 diseases ranked by WHO GHO/IHME burden-of-disease indicators.",
+        "metric": "WHO GHO/IHME burden-of-disease indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [
+        "IHME GBD data has its own access terms; WHO GHO is non-commercial."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.causes-of-death",
+      "name": "Causes of Death",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Causes of Death"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Global",
+        "By country",
+        "By age",
+        "Preventable"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 causes of death ranked by WHO Global Health Estimates and World Bank indicators.",
+        "metric": "WHO Global Health Estimates and World Bank indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.mental-health",
+      "name": "Mental Health",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Mental Health"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Prevalence",
+        "Treatment gap",
+        "Suicide",
+        "Wellbeing"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 mental health ranked by WHO Mental Health Atlas and GHO indicators.",
+        "metric": "WHO Mental Health Atlas and GHO indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.fitness-apps",
+      "name": "Fitness Apps",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Fitness Apps"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Workout",
+        "Running",
+        "Strength",
+        "Habit"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 fitness apps ranked by Wikimedia pageviews and app-store metadata where accessible.",
+        "metric": "Wikimedia pageviews and app-store metadata where accessible",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.gyms",
+      "name": "Gyms",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Gyms"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chains",
+        "Boutique",
+        "Budget",
+        "Home"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 gyms ranked by Gym quality/price; no open global dataset.",
+        "metric": "Gym quality/price; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.yoga-studios",
+      "name": "Yoga Studios",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Yoga Studios"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Chains",
+        "Independent",
+        "Online",
+        "Retreats"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 yoga studios ranked by Studio quality/price; no open global dataset.",
+        "metric": "Studio quality/price; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.meditation-apps",
+      "name": "Meditation Apps",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Meditation Apps"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Guided",
+        "Sleep",
+        "Mindfulness",
+        "Free"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "github",
+            "name": "GitHub REST API",
+            "access_model": "free_tier",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 1,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "attention_proxy",
+        "name": "Attention proxy",
+        "question": "Top 10 meditation apps ranked by Wikimedia pageviews and app-store metadata.",
+        "metric": "Wikimedia pageviews and app-store metadata",
+        "basis": "proxy_attention",
+        "subjectivity": "proxy",
+        "human_verification_required": true
+      },
+      "update_frequency": "monthly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.sleep",
+      "name": "Sleep",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Sleep"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Duration",
+        "Quality",
+        "Disorders",
+        "Chronotypes"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "survey",
+        "name": "Survey-based ranking",
+        "question": "Top 10 sleep ranked by Population sleep surveys and health indicators.",
+        "metric": "Population sleep surveys and health indicators",
+        "basis": "survey",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.nutrition",
+      "name": "Nutrition",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Nutrition"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Macronutrients",
+        "Micronutrients",
+        "Food groups",
+        "Deficiency"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "usda_fooddata",
+            "name": "USDA FoodData Central API",
+            "access_model": "free_key",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "open_food_facts",
+            "name": "Open Food Facts API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          },
+          {
+            "id": "faostat",
+            "name": "FAOSTAT",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 nutrition ranked by USDA FoodData Central and FAO food-balance sheets.",
+        "metric": "USDA FoodData Central and FAO food-balance sheets",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "medium",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.supplements",
+      "name": "Supplements",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Supplements"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Vitamins",
+        "Minerals",
+        "Protein",
+        "Herbal"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 supplements ranked by Supplement quality/efficacy rankings; no open dataset.",
+        "metric": "Supplement quality/efficacy rankings; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.cosmetic-procedures",
+      "name": "Cosmetic Procedures",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Cosmetic Procedures"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Surgical",
+        "Non-surgical",
+        "Dental",
+        "Hair"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 cosmetic procedures ranked by Procedure quality/outcomes; no open global dataset.",
+        "metric": "Procedure quality/outcomes; no open global dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.longevity",
+      "name": "Longevity",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Longevity"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Life expectancy",
+        "Healthy life expectancy",
+        "Blue zones",
+        "Centenarians"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 longevity ranked by World Bank/WHO life expectancy and mortality data.",
+        "metric": "World Bank/WHO life expectancy and mortality data",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [
+        "Blue-zone claims rely on disputed demographic data and should be treated cautiously."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.public-health",
+      "name": "Public Health",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Public Health"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Preparedness",
+        "Vaccination",
+        "Sanitation",
+        "Health spending"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "question": "Top 10 public health ranked by WHO/World Bank health-system indicators.",
+        "metric": "WHO/World Bank health-system indicators",
+        "basis": "expert_index",
+        "subjectivity": "mixed",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "strong",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.health-insurance",
+      "name": "Health Insurance",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Health Insurance"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Coverage",
+        "Cost",
+        "Outcomes",
+        "Public/private"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "question": "Top 10 health insurance ranked by Coverage and health-spending indicators.",
+        "metric": "Coverage and health-spending indicators",
+        "basis": "objective_statistic",
+        "subjectivity": "objective",
+        "human_verification_required": false
+      },
+      "update_frequency": "yearly",
+      "data_availability": "moderate",
+      "research_status": "researched",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.nursing-homes",
+      "name": "Nursing Homes",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Nursing Homes"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Quality",
+        "Cost",
+        "Capacity",
+        "Memory care"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 nursing homes ranked by Facility quality requires inspection data that is not globally open.",
+        "metric": "Facility quality requires inspection data that is not globally open",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.telehealth",
+      "name": "Telehealth",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Telehealth"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Platforms",
+        "Adoption",
+        "Regulation",
+        "Rural access"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "who_gho",
+            "name": "WHO Global Health Observatory",
+            "access_model": "open",
+            "commercial_use": "prohibited",
+            "attribution_required": true
+          },
+          {
+            "id": "world_bank",
+            "name": "World Bank Open Data API",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          }
+        ],
+        "backup": [
+          {
+            "id": "our_world_in_data",
+            "name": "Our World in Data",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "un_data",
+            "name": "UNdata",
+            "access_model": "open",
+            "commercial_use": "unclear",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "survey",
+        "name": "Survey-based ranking",
+        "question": "Top 10 telehealth ranked by Adoption surveys and national telehealth statistics.",
+        "metric": "Adoption surveys and national telehealth statistics",
+        "basis": "survey",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "limited",
+      "research_status": "partial",
+      "licensing_risk": "high",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.wellness-retreats",
+      "name": "Wellness Retreats",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Wellness Retreats"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Yoga",
+        "Detox",
+        "Spa",
+        "Mental health"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 wellness retreats ranked by Retreat quality/price; no open dataset.",
+        "metric": "Retreat quality/price; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "health-lifestyle.spas",
+      "name": "Spas",
+      "parent_id": "health-lifestyle",
+      "parent_name": "Health & Lifestyle",
+      "path": [
+        "Health & Lifestyle",
+        "Spas"
+      ],
+      "level": 2,
+      "subcategories": [
+        "Luxury",
+        "Day spas",
+        "Thermal",
+        "Medical spas"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [],
+        "backup": [],
+        "primary_count": 0,
+        "backup_count": 0,
+        "independent_source_coverage": false
+      },
+      "ranking_method": {
+        "id": "human_review",
+        "name": "Human review required",
+        "question": "Top 10 spas ranked by Spa quality/price; no open dataset.",
+        "metric": "Spa quality/price; no open dataset",
+        "basis": "editorial",
+        "subjectivity": "subjective",
+        "human_verification_required": true
+      },
+      "update_frequency": "yearly",
+      "data_availability": "none",
+      "research_status": "unsupported",
+      "licensing_risk": "unknown",
+      "notes": [],
+      "schema_version": "1.0.0"
+    }
+  ]
+}

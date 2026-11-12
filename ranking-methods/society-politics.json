@@ -1,0 +1,664 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "society-politics",
+  "category_name": "Society & Politics",
+  "topic_count": 30,
+  "method_counts": {
+    "composite_index": 11,
+    "official_stat": 17,
+    "event_outcome": 1,
+    "survey": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "society-politics.governance",
+      "topic_name": "Governance",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "World Bank WGI and V-Dem governance indicators",
+      "question": "Top 10 governance ranked by World Bank WGI and V-Dem governance indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.democracies",
+      "topic_name": "Democracies",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "V-Dem liberal democracy index and related measures",
+      "question": "Top 10 democracies ranked by V-Dem liberal democracy index and related measures.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.presidents",
+      "topic_name": "Presidents",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official government records and Wikidata",
+      "question": "Top 10 presidents ranked by Official government records and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "society-politics.prime-ministers",
+      "topic_name": "Prime Ministers",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official government records and Wikidata",
+      "question": "Top 10 prime ministers ranked by Official government records and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "society-politics.political-parties",
+      "topic_name": "Political Parties",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Election results and party registries",
+      "question": "Top 10 political parties ranked by Election results and party registries.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_values_survey",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "wikidata",
+        "parlgov",
+        "manifesto_project"
+      ]
+    },
+    {
+      "topic_id": "society-politics.elections",
+      "topic_name": "Elections",
+      "method_id": "event_outcome",
+      "method_name": "Event outcome",
+      "metric": "Official election results and turnout data",
+      "question": "Top 10 elections ranked by Official election results and turnout data.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "event",
+      "primary_sources": [
+        "world_values_survey",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "wikidata",
+        "parlgov",
+        "manifesto_project"
+      ]
+    },
+    {
+      "topic_id": "society-politics.parliaments",
+      "topic_name": "Parliaments",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "IPU Parline and national parliament data",
+      "question": "Top 10 parliaments ranked by IPU Parline and national parliament data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.mayors",
+      "topic_name": "Mayors",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Official city records and Wikidata",
+      "question": "Top 10 mayors ranked by Official city records and Wikidata.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "society-politics.quality-of-life-cities",
+      "topic_name": "Quality of Life Cities",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Mercer/EIU indices are proprietary; build transparent composite from open indicators",
+      "question": "Top 10 quality of life cities ranked by Mercer/EIU indices are proprietary; build transparent composite from open indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "numbeo"
+      ]
+    },
+    {
+      "topic_id": "society-politics.peaceful-countries",
+      "topic_name": "Peaceful Countries",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Global Peace Index (proprietary) or UCDP/World Bank conflict indicators",
+      "question": "Top 10 peaceful countries ranked by Global Peace Index (proprietary) or UCDP/World Bank conflict indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.human-rights",
+      "topic_name": "Human Rights",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "V-Dem, CIRI and UN human-rights indicators",
+      "question": "Top 10 human rights ranked by V-Dem, CIRI and UN human-rights indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.press-freedom",
+      "topic_name": "Press Freedom",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "RSF/V-Dem media indicators; RSF index terms restrict commercial reuse",
+      "question": "Top 10 press freedom ranked by RSF/V-Dem media indicators; RSF index terms restrict commercial reuse.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.corruption",
+      "topic_name": "Corruption",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Transparency International CPI (CC BY-ND) or World Bank control of corruption",
+      "question": "Top 10 corruption ranked by Transparency International CPI (CC BY-ND) or World Bank control of corruption.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.rule-of-law",
+      "topic_name": "Rule of Law",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "World Justice Project Rule of Law Index and World Bank WGI",
+      "question": "Top 10 rule of law ranked by World Justice Project Rule of Law Index and World Bank WGI.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.ngos",
+      "topic_name": "NGOs",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Revenue and programme data from charity regulators",
+      "question": "Top 10 ngos ranked by Revenue and programme data from charity regulators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.charities",
+      "topic_name": "Charities",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Charity regulator filings (US IRS 990, UK Charity Commission)",
+      "question": "Top 10 charities ranked by Charity regulator filings (US IRS 990, UK Charity Commission).",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.humanitarian-aid",
+      "topic_name": "Humanitarian Aid",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UN OCHA FTS and OECD DAC aid statistics",
+      "question": "Top 10 humanitarian aid ranked by UN OCHA FTS and OECD DAC aid statistics.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "reliefweb",
+        "unhcr"
+      ]
+    },
+    {
+      "topic_id": "society-politics.international-organizations",
+      "topic_name": "International Organizations",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Membership, budget and mandate records",
+      "question": "Top 10 international organizations ranked by Membership, budget and mandate records.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "wikidata",
+        "wikipedia"
+      ],
+      "backup_sources": [
+        "dbpedia",
+        "open_library"
+      ]
+    },
+    {
+      "topic_id": "society-politics.treaties",
+      "topic_name": "Treaties",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UN Treaty Collection and official registries",
+      "question": "Top 10 treaties ranked by UN Treaty Collection and official registries.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.constitutions",
+      "topic_name": "Constitutions",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "Constitute Project and official texts",
+      "question": "Top 10 constitutions ranked by Constitute Project and official texts.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "vdem",
+        "world_bank"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "our_world_in_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.immigration",
+      "topic_name": "Immigration",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UN DESA/World Bank migration indicators",
+      "question": "Top 10 immigration ranked by UN DESA/World Bank migration indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.refugees",
+      "topic_name": "Refugees",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UNHCR Refugee Data Finder",
+      "question": "Top 10 refugees ranked by UNHCR Refugee Data Finder.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "unhcr",
+        "reliefweb"
+      ]
+    },
+    {
+      "topic_id": "society-politics.happiness",
+      "topic_name": "Happiness",
+      "method_id": "survey",
+      "method_name": "Survey-based ranking",
+      "metric": "World Happiness Report / Gallup World Poll; underlying data is proprietary",
+      "question": "Top 10 happiness ranked by World Happiness Report / Gallup World Poll; underlying data is proprietary.",
+      "basis": "survey",
+      "subjectivity": "subjective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_values_survey",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "society-politics.social-progress",
+      "topic_name": "Social Progress",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "Social Progress Index and related open indicators",
+      "question": "Top 10 social progress ranked by Social Progress Index and related open indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.inequality",
+      "topic_name": "Inequality",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "World Bank PIP/WID inequality data",
+      "question": "Top 10 inequality ranked by World Bank PIP/WID inequality data.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "imf",
+        "eurostat"
+      ]
+    },
+    {
+      "topic_id": "society-politics.poverty",
+      "topic_name": "Poverty",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "World Bank PIP and UNDP MPI",
+      "question": "Top 10 poverty ranked by World Bank PIP and UNDP MPI.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "unicef",
+        "worldpop"
+      ]
+    },
+    {
+      "topic_id": "society-politics.development",
+      "topic_name": "Development",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "UNDP Human Development Index and World Bank indicators",
+      "question": "Top 10 development ranked by UNDP Human Development Index and World Bank indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "gapminder",
+        "imf"
+      ]
+    },
+    {
+      "topic_id": "society-politics.gender-gap",
+      "topic_name": "Gender Gap",
+      "method_id": "composite_index",
+      "method_name": "Composite index",
+      "metric": "WEF Global Gender Gap (proprietary) or UN/World Bank gender indicators",
+      "question": "Top 10 gender gap ranked by WEF Global Gender Gap (proprietary) or UN/World Bank gender indicators.",
+      "basis": "expert_index",
+      "subjectivity": "mixed",
+      "human_verification_required": true,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data"
+      ]
+    },
+    {
+      "topic_id": "society-politics.aging",
+      "topic_name": "Aging",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UN World Population Prospects and World Bank indicators",
+      "question": "Top 10 aging ranked by UN World Population Prospects and World Bank indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "unicef",
+        "worldpop"
+      ]
+    },
+    {
+      "topic_id": "society-politics.youth",
+      "topic_name": "Youth",
+      "method_id": "official_stat",
+      "method_name": "Official statistical ranking",
+      "metric": "UN/ILO/World Bank youth indicators",
+      "question": "Top 10 youth ranked by UN/ILO/World Bank youth indicators.",
+      "basis": "objective_statistic",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "world_bank",
+        "vdem"
+      ],
+      "backup_sources": [
+        "our_world_in_data",
+        "un_data",
+        "ilostat",
+        "unicef"
+      ]
+    }
+  ]
+}

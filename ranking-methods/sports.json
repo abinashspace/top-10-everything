@@ -1,0 +1,831 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-12T08:08:13+00:00",
+  "category": "sports",
+  "category_name": "Sports",
+  "topic_count": 39,
+  "method_counts": {
+    "sports_result": 37,
+    "geospatial": 1,
+    "market_cap": 1
+  },
+  "assignments": [
+    {
+      "topic_id": "sports.football-soccer",
+      "topic_name": "Football (Soccer)",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "League tables, match results and tournament outcomes",
+      "question": "Top 10 football (soccer) ranked by League tables, match results and tournament outcomes.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.football-clubs",
+      "topic_name": "Football Clubs",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Trophies/results plus revenue where disclosed",
+      "question": "Top 10 football clubs ranked by Trophies/results plus revenue where disclosed.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.football-players",
+      "topic_name": "Football Players",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Goals/assists/appearances from league data; market values are proprietary",
+      "question": "Top 10 football players ranked by Goals/assists/appearances from league data; market values are proprietary.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.basketball",
+      "topic_name": "Basketball",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official standings, scores and player statistics",
+      "question": "Top 10 basketball ranked by Official standings, scores and player statistics.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "balldontlie",
+        "mlb_stats"
+      ],
+      "backup_sources": [
+        "thesportsdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "sports.nba-teams",
+      "topic_name": "NBA Teams",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Standings/championships; valuations are commercial estimates",
+      "question": "Top 10 nba teams ranked by Standings/championships; valuations are commercial estimates.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "balldontlie",
+        "mlb_stats"
+      ],
+      "backup_sources": [
+        "thesportsdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "sports.nfl-teams",
+      "topic_name": "NFL Teams",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Standings/championships; valuations are commercial estimates",
+      "question": "Top 10 nfl teams ranked by Standings/championships; valuations are commercial estimates.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "balldontlie",
+        "mlb_stats"
+      ],
+      "backup_sources": [
+        "thesportsdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "sports.baseball",
+      "topic_name": "Baseball",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official standings and player statistics",
+      "question": "Top 10 baseball ranked by Official standings and player statistics.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "balldontlie",
+        "mlb_stats"
+      ],
+      "backup_sources": [
+        "thesportsdb",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "sports.cricket",
+      "topic_name": "Cricket",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "ICC/league rankings and match results",
+      "question": "Top 10 cricket ranked by ICC/league rankings and match results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.tennis",
+      "topic_name": "Tennis",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and tournament results",
+      "question": "Top 10 tennis ranked by Official rankings and tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.golf",
+      "topic_name": "Golf",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and tournament results",
+      "question": "Top 10 golf ranked by Official rankings and tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.formula-1",
+      "topic_name": "Formula 1",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official championship standings and race results",
+      "question": "Top 10 formula 1 ranked by Official championship standings and race results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "jolpica_f1",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.motogp",
+      "topic_name": "MotoGP",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official championship standings and race results",
+      "question": "Top 10 motogp ranked by Official championship standings and race results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.cycling",
+      "topic_name": "Cycling",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official race results and UCI rankings",
+      "question": "Top 10 cycling ranked by Official race results and UCI rankings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.athletics",
+      "topic_name": "Athletics",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "World Athletics results and records",
+      "question": "Top 10 athletics ranked by World Athletics results and records.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.swimming",
+      "topic_name": "Swimming",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "World Aquatics results and records",
+      "question": "Top 10 swimming ranked by World Aquatics results and records.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.boxing",
+      "topic_name": "Boxing",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Sanctioning-body rankings and fight results",
+      "question": "Top 10 boxing ranked by Sanctioning-body rankings and fight results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.mma",
+      "topic_name": "MMA",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official promotion rankings and fight results",
+      "question": "Top 10 mma ranked by Official promotion rankings and fight results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.wrestling",
+      "topic_name": "Wrestling",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official competition results",
+      "question": "Top 10 wrestling ranked by Official competition results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.rugby",
+      "topic_name": "Rugby",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and match results",
+      "question": "Top 10 rugby ranked by Official rankings and match results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.hockey",
+      "topic_name": "Hockey",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official standings and tournament results",
+      "question": "Top 10 hockey ranked by Official standings and tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "daily",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.volleyball",
+      "topic_name": "Volleyball",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and competition results",
+      "question": "Top 10 volleyball ranked by Official rankings and competition results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.badminton",
+      "topic_name": "Badminton",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "BWF rankings and tournament results",
+      "question": "Top 10 badminton ranked by BWF rankings and tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.table-tennis",
+      "topic_name": "Table Tennis",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "ITTF rankings and results",
+      "question": "Top 10 table tennis ranked by ITTF rankings and results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.snooker",
+      "topic_name": "Snooker",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and match results",
+      "question": "Top 10 snooker ranked by Official rankings and match results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.darts",
+      "topic_name": "Darts",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official rankings and tournament results",
+      "question": "Top 10 darts ranked by Official rankings and tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "weekly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.olympics",
+      "topic_name": "Olympics",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official medal tables and athlete results",
+      "question": "Top 10 olympics ranked by Official medal tables and athlete results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "strong",
+      "update_frequency": "event",
+      "primary_sources": [
+        "olympedia",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.world-cups",
+      "topic_name": "World Cups",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official tournament results and standings",
+      "question": "Top 10 world cups ranked by Official tournament results and standings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "event",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.stadiums",
+      "topic_name": "Stadiums",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "Capacity/location from Wikidata/OSM; attendance data is partial",
+      "question": "Top 10 stadiums ranked by Capacity/location from Wikidata/OSM; attendance data is partial.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.sports-brands",
+      "topic_name": "Sports Brands",
+      "method_id": "market_cap",
+      "method_name": "Market capitalisation or disclosed financials",
+      "metric": "Revenue/market cap of listed brands",
+      "question": "Top 10 sports brands ranked by Revenue/market cap of listed brands.",
+      "basis": "market_data",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "sec_edgar",
+        "gleif"
+      ],
+      "backup_sources": [
+        "opencorporates",
+        "wikidata"
+      ]
+    },
+    {
+      "topic_id": "sports.athletes",
+      "topic_name": "Athletes",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Medals/results plus disclosed earnings; wealth lists are proprietary",
+      "question": "Top 10 athletes ranked by Medals/results plus disclosed earnings; wealth lists are proprietary.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.coaches",
+      "topic_name": "Coaches",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Trophies and win records from league data",
+      "question": "Top 10 coaches ranked by Trophies and win records from league data.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.marathons",
+      "topic_name": "Marathons",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official race results and finisher counts",
+      "question": "Top 10 marathons ranked by Official race results and finisher counts.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.triathlons",
+      "topic_name": "Triathlons",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official race results and rankings",
+      "question": "Top 10 triathlons ranked by Official race results and rankings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.surfing",
+      "topic_name": "Surfing",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "WSL rankings and contest results",
+      "question": "Top 10 surfing ranked by WSL rankings and contest results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.skateboarding",
+      "topic_name": "Skateboarding",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official contest results and world rankings",
+      "question": "Top 10 skateboarding ranked by Official contest results and world rankings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.snowboarding",
+      "topic_name": "Snowboarding",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official contest results and world rankings",
+      "question": "Top 10 snowboarding ranked by Official contest results and world rankings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.climbing",
+      "topic_name": "Climbing",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "IFSC rankings and competition results",
+      "question": "Top 10 climbing ranked by IFSC rankings and competition results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.sailing",
+      "topic_name": "Sailing",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "Official race results and rankings",
+      "question": "Top 10 sailing ranked by Official race results and rankings.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "limited",
+      "update_frequency": "yearly",
+      "primary_sources": [
+        "thesportsdb",
+        "football_data"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "sports.chess",
+      "topic_name": "Chess",
+      "method_id": "sports_result",
+      "method_name": "Official competition results",
+      "metric": "FIDE and platform ratings plus tournament results",
+      "question": "Top 10 chess ranked by FIDE and platform ratings plus tournament results.",
+      "basis": "official_result",
+      "subjectivity": "objective",
+      "human_verification_required": false,
+      "data_availability": "moderate",
+      "update_frequency": "monthly",
+      "primary_sources": [
+        "lichess",
+        "chess_com"
+      ],
+      "backup_sources": [
+        "wikidata",
+        "wikipedia"
+      ]
+    }
+  ]
+}

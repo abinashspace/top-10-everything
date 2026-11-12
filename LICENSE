@@ -1,0 +1,17 @@
+CC0 1.0 Universal
+
+The catalog metadata in this repository (the JSON artifacts, the Python catalog
+definitions, the schemas and the documentation) is dedicated to the public
+domain under the Creative Commons CC0 1.0 Universal dedication.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This dedication does NOT extend to the underlying data described by the
+catalog. Every data source keeps its own licence and terms, which are recorded
+per source in sources/source-directory.json and summarised in
+sources/licensing.json. Some sources prohibit commercial use, require
+attribution, or forbid redistribution; those terms govern any downstream use of
+their data.
+
+The catalog is provided "as is", without warranty of any kind. Verification
+results are reachability snapshots, not legal clearance.
