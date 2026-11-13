@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "travel.countries",
+  "topic_name": "Countries",
+  "category": "travel",
+  "question": "Top 10 countries ranked by UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements.",
+  "metric": "UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Total population, all ages",
+    "unit": "people",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:45:59+00:00",
+    "reference_period": "2025",
+    "records_considered": 217,
+    "records_ranked": 217,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SP.POP.TOTL"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "IND",
+      "name": "India",
+      "value": 1463865525,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "CHN",
+      "name": "China",
+      "value": 1406585000,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "USA",
+      "name": "United States",
+      "value": 341784857,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "IDN",
+      "name": "Indonesia",
+      "value": 285721236,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "PAK",
+      "name": "Pakistan",
+      "value": 255219554,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "NGA",
+      "name": "Nigeria",
+      "value": 237527782,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "BRA",
+      "name": "Brazil",
+      "value": 212812405,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "BGD",
+      "name": "Bangladesh",
+      "value": 175686899,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "RUS",
+      "name": "Russian Federation",
+      "value": 143513328,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "ETH",
+      "name": "Ethiopia",
+      "value": 135472051,
+      "unit": "people",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.TOTL"
+      }
+    }
+  ],
+  "caveats": [
+    "International tourist arrivals are measured by UNWTO and republished with lag; 'best country' is not a single statistic.",
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "moderate",
+  "research_status": "researched"
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "sports.formula-1",
+  "topic_name": "Formula 1",
+  "category": "sports",
+  "question": "Top 10 formula 1 ranked by Official championship standings and race results.",
+  "metric": "Official championship standings and race results",
+  "method": {
+    "id": "sports_result",
+    "name": "Official competition results",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "FIA Formula 1 World Championship points (2026 season)",
+    "unit": "championship points",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2026-11-19",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:29:07+00:00",
+    "reference_period": null,
+    "records_considered": 25,
+    "records_ranked": 25,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "Jolpica (Ergast) F1 API, 2026 season standings"
+  },
+  "sources": [
+    {
+      "id": "jolpica_f1",
+      "name": "Jolpica F1 API",
+      "official_url": "https://api.jolpi.ca/",
+      "api_docs_url": "https://api.jolpi.ca/ergast/",
+      "commercial_use": "unclear",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:22+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "antonelli",
+      "name": "Andrea Kimi Antonelli",
+      "value": 390.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 9,
+        "position": 1,
+        "constructor": "Mercedes",
+        "nationality": "Italian"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "max_verstappen",
+      "name": "Max Verstappen",
+      "value": 279.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 3,
+        "position": 2,
+        "constructor": "Red Bull",
+        "nationality": "Dutch"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "russell",
+      "name": "George Russell",
+      "value": 262.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 3,
+        "position": 3,
+        "constructor": "Mercedes",
+        "nationality": "British"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "hamilton",
+      "name": "Lewis Hamilton",
+      "value": 261.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 1,
+        "position": 4,
+        "constructor": "Ferrari",
+        "nationality": "British"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "leclerc",
+      "name": "Charles Leclerc",
+      "value": 249.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 1,
+        "position": 5,
+        "constructor": "Ferrari",
+        "nationality": "Monegasque"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "norris",
+      "name": "Lando Norris",
+      "value": 246.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 3,
+        "position": 6,
+        "constructor": "McLaren",
+        "nationality": "British"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "piastri",
+      "name": "Oscar Piastri",
+      "value": 152.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 0,
+        "position": 7,
+        "constructor": "McLaren",
+        "nationality": "Australian"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "hadjar",
+      "name": "Isack Hadjar",
+      "value": 122.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 0,
+        "position": 8,
+        "constructor": "Red Bull",
+        "nationality": "French"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "lawson",
+      "name": "Liam Lawson",
+      "value": 89.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 0,
+        "position": 9,
+        "constructor": "RB F1 Team",
+        "nationality": "New Zealander"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "gasly",
+      "name": "Pierre Gasly",
+      "value": 42.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 0,
+        "position": 10,
+        "constructor": "Alpine F1 Team",
+        "nationality": "French"
+      }
+    }
+  ],
+  "caveats": [
+    "Current 2026 season standings; changes after every race weekend.",
+    "Points reflect the current season only, not career totals."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

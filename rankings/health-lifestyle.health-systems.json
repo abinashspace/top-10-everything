@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "health-lifestyle.health-systems",
+  "topic_name": "Health Systems",
+  "category": "health-lifestyle",
+  "question": "Top 10 health systems ranked by WHO/World Bank indicators and published health-system indices.",
+  "metric": "WHO/World Bank indicators and published health-system indices",
+  "method": {
+    "id": "composite_index",
+    "name": "Composite index",
+    "subjectivity": "mixed",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Current health expenditure as share of GDP",
+    "unit": "% of GDP",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T16:50:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:45:47+00:00",
+    "reference_period": "2023",
+    "records_considered": 193,
+    "records_ranked": 193,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SH.XPD.CHEX.GD.ZS"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "TUV",
+      "name": "Tuvalu",
+      "value": 27.08968544,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "NRU",
+      "name": "Naoero",
+      "value": 18.21076012,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "USA",
+      "name": "United States",
+      "value": 16.69414902,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "AFG",
+      "name": "Afghanistan",
+      "value": 14.9857626,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "MHL",
+      "name": "Marshall Islands",
+      "value": 13.40528965,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "LBR",
+      "name": "Liberia",
+      "value": 13.00574875,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "FSM",
+      "name": "Micronesia, Fed. Sts.",
+      "value": 12.88087559,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "LSO",
+      "name": "Lesotho",
+      "value": 12.61182117,
+      "unit": "% of GDP",
+      "period": "2023",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "DEU",
+      "name": "Germany",
+      "value": 12.26655293,
+      "unit": "% of GDP",
+      "period": "2024",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "AUT",
+      "name": "Austria",
+      "value": 11.8325634,
+      "unit": "% of GDP",
+      "period": "2024",
+      "extra": {
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      }
+    }
+  ],
+  "caveats": [
+    "Weights are value judgements; a different weighting produces a different ranking.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "high",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

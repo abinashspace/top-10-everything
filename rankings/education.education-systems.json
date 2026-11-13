@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "education.education-systems",
+  "topic_name": "Education Systems",
+  "category": "education",
+  "question": "Top 10 education systems ranked by Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD).",
+  "metric": "Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD)",
+  "method": {
+    "id": "composite_index",
+    "name": "Composite index",
+    "subjectivity": "mixed",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Government expenditure on education as share of GDP",
+    "unit": "% of GDP",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:39:06+00:00",
+    "reference_period": "2023",
+    "records_considered": 123,
+    "records_ranked": 123,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "reference_year": 2023,
+    "grapher_slug": "total-government-expenditure-on-education-gdp"
+  },
+  "sources": [
+    {
+      "id": "our_world_in_data",
+      "name": "Our World in Data",
+      "official_url": "https://ourworldindata.org/",
+      "api_docs_url": "https://ourworldindata.org/using-our-data",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:30+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "KIR",
+      "name": "Kiribati",
+      "value": 16.39053,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 2,
+      "entity_id": "TUV",
+      "name": "Tuvalu",
+      "value": 12.84569,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 3,
+      "entity_id": "SLB",
+      "name": "Solomon Islands",
+      "value": 8.29349,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 4,
+      "entity_id": "BOL",
+      "name": "Bolivia",
+      "value": 7.89382,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 5,
+      "entity_id": "VUT",
+      "name": "Vanuatu",
+      "value": 7.58136,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 6,
+      "entity_id": "LSO",
+      "name": "Lesotho",
+      "value": 7.2901134,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 7,
+      "entity_id": "MSR",
+      "name": "Montserrat",
+      "value": 7.1902003,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 8,
+      "entity_id": "KGZ",
+      "name": "Kyrgyzstan",
+      "value": 6.8269467,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 9,
+      "entity_id": "TUN",
+      "name": "Tunisia",
+      "value": 6.733989,
+      "unit": "% of GDP",
+      "period": "2023"
+    },
+    {
+      "rank": 10,
+      "entity_id": "MDA",
+      "name": "Moldova",
+      "value": 6.5571,
+      "unit": "% of GDP",
+      "period": "2023"
+    }
+  ],
+  "caveats": [
+    "Weights are value judgements; a different weighting produces a different ranking.",
+    "Single reference year (2023) selected as the latest year with at least 50 country rows.",
+    "Spending share does not measure education quality or outcomes."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

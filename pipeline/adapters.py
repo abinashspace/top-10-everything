@@ -27,6 +27,10 @@ OPENALEX = "https://api.openalex.org"
 COINGECKO = "https://api.coingecko.com/api/v3"
 USGS = "https://earthquake.usgs.gov/fdsnws/event/1/query"
 RADIO = "https://de1.api.radio-browser.info/json/stations/topclick"
+LICHESS = "https://lichess.org/api/player/top"
+JOLPICA = "https://api.jolpi.ca/ergast/f1"
+JIKAN = "https://api.jikan.moe/v4"
+OPENLIBRARY = "https://openlibrary.org"
 
 
 @dataclass
@@ -559,6 +563,198 @@ def radio_stations(*, offline: bool, refresh: bool) -> Dataset:
     )
 
 
+def lichess_classical(*, offline: bool, refresh: bool) -> Dataset:
+    url = f"{LICHESS}/50/classical"
+    text, meta = _fetch(url, offline=offline, refresh=refresh)
+    records = parse_lichess(text)
+    return Dataset(
+        records=records,
+        source_ids=["lichess"],
+        urls=[url],
+        notes=[
+            "Lichess classical ratings are Glicko-2 ratings internal to Lichess and not directly comparable to FIDE ratings.",
+            "Only players active on Lichess appear; many top FIDE players do not play classical on Lichess.",
+        ],
+        retrieved_at=meta.get("retrieved_at"),
+        snapshot={"provider": "Lichess top 50 classical players"},
+        unit="Lichess classical rating",
+        measure="Glicko-2 classical rating on Lichess",
+    )
+
+
+def f1_current_standings(*, offline: bool, refresh: bool) -> Dataset:
+    url = f"{JOLPICA}/current/driverStandings.json"
+    text, meta = _fetch(url, offline=offline, refresh=refresh)
+    records = parse_f1_standings(text)
+    season = ""
+    try:
+        season = json.loads(text)["MRData"]["StandingsTable"]["season"]
+    except (KeyError, json.JSONDecodeError):
+        pass
+    return Dataset(
+        records=records,
+        source_ids=["jolpica_f1"],
+        urls=[url],
+        notes=[
+            f"Current {season} season standings; changes after every race weekend.",
+            "Points reflect the current season only, not career totals.",
+        ],
+        retrieved_at=meta.get("retrieved_at"),
+        snapshot={"provider": f"Jolpica (Ergast) F1 API, {season} season standings"},
+        unit="championship points",
+        measure=f"FIA Formula 1 World Championship points ({season} season)",
+    )
+
+
+def openalex_papers(*, offline: bool, refresh: bool) -> Dataset:
+    url = (
+        f"{OPENALEX}/works?per_page=50&sort=cited_by_count:desc"
+        "&select=id,display_name,cited_by_count,publication_year,doi,type"
+    )
+    text, meta = _fetch(url, offline=offline, refresh=refresh)
+    payload = json.loads(text)
+    records = []
+    for row in payload.get("results", []):
+        citations = row.get("cited_by_count")
+        if citations is None:
+            continue
+        records.append(
+            {
+                "id": row.get("id", ""),
+                "name": row.get("display_name", ""),
+                "value": citations,
+                "unit": "citations (OpenAlex, all time)",
+                "period": str(row.get("publication_year") or ""),
+                "extra": {
+                    "publication_year": row.get("publication_year"),
+                    "doi": row.get("doi"),
+                    "type": row.get("type"),
+                },
+            }
+        )
+    return Dataset(
+        records=records,
+        source_ids=["openalex"],
+        urls=[url],
+        notes=[
+            "All-time citations from OpenAlex, which covers most scholarly works but has gaps in non-English and older literature.",
+            "Citation counts are not field-normalised; biomedical and physics papers accumulate more citations than social sciences or humanities.",
+        ],
+        retrieved_at=meta.get("retrieved_at"),
+        snapshot={"provider": "OpenAlex works, sorted by cited_by_count"},
+        unit="citations (OpenAlex, all time)",
+        measure="All-time citations to the work",
+    )
+
+
+def openlibrary_fiction(*, offline: bool, refresh: bool) -> Dataset:
+    url = f"{OPENLIBRARY}/subjects/fiction.json?limit=50"
+    text, meta = _fetch(url, offline=offline, refresh=refresh)
+    records = parse_openlibrary_subjects(text)
+    return Dataset(
+        records=records,
+        source_ids=["open_library"],
+        urls=[url],
+        notes=[
+            "Edition count measures how many distinct editions (ISBNs) a work has, which correlates with sustained publishing demand.",
+            "The ranking is limited to the fiction subject; a work classified differently may not appear.",
+        ],
+        retrieved_at=meta.get("retrieved_at"),
+        snapshot={"provider": "Open Library /subjects/fiction, sorted by edition count"},
+        unit="editions published",
+        measure="Number of distinct published editions (Open Library)",
+    )
+
+
+def parse_lichess(text: str) -> list[dict]:
+    payload = json.loads(text)
+    records = []
+    for user in payload.get("users", []):
+        perfs = user.get("perfs", {})
+        classical = perfs.get("classical", {})
+        rating = classical.get("rating")
+        if rating is None:
+            continue
+        records.append(
+            {
+                "id": user.get("id", ""),
+                "name": user.get("username", ""),
+                "value": rating,
+                "unit": "Lichess classical rating",
+                "period": "",
+                "extra": {
+                    "games": classical.get("games"),
+                    "progress": classical.get("prog"),
+                },
+            }
+        )
+    return records
+
+
+def parse_f1_standings(text: str) -> list[dict]:
+    payload = json.loads(text)
+    try:
+        standings = (
+            payload["MRData"]["StandingsTable"]["StandingsLists"][0]["DriverStandings"]
+        )
+    except (KeyError, IndexError):
+        return []
+    records = []
+    for entry in standings:
+        points = entry.get("points")
+        if points is None:
+            continue
+        try:
+            value = float(points)
+        except (TypeError, ValueError):
+            continue
+        driver = entry.get("Driver", {})
+        name = f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip()
+        constructor = ""
+        constructors = entry.get("Constructors", [])
+        if constructors:
+            constructor = constructors[0].get("name", "")
+        records.append(
+            {
+                "id": driver.get("driverId", ""),
+                "name": name,
+                "value": value,
+                "unit": "championship points",
+                "period": "",
+                "extra": {
+                    "wins": int(entry.get("wins", 0)),
+                    "position": int(entry.get("position", 0)),
+                    "constructor": constructor,
+                    "nationality": driver.get("nationality"),
+                },
+            }
+        )
+    return records
+
+
+def parse_openlibrary_subjects(text: str) -> list[dict]:
+    payload = json.loads(text)
+    records = []
+    for work in payload.get("works", []):
+        edition_count = work.get("edition_count")
+        if edition_count is None:
+            continue
+        records.append(
+            {
+                "id": work.get("key", ""),
+                "name": work.get("title", ""),
+                "value": edition_count,
+                "unit": "editions published",
+                "period": "",
+                "extra": {
+                    "first_publish_year": work.get("first_publish_year"),
+                    "authors": [a.get("name", "") for a in work.get("authors", [])][:3],
+                },
+            }
+        )
+    return records
+
+
 ADAPTERS = {
     "worldbank_gdp": worldbank_indicator(
         "NY.GDP.MKTP.CD", "current US$", "GDP at current market prices, current US$"
@@ -590,4 +786,71 @@ ADAPTERS = {
     "coingecko_market_cap": cryptocurrencies,
     "usgs_earthquakes": earthquakes,
     "radio_browser": radio_stations,
+    "worldbank_population": worldbank_indicator(
+        "SP.POP.TOTL", "people", "Total population, all ages"
+    ),
+    "worldbank_poverty": worldbank_indicator(
+        "SI.POV.DDAY", "% of population", "Poverty headcount ratio at $2.15/day (2017 PPP)"
+    ),
+    "worldbank_gini": worldbank_indicator(
+        "SI.POV.GINI", "Gini index (0–100)", "Gini index of income inequality"
+    ),
+    "worldbank_literacy": worldbank_indicator(
+        "SE.ADT.LITR.ZS", "% of adults aged 15+", "Adult literacy rate, population 15+ years"
+    ),
+    "worldbank_youth_share": worldbank_indicator(
+        "SP.POP.0014.TO.ZS", "% of population", "Population aged 0–14 as share of total"
+    ),
+    "worldbank_net_migration": worldbank_indicator(
+        "SM.POP.NETM", "net migrants (five-year estimate)", "Net migration over a five-year period"
+    ),
+    "worldbank_health_expenditure": worldbank_indicator(
+        "SH.XPD.CHEX.GD.ZS", "% of GDP", "Current health expenditure as share of GDP"
+    ),
+    "owid_forest_share": _owid(
+        "forest-area-as-share-of-land-area",
+        "forest_share",
+        "% of land area",
+        "Forest area as share of land area",
+        ["Forest definitions vary between national inventories and the FAO global assessment."],
+    ),
+    "owid_hdi": _owid(
+        "human-development-index",
+        "hdi__sex_total",
+        "HDI score (0–1)",
+        "Human Development Index (UNDP)",
+        ["The HDI combines life expectancy, education and GNI per capita; weights are fixed, not derived from data."],
+    ),
+    "owid_pm25": _owid(
+        "PM25-air-pollution",
+        "population_weighted_pm25",
+        "µg/m³ (population-weighted)",
+        "Population-weighted mean PM2.5 concentration",
+        ["Satellite-derived estimates calibrated with ground monitors; accuracy varies by region."],
+    ),
+    "owid_education_spending": _owid(
+        "total-government-expenditure-on-education-gdp",
+        "combined_expenditure_share_gdp",
+        "% of GDP",
+        "Government expenditure on education as share of GDP",
+        ["Spending share does not measure education quality or outcomes."],
+    ),
+    "owid_democracy": _owid(
+        "electoral-democracy-index",
+        "electdem_vdem__estimate_best",
+        "V-Dem score (0–1)",
+        "Electoral democracy index (V-Dem)",
+        ["The V-Dem index is one of several democracy measures; others give different rankings."],
+    ),
+    "owid_water_access": _owid(
+        "share-of-the-population-with-access-to-improved-drinking-water",
+        "wat_basal__residence_total",
+        "% of population",
+        "Share of population with at least basic drinking water",
+        ["'Basic' follows the JMP definition (improved source within 30 minutes round trip)."],
+    ),
+    "lichess_classical": lichess_classical,
+    "jolpica_f1": f1_current_standings,
+    "openalex_papers": openalex_papers,
+    "openlibrary_fiction": openlibrary_fiction,
 }

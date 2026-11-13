@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "health-lifestyle.public-health",
+  "topic_name": "Public Health",
+  "category": "health-lifestyle",
+  "question": "Top 10 public health ranked by WHO/World Bank health-system indicators.",
+  "metric": "WHO/World Bank health-system indicators",
+  "method": {
+    "id": "composite_index",
+    "name": "Composite index",
+    "subjectivity": "mixed",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Share of population with at least basic drinking water",
+    "unit": "% of population",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:41:50+00:00",
+    "reference_period": "2024",
+    "records_considered": 216,
+    "records_ranked": 216,
+    "records_missing_value": 0,
+    "tied_at_cut": true,
+    "reference_year": 2024,
+    "grapher_slug": "share-of-the-population-with-access-to-improved-drinking-water"
+  },
+  "sources": [
+    {
+      "id": "our_world_in_data",
+      "name": "Our World in Data",
+      "official_url": "https://ourworldindata.org/",
+      "api_docs_url": "https://ourworldindata.org/using-our-data",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:30+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "GBR",
+      "name": "United Kingdom",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "ARE",
+      "name": "United Arab Emirates",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "TKL",
+      "name": "Tokelau",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "THA",
+      "name": "Thailand",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "CHE",
+      "name": "Switzerland",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "KOR",
+      "name": "South Korea",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "SGP",
+      "name": "Singapore",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "BLM",
+      "name": "Saint Barthelemy",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "ROU",
+      "name": "Romania",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    },
+    {
+      "rank": 1,
+      "entity_id": "PRI",
+      "name": "Puerto Rico",
+      "value": 100.0,
+      "unit": "% of population",
+      "period": "2024"
+    }
+  ],
+  "caveats": [
+    "Weights are value judgements; a different weighting produces a different ranking.",
+    "Single reference year (2024) selected as the latest year with at least 50 country rows.",
+    "'Basic' follows the JMP definition (improved source within 30 minutes round trip)."
+  ],
+  "licensing_risk": "high",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

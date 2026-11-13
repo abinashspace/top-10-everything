@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "sports.chess",
+  "topic_name": "Chess",
+  "category": "sports",
+  "question": "Top 10 chess ranked by FIDE and platform ratings plus tournament results.",
+  "metric": "FIDE and platform ratings plus tournament results",
+  "method": {
+    "id": "sports_result",
+    "name": "Official competition results",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Glicko-2 classical rating on Lichess",
+    "unit": "Lichess classical rating",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2026-12-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:29:02+00:00",
+    "reference_period": null,
+    "records_considered": 50,
+    "records_ranked": 50,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "provider": "Lichess top 50 classical players"
+  },
+  "sources": [
+    {
+      "id": "lichess",
+      "name": "Lichess API",
+      "official_url": "https://lichess.org/",
+      "api_docs_url": "https://lichess.org/api",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:23+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "gek76",
+      "name": "gek76",
+      "value": 2522,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 2,
+      "entity_id": "ggplayer",
+      "name": "GGplayer",
+      "value": 2483,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 3,
+      "entity_id": "john_kramer1953",
+      "name": "John_Kramer1953",
+      "value": 2482,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 4,
+      "entity_id": "sternsinger1",
+      "name": "Sternsinger1",
+      "value": 2474,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 5,
+      "entity_id": "lance5500",
+      "name": "Lance5500",
+      "value": 2462,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 6,
+      "entity_id": "ojaijoao",
+      "name": "OjaiJoao",
+      "value": 2455,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 7,
+      "entity_id": "drmulekevinfan",
+      "name": "DrMuleKevinFan",
+      "value": 2437,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 8,
+      "entity_id": "kc6",
+      "name": "kc6",
+      "value": 2430,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 8,
+      "entity_id": "goalden_gookie10",
+      "name": "Goalden_Gookie10",
+      "value": 2430,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 9,
+      "entity_id": "sylvlondon",
+      "name": "sylvlondon",
+      "value": 2426,
+      "unit": "Lichess classical rating"
+    }
+  ],
+  "caveats": [
+    "Platform ratings are not directly comparable to FIDE Elo.",
+    "Lichess classical ratings are Glicko-2 ratings internal to Lichess and not directly comparable to FIDE ratings.",
+    "Only players active on Lichess appear; many top FIDE players do not play classical on Lichess."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "moderate",
+  "research_status": "researched"
+}

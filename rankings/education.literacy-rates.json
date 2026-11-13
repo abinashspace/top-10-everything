@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "education.literacy-rates",
+  "topic_name": "Literacy Rates",
+  "category": "education",
+  "question": "Top 10 literacy rates ranked by UNESCO UIS literacy indicators.",
+  "metric": "UNESCO UIS literacy indicators",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Adult literacy rate, population 15+ years",
+    "unit": "% of adults aged 15+",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T16:50:34+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:45:43+00:00",
+    "reference_period": "2022",
+    "records_considered": 170,
+    "records_ranked": 170,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SE.ADT.LITR.ZS"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "UZB",
+      "name": "Uzbekistan",
+      "value": 100,
+      "unit": "% of adults aged 15+",
+      "period": "2022",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 1,
+      "entity_id": "TUV",
+      "name": "Tuvalu",
+      "value": 100,
+      "unit": "% of adults aged 15+",
+      "period": "2022",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 1,
+      "entity_id": "PRK",
+      "name": "Korea, Dem. People's Rep.",
+      "value": 100,
+      "unit": "% of adults aged 15+",
+      "period": "2008",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "RUS",
+      "name": "Russian Federation",
+      "value": 99.9300003051758,
+      "unit": "% of adults aged 15+",
+      "period": "2021",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "SMR",
+      "name": "San Marino",
+      "value": 99.9100036621094,
+      "unit": "% of adults aged 15+",
+      "period": "2022",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "TKM",
+      "name": "Turkmenistan",
+      "value": 99.9000015258789,
+      "unit": "% of adults aged 15+",
+      "period": "2022",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "LVA",
+      "name": "Latvia",
+      "value": 99.9000015258789,
+      "unit": "% of adults aged 15+",
+      "period": "2011",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "EST",
+      "name": "Estonia",
+      "value": 99.8899993896484,
+      "unit": "% of adults aged 15+",
+      "period": "2011",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "BLR",
+      "name": "Belarus",
+      "value": 99.870002746582,
+      "unit": "% of adults aged 15+",
+      "period": "2019",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "PLW",
+      "name": "Palau",
+      "value": 99.8448081264108,
+      "unit": "% of adults aged 15+",
+      "period": "2020",
+      "extra": {
+        "indicator": "SE.ADT.LITR.ZS"
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

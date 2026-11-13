@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "society-politics.immigration",
+  "topic_name": "Immigration",
+  "category": "society-politics",
+  "question": "Top 10 immigration ranked by UN DESA/World Bank migration indicators.",
+  "metric": "UN DESA/World Bank migration indicators",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Net migration over a five-year period",
+    "unit": "net migrants (five-year estimate)",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:45:52+00:00",
+    "reference_period": "2025",
+    "records_considered": 217,
+    "records_ranked": 217,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SM.POP.NETM"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "UKR",
+      "name": "Ukraine",
+      "value": 1702358,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "USA",
+      "name": "United States",
+      "value": 1230663,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "SYR",
+      "name": "Syrian Arab Republic",
+      "value": 421693,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "GBR",
+      "name": "United Kingdom",
+      "value": 389911,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "CAN",
+      "name": "Canada",
+      "value": 326204,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "SDN",
+      "name": "Sudan",
+      "value": 291469,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "MYS",
+      "name": "Malaysia",
+      "value": 166615,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "ARE",
+      "name": "United Arab Emirates",
+      "value": 158634,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "ZAF",
+      "name": "South Africa",
+      "value": 146370,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "JPN",
+      "name": "Japan",
+      "value": 140579,
+      "unit": "net migrants (five-year estimate)",
+      "period": "2025",
+      "extra": {
+        "indicator": "SM.POP.NETM"
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

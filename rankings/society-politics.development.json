@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "society-politics.development",
+  "topic_name": "Development",
+  "category": "society-politics",
+  "question": "Top 10 development ranked by UNDP Human Development Index and World Bank indicators.",
+  "metric": "UNDP Human Development Index and World Bank indicators",
+  "method": {
+    "id": "composite_index",
+    "name": "Composite index",
+    "subjectivity": "mixed",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Human Development Index (UNDP)",
+    "unit": "HDI score (0–1)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:42:31+00:00",
+    "reference_period": "2023",
+    "records_considered": 193,
+    "records_ranked": 193,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "reference_year": 2023,
+    "grapher_slug": "human-development-index"
+  },
+  "sources": [
+    {
+      "id": "our_world_in_data",
+      "name": "Our World in Data",
+      "official_url": "https://ourworldindata.org/",
+      "api_docs_url": "https://ourworldindata.org/using-our-data",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:30+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "ISL",
+      "name": "Iceland",
+      "value": 0.972,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 2,
+      "entity_id": "CHE",
+      "name": "Switzerland",
+      "value": 0.97,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 2,
+      "entity_id": "NOR",
+      "name": "Norway",
+      "value": 0.97,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 3,
+      "entity_id": "DNK",
+      "name": "Denmark",
+      "value": 0.962,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 4,
+      "entity_id": "SWE",
+      "name": "Sweden",
+      "value": 0.959,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 4,
+      "entity_id": "DEU",
+      "name": "Germany",
+      "value": 0.959,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 5,
+      "entity_id": "AUS",
+      "name": "Australia",
+      "value": 0.958,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 6,
+      "entity_id": "NLD",
+      "name": "Netherlands",
+      "value": 0.955,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 6,
+      "entity_id": "HKG",
+      "name": "Hong Kong",
+      "value": 0.955,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    },
+    {
+      "rank": 7,
+      "entity_id": "BEL",
+      "name": "Belgium",
+      "value": 0.951,
+      "unit": "HDI score (0–1)",
+      "period": "2023"
+    }
+  ],
+  "caveats": [
+    "Weights are value judgements; a different weighting produces a different ranking.",
+    "Single reference year (2023) selected as the latest year with at least 50 country rows.",
+    "The HDI combines life expectancy, education and GNI per capita; weights are fixed, not derived from data."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

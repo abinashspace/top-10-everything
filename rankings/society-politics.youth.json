@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "society-politics.youth",
+  "topic_name": "Youth",
+  "category": "society-politics",
+  "question": "Top 10 youth ranked by UN/ILO/World Bank youth indicators.",
+  "metric": "UN/ILO/World Bank youth indicators",
+  "method": {
+    "id": "official_stat",
+    "name": "Official statistical ranking",
+    "subjectivity": "objective",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Population aged 0–14 as share of total",
+    "unit": "% of population",
+    "provider_last_updated": "2026-11-11"
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:45:57+00:00",
+    "reference_period": "2025",
+    "records_considered": 217,
+    "records_ranked": 217,
+    "records_missing_value": 0,
+    "tied_at_cut": false,
+    "indicator": "SP.POP.0014.TO.ZS"
+  },
+  "sources": [
+    {
+      "id": "world_bank",
+      "name": "World Bank Open Data API",
+      "official_url": "https://data.worldbank.org/",
+      "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "commercial_use": "allowed",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:42+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "CAF",
+      "name": "Central African Republic",
+      "value": 48.682635860092,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 2,
+      "entity_id": "SOM",
+      "name": "Somalia, Fed. Rep.",
+      "value": 46.5538794486154,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 3,
+      "entity_id": "NER",
+      "name": "Niger",
+      "value": 46.2263651499287,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "TCD",
+      "name": "Chad",
+      "value": 45.961619628537,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "COD",
+      "name": "Congo, Dem. Rep.",
+      "value": 45.9497905359213,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "MLI",
+      "name": "Mali",
+      "value": 45.7939034966377,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 7,
+      "entity_id": "MOZ",
+      "name": "Mozambique",
+      "value": 44.1685262258251,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "AGO",
+      "name": "Angola",
+      "value": 44.0984836631245,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "BDI",
+      "name": "Burundi",
+      "value": 43.9812536516238,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "UGA",
+      "name": "Uganda",
+      "value": 43.1111622026505,
+      "unit": "% of population",
+      "period": "2025",
+      "extra": {
+        "indicator": "SP.POP.0014.TO.ZS"
+      }
+    }
+  ],
+  "caveats": [
+    "Cross-country comparability depends on the indicator's definition and reporting quality.",
+    "Values may be revised after publication; the retrieval date is recorded.",
+    "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+    "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "society-politics.democracies",
+  "topic_name": "Democracies",
+  "category": "society-politics",
+  "question": "Top 10 democracies ranked by V-Dem liberal democracy index and related measures.",
+  "metric": "V-Dem liberal democracy index and related measures",
+  "method": {
+    "id": "composite_index",
+    "name": "Composite index",
+    "subjectivity": "mixed",
+    "matches_catalog_method": true
+  },
+  "measure": {
+    "label": "Electoral democracy index (V-Dem)",
+    "unit": "V-Dem score (0–1)",
+    "provider_last_updated": null
+  },
+  "generated_at": "2026-11-12T16:50:35+00:00",
+  "refresh_after": "2027-11-12",
+  "snapshot": {
+    "retrieved_at": "2026-11-12T16:42:26+00:00",
+    "reference_period": "2025",
+    "records_considered": 174,
+    "records_ranked": 174,
+    "records_missing_value": 0,
+    "tied_at_cut": true,
+    "reference_year": 2025,
+    "grapher_slug": "electoral-democracy-index"
+  },
+  "sources": [
+    {
+      "id": "our_world_in_data",
+      "name": "Our World in Data",
+      "official_url": "https://ourworldindata.org/",
+      "api_docs_url": "https://ourworldindata.org/using-our-data",
+      "commercial_use": "allowed_with_conditions",
+      "attribution_required": true,
+      "verification_result": "ok",
+      "last_checked": "2026-11-12T07:59:30+00:00"
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_id": "DNK",
+      "name": "Denmark",
+      "value": 0.913,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 2,
+      "entity_id": "NOR",
+      "name": "Norway",
+      "value": 0.89,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 3,
+      "entity_id": "SWE",
+      "name": "Sweden",
+      "value": 0.889,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 3,
+      "entity_id": "BEL",
+      "name": "Belgium",
+      "value": 0.889,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 4,
+      "entity_id": "IRL",
+      "name": "Ireland",
+      "value": 0.887,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 4,
+      "entity_id": "EST",
+      "name": "Estonia",
+      "value": 0.887,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 5,
+      "entity_id": "CHE",
+      "name": "Switzerland",
+      "value": 0.882,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 6,
+      "entity_id": "LUX",
+      "name": "Luxembourg",
+      "value": 0.869,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 7,
+      "entity_id": "FRA",
+      "name": "France",
+      "value": 0.865,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    },
+    {
+      "rank": 8,
+      "entity_id": "URY",
+      "name": "Uruguay",
+      "value": 0.862,
+      "unit": "V-Dem score (0–1)",
+      "period": "2025"
+    }
+  ],
+  "caveats": [
+    "Weights are value judgements; a different weighting produces a different ranking.",
+    "Single reference year (2025) selected as the latest year with at least 50 country rows.",
+    "The V-Dem index is one of several democracy measures; others give different rankings."
+  ],
+  "licensing_risk": "medium",
+  "data_availability": "strong",
+  "research_status": "researched"
+}

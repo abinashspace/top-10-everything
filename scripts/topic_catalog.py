@@ -87,6 +87,18 @@ BUNDLES = {
     "home": (["wikidata", "wikipedia"], ["open_library"]),
     "pets": (["gbif", "wikidata"], ["iucn_redlist", "wikipedia"]),
     "agri": (["faostat", "un_comtrade"], ["world_bank", "wikidata"]),
+    "subnational_us": (["us_census"], ["wikidata", "wikipedia"]),
+    "subnational_ca": (["statcan"], ["wikidata", "wikipedia"]),
+    "subnational_au": (["abs_australia"], ["wikidata", "wikipedia"]),
+    "subnational_uk": (["ons_uk"], ["wikidata", "wikipedia"]),
+    "subnational_br": (["ibge"], ["wikidata", "wikipedia"]),
+    "subnational_in": (["data_gov_in"], ["wikidata", "wikipedia"]),
+    "subnational_de": (["destatis"], ["wikidata", "wikipedia"]),
+    "subnational_fr": (["insee"], ["wikidata", "wikipedia"]),
+    "subnational_id": (["bps_indonesia"], ["wikidata", "wikipedia"]),
+    "subnational_jp": (["estat_japan"], ["wikidata", "wikipedia"]),
+    "subnational_mx": (["inegi"], ["wikidata", "wikipedia"]),
+    "subnational_ng": (["nbs_nigeria"], ["wikidata", "wikipedia"]),
     "none": ([], []),
 }
 
@@ -216,6 +228,14 @@ CATEGORIES.append({
           "software", "attention_proxy", "Monthly active users from company reports where disclosed; pageview proxies otherwise",
           "limited", freq="quarterly", status="partial",
           caveats=["Platforms use non-comparable MAU definitions and many no longer disclose them."]),
+        T("data-centers", "Data Centers", ["By country", "Hyperscale", "Colocation", "Edge"],
+          "travel_geo", "geospatial", "OSM-tagged data-centre facilities and Wikidata records", "limited",
+          freq="quarterly", status="researched_proxy",
+          caveats=["OSM coverage reflects mapping effort, not the real facility count. Hyperscale operators publish no complete inventory."]),
+        T("tech-hubs", "Tech Hubs", ["By startups", "By venture funding", "By talent", "By cost"],
+          "travel_geo", "geospatial", "OSM/Wikidata counts of tech firms, coworking spaces and incubators", "limited",
+          freq="quarterly", status="researched_proxy",
+          caveats=["No open global startup-density dataset. Crunchbase, PitchBook and Startup Genome are commercial."]),
     ],
 })
 

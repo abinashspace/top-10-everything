@@ -8,7 +8,7 @@
       "subcategories": 2063,
       "sources": 143,
       "methods": 20,
-      "rankings": 12
+      "rankings": 29
     },
     "status": {
       "researched_proxy": 35,
@@ -51,7 +51,7 @@
       "auth_required": 14,
       "http_error": 1
     },
-    "ranking_generated_at": "2026-11-12T12:14:34+00:00"
+    "ranking_generated_at": "2026-11-12T16:50:35+00:00"
   },
   "categories": [
     {
@@ -36324,6 +36324,189 @@
   "rankings": [
     {
       "schema_version": "1.0.0",
+      "topic_id": "arts-literature.books",
+      "topic_name": "Books",
+      "category": "arts-literature",
+      "question": "Top 10 books ranked by Open Library/Google Books metadata; ratings and sales are fragmented.",
+      "metric": "Open Library/Google Books metadata; ratings and sales are fragmented",
+      "method": {
+        "id": "rating_aggregate",
+        "name": "Audience rating aggregate",
+        "subjectivity": "subjective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Number of distinct published editions (Open Library)",
+        "unit": "editions published",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2026-12-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:25:43+00:00",
+        "reference_period": null,
+        "records_considered": 50,
+        "records_ranked": 50,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "provider": "Open Library /subjects/fiction, sorted by edition count"
+      },
+      "sources": [
+        {
+          "id": "open_library",
+          "name": "Open Library API",
+          "official_url": "https://openlibrary.org/",
+          "api_docs_url": "https://openlibrary.org/developers/api",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:28+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "/works/OL66554W",
+          "name": "Pride and Prejudice",
+          "value": 4042,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1813,
+            "authors": [
+              "Jane Austen"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "/works/OL138052W",
+          "name": "Alice's Adventures in Wonderland",
+          "value": 3548,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1865,
+            "authors": [
+              "Lewis Carroll"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "/works/OL32466W",
+          "name": "A Christmas Carol",
+          "value": 3196,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1843,
+            "authors": [
+              "Charles Dickens"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "/works/OL8193416W",
+          "name": "The Picture of Dorian Gray",
+          "value": 3013,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1890,
+            "authors": [
+              "Oscar Wilde"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "/works/OL21177W",
+          "name": "Wuthering Heights",
+          "value": 2889,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1846,
+            "authors": [
+              "Emily Brontë"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "/works/OL53908W",
+          "name": "Adventures of Huckleberry Finn",
+          "value": 2623,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1876,
+            "authors": [
+              "Mark Twain"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "/works/OL9170454W",
+          "name": "Hamlet",
+          "value": 2493,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1603,
+            "authors": [
+              "William Shakespeare"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "/works/OL455305W",
+          "name": "The Scarlet Letter",
+          "value": 2425,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1800,
+            "authors": [
+              "Nathaniel Hawthorne"
+            ]
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "/works/OL45089W",
+          "name": "Robinson Crusoe",
+          "value": 2420,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1686,
+            "authors": [
+              "Daniel Defoe"
+            ]
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "/works/OL66513W",
+          "name": "Emma",
+          "value": 2262,
+          "unit": "editions published",
+          "extra": {
+            "first_publish_year": 1815,
+            "authors": [
+              "Jane Austen"
+            ]
+          }
+        }
+      ],
+      "caveats": [
+        "Open Library has no universal star-rating. Goodreads ratings are platform-private.",
+        "Audiences are self-selected; ratings are not a measure of objective quality.",
+        "Edition count measures how many distinct editions (ISBNs) a work has, which correlates with sustained publishing demand.",
+        "The ranking is limited to the fiction subject; a work classified differently may not appear."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "limited",
+      "research_status": "partial"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "business-finance.cryptocurrencies",
       "topic_name": "Cryptocurrencies",
       "category": "business-finance",
@@ -36340,7 +36523,7 @@
         "unit": "USD market capitalisation",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:33+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2026-11-13",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:19+00:00",
@@ -36513,7 +36696,7 @@
         "unit": "current US$",
         "provider_last_updated": "2026-11-11"
       },
-      "generated_at": "2026-11-12T12:14:33+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-02-10",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:03:46+00:00",
@@ -36660,6 +36843,302 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "education.education-systems",
+      "topic_name": "Education Systems",
+      "category": "education",
+      "question": "Top 10 education systems ranked by Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD).",
+      "metric": "Enrolment, completion, spending and learning outcomes (World Bank/UNESCO/OECD)",
+      "method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "subjectivity": "mixed",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Government expenditure on education as share of GDP",
+        "unit": "% of GDP",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:39:06+00:00",
+        "reference_period": "2023",
+        "records_considered": 123,
+        "records_ranked": 123,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "reference_year": 2023,
+        "grapher_slug": "total-government-expenditure-on-education-gdp"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "KIR",
+          "name": "Kiribati",
+          "value": 16.39053,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 2,
+          "entity_id": "TUV",
+          "name": "Tuvalu",
+          "value": 12.84569,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 3,
+          "entity_id": "SLB",
+          "name": "Solomon Islands",
+          "value": 8.29349,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 4,
+          "entity_id": "BOL",
+          "name": "Bolivia",
+          "value": 7.89382,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 5,
+          "entity_id": "VUT",
+          "name": "Vanuatu",
+          "value": 7.58136,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 6,
+          "entity_id": "LSO",
+          "name": "Lesotho",
+          "value": 7.2901134,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 7,
+          "entity_id": "MSR",
+          "name": "Montserrat",
+          "value": 7.1902003,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 8,
+          "entity_id": "KGZ",
+          "name": "Kyrgyzstan",
+          "value": 6.8269467,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 9,
+          "entity_id": "TUN",
+          "name": "Tunisia",
+          "value": 6.733989,
+          "unit": "% of GDP",
+          "period": "2023"
+        },
+        {
+          "rank": 10,
+          "entity_id": "MDA",
+          "name": "Moldova",
+          "value": 6.5571,
+          "unit": "% of GDP",
+          "period": "2023"
+        }
+      ],
+      "caveats": [
+        "Weights are value judgements; a different weighting produces a different ranking.",
+        "Single reference year (2023) selected as the latest year with at least 50 country rows.",
+        "Spending share does not measure education quality or outcomes."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "education.literacy-rates",
+      "topic_name": "Literacy Rates",
+      "category": "education",
+      "question": "Top 10 literacy rates ranked by UNESCO UIS literacy indicators.",
+      "metric": "UNESCO UIS literacy indicators",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Adult literacy rate, population 15+ years",
+        "unit": "% of adults aged 15+",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:43+00:00",
+        "reference_period": "2022",
+        "records_considered": 170,
+        "records_ranked": 170,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SE.ADT.LITR.ZS"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "UZB",
+          "name": "Uzbekistan",
+          "value": 100,
+          "unit": "% of adults aged 15+",
+          "period": "2022",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 1,
+          "entity_id": "TUV",
+          "name": "Tuvalu",
+          "value": 100,
+          "unit": "% of adults aged 15+",
+          "period": "2022",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 1,
+          "entity_id": "PRK",
+          "name": "Korea, Dem. People's Rep.",
+          "value": 100,
+          "unit": "% of adults aged 15+",
+          "period": "2008",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "RUS",
+          "name": "Russian Federation",
+          "value": 99.9300003051758,
+          "unit": "% of adults aged 15+",
+          "period": "2021",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "SMR",
+          "name": "San Marino",
+          "value": 99.9100036621094,
+          "unit": "% of adults aged 15+",
+          "period": "2022",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "TKM",
+          "name": "Turkmenistan",
+          "value": 99.9000015258789,
+          "unit": "% of adults aged 15+",
+          "period": "2022",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "LVA",
+          "name": "Latvia",
+          "value": 99.9000015258789,
+          "unit": "% of adults aged 15+",
+          "period": "2011",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "EST",
+          "name": "Estonia",
+          "value": 99.8899993896484,
+          "unit": "% of adults aged 15+",
+          "period": "2011",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "BLR",
+          "name": "Belarus",
+          "value": 99.870002746582,
+          "unit": "% of adults aged 15+",
+          "period": "2019",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "PLW",
+          "name": "Palau",
+          "value": 99.8448081264108,
+          "unit": "% of adults aged 15+",
+          "period": "2020",
+          "extra": {
+            "indicator": "SE.ADT.LITR.ZS"
+          }
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "education.research-institutions",
       "topic_name": "Research Institutions",
       "category": "education",
@@ -36676,7 +37155,7 @@
         "unit": "citations (OpenAlex, all time)",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:33+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:20+00:00",
@@ -36849,7 +37328,7 @@
         "unit": "clicks (Radio Browser, all time)",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:33+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2026-11-19",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:22+00:00",
@@ -37006,6 +37485,140 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "environment-nature.air-quality",
+      "topic_name": "Air Quality",
+      "category": "environment-nature",
+      "question": "Top 10 air quality ranked by OpenAQ/EPA AQS/WHO ambient air quality data.",
+      "metric": "OpenAQ/EPA AQS/WHO ambient air quality data",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Population-weighted mean PM2.5 concentration",
+        "unit": "µg/m³ (population-weighted)",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2026-11-13",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:41:13+00:00",
+        "reference_period": "2024",
+        "records_considered": 241,
+        "records_ranked": 241,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "reference_year": 2024,
+        "grapher_slug": "PM25-air-pollution"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "QAT",
+          "name": "Qatar",
+          "value": 75.5,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 2,
+          "entity_id": "BGD",
+          "name": "Bangladesh",
+          "value": 65.0,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 3,
+          "entity_id": "KWT",
+          "name": "Kuwait",
+          "value": 57.3,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 4,
+          "entity_id": "ARE",
+          "name": "United Arab Emirates",
+          "value": 55.7,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 5,
+          "entity_id": "PAK",
+          "name": "Pakistan",
+          "value": 53.8,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 6,
+          "entity_id": "CMR",
+          "name": "Cameroon",
+          "value": 51.5,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 7,
+          "entity_id": "SAU",
+          "name": "Saudi Arabia",
+          "value": 50.4,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 8,
+          "entity_id": "NGA",
+          "name": "Nigeria",
+          "value": 50.0,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 9,
+          "entity_id": "IRQ",
+          "name": "Iraq",
+          "value": 48.8,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        },
+        {
+          "rank": 10,
+          "entity_id": "BHR",
+          "name": "Bahrain",
+          "value": 48.1,
+          "unit": "µg/m³ (population-weighted)",
+          "period": "2024"
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "Single reference year (2024) selected as the latest year with at least 50 country rows.",
+        "Satellite-derived estimates calibrated with ground monitors; accuracy varies by region."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "environment-nature.carbon-emitters",
       "topic_name": "Carbon Emitters",
       "category": "environment-nature",
@@ -37022,7 +37635,7 @@
         "unit": "tonnes CO2",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:25+00:00",
@@ -37141,6 +37754,140 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "environment-nature.forests",
+      "topic_name": "Forests",
+      "category": "environment-nature",
+      "question": "Top 10 forests ranked by FAO FRA and Global Forest Watch tree-cover data.",
+      "metric": "FAO FRA and Global Forest Watch tree-cover data",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Forest area as share of land area",
+        "unit": "% of land area",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:41:35+00:00",
+        "reference_period": "2025",
+        "records_considered": 215,
+        "records_ranked": 215,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "reference_year": 2025,
+        "grapher_slug": "forest-area-as-share-of-land-area"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "GUF",
+          "name": "French Guiana",
+          "value": 95.55331,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 2,
+          "entity_id": "FSM",
+          "name": "Micronesia (country)",
+          "value": 92.24286,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 3,
+          "entity_id": "SUR",
+          "name": "Suriname",
+          "value": 91.423706,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 4,
+          "entity_id": "GAB",
+          "name": "Gabon",
+          "value": 91.41658,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 5,
+          "entity_id": "PLW",
+          "name": "Palau",
+          "value": 91.021736,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 6,
+          "entity_id": "SLB",
+          "name": "Solomon Islands",
+          "value": 89.81529,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 7,
+          "entity_id": "GUY",
+          "name": "Guyana",
+          "value": 87.03793,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 8,
+          "entity_id": "GNQ",
+          "name": "Equatorial Guinea",
+          "value": 85.79751,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 9,
+          "entity_id": "ASM",
+          "name": "American Samoa",
+          "value": 79.25,
+          "unit": "% of land area",
+          "period": "2025"
+        },
+        {
+          "rank": 10,
+          "entity_id": "DMA",
+          "name": "Dominica",
+          "value": 76.46667,
+          "unit": "% of land area",
+          "period": "2025"
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "Single reference year (2025) selected as the latest year with at least 50 country rows.",
+        "Forest definitions vary between national inventories and the FAO global assessment."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "environment-nature.renewable-energy",
       "topic_name": "Renewable Energy",
       "category": "environment-nature",
@@ -37157,7 +37904,7 @@
         "unit": "% of electricity",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:29+00:00",
@@ -37275,6 +38022,168 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "health-lifestyle.health-systems",
+      "topic_name": "Health Systems",
+      "category": "health-lifestyle",
+      "question": "Top 10 health systems ranked by WHO/World Bank indicators and published health-system indices.",
+      "metric": "WHO/World Bank indicators and published health-system indices",
+      "method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "subjectivity": "mixed",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Current health expenditure as share of GDP",
+        "unit": "% of GDP",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:47+00:00",
+        "reference_period": "2023",
+        "records_considered": 193,
+        "records_ranked": 193,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SH.XPD.CHEX.GD.ZS"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "TUV",
+          "name": "Tuvalu",
+          "value": 27.08968544,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "NRU",
+          "name": "Naoero",
+          "value": 18.21076012,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "USA",
+          "name": "United States",
+          "value": 16.69414902,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "AFG",
+          "name": "Afghanistan",
+          "value": 14.9857626,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "MHL",
+          "name": "Marshall Islands",
+          "value": 13.40528965,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "LBR",
+          "name": "Liberia",
+          "value": 13.00574875,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "FSM",
+          "name": "Micronesia, Fed. Sts.",
+          "value": 12.88087559,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "LSO",
+          "name": "Lesotho",
+          "value": 12.61182117,
+          "unit": "% of GDP",
+          "period": "2023",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "DEU",
+          "name": "Germany",
+          "value": 12.26655293,
+          "unit": "% of GDP",
+          "period": "2024",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "AUT",
+          "name": "Austria",
+          "value": 11.8325634,
+          "unit": "% of GDP",
+          "period": "2024",
+          "extra": {
+            "indicator": "SH.XPD.CHEX.GD.ZS"
+          }
+        }
+      ],
+      "caveats": [
+        "Weights are value judgements; a different weighting produces a different ranking.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "high",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "health-lifestyle.longevity",
       "topic_name": "Longevity",
       "category": "health-lifestyle",
@@ -37291,7 +38200,7 @@
         "unit": "years",
         "provider_last_updated": "2026-10-08"
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:29+00:00",
@@ -37439,6 +38348,139 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "health-lifestyle.public-health",
+      "topic_name": "Public Health",
+      "category": "health-lifestyle",
+      "question": "Top 10 public health ranked by WHO/World Bank health-system indicators.",
+      "metric": "WHO/World Bank health-system indicators",
+      "method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "subjectivity": "mixed",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Share of population with at least basic drinking water",
+        "unit": "% of population",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:41:50+00:00",
+        "reference_period": "2024",
+        "records_considered": 216,
+        "records_ranked": 216,
+        "records_missing_value": 0,
+        "tied_at_cut": true,
+        "reference_year": 2024,
+        "grapher_slug": "share-of-the-population-with-access-to-improved-drinking-water"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "GBR",
+          "name": "United Kingdom",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "ARE",
+          "name": "United Arab Emirates",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "TKL",
+          "name": "Tokelau",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "THA",
+          "name": "Thailand",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "CHE",
+          "name": "Switzerland",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "KOR",
+          "name": "South Korea",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "SGP",
+          "name": "Singapore",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "BLM",
+          "name": "Saint Barthelemy",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "ROU",
+          "name": "Romania",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        },
+        {
+          "rank": 1,
+          "entity_id": "PRI",
+          "name": "Puerto Rico",
+          "value": 100.0,
+          "unit": "% of population",
+          "period": "2024"
+        }
+      ],
+      "caveats": [
+        "Weights are value judgements; a different weighting produces a different ranking.",
+        "Single reference year (2024) selected as the latest year with at least 50 country rows.",
+        "'Basic' follows the JMP definition (improved source within 30 minutes round trip)."
+      ],
+      "licensing_risk": "high",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "science.asteroids",
       "topic_name": "Asteroids",
       "category": "science",
@@ -37455,7 +38497,7 @@
         "unit": "km",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2026-12-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:08:52+00:00",
@@ -37608,7 +38650,7 @@
         "unit": "moment magnitude (Mw)",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2026-11-13",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:05:07+00:00",
@@ -37791,7 +38833,7 @@
         "unit": "Earth masses",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2026-12-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:38+00:00",
@@ -37939,6 +38981,188 @@
     },
     {
       "schema_version": "1.0.0",
+      "topic_id": "science.research-papers",
+      "topic_name": "Research Papers",
+      "category": "science",
+      "question": "Top 10 research papers ranked by OpenAlex/Crossref citation counts.",
+      "metric": "OpenAlex/Crossref citation counts",
+      "method": {
+        "id": "bibliometric",
+        "name": "Bibliometric ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "All-time citations to the work",
+        "unit": "citations (OpenAlex, all time)",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:34+00:00",
+      "refresh_after": "2026-11-19",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:29:11+00:00",
+        "reference_period": "2000",
+        "records_considered": 50,
+        "records_ranked": 50,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "provider": "OpenAlex works, sorted by cited_by_count"
+      },
+      "sources": [
+        {
+          "id": "openalex",
+          "name": "OpenAlex",
+          "official_url": "https://openalex.org/",
+          "api_docs_url": "https://docs.openalex.org/",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:29+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "https://openalex.org/W2582743722",
+          "name": "R: A Language and Environment for Statistical Computing",
+          "value": 355987,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2000",
+          "extra": {
+            "publication_year": 2000,
+            "doi": "https://doi.org/10.32614/r.manuals",
+            "type": "dataset"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "https://openalex.org/W1775749144",
+          "name": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
+          "value": 316449,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "1951",
+          "extra": {
+            "publication_year": 1951,
+            "doi": "https://doi.org/10.1016/s0021-9258(19)52451-6",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "https://openalex.org/W2128635872",
+          "name": "A Rapid and Sensitive Method for the Quantitation of Microgram Quantities of Protein Utilizing the Principle of Protein-Dye Binding",
+          "value": 256726,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "1976",
+          "extra": {
+            "publication_year": 1976,
+            "doi": "https://doi.org/10.1016/0003-2697(76)90527-3",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "https://openalex.org/W2100837269",
+          "name": "Cleavage of Structural Proteins during the Assembly of the Head of Bacteriophage T4",
+          "value": 249767,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "1970",
+          "extra": {
+            "publication_year": 1970,
+            "doi": "https://doi.org/10.1038/227680a0",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "https://openalex.org/W2194775991",
+          "name": "Deep Residual Learning for Image Recognition",
+          "value": 243394,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2016",
+          "extra": {
+            "publication_year": 2016,
+            "doi": "https://doi.org/10.1109/cvpr.2016.90",
+            "type": "conference-paper"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "https://openalex.org/W1979290264",
+          "name": "Using thematic analysis in psychology",
+          "value": 239717,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2006",
+          "extra": {
+            "publication_year": 2006,
+            "doi": "https://doi.org/10.1191/1478088706qp063oa",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "https://openalex.org/W1981368803",
+          "name": "Generalized Gradient Approximation Made Simple",
+          "value": 217199,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "1996",
+          "extra": {
+            "publication_year": 1996,
+            "doi": "https://doi.org/10.1103/physrevlett.77.3865",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "https://openalex.org/W2107277218",
+          "name": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
+          "value": 184313,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2001",
+          "extra": {
+            "publication_year": 2001,
+            "doi": "https://doi.org/10.1006/meth.2001.1262",
+            "type": "article"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "https://openalex.org/W2945792041",
+          "name": "Yaşlı Kadınlarda Üreme Sağlığı",
+          "value": 169633,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2019",
+          "extra": {
+            "publication_year": 2019,
+            "type": "article"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "https://openalex.org/W3118615836",
+          "name": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+          "value": 144209,
+          "unit": "citations (OpenAlex, all time)",
+          "period": "2021",
+          "extra": {
+            "publication_year": 2021,
+            "doi": "https://doi.org/10.1136/bmj.n71",
+            "type": "review"
+          }
+        }
+      ],
+      "caveats": [
+        "Citation counts favour large, English-language and health/life-science fields.",
+        "Entity and institution name disambiguation is imperfect in any bibliographic database.",
+        "All-time citations from OpenAlex, which covers most scholarly works but has gaps in non-English and older literature.",
+        "Citation counts are not field-normalised; biomedical and physics papers accumulate more citations than social sciences or humanities."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
       "topic_id": "science.scientific-journals",
       "topic_name": "Scientific Journals",
       "category": "science",
@@ -37955,7 +39179,7 @@
         "unit": "citations per published work (OpenAlex, all time)",
         "provider_last_updated": null
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:12:59+00:00",
@@ -38142,7 +39366,7 @@
         "unit": "share of population (%)",
         "provider_last_updated": "2026-11-11"
       },
-      "generated_at": "2026-11-12T12:14:34+00:00",
+      "generated_at": "2026-11-12T16:50:34+00:00",
       "refresh_after": "2027-11-12",
       "snapshot": {
         "retrieved_at": "2026-11-12T12:04:41+00:00",
@@ -38285,6 +39509,1391 @@
       ],
       "licensing_risk": "medium",
       "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.democracies",
+      "topic_name": "Democracies",
+      "category": "society-politics",
+      "question": "Top 10 democracies ranked by V-Dem liberal democracy index and related measures.",
+      "metric": "V-Dem liberal democracy index and related measures",
+      "method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "subjectivity": "mixed",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Electoral democracy index (V-Dem)",
+        "unit": "V-Dem score (0–1)",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:42:26+00:00",
+        "reference_period": "2025",
+        "records_considered": 174,
+        "records_ranked": 174,
+        "records_missing_value": 0,
+        "tied_at_cut": true,
+        "reference_year": 2025,
+        "grapher_slug": "electoral-democracy-index"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "DNK",
+          "name": "Denmark",
+          "value": 0.913,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 2,
+          "entity_id": "NOR",
+          "name": "Norway",
+          "value": 0.89,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 3,
+          "entity_id": "SWE",
+          "name": "Sweden",
+          "value": 0.889,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 3,
+          "entity_id": "BEL",
+          "name": "Belgium",
+          "value": 0.889,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 4,
+          "entity_id": "IRL",
+          "name": "Ireland",
+          "value": 0.887,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 4,
+          "entity_id": "EST",
+          "name": "Estonia",
+          "value": 0.887,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 5,
+          "entity_id": "CHE",
+          "name": "Switzerland",
+          "value": 0.882,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 6,
+          "entity_id": "LUX",
+          "name": "Luxembourg",
+          "value": 0.869,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 7,
+          "entity_id": "FRA",
+          "name": "France",
+          "value": 0.865,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        },
+        {
+          "rank": 8,
+          "entity_id": "URY",
+          "name": "Uruguay",
+          "value": 0.862,
+          "unit": "V-Dem score (0–1)",
+          "period": "2025"
+        }
+      ],
+      "caveats": [
+        "Weights are value judgements; a different weighting produces a different ranking.",
+        "Single reference year (2025) selected as the latest year with at least 50 country rows.",
+        "The V-Dem index is one of several democracy measures; others give different rankings."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.development",
+      "topic_name": "Development",
+      "category": "society-politics",
+      "question": "Top 10 development ranked by UNDP Human Development Index and World Bank indicators.",
+      "metric": "UNDP Human Development Index and World Bank indicators",
+      "method": {
+        "id": "composite_index",
+        "name": "Composite index",
+        "subjectivity": "mixed",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Human Development Index (UNDP)",
+        "unit": "HDI score (0–1)",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:42:31+00:00",
+        "reference_period": "2023",
+        "records_considered": 193,
+        "records_ranked": 193,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "reference_year": 2023,
+        "grapher_slug": "human-development-index"
+      },
+      "sources": [
+        {
+          "id": "our_world_in_data",
+          "name": "Our World in Data",
+          "official_url": "https://ourworldindata.org/",
+          "api_docs_url": "https://ourworldindata.org/using-our-data",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:30+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "ISL",
+          "name": "Iceland",
+          "value": 0.972,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 2,
+          "entity_id": "CHE",
+          "name": "Switzerland",
+          "value": 0.97,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 2,
+          "entity_id": "NOR",
+          "name": "Norway",
+          "value": 0.97,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 3,
+          "entity_id": "DNK",
+          "name": "Denmark",
+          "value": 0.962,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 4,
+          "entity_id": "SWE",
+          "name": "Sweden",
+          "value": 0.959,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 4,
+          "entity_id": "DEU",
+          "name": "Germany",
+          "value": 0.959,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 5,
+          "entity_id": "AUS",
+          "name": "Australia",
+          "value": 0.958,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 6,
+          "entity_id": "NLD",
+          "name": "Netherlands",
+          "value": 0.955,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 6,
+          "entity_id": "HKG",
+          "name": "Hong Kong",
+          "value": 0.955,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        },
+        {
+          "rank": 7,
+          "entity_id": "BEL",
+          "name": "Belgium",
+          "value": 0.951,
+          "unit": "HDI score (0–1)",
+          "period": "2023"
+        }
+      ],
+      "caveats": [
+        "Weights are value judgements; a different weighting produces a different ranking.",
+        "Single reference year (2023) selected as the latest year with at least 50 country rows.",
+        "The HDI combines life expectancy, education and GNI per capita; weights are fixed, not derived from data."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.immigration",
+      "topic_name": "Immigration",
+      "category": "society-politics",
+      "question": "Top 10 immigration ranked by UN DESA/World Bank migration indicators.",
+      "metric": "UN DESA/World Bank migration indicators",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Net migration over a five-year period",
+        "unit": "net migrants (five-year estimate)",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:52+00:00",
+        "reference_period": "2025",
+        "records_considered": 217,
+        "records_ranked": 217,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SM.POP.NETM"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "UKR",
+          "name": "Ukraine",
+          "value": 1702358,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "USA",
+          "name": "United States",
+          "value": 1230663,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "SYR",
+          "name": "Syrian Arab Republic",
+          "value": 421693,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "GBR",
+          "name": "United Kingdom",
+          "value": 389911,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "CAN",
+          "name": "Canada",
+          "value": 326204,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "SDN",
+          "name": "Sudan",
+          "value": 291469,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "MYS",
+          "name": "Malaysia",
+          "value": 166615,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "ARE",
+          "name": "United Arab Emirates",
+          "value": 158634,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "ZAF",
+          "name": "South Africa",
+          "value": 146370,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "JPN",
+          "name": "Japan",
+          "value": 140579,
+          "unit": "net migrants (five-year estimate)",
+          "period": "2025",
+          "extra": {
+            "indicator": "SM.POP.NETM"
+          }
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.inequality",
+      "topic_name": "Inequality",
+      "category": "society-politics",
+      "question": "Top 10 inequality ranked by World Bank PIP/WID inequality data.",
+      "metric": "World Bank PIP/WID inequality data",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Gini index of income inequality",
+        "unit": "Gini index (0–100)",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:54+00:00",
+        "reference_period": "2015",
+        "records_considered": 171,
+        "records_ranked": 171,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SI.POV.GINI"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "NAM",
+          "name": "Namibia",
+          "value": 59.1,
+          "unit": "Gini index (0–100)",
+          "period": "2015",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "BWA",
+          "name": "Botswana",
+          "value": 54.9,
+          "unit": "Gini index (0–100)",
+          "period": "2015",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "SWZ",
+          "name": "Eswatini",
+          "value": 54.6,
+          "unit": "Gini index (0–100)",
+          "period": "2016",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "COL",
+          "name": "Colombia",
+          "value": 54.4,
+          "unit": "Gini index (0–100)",
+          "period": "2024",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "ZAF",
+          "name": "South Africa",
+          "value": 54.1,
+          "unit": "Gini index (0–100)",
+          "period": "2022",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "ZMB",
+          "name": "Zambia",
+          "value": 51.5,
+          "unit": "Gini index (0–100)",
+          "period": "2022",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "AGO",
+          "name": "Angola",
+          "value": 51.3,
+          "unit": "Gini index (0–100)",
+          "period": "2018",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "ZWE",
+          "name": "Zimbabwe",
+          "value": 50.3,
+          "unit": "Gini index (0–100)",
+          "period": "2019",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "BRA",
+          "name": "Brazil",
+          "value": 50.3,
+          "unit": "Gini index (0–100)",
+          "period": "2024",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "PAN",
+          "name": "Panama",
+          "value": 49.7,
+          "unit": "Gini index (0–100)",
+          "period": "2024",
+          "extra": {
+            "indicator": "SI.POV.GINI"
+          }
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.poverty",
+      "topic_name": "Poverty",
+      "category": "society-politics",
+      "question": "Top 10 poverty ranked by World Bank PIP and UNDP MPI.",
+      "metric": "World Bank PIP and UNDP MPI",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Poverty headcount ratio at $2.15/day (2017 PPP)",
+        "unit": "% of population",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:56+00:00",
+        "reference_period": "2020",
+        "records_considered": 171,
+        "records_ranked": 171,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SI.POV.DDAY"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "COD",
+          "name": "Congo, Dem. Rep.",
+          "value": 85.3,
+          "unit": "% of population",
+          "period": "2020",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "MOZ",
+          "name": "Mozambique",
+          "value": 81.4,
+          "unit": "% of population",
+          "period": "2022",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "SSD",
+          "name": "South Sudan",
+          "value": 76.5,
+          "unit": "% of population",
+          "period": "2016",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "MWI",
+          "name": "Malawi",
+          "value": 75.4,
+          "unit": "% of population",
+          "period": "2019",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "BDI",
+          "name": "Burundi",
+          "value": 74.2,
+          "unit": "% of population",
+          "period": "2020",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "ZMB",
+          "name": "Zambia",
+          "value": 71.7,
+          "unit": "% of population",
+          "period": "2022",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "CAF",
+          "name": "Central African Republic",
+          "value": 71.6,
+          "unit": "% of population",
+          "period": "2021",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "MDG",
+          "name": "Madagascar",
+          "value": 69.2,
+          "unit": "% of population",
+          "period": "2021",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "NER",
+          "name": "Niger",
+          "value": 60.5,
+          "unit": "% of population",
+          "period": "2021",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "UGA",
+          "name": "Uganda",
+          "value": 54.4,
+          "unit": "% of population",
+          "period": "2023",
+          "extra": {
+            "indicator": "SI.POV.DDAY"
+          }
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "society-politics.youth",
+      "topic_name": "Youth",
+      "category": "society-politics",
+      "question": "Top 10 youth ranked by UN/ILO/World Bank youth indicators.",
+      "metric": "UN/ILO/World Bank youth indicators",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Population aged 0–14 as share of total",
+        "unit": "% of population",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:57+00:00",
+        "reference_period": "2025",
+        "records_considered": 217,
+        "records_ranked": 217,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SP.POP.0014.TO.ZS"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "CAF",
+          "name": "Central African Republic",
+          "value": 48.682635860092,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "SOM",
+          "name": "Somalia, Fed. Rep.",
+          "value": 46.5538794486154,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "NER",
+          "name": "Niger",
+          "value": 46.2263651499287,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "TCD",
+          "name": "Chad",
+          "value": 45.961619628537,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "COD",
+          "name": "Congo, Dem. Rep.",
+          "value": 45.9497905359213,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "MLI",
+          "name": "Mali",
+          "value": 45.7939034966377,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "MOZ",
+          "name": "Mozambique",
+          "value": 44.1685262258251,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "AGO",
+          "name": "Angola",
+          "value": 44.0984836631245,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "BDI",
+          "name": "Burundi",
+          "value": 43.9812536516238,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "UGA",
+          "name": "Uganda",
+          "value": 43.1111622026505,
+          "unit": "% of population",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.0014.TO.ZS"
+          }
+        }
+      ],
+      "caveats": [
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "sports.chess",
+      "topic_name": "Chess",
+      "category": "sports",
+      "question": "Top 10 chess ranked by FIDE and platform ratings plus tournament results.",
+      "metric": "FIDE and platform ratings plus tournament results",
+      "method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Glicko-2 classical rating on Lichess",
+        "unit": "Lichess classical rating",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2026-12-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:29:02+00:00",
+        "reference_period": null,
+        "records_considered": 50,
+        "records_ranked": 50,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "provider": "Lichess top 50 classical players"
+      },
+      "sources": [
+        {
+          "id": "lichess",
+          "name": "Lichess API",
+          "official_url": "https://lichess.org/",
+          "api_docs_url": "https://lichess.org/api",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:23+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "gek76",
+          "name": "gek76",
+          "value": 2522,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 2,
+          "entity_id": "ggplayer",
+          "name": "GGplayer",
+          "value": 2483,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 3,
+          "entity_id": "john_kramer1953",
+          "name": "John_Kramer1953",
+          "value": 2482,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 4,
+          "entity_id": "sternsinger1",
+          "name": "Sternsinger1",
+          "value": 2474,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 5,
+          "entity_id": "lance5500",
+          "name": "Lance5500",
+          "value": 2462,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 6,
+          "entity_id": "ojaijoao",
+          "name": "OjaiJoao",
+          "value": 2455,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 7,
+          "entity_id": "drmulekevinfan",
+          "name": "DrMuleKevinFan",
+          "value": 2437,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 8,
+          "entity_id": "kc6",
+          "name": "kc6",
+          "value": 2430,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 8,
+          "entity_id": "goalden_gookie10",
+          "name": "Goalden_Gookie10",
+          "value": 2430,
+          "unit": "Lichess classical rating"
+        },
+        {
+          "rank": 9,
+          "entity_id": "sylvlondon",
+          "name": "sylvlondon",
+          "value": 2426,
+          "unit": "Lichess classical rating"
+        }
+      ],
+      "caveats": [
+        "Platform ratings are not directly comparable to FIDE Elo.",
+        "Lichess classical ratings are Glicko-2 ratings internal to Lichess and not directly comparable to FIDE ratings.",
+        "Only players active on Lichess appear; many top FIDE players do not play classical on Lichess."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "moderate",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "sports.formula-1",
+      "topic_name": "Formula 1",
+      "category": "sports",
+      "question": "Top 10 formula 1 ranked by Official championship standings and race results.",
+      "metric": "Official championship standings and race results",
+      "method": {
+        "id": "sports_result",
+        "name": "Official competition results",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "FIA Formula 1 World Championship points (2026 season)",
+        "unit": "championship points",
+        "provider_last_updated": null
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2026-11-19",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:29:07+00:00",
+        "reference_period": null,
+        "records_considered": 25,
+        "records_ranked": 25,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "provider": "Jolpica (Ergast) F1 API, 2026 season standings"
+      },
+      "sources": [
+        {
+          "id": "jolpica_f1",
+          "name": "Jolpica F1 API",
+          "official_url": "https://api.jolpi.ca/",
+          "api_docs_url": "https://api.jolpi.ca/ergast/",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:22+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "value": 390.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 9,
+            "position": 1,
+            "constructor": "Mercedes",
+            "nationality": "Italian"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "max_verstappen",
+          "name": "Max Verstappen",
+          "value": 279.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 3,
+            "position": 2,
+            "constructor": "Red Bull",
+            "nationality": "Dutch"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "russell",
+          "name": "George Russell",
+          "value": 262.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 3,
+            "position": 3,
+            "constructor": "Mercedes",
+            "nationality": "British"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "hamilton",
+          "name": "Lewis Hamilton",
+          "value": 261.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 1,
+            "position": 4,
+            "constructor": "Ferrari",
+            "nationality": "British"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "leclerc",
+          "name": "Charles Leclerc",
+          "value": 249.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 1,
+            "position": 5,
+            "constructor": "Ferrari",
+            "nationality": "Monegasque"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "norris",
+          "name": "Lando Norris",
+          "value": 246.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 3,
+            "position": 6,
+            "constructor": "McLaren",
+            "nationality": "British"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "piastri",
+          "name": "Oscar Piastri",
+          "value": 152.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 0,
+            "position": 7,
+            "constructor": "McLaren",
+            "nationality": "Australian"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "hadjar",
+          "name": "Isack Hadjar",
+          "value": 122.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 0,
+            "position": 8,
+            "constructor": "Red Bull",
+            "nationality": "French"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "lawson",
+          "name": "Liam Lawson",
+          "value": 89.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 0,
+            "position": 9,
+            "constructor": "RB F1 Team",
+            "nationality": "New Zealander"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "gasly",
+          "name": "Pierre Gasly",
+          "value": 42.0,
+          "unit": "championship points",
+          "extra": {
+            "wins": 0,
+            "position": 10,
+            "constructor": "Alpine F1 Team",
+            "nationality": "French"
+          }
+        }
+      ],
+      "caveats": [
+        "Current 2026 season standings; changes after every race weekend.",
+        "Points reflect the current season only, not career totals."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "strong",
+      "research_status": "researched"
+    },
+    {
+      "schema_version": "1.0.0",
+      "topic_id": "travel.countries",
+      "topic_name": "Countries",
+      "category": "travel",
+      "question": "Top 10 countries ranked by UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements.",
+      "metric": "UNWTO/World Bank visitor and tourism indicators; beauty/safety are composite judgements",
+      "method": {
+        "id": "official_stat",
+        "name": "Official statistical ranking",
+        "subjectivity": "objective",
+        "matches_catalog_method": true
+      },
+      "measure": {
+        "label": "Total population, all ages",
+        "unit": "people",
+        "provider_last_updated": "2026-11-11"
+      },
+      "generated_at": "2026-11-12T16:50:35+00:00",
+      "refresh_after": "2027-11-12",
+      "snapshot": {
+        "retrieved_at": "2026-11-12T16:45:59+00:00",
+        "reference_period": "2025",
+        "records_considered": 217,
+        "records_ranked": 217,
+        "records_missing_value": 0,
+        "tied_at_cut": false,
+        "indicator": "SP.POP.TOTL"
+      },
+      "sources": [
+        {
+          "id": "world_bank",
+          "name": "World Bank Open Data API",
+          "official_url": "https://data.worldbank.org/",
+          "api_docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "verification_result": "ok",
+          "last_checked": "2026-11-12T07:59:42+00:00"
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "entity_id": "IND",
+          "name": "India",
+          "value": 1463865525,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 2,
+          "entity_id": "CHN",
+          "name": "China",
+          "value": 1406585000,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 3,
+          "entity_id": "USA",
+          "name": "United States",
+          "value": 341784857,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 4,
+          "entity_id": "IDN",
+          "name": "Indonesia",
+          "value": 285721236,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 5,
+          "entity_id": "PAK",
+          "name": "Pakistan",
+          "value": 255219554,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 6,
+          "entity_id": "NGA",
+          "name": "Nigeria",
+          "value": 237527782,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 7,
+          "entity_id": "BRA",
+          "name": "Brazil",
+          "value": 212812405,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 8,
+          "entity_id": "BGD",
+          "name": "Bangladesh",
+          "value": 175686899,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 9,
+          "entity_id": "RUS",
+          "name": "Russian Federation",
+          "value": 143513328,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        },
+        {
+          "rank": 10,
+          "entity_id": "ETH",
+          "name": "Ethiopia",
+          "value": 135472051,
+          "unit": "people",
+          "period": "2025",
+          "extra": {
+            "indicator": "SP.POP.TOTL"
+          }
+        }
+      ],
+      "caveats": [
+        "International tourist arrivals are measured by UNWTO and republished with lag; 'best country' is not a single statistic.",
+        "Cross-country comparability depends on the indicator's definition and reporting quality.",
+        "Values may be revised after publication; the retrieval date is recorded.",
+        "The World Bank reports the most recent non-empty value per country, so reference years differ slightly between countries.",
+        "Aggregates (regions, income groups) are removed using the World Bank country metadata."
+      ],
+      "licensing_risk": "medium",
+      "data_availability": "moderate",
       "research_status": "researched"
     }
   ],
