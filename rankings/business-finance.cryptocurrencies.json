@@ -16,10 +16,10 @@
     "unit": "USD market capitalisation",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-12T16:50:34+00:00",
-  "refresh_after": "2026-11-13",
+  "generated_at": "2026-11-13T02:06:05+00:00",
+  "refresh_after": "2026-11-14",
   "snapshot": {
-    "retrieved_at": "2026-11-12T12:04:19+00:00",
+    "retrieved_at": "2026-11-13T02:06:05+00:00",
     "reference_period": null,
     "records_considered": 100,
     "records_ranked": 100,
@@ -44,11 +44,11 @@
       "rank": 1,
       "entity_id": "bitcoin",
       "name": "Bitcoin",
-      "value": 1464479294809,
+      "value": 1424725707716,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "btc",
-        "price_usd": 72820,
+        "price_usd": 70833,
         "provider_rank": 1
       }
     },
@@ -56,11 +56,11 @@
       "rank": 2,
       "entity_id": "ethereum",
       "name": "Ethereum",
-      "value": 246691929781,
+      "value": 245534593315,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "eth",
-        "price_usd": 2018.55,
+        "price_usd": 2008.7,
         "provider_rank": 2
       }
     },
@@ -68,11 +68,11 @@
       "rank": 3,
       "entity_id": "tether",
       "name": "Tether",
-      "value": 175710368455,
+      "value": 175552521530,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "usdt",
-        "price_usd": 0.999042,
+        "price_usd": 0.999063,
         "provider_rank": 3
       }
     },
@@ -80,11 +80,11 @@
       "rank": 4,
       "entity_id": "binancecoin",
       "name": "BNB",
-      "value": 87211096597,
+      "value": 85883864552,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "bnb",
-        "price_usd": 663.15,
+        "price_usd": 652.93,
         "provider_rank": 4
       }
     },
@@ -92,11 +92,11 @@
       "rank": 5,
       "entity_id": "usd-coin",
       "name": "USDC",
-      "value": 69409360492,
+      "value": 69180734761,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "usdc",
-        "price_usd": 0.999466,
+        "price_usd": 0.99951,
         "provider_rank": 5
       }
     },
@@ -104,11 +104,11 @@
       "rank": 6,
       "entity_id": "ripple",
       "name": "XRP",
-      "value": 65860405056,
+      "value": 65326759302,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "xrp",
-        "price_usd": 1.037,
+        "price_usd": 1.028,
         "provider_rank": 6
       }
     },
@@ -116,11 +116,11 @@
       "rank": 7,
       "entity_id": "solana",
       "name": "Solana",
-      "value": 48676427972,
+      "value": 47992992300,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "sol",
-        "price_usd": 82.3,
+        "price_usd": 81.12,
         "provider_rank": 7
       }
     },
@@ -128,11 +128,11 @@
       "rank": 8,
       "entity_id": "tron",
       "name": "TRON",
-      "value": 30040757782,
+      "value": 29960174846,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "trx",
-        "price_usd": 0.316095,
+        "price_usd": 0.315262,
         "provider_rank": 8
       }
     },
@@ -140,11 +140,11 @@
       "rank": 9,
       "entity_id": "figure-heloc",
       "name": "Figure Heloc",
-      "value": 28319400596,
+      "value": 26612378586,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "figr_heloc",
-        "price_usd": 1.066,
+        "price_usd": 1.001,
         "provider_rank": 9
       }
     },
@@ -152,11 +152,11 @@
       "rank": 10,
       "entity_id": "hyperliquid",
       "name": "Hyperliquid",
-      "value": 16920230854,
+      "value": 17381667510,
       "unit": "USD market capitalisation",
       "extra": {
         "symbol": "hype",
-        "price_usd": 70.68,
+        "price_usd": 72.54,
         "provider_rank": 10
       }
     }

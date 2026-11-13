@@ -16,10 +16,10 @@
     "unit": "Lichess classical rating",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-12T16:50:35+00:00",
-  "refresh_after": "2026-12-12",
+  "generated_at": "2026-11-13T02:06:26+00:00",
+  "refresh_after": "2026-12-13",
   "snapshot": {
-    "retrieved_at": "2026-11-12T16:29:02+00:00",
+    "retrieved_at": "2026-11-13T02:06:26+00:00",
     "reference_period": null,
     "records_considered": 50,
     "records_ranked": 50,
@@ -91,23 +91,23 @@
     },
     {
       "rank": 8,
-      "entity_id": "kc6",
-      "name": "kc6",
-      "value": 2430,
-      "unit": "Lichess classical rating"
-    },
-    {
-      "rank": 8,
       "entity_id": "goalden_gookie10",
       "name": "Goalden_Gookie10",
-      "value": 2430,
+      "value": 2432,
       "unit": "Lichess classical rating"
     },
     {
       "rank": 9,
       "entity_id": "sylvlondon",
       "name": "sylvlondon",
-      "value": 2426,
+      "value": 2430,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 9,
+      "entity_id": "kc6",
+      "name": "kc6",
+      "value": 2430,
       "unit": "Lichess classical rating"
     }
   ],
