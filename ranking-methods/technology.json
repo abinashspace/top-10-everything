@@ -1,16 +1,17 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "category": "technology",
   "category_name": "Technology",
-  "topic_count": 34,
+  "topic_count": 36,
   "method_counts": {
     "attention_proxy": 21,
     "benchmark": 2,
     "community_activity": 4,
     "sales_share": 1,
     "patent": 3,
-    "market_cap": 3
+    "market_cap": 3,
+    "geospatial": 2
   },
   "assignments": [
     {
@@ -683,6 +684,48 @@
       ],
       "backup_sources": [
         "wikidata",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.data-centers",
+      "topic_name": "Data Centers",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM-tagged data-centre facilities and Wikidata records",
+      "question": "Top 10 data centers ranked by OSM-tagged data-centre facilities and Wikidata records.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
+        "wikipedia"
+      ]
+    },
+    {
+      "topic_id": "technology.tech-hubs",
+      "topic_name": "Tech Hubs",
+      "method_id": "geospatial",
+      "method_name": "Geospatial measurement",
+      "metric": "OSM/Wikidata counts of tech firms, coworking spaces and incubators",
+      "question": "Top 10 tech hubs ranked by OSM/Wikidata counts of tech firms, coworking spaces and incubators.",
+      "basis": "objective_measurement",
+      "subjectivity": "objective",
+      "human_verification_required": true,
+      "data_availability": "limited",
+      "update_frequency": "quarterly",
+      "primary_sources": [
+        "openstreetmap",
+        "wikidata"
+      ],
+      "backup_sources": [
+        "geonames",
         "wikipedia"
       ]
     }

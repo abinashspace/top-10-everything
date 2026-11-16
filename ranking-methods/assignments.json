@@ -1,21 +1,22 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "topic_count": 20,
   "categories": [
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "technology",
       "category_name": "Technology",
-      "topic_count": 34,
+      "topic_count": 36,
       "method_counts": {
         "attention_proxy": 21,
         "benchmark": 2,
         "community_activity": 4,
         "sales_share": 1,
         "patent": 3,
-        "market_cap": 3
+        "market_cap": 3,
+        "geospatial": 2
       },
       "assignments": [
         {
@@ -690,12 +691,54 @@
             "wikidata",
             "wikipedia"
           ]
+        },
+        {
+          "topic_id": "technology.data-centers",
+          "topic_name": "Data Centers",
+          "method_id": "geospatial",
+          "method_name": "Geospatial measurement",
+          "metric": "OSM-tagged data-centre facilities and Wikidata records",
+          "question": "Top 10 data centers ranked by OSM-tagged data-centre facilities and Wikidata records.",
+          "basis": "objective_measurement",
+          "subjectivity": "objective",
+          "human_verification_required": true,
+          "data_availability": "limited",
+          "update_frequency": "quarterly",
+          "primary_sources": [
+            "openstreetmap",
+            "wikidata"
+          ],
+          "backup_sources": [
+            "geonames",
+            "wikipedia"
+          ]
+        },
+        {
+          "topic_id": "technology.tech-hubs",
+          "topic_name": "Tech Hubs",
+          "method_id": "geospatial",
+          "method_name": "Geospatial measurement",
+          "metric": "OSM/Wikidata counts of tech firms, coworking spaces and incubators",
+          "question": "Top 10 tech hubs ranked by OSM/Wikidata counts of tech firms, coworking spaces and incubators.",
+          "basis": "objective_measurement",
+          "subjectivity": "objective",
+          "human_verification_required": true,
+          "data_availability": "limited",
+          "update_frequency": "quarterly",
+          "primary_sources": [
+            "openstreetmap",
+            "wikidata"
+          ],
+          "backup_sources": [
+            "geonames",
+            "wikipedia"
+          ]
         }
       ]
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "entertainment",
       "category_name": "Entertainment",
       "topic_count": 25,
@@ -1233,7 +1276,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "travel",
       "category_name": "Travel",
       "topic_count": 30,
@@ -1882,7 +1925,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "education",
       "category_name": "Education",
       "topic_count": 25,
@@ -2408,7 +2451,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "science",
       "category_name": "Science",
       "topic_count": 35,
@@ -3171,7 +3214,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "business-finance",
       "category_name": "Business & Finance",
       "topic_count": 33,
@@ -3863,7 +3906,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "sports",
       "category_name": "Sports",
       "topic_count": 39,
@@ -4694,7 +4737,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "food-drink",
       "category_name": "Food & Drink",
       "topic_count": 29,
@@ -5310,7 +5353,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "health-lifestyle",
       "category_name": "Health & Lifestyle",
       "topic_count": 26,
@@ -5819,7 +5862,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "environment-nature",
       "category_name": "Environment & Nature",
       "topic_count": 29,
@@ -6457,7 +6500,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "history-culture",
       "category_name": "History & Culture",
       "topic_count": 30,
@@ -7103,7 +7146,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "automotive-transport",
       "category_name": "Automotive & Transport",
       "topic_count": 27,
@@ -7682,7 +7725,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "fashion-beauty",
       "category_name": "Fashion & Beauty",
       "topic_count": 18,
@@ -8054,7 +8097,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "society-politics",
       "category_name": "Society & Politics",
       "topic_count": 30,
@@ -8718,7 +8761,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "gaming-esports",
       "category_name": "Gaming & Esports",
       "topic_count": 18,
@@ -9111,7 +9154,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "arts-literature",
       "category_name": "Arts & Literature",
       "topic_count": 29,
@@ -9746,7 +9789,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "music-audio",
       "category_name": "Music & Audio",
       "topic_count": 20,
@@ -10191,7 +10234,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "home-garden",
       "category_name": "Home & Garden",
       "topic_count": 15,
@@ -10499,7 +10542,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "pets-animals",
       "category_name": "Pets & Animals",
       "topic_count": 17,
@@ -10850,7 +10893,7 @@
     },
     {
       "schema_version": "1.0.0",
-      "generated_at": "2026-11-12T08:08:13+00:00",
+      "generated_at": "2026-11-16T14:09:20+00:00",
       "category": "industrial-agriculture",
       "category_name": "Industrial & Agriculture",
       "topic_count": 21,

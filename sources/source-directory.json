@@ -1,32 +1,93 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "description": "Verified and curated free/restricted data sources for Top 10 Everything.",
-  "source_count": 143,
+  "source_count": 159,
   "access_model_counts": {
-    "open": 79,
-    "free_tier": 17,
-    "free_key": 34,
-    "free_account": 5,
+    "open": 87,
+    "free_tier": 18,
+    "free_key": 40,
+    "free_account": 6,
     "restricted": 6,
     "paid": 2
   },
   "commercial_use_counts": {
-    "allowed": 42,
-    "allowed_with_conditions": 43,
-    "unclear": 31,
+    "allowed": 53,
+    "allowed_with_conditions": 45,
+    "unclear": 34,
     "varies": 16,
     "prohibited": 11
   },
   "verification_result_counts": {
-    "ok": 107,
-    "rate_limited": 2,
+    "ok": 122,
+    "rate_limited": 3,
     "forbidden": 16,
     "network_error": 3,
     "auth_required": 14,
     "http_error": 1
   },
   "sources": [
+    {
+      "id": "abs_australia",
+      "name": "Australian Bureau of Statistics",
+      "organization": "Australian Bureau of Statistics",
+      "official_url": "https://www.abs.gov.au/",
+      "api_docs_url": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis",
+      "api_base_url": null,
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "labour",
+        "GDP",
+        "census"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Bulk downloads are open; API access varies by dataset. Check current guidance.",
+        "limits_url": "https://www.abs.gov.au/about/data-services/application-programming-interfaces-apis"
+      },
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.abs.gov.au/statistics"
+      },
+      "update_frequency": "quarterly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:52+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://www.abs.gov.au/",
+        "elapsed_ms": 425,
+        "notes": "",
+        "test_url": "https://www.abs.gov.au/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "State and territory estimates are revised after each census."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
+      }
+    },
     {
       "id": "alphavantage",
       "name": "Alpha Vantage",
@@ -65,13 +126,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo",
-        "elapsed_ms": 4325,
+        "elapsed_ms": 165,
         "notes": "",
         "test_url": "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo"
       },
@@ -135,13 +196,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://docs.anilist.co/",
-        "elapsed_ms": 2583,
+        "elapsed_ms": 174,
         "notes": "",
         "test_url": "https://docs.anilist.co/"
       },
@@ -197,14 +258,14 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
-        "http_status": 403,
-        "result": "forbidden",
+        "http_status": 206,
+        "result": "ok",
         "final_url": "https://api.artic.edu/docs/",
-        "elapsed_ms": 2944,
-        "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
+        "elapsed_ms": 550,
+        "notes": "",
         "test_url": "https://api.artic.edu/docs/"
       },
       "reference_only": false,
@@ -274,13 +335,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://export.arxiv.org/api/query?search_query=all:transformer&max_results=1",
-        "elapsed_ms": 684,
+        "elapsed_ms": 147,
         "notes": "",
         "test_url": "https://export.arxiv.org/api/query?search_query=all:transformer&max_results=1"
       },
@@ -345,13 +406,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.balldontlie.io/v1/teams",
-        "elapsed_ms": 1013,
+        "elapsed_ms": 206,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.balldontlie.io/v1/teams"
       },
@@ -407,13 +468,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://boardgamegeek.com/xmlapi2/hot?type=boardgame",
-        "elapsed_ms": 1011,
+        "elapsed_ms": 108,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://boardgamegeek.com/xmlapi2/hot?type=boardgame"
       },
@@ -426,6 +487,67 @@
         ],
         "backup_for_topics": [],
         "primary_for_count": 2,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "bps_indonesia",
+      "name": "BPS-Statistics Indonesia API",
+      "organization": "Badan Pusat Statistik (Indonesia)",
+      "official_url": "https://www.bps.go.id/",
+      "api_docs_url": "https://webapi.bps.go.id/developer/",
+      "api_base_url": "https://webapi.bps.go.id/v1",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "api_key",
+        "key_url": "https://webapi.bps.go.id/developer/",
+        "limits_summary": "Free API key required; see the developer portal for quotas.",
+        "limits_url": "https://webapi.bps.go.id/developer/"
+      },
+      "license": {
+        "name": "BPS data terms (verify)",
+        "url": null,
+        "commercial_use": "unclear",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Verify dataset-level terms before redistribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.bps.go.id/"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:52+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 403,
+        "result": "forbidden",
+        "final_url": "https://www.bps.go.id/",
+        "elapsed_ms": 243,
+        "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
+        "test_url": "https://www.bps.go.id/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Provincial series are revised; record the BPS table and publication date."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
         "backup_for_count": 0
       }
     },
@@ -468,13 +590,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
-        "elapsed_ms": 1307,
+        "elapsed_ms": 145,
         "notes": "",
         "test_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services"
       },
@@ -533,13 +655,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.chess.com/pub/player/hikaru",
-        "elapsed_ms": 1658,
+        "elapsed_ms": 194,
         "notes": "",
         "test_url": "https://api.chess.com/pub/player/hikaru"
       },
@@ -592,13 +714,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:12+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://climatetrace.org/",
-        "elapsed_ms": 1416,
+        "elapsed_ms": 149,
         "notes": "",
         "test_url": "https://climatetrace.org/"
       },
@@ -654,13 +776,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://clinicaltrials.gov/api/v2/studies?pageSize=1",
-        "elapsed_ms": 1715,
+        "elapsed_ms": 216,
         "notes": "",
         "test_url": "https://clinicaltrials.gov/api/v2/studies?pageSize=1"
       },
@@ -716,13 +838,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.coingecko.com/api/v3/ping",
-        "elapsed_ms": 1539,
+        "elapsed_ms": 181,
         "notes": "",
         "test_url": "https://api.coingecko.com/api/v3/ping"
       },
@@ -782,16 +904,16 @@
         "url": null
       },
       "update_frequency": "continuous",
-      "operational": false,
+      "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
-        "http_status": null,
-        "result": "network_error",
-        "final_url": null,
-        "elapsed_ms": 42270,
-        "notes": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://coinmarketcap.com/",
+        "elapsed_ms": 121,
+        "notes": "",
         "test_url": "https://coinmarketcap.com/"
       },
       "reference_only": false,
@@ -845,13 +967,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.company-information.service.gov.uk/company/00000006",
-        "elapsed_ms": 1506,
+        "elapsed_ms": 678,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.company-information.service.gov.uk/company/00000006"
       },
@@ -907,13 +1029,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://cds.climate.copernicus.eu/how-to-api",
-        "elapsed_ms": 2960,
+        "elapsed_ms": 4330,
         "notes": "",
         "test_url": "https://cds.climate.copernicus.eu/api"
       },
@@ -976,14 +1098,14 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:13+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
-        "http_status": 200,
-        "result": "ok",
+        "http_status": 429,
+        "result": "rate_limited",
         "final_url": "https://api.core.ac.uk/v3/search/works/?q=machine%20learning&limit=1",
-        "elapsed_ms": 2577,
-        "notes": "",
+        "elapsed_ms": 3585,
+        "notes": "Rate limited during the check.",
         "test_url": "https://api.core.ac.uk/v3/search/works?q=machine%20learning&limit=1"
       },
       "reference_only": false,
@@ -1036,13 +1158,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:14+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://crates.io/api/v1/crates/serde",
-        "elapsed_ms": 1804,
+        "elapsed_ms": 249,
         "notes": "",
         "test_url": "https://crates.io/api/v1/crates/serde"
       },
@@ -1097,13 +1219,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:14+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.crossref.org/works?rows=1",
-        "elapsed_ms": 2891,
+        "elapsed_ms": 2907,
         "notes": "",
         "test_url": "https://api.crossref.org/works?rows=1"
       },
@@ -1154,6 +1276,67 @@
       }
     },
     {
+      "id": "data_gov_in",
+      "name": "Open Government Data Platform India",
+      "organization": "Government of India",
+      "official_url": "https://data.gov.in/",
+      "api_docs_url": "https://data.gov.in/help",
+      "api_base_url": "https://api.data.gov.in",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "districts",
+        "schemes",
+        "statistics"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "api_key",
+        "key_url": "https://data.gov.in/user/register",
+        "limits_summary": "Free API key required; rate limits are published per resource.",
+        "limits_url": "https://data.gov.in/help"
+      },
+      "license": {
+        "name": "Government Open Data License - India (GODL)",
+        "url": "https://data.gov.in/licensing-single",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://data.gov.in/"
+      },
+      "update_frequency": "continuous",
+      "operational": false,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:52+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": null,
+        "result": "network_error",
+        "final_url": null,
+        "elapsed_ms": 489,
+        "notes": "URLError: <urlopen error [Errno 111] Connection refused>",
+        "test_url": "https://data.gov.in/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Dataset freshness and state coverage vary widely; always record the resource ID and update date."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
+      }
+    },
+    {
       "id": "datacite",
       "name": "DataCite REST API",
       "organization": "DataCite",
@@ -1191,13 +1374,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:14+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.datacite.org/dois?page%5Bsize%5D=1",
-        "elapsed_ms": 1578,
+        "elapsed_ms": 763,
         "notes": "",
         "test_url": "https://api.datacite.org/dois?page%5Bsize%5D=1"
       },
@@ -1248,13 +1431,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:14+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.dbpedia.org/",
-        "elapsed_ms": 1606,
+        "elapsed_ms": 1146,
         "notes": "",
         "test_url": "https://www.dbpedia.org/"
       },
@@ -1338,13 +1521,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:15+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.deezer.com/chart/0/tracks?limit=1",
-        "elapsed_ms": 450,
+        "elapsed_ms": 245,
         "notes": "",
         "test_url": "https://api.deezer.com/chart/0/tracks?limit=1"
       },
@@ -1360,6 +1543,67 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 4
+      }
+    },
+    {
+      "id": "destatis",
+      "name": "Destatis GENESIS-Online",
+      "organization": "Statistisches Bundesamt (Germany)",
+      "official_url": "https://www.destatis.de/",
+      "api_docs_url": "https://www-genesis.destatis.de/genesis/online",
+      "api_base_url": "https://www-genesis.destatis.de/genesisWS/rest/2020",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ],
+      "access": {
+        "model": "free_account",
+        "authentication": "account",
+        "key_url": "https://www-genesis.destatis.de/genesis/online",
+        "limits_summary": "Registration required for the web service; quotas apply.",
+        "limits_url": "https://www-genesis.destatis.de/genesis/online"
+      },
+      "license": {
+        "name": "Datenlizenz Deutschland - Namensnennung 2.0",
+        "url": "https://www.govdata.de/dl-de/by-2-0",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www-genesis.destatis.de/"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:52+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://www.destatis.de/DE/Home/_inhalt.html",
+        "elapsed_ms": 1820,
+        "notes": "",
+        "test_url": "https://www.destatis.de/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Some tables are EU-harmonised and others national; do not mix definitions silently."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -1400,13 +1644,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:15+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.discogs.com/database/search?q=radiohead",
-        "elapsed_ms": 1945,
+        "elapsed_ms": 454,
         "notes": "",
         "test_url": "https://api.discogs.com/database/search?q=radiohead"
       },
@@ -1462,13 +1706,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:15+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://doaj.org/api/docs",
-        "elapsed_ms": 1020,
+        "elapsed_ms": 208,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://doaj.org/api/docs"
       },
@@ -1523,13 +1767,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:15+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://datadryad.org/api/v2/datasets?per_page=1",
-        "elapsed_ms": 1742,
+        "elapsed_ms": 437,
         "notes": "",
         "test_url": "https://datadryad.org/api/v2/datasets?per_page=1"
       },
@@ -1582,13 +1826,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:15+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json",
-        "elapsed_ms": 2128,
+        "elapsed_ms": 807,
         "notes": "",
         "test_url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json"
       },
@@ -1645,13 +1889,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://api.eia.gov/v2/electricity/rto/region-data/data/?frequency=hourly&data[0]=value&facets[respondent][]=CISO&length=1",
-        "elapsed_ms": 1991,
+        "elapsed_ms": 161,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://api.eia.gov/v2/electricity/rto/region-data/data/?frequency=hourly&data[0]=value&facets[respondent][]=CISO&length=1"
       },
@@ -1709,13 +1953,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:52+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://api.ember-energy.org/v1/electricity-generation/yearly?entity_code=GBR&start_year=2023",
-        "elapsed_ms": 1135,
+        "elapsed_ms": 264,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://api.ember-energy.org/v1/electricity-generation/yearly?entity_code=GBR&start_year=2023"
       },
@@ -1773,13 +2017,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 400,
         "result": "auth_required",
         "final_url": "https://aqs.epa.gov/data/api/list/classes?email=test@example.com&key=test",
-        "elapsed_ms": 23733,
+        "elapsed_ms": 370,
         "notes": "Endpoint responded; the test request lacked valid credentials.",
         "test_url": "https://aqs.epa.gov/data/api/list/classes?email=test@example.com&key=test"
       },
@@ -1833,13 +2077,13 @@
       "update_frequency": "weekly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://ops.epo.org/3.2/rest-services/published-data/search?q=ti%3Dbattery",
-        "elapsed_ms": 2548,
+        "elapsed_ms": 1667,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://ops.epo.org/3.2/rest-services/published-data/search?q=ti%3Dbattery"
       },
@@ -1856,6 +2100,67 @@
         ],
         "backup_for_topics": [],
         "primary_for_count": 4,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "estat_japan",
+      "name": "e-Stat API",
+      "organization": "Statistics Bureau of Japan",
+      "official_url": "https://www.e-stat.go.jp/",
+      "api_docs_url": "https://www.e-stat.go.jp/api/",
+      "api_base_url": "https://api.e-stat.go.jp/rest/3.0/app/json",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "census"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "api_key",
+        "key_url": "https://www.e-stat.go.jp/api/",
+        "limits_summary": "Free application ID required; see the API guide for quotas.",
+        "limits_url": "https://www.e-stat.go.jp/api/"
+      },
+      "license": {
+        "name": "e-Stat terms of use (verify)",
+        "url": "https://www.e-stat.go.jp/terms-of-use",
+        "commercial_use": "allowed_with_conditions",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Verify the terms-of-use page before redistribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.e-stat.go.jp/"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:53+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://www.e-stat.go.jp/",
+        "elapsed_ms": 992,
+        "notes": "",
+        "test_url": "https://www.e-stat.go.jp/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Prefecture-level tables use Japanese statistical classifications; map them explicitly."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
         "backup_for_count": 0
       }
     },
@@ -1897,13 +2202,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1",
-        "elapsed_ms": 1935,
+        "elapsed_ms": 1305,
         "notes": "",
         "test_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1"
       },
@@ -1959,13 +2264,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:16+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.europeana.eu/record/v2/search.json?query=monet&wskey=api2demo",
-        "elapsed_ms": 2060,
+        "elapsed_ms": 774,
         "notes": "",
         "test_url": "https://api.europeana.eu/record/v2/search.json?query=monet&wskey=api2demo"
       },
@@ -2035,13 +2340,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:17+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?format=JSON&lang=EN",
-        "elapsed_ms": 2321,
+        "elapsed_ms": 1087,
         "notes": "",
         "test_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?format=JSON&lang=EN"
       },
@@ -2098,13 +2403,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:17+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.fao.org/faostat/",
-        "elapsed_ms": 1169,
+        "elapsed_ms": 289,
         "notes": "",
         "test_url": "https://www.fao.org/faostat/"
       },
@@ -2186,13 +2491,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:17+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.figshare.com/v2/articles?page_size=1",
-        "elapsed_ms": 1376,
+        "elapsed_ms": 653,
         "notes": "",
         "test_url": "https://api.figshare.com/v2/articles?page_size=1"
       },
@@ -2245,13 +2550,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:17+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.football-data.org/v4/competitions",
-        "elapsed_ms": 1742,
+        "elapsed_ms": 1024,
         "notes": "",
         "test_url": "https://api.football-data.org/v4/competitions"
       },
@@ -2336,13 +2641,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:17+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.frankfurter.dev/v1/latest?from=USD",
-        "elapsed_ms": 2429,
+        "elapsed_ms": 193,
         "notes": "",
         "test_url": "https://api.frankfurter.app/latest?from=USD"
       },
@@ -2405,13 +2710,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:53+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.fueleconomy.gov/ws/rest/vehicle/menu/make?year=2024",
-        "elapsed_ms": 1524,
+        "elapsed_ms": 423,
         "notes": "",
         "test_url": "https://www.fueleconomy.gov/ws/rest/vehicle/menu/make?year=2024"
       },
@@ -2473,13 +2778,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.gapminder.org/data/",
-        "elapsed_ms": 551,
+        "elapsed_ms": 140,
         "notes": "",
         "test_url": "https://www.gapminder.org/data/"
       },
@@ -2533,13 +2838,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.gbif.org/v1/occurrence/search?limit=1",
-        "elapsed_ms": 1002,
+        "elapsed_ms": 1603,
         "notes": "",
         "test_url": "https://api.gbif.org/v1/occurrence/search?limit=1"
       },
@@ -2620,14 +2925,14 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
-        "http_status": 200,
-        "result": "ok",
+        "http_status": 429,
+        "result": "rate_limited",
         "final_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=climate&mode=artlist&maxrecords=1&format=json",
-        "elapsed_ms": 20988,
-        "notes": "",
+        "elapsed_ms": 12477,
+        "notes": "Rate limited during the check.",
         "test_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=climate&mode=artlist&maxrecords=1&format=json"
       },
       "reference_only": false,
@@ -2680,13 +2985,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.geoboundaries.org/api/current/gbOpen/ALL/",
-        "elapsed_ms": 1314,
+        "elapsed_ms": 260,
         "notes": "",
         "test_url": "https://www.geoboundaries.org/api/current/gbOpen/ALL/"
       },
@@ -2740,13 +3045,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.geonames.org/",
-        "elapsed_ms": 1784,
+        "elapsed_ms": 917,
         "notes": "",
         "test_url": "https://www.geonames.org/"
       },
@@ -2755,6 +3060,8 @@
       "usage": {
         "primary_for_topics": [],
         "backup_for_topics": [
+          "technology.data-centers",
+          "technology.tech-hubs",
           "travel.cities",
           "travel.beaches",
           "travel.mountains",
@@ -2786,7 +3093,7 @@
           "pets-animals.wildlife-parks"
         ],
         "primary_for_count": 0,
-        "backup_for_count": 29
+        "backup_for_count": 31
       }
     },
     {
@@ -2829,13 +3136,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:18+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.github.com/repos/torvalds/linux",
-        "elapsed_ms": 1168,
+        "elapsed_ms": 237,
         "notes": "",
         "test_url": "https://api.github.com/repos/torvalds/linux"
       },
@@ -2905,13 +3212,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.gleif.org/api/v1/lei-records?page%5Bsize%5D=1",
-        "elapsed_ms": 1227,
+        "elapsed_ms": 832,
         "notes": "",
         "test_url": "https://api.gleif.org/api/v1/lei-records?page%5Bsize%5D=1"
       },
@@ -3019,13 +3326,13 @@
       "update_frequency": "annual",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://data-api.globalforestwatch.org/",
-        "elapsed_ms": 2228,
+        "elapsed_ms": 370,
         "notes": "",
         "test_url": "https://data-api.globalforestwatch.org/"
       },
@@ -3081,13 +3388,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 429,
         "result": "rate_limited",
         "final_url": "https://www.googleapis.com/books/v1/volumes?q=isbn:9780141036144&maxResults=1",
-        "elapsed_ms": 1638,
+        "elapsed_ms": 286,
         "notes": "Rate limited during the check.",
         "test_url": "https://www.googleapis.com/books/v1/volumes?q=isbn:9780141036144&maxResults=1"
       },
@@ -3154,13 +3461,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://content.guardianapis.com/search?q=climate&page-size=1&api-key=test",
-        "elapsed_ms": 2158,
+        "elapsed_ms": 683,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://content.guardianapis.com/search?q=climate&page-size=1&api-key=test"
       },
@@ -3216,13 +3523,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.harvardartmuseums.org/object?apikey=DEMO&size=1",
-        "elapsed_ms": 2523,
+        "elapsed_ms": 301,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.harvardartmuseums.org/object?apikey=DEMO&size=1"
       },
@@ -3277,13 +3584,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://dataverse.harvard.edu/api/search?q=climate&per_page=1",
-        "elapsed_ms": 2334,
+        "elapsed_ms": 280,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://dataverse.harvard.edu/api/search?q=climate&per_page=1"
       },
@@ -3338,13 +3645,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:19+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://huggingface.co/api/models?limit=1",
-        "elapsed_ms": 1641,
+        "elapsed_ms": 112,
         "notes": "",
         "test_url": "https://huggingface.co/api/models?limit=1"
       },
@@ -3360,6 +3667,67 @@
         ],
         "backup_for_topics": [],
         "primary_for_count": 2,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "ibge",
+      "name": "IBGE Servico de Dados",
+      "organization": "Instituto Brasileiro de Geografia e Estatistica",
+      "official_url": "https://www.ibge.gov.br/",
+      "api_docs_url": "https://servicodados.ibge.gov.br/api/docs",
+      "api_base_url": "https://servicodados.ibge.gov.br/api",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "census",
+        "municipalities",
+        "GDP"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Open API; see the documentation for fair-use guidance.",
+        "limits_url": "https://servicodados.ibge.gov.br/api/docs"
+      },
+      "license": {
+        "name": "IBGE open data terms (verify)",
+        "url": null,
+        "commercial_use": "allowed_with_conditions",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution; verify dataset-level terms."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://downloads.ibge.gov.br/"
+      },
+      "update_frequency": "periodic",
+      "operational": false,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:54+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": null,
+        "result": "network_error",
+        "final_url": null,
+        "elapsed_ms": 25196,
+        "notes": "URLError: <urlopen error timed out>",
+        "test_url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Municipal and state boundaries change; match the reference year."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
         "backup_for_count": 0
       }
     },
@@ -3402,13 +3770,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:20+00:00",
+        "last_checked": "2026-11-16T14:08:54+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.igdb.com/v4/games",
-        "elapsed_ms": 2261,
+        "elapsed_ms": 184,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.igdb.com/v4/games"
       },
@@ -3468,13 +3836,13 @@
       "update_frequency": "quarterly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:20+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://rplumber.ilo.org/data/indicator/?id=EMP_TEMP_SEX_AGE_NB_A&format=.json&limit=1",
-        "elapsed_ms": 2673,
+        "elapsed_ms": 760,
         "notes": "",
         "test_url": "https://rplumber.ilo.org/data/indicator/?id=EMP_TEMP_SEX_AGE_NB_A&format=.json&limit=1"
       },
@@ -3527,13 +3895,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:20+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://data.imdb.com/non-commercial-datasets/",
-        "elapsed_ms": 3710,
+        "elapsed_ms": 338,
         "notes": "",
         "test_url": "https://developer.imdb.com/non-commercial-datasets/"
       },
@@ -3590,13 +3958,13 @@
       "update_frequency": "quarterly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:21+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.imf.org/external/datamapper/api/v1/NGDPD",
-        "elapsed_ms": 1916,
+        "elapsed_ms": 741,
         "notes": "",
         "test_url": "https://www.imf.org/external/datamapper/api/v1/NGDPD"
       },
@@ -3653,13 +4021,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:21+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.inaturalist.org/v1/observations?per_page=1",
-        "elapsed_ms": 1807,
+        "elapsed_ms": 58,
         "notes": "",
         "test_url": "https://api.inaturalist.org/v1/observations?per_page=1"
       },
@@ -3687,6 +4055,128 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 14
+      }
+    },
+    {
+      "id": "inegi",
+      "name": "INEGI API",
+      "organization": "Instituto Nacional de Estadistica y Geografia (Mexico)",
+      "official_url": "https://www.inegi.org.mx/",
+      "api_docs_url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+      "api_base_url": "https://www.inegi.org.mx/app/api/indicadores",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "census"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "api_key",
+        "key_url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+        "limits_summary": "Free API token required; see the service page for quotas.",
+        "limits_url": "https://www.inegi.org.mx/servicios/api_indicadores.html"
+      },
+      "license": {
+        "name": "INEGI terms of use (verify)",
+        "url": null,
+        "commercial_use": "unclear",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Verify dataset-level terms before redistribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.inegi.org.mx/"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:55+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://www.inegi.org.mx/",
+        "elapsed_ms": 639,
+        "notes": "",
+        "test_url": "https://www.inegi.org.mx/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "State-level GDP is published with a lag and revised; record the reference year."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "insee",
+      "name": "INSEE API",
+      "organization": "Institut national de la statistique et des etudes economiques (France)",
+      "official_url": "https://www.insee.fr/",
+      "api_docs_url": "https://api.insee.fr/",
+      "api_base_url": "https://api.insee.fr",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "api_key",
+        "key_url": "https://api.insee.fr/",
+        "limits_summary": "Free registration and API key required; quotas apply.",
+        "limits_url": "https://api.insee.fr/"
+      },
+      "license": {
+        "name": "Licence Ouverte 2.0",
+        "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.insee.fr/fr/information/2406153"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:55+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://www.insee.fr/fr/accueil",
+        "elapsed_ms": 1684,
+        "notes": "",
+        "test_url": "https://www.insee.fr/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Metropolitan France and overseas territories are often reported separately."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -3727,13 +4217,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:21+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://inspirehep.net/api/literature?size=1&q=higgs",
-        "elapsed_ms": 1527,
+        "elapsed_ms": 1231,
         "notes": "",
         "test_url": "https://inspirehep.net/api/literature?size=1&q=higgs"
       },
@@ -3792,13 +4282,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:21+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://archive.org/advancedsearch.php?q=collection%3Aprelinger&fl%5B%5D=identifier&rows=1&output=json",
-        "elapsed_ms": 1458,
+        "elapsed_ms": 155,
         "notes": "",
         "test_url": "https://archive.org/advancedsearch.php?q=collection%3Aprelinger&fl%5B%5D=identifier&rows=1&output=json"
       },
@@ -3854,13 +4344,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://www.irena.org/Data",
-        "elapsed_ms": 916,
+        "elapsed_ms": 437,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://www.irena.org/Data"
       },
@@ -3920,13 +4410,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://itunes.apple.com/search?term=radiohead&entity=album&limit=1",
-        "elapsed_ms": 934,
+        "elapsed_ms": 212,
         "notes": "",
         "test_url": "https://itunes.apple.com/search?term=radiohead&entity=album&limit=1"
       },
@@ -4004,13 +4494,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://api.iucnredlist.org/api/v4/taxa/kingdom",
-        "elapsed_ms": 993,
+        "elapsed_ms": 470,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://api.iucnredlist.org/api/v4/taxa/kingdom"
       },
@@ -4093,13 +4583,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://jikan.moe/",
-        "elapsed_ms": 2017,
+        "elapsed_ms": 166,
         "notes": "",
         "test_url": "https://jikan.moe/"
       },
@@ -4155,13 +4645,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.jolpi.ca/ergast/f1/2024/driverStandings.json",
-        "elapsed_ms": 1310,
+        "elapsed_ms": 774,
         "notes": "",
         "test_url": "https://api.jolpi.ca/ergast/f1/2024/driverStandings.json"
       },
@@ -4216,13 +4706,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:22+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://ssd.jpl.nasa.gov/",
-        "elapsed_ms": 1572,
+        "elapsed_ms": 179,
         "notes": "",
         "test_url": "https://ssd.jpl.nasa.gov/"
       },
@@ -4284,13 +4774,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.kaggle.com/api/v1/datasets/list?pageSize=1",
-        "elapsed_ms": 1405,
+        "elapsed_ms": 278,
         "notes": "",
         "test_url": "https://www.kaggle.com/api/v1/datasets/list?pageSize=1"
       },
@@ -4342,13 +4832,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=DEMO&format=json",
-        "elapsed_ms": 860,
+        "elapsed_ms": 152,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=DEMO&format=json"
       },
@@ -4424,13 +4914,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:55+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://ll.thespacedevs.com/2.3.0/launches/?limit=1",
-        "elapsed_ms": 1547,
+        "elapsed_ms": 682,
         "notes": "",
         "test_url": "https://ll.thespacedevs.com/2.3.0/launches/?limit=1"
       },
@@ -4496,13 +4986,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://lichess.org/api/user/DrNykterstein",
-        "elapsed_ms": 794,
+        "elapsed_ms": 248,
         "notes": "",
         "test_url": "https://lichess.org/api/user/DrNykterstein"
       },
@@ -4558,13 +5048,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://liquipedia.net/",
-        "elapsed_ms": 22442,
+        "elapsed_ms": 508,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://liquipedia.net/"
       },
@@ -4620,13 +5110,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.listenbrainz.org/1/stats/sitewide/artists?count=1",
-        "elapsed_ms": 1167,
+        "elapsed_ms": 2823,
         "notes": "",
         "test_url": "https://api.listenbrainz.org/1/stats/sitewide/artists?count=1"
       },
@@ -4682,13 +5172,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:23+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://manifesto-project.wzb.eu/",
-        "elapsed_ms": 3343,
+        "elapsed_ms": 1479,
         "notes": "",
         "test_url": "https://manifesto-project.wzb.eu/"
       },
@@ -4743,13 +5233,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
-        "elapsed_ms": 1264,
+        "elapsed_ms": 313,
         "notes": "",
         "test_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535"
       },
@@ -4819,13 +5309,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 202,
         "result": "ok",
         "final_url": "https://guide.michelin.com/en/restaurants",
-        "elapsed_ms": 2025,
+        "elapsed_ms": 171,
         "notes": "",
         "test_url": "https://guide.michelin.com/en/restaurants"
       },
@@ -4878,13 +5368,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://statsapi.mlb.com/api/v1/teams?sportId=1",
-        "elapsed_ms": 2867,
+        "elapsed_ms": 129,
         "notes": "",
         "test_url": "https://statsapi.mlb.com/api/v1/teams?sportId=1"
       },
@@ -4944,13 +5434,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://musicbrainz.org/ws/2/artist/?query=radiohead&fmt=json&limit=1",
-        "elapsed_ms": 2673,
+        "elapsed_ms": 653,
         "notes": "",
         "test_url": "https://musicbrainz.org/ws/2/artist/?query=radiohead&fmt=json&limit=1"
       },
@@ -5024,13 +5514,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+1+pl_name%2Cdisc_year+from+ps&format=json",
-        "elapsed_ms": 4273,
+        "elapsed_ms": 1108,
         "notes": "",
         "test_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+1+pl_name%2Cdisc_year+from+ps&format=json"
       },
@@ -5096,13 +5586,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:24+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.nasa.gov/",
-        "elapsed_ms": 2976,
+        "elapsed_ms": 200,
         "notes": "",
         "test_url": "https://www.nasa.gov/"
       },
@@ -5167,13 +5657,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:25+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M&community=RE&longitude=0&latitude=0&start=20240101&end=20240102&format=JSON",
-        "elapsed_ms": 2650,
+        "elapsed_ms": 258,
         "notes": "",
         "test_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M&community=RE&longitude=0&latitude=0&start=20240101&end=20240102&format=JSON"
       },
@@ -5227,13 +5717,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:25+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.naturalearthdata.com/downloads/",
-        "elapsed_ms": 2670,
+        "elapsed_ms": 338,
         "notes": "",
         "test_url": "https://www.naturalearthdata.com/downloads/"
       },
@@ -5248,6 +5738,128 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 3
+      }
+    },
+    {
+      "id": "nbs_nigeria",
+      "name": "National Bureau of Statistics Nigeria",
+      "organization": "National Bureau of Statistics (Nigeria)",
+      "official_url": "https://nigerianstat.gov.ng/",
+      "api_docs_url": null,
+      "api_base_url": null,
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Downloadable reports and tables; no documented public API. Be polite when retrieving files.",
+        "limits_url": null
+      },
+      "license": {
+        "name": "NBS Nigeria terms (verify)",
+        "url": null,
+        "commercial_use": "unclear",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Verify terms before redistribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://nigerianstat.gov.ng/elibrary"
+      },
+      "update_frequency": "quarterly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:56+00:00",
+        "method": "live_http_get",
+        "test_scope": "website_or_docs",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://nigerianstat.gov.ng/",
+        "elapsed_ms": 2249,
+        "notes": "",
+        "test_url": "https://nigerianstat.gov.ng/"
+      },
+      "reference_only": false,
+      "caveats": [
+        "State-level series are incomplete and often published only in PDF tables."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "ncbi_eutils",
+      "name": "NCBI E-utilities",
+      "organization": "US National Center for Biotechnology Information",
+      "official_url": "https://www.ncbi.nlm.nih.gov/",
+      "api_docs_url": "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+      "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+      "coverage_categories": [
+        "science",
+        "health"
+      ],
+      "data_types": [
+        "genomes",
+        "assemblies",
+        "sequences",
+        "taxonomy",
+        "literature"
+      ],
+      "access": {
+        "model": "free_tier",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "3 requests/second without an API key, 10/second with one. Bulk data should use FTP.",
+        "limits_url": "https://www.ncbi.nlm.nih.gov/books/NBK25497/"
+      },
+      "license": {
+        "name": "Public domain (US Government work)",
+        "url": null,
+        "commercial_use": "allowed",
+        "attribution_required": false,
+        "share_alike": false,
+        "redistribution": "US Government work; some third-party records carry separate terms."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://ftp.ncbi.nlm.nih.gov/"
+      },
+      "update_frequency": "daily",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:56+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=protein&retmode=json",
+        "elapsed_ms": 252,
+        "notes": "",
+        "test_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=protein&retmode=json"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Genome assembly counts measure sequencing and submission activity, not species importance."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -5287,13 +5899,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:26+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://newsapi.org/v2/top-headlines?country=us",
-        "elapsed_ms": 1319,
+        "elapsed_ms": 113,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://newsapi.org/v2/top-headlines?country=us"
       },
@@ -5346,13 +5958,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://api.nhtsa.gov/vehicles/makes?modelYear=2024",
-        "elapsed_ms": 1941,
+        "elapsed_ms": 298,
         "notes": "",
         "test_url": "https://api.nhtsa.gov/vehicles/makes?modelYear=2024"
       },
@@ -5415,13 +6027,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.ncei.noaa.gov/access",
-        "elapsed_ms": 2435,
+        "elapsed_ms": 552,
         "notes": "",
         "test_url": "https://www.ncei.noaa.gov/access"
       },
@@ -5484,13 +6096,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://nominatim.openstreetmap.org/search?q=Berlin&format=json&limit=1",
-        "elapsed_ms": 649,
+        "elapsed_ms": 302,
         "notes": "",
         "test_url": "https://nominatim.openstreetmap.org/search?q=Berlin&format=json&limit=1"
       },
@@ -5542,13 +6154,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:56+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://registry.npmjs.org/react/latest",
-        "elapsed_ms": 460,
+        "elapsed_ms": 43,
         "notes": "",
         "test_url": "https://registry.npmjs.org/react/latest"
       },
@@ -5602,13 +6214,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.numbeo.com/cost-of-living/",
-        "elapsed_ms": 2126,
+        "elapsed_ms": 1213,
         "notes": "",
         "test_url": "https://www.numbeo.com/cost-of-living/"
       },
@@ -5662,13 +6274,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.weather.gov/points/39.7456,-97.0892",
-        "elapsed_ms": 414,
+        "elapsed_ms": 424,
         "notes": "",
         "test_url": "https://api.weather.gov/points/39.7456,-97.0892"
       },
@@ -5725,13 +6337,13 @@
       "update_frequency": "quarterly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:27+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://data.oecd.org/",
-        "elapsed_ms": 250,
+        "elapsed_ms": 46,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://data.oecd.org/"
       },
@@ -5793,13 +6405,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:28+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://oeis.org/search?q=id:A000045&fmt=json",
-        "elapsed_ms": 1354,
+        "elapsed_ms": 222,
         "notes": "",
         "test_url": "https://oeis.org/search?q=id:A000045&fmt=json"
       },
@@ -5853,13 +6465,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:28+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.olympedia.org/",
-        "elapsed_ms": 1984,
+        "elapsed_ms": 1294,
         "notes": "",
         "test_url": "https://www.olympedia.org/"
       },
@@ -5912,13 +6524,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:28+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://www.omdbapi.com/?apikey=DEMO&t=Inception",
-        "elapsed_ms": 1499,
+        "elapsed_ms": 112,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://www.omdbapi.com/?apikey=DEMO&t=Inception"
       },
@@ -5934,6 +6546,67 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 2
+      }
+    },
+    {
+      "id": "ons_uk",
+      "name": "Office for National Statistics API",
+      "organization": "UK Office for National Statistics",
+      "official_url": "https://www.ons.gov.uk/",
+      "api_docs_url": "https://developer.ons.gov.uk/",
+      "api_base_url": "https://api.beta.ons.gov.uk/v1",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "labour",
+        "prices",
+        "GDP"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Open API; see the developer site for fair-use guidance.",
+        "limits_url": "https://developer.ons.gov.uk/"
+      },
+      "license": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.ons.gov.uk/methodology"
+      },
+      "update_frequency": "monthly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:57+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://api.beta.ons.gov.uk/v1/datasets?limit=1",
+        "elapsed_ms": 315,
+        "notes": "",
+        "test_url": "https://api.beta.ons.gov.uk/v1/datasets?limit=1"
+      },
+      "reference_only": false,
+      "caveats": [
+        "UK-level and nation-level series are not always interchangeable; check the geography."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -5975,13 +6648,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:28+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://world.openfoodfacts.org/api/v2/product/3017620422003.json",
-        "elapsed_ms": 1850,
+        "elapsed_ms": 1051,
         "notes": "",
         "test_url": "https://world.openfoodfacts.org/api/v2/product/3017620422003.json"
       },
@@ -6062,13 +6735,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:28+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://openlibrary.org/search.json?q=the+lord+of+the+rings&limit=1",
-        "elapsed_ms": 1822,
+        "elapsed_ms": 2032,
         "notes": "",
         "test_url": "https://openlibrary.org/search.json?q=the+lord+of+the+rings&limit=1"
       },
@@ -6182,13 +6855,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:29+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m",
-        "elapsed_ms": 1975,
+        "elapsed_ms": 64,
         "notes": "",
         "test_url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m"
       },
@@ -6247,13 +6920,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:29+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.openalex.org/works?per-page=1",
-        "elapsed_ms": 1647,
+        "elapsed_ms": 568,
         "notes": "",
         "test_url": "https://api.openalex.org/works?per-page=1"
       },
@@ -6342,13 +7015,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:29+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.openaq.org/v3/locations?limit=1",
-        "elapsed_ms": 419,
+        "elapsed_ms": 73,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.openaq.org/v3/locations?limit=1"
       },
@@ -6403,13 +7076,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:29+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.opencorporates.com/v0.4/companies/search?q=apple",
-        "elapsed_ms": 2988,
+        "elapsed_ms": 255,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.opencorporates.com/v0.4/companies/search?q=apple"
       },
@@ -6518,13 +7191,13 @@
       "update_frequency": "irregular",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:29+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://openflights.org/",
-        "elapsed_ms": 1279,
+        "elapsed_ms": 143,
         "notes": "",
         "test_url": "https://openflights.org/"
       },
@@ -6594,13 +7267,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:30+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.openstreetmap.org/api/0.6/capabilities",
-        "elapsed_ms": 981,
+        "elapsed_ms": 438,
         "notes": "",
         "test_url": "https://api.openstreetmap.org/api/0.6/capabilities"
       },
@@ -6610,6 +7283,8 @@
       ],
       "usage": {
         "primary_for_topics": [
+          "technology.data-centers",
+          "technology.tech-hubs",
           "travel.countries",
           "travel.cities",
           "travel.tourist-destinations",
@@ -6668,7 +7343,7 @@
           "automotive-transport.charging-networks",
           "automotive-transport.traffic-congestion"
         ],
-        "primary_for_count": 42,
+        "primary_for_count": 44,
         "backup_for_count": 13
       }
     },
@@ -6710,13 +7385,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:30+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.osf.io/v2/preprints/?page%5Bsize%5D=1",
-        "elapsed_ms": 1778,
+        "elapsed_ms": 1041,
         "notes": "",
         "test_url": "https://api.osf.io/v2/preprints/?page%5Bsize%5D=1"
       },
@@ -6773,13 +7448,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:30+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://ourworldindata.org/grapher/life-expectancy.csv",
-        "elapsed_ms": 3109,
+        "elapsed_ms": 72,
         "notes": "",
         "test_url": "https://ourworldindata.org/grapher/life-expectancy.csv"
       },
@@ -6889,14 +7564,14 @@
       "update_frequency": "continuous",
       "operational": false,
       "verification": {
-        "last_checked": "2026-11-12T07:59:30+00:00",
+        "last_checked": "2026-11-16T14:08:57+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": null,
         "result": "network_error",
         "final_url": null,
-        "elapsed_ms": 669,
-        "notes": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>",
+        "elapsed_ms": 431,
+        "notes": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
         "test_url": "https://ourairports.com/"
       },
       "reference_only": false,
@@ -6962,13 +7637,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://overpass-api.de/",
-        "elapsed_ms": 1748,
+        "elapsed_ms": 680,
         "notes": "",
         "test_url": "https://overpass-api.de/"
       },
@@ -7018,13 +7693,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://www.parlgov.org/data/",
-        "elapsed_ms": 1794,
+        "elapsed_ms": 384,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://www.parlgov.org/data/"
       },
@@ -7079,13 +7754,13 @@
       "update_frequency": "quarterly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
-        "elapsed_ms": 2354,
+        "elapsed_ms": 492,
         "notes": "",
         "test_url": "https://patentsview.org/"
       },
@@ -7102,6 +7777,65 @@
         ],
         "backup_for_topics": [],
         "primary_for_count": 4,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "pbdb",
+      "name": "Paleobiology Database",
+      "organization": "Paleobiology Database",
+      "official_url": "https://paleobiodb.org/",
+      "api_docs_url": "https://paleobiodb.org/data1.2/",
+      "api_base_url": "https://paleobiodb.org/data1.2",
+      "coverage_categories": [
+        "science"
+      ],
+      "data_types": [
+        "fossil occurrences",
+        "taxonomy",
+        "paleogeography",
+        "collections"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "No key required; be polite and cache responses.",
+        "limits_url": "https://paleobiodb.org/data1.2/"
+      },
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://paleobiodb.org/data1.2/"
+      },
+      "update_frequency": "weekly",
+      "operational": false,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:58+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 400,
+        "result": "http_error",
+        "final_url": "https://paleobiodb.org/data1.2/taxa/list.json?limit=1",
+        "elapsed_ms": 206,
+        "notes": "HTTP 400: Bad Request",
+        "test_url": "https://paleobiodb.org/data1.2/taxa/list.json?limit=1"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Occurrence counts reflect sampling and publication effort, not true abundance."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
         "backup_for_count": 0
       }
     },
@@ -7142,13 +7876,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.podcastindex.org/api/1.0/search/byterm?q=technology",
-        "elapsed_ms": 2285,
+        "elapsed_ms": 133,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.podcastindex.org/api/1.0/search/byterm?q=technology"
       },
@@ -7201,13 +7935,13 @@
       "update_frequency": "monthly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.protectedplanet.net/en/data/wdpca",
-        "elapsed_ms": 3865,
+        "elapsed_ms": 1494,
         "notes": "",
         "test_url": "https://www.protectedplanet.net/en/thematic-areas/wdpa"
       },
@@ -7265,13 +7999,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:31+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula/JSON",
-        "elapsed_ms": 1233,
+        "elapsed_ms": 234,
         "notes": "",
         "test_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula/JSON"
       },
@@ -7329,13 +8063,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:32+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=malaria&retmax=1&retmode=json",
-        "elapsed_ms": 2774,
+        "elapsed_ms": 312,
         "notes": "",
         "test_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=malaria&retmax=1&retmode=json"
       },
@@ -7397,13 +8131,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:32+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://pypi.org/pypi/requests/json",
-        "elapsed_ms": 1063,
+        "elapsed_ms": 29,
         "notes": "",
         "test_url": "https://pypi.org/pypi/requests/json"
       },
@@ -7455,13 +8189,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:32+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://www.topuniversities.com/world-university-rankings",
-        "elapsed_ms": 903,
+        "elapsed_ms": 105,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://www.topuniversities.com/world-university-rankings"
       },
@@ -7514,13 +8248,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://de1.api.radio-browser.info/json/stations/topclick/1",
-        "elapsed_ms": 2106,
+        "elapsed_ms": 553,
         "notes": "",
         "test_url": "https://de1.api.radio-browser.info/json/stations/topclick/1"
       },
@@ -7572,16 +8306,16 @@
         "url": null
       },
       "update_frequency": "daily",
-      "operational": false,
+      "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
-        "http_status": 522,
-        "result": "http_error",
-        "final_url": "https://www.rawg.io/",
-        "elapsed_ms": 22242,
-        "notes": "HTTP 522: <none>",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://rawg.io/",
+        "elapsed_ms": 2180,
+        "notes": "",
         "test_url": "https://www.rawg.io/"
       },
       "reference_only": false,
@@ -7599,6 +8333,64 @@
         ],
         "backup_for_topics": [],
         "primary_for_count": 8,
+        "backup_for_count": 0
+      }
+    },
+    {
+      "id": "rcsb_pdb",
+      "name": "RCSB Protein Data Bank Data API",
+      "organization": "Research Collaboratory for Structural Bioinformatics",
+      "official_url": "https://www.rcsb.org/",
+      "api_docs_url": "https://data.rcsb.org/",
+      "api_base_url": "https://data.rcsb.org/rest/v1",
+      "coverage_categories": [
+        "science"
+      ],
+      "data_types": [
+        "protein structures",
+        "experimental metadata",
+        "ligands"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "No key required; see the data API documentation for fair-use guidance.",
+        "limits_url": "https://data.rcsb.org/redoc/"
+      },
+      "license": {
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": "allowed",
+        "attribution_required": false,
+        "share_alike": false,
+        "redistribution": "Allowed."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.rcsb.org/docs/programmatic-access/file-download-services"
+      },
+      "update_frequency": "weekly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:58+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://data.rcsb.org/rest/v1/core/entry/1CRN",
+        "elapsed_ms": 132,
+        "notes": "",
+        "test_url": "https://data.rcsb.org/rest/v1/core/entry/1CRN"
+      },
+      "reference_only": false,
+      "caveats": [
+        "A structure record is not a measure of biological importance or therapeutic value."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
         "backup_for_count": 0
       }
     },
@@ -7638,13 +8430,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.re3data.org/api/v1/repositories",
-        "elapsed_ms": 6155,
+        "elapsed_ms": 2363,
         "notes": "",
         "test_url": "https://www.re3data.org/api/v1/repositories"
       },
@@ -7697,13 +8489,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://apidoc.reliefweb.int/",
-        "elapsed_ms": 705,
+        "elapsed_ms": 183,
         "notes": "",
         "test_url": "https://apidoc.reliefweb.int/"
       },
@@ -7759,13 +8551,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://data.rijksmuseum.nl/",
-        "elapsed_ms": 1659,
+        "elapsed_ms": 351,
         "notes": "",
         "test_url": "https://data.rijksmuseum.nl/"
       },
@@ -7820,13 +8612,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:33+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://data.sec.gov/submissions/CIK0000320193.json",
-        "elapsed_ms": 597,
+        "elapsed_ms": 65,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://data.sec.gov/submissions/CIK0000320193.json"
       },
@@ -7945,14 +8737,14 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:34+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
-        "http_status": 429,
-        "result": "rate_limited",
+        "http_status": 200,
+        "result": "ok",
         "final_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=transformer&limit=1",
-        "elapsed_ms": 1915,
-        "notes": "Rate limited during the check.",
+        "elapsed_ms": 557,
+        "notes": "",
         "test_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=transformer&limit=1"
       },
       "reference_only": false,
@@ -8008,13 +8800,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:34+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.spotify.com/v1/search?q=radiohead&type=artist&limit=1",
-        "elapsed_ms": 2947,
+        "elapsed_ms": 108,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.spotify.com/v1/search?q=radiohead&type=artist&limit=1"
       },
@@ -8070,13 +8862,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:35+00:00",
+        "last_checked": "2026-11-16T14:08:58+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.stackexchange.com/2.3/questions?site=stackoverflow&pagesize=1",
-        "elapsed_ms": 2134,
+        "elapsed_ms": 124,
         "notes": "",
         "test_url": "https://api.stackexchange.com/2.3/questions?site=stackoverflow&pagesize=1"
       },
@@ -8092,6 +8884,67 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 4
+      }
+    },
+    {
+      "id": "statcan",
+      "name": "Statistics Canada Data API",
+      "organization": "Statistics Canada",
+      "official_url": "https://www150.statcan.gc.ca/",
+      "api_docs_url": "https://www.statcan.gc.ca/en/developers",
+      "api_base_url": "https://api.statcan.gc.ca",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "labour",
+        "GDP",
+        "census"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Open API; see the developer documentation for current guidance.",
+        "limits_url": "https://www.statcan.gc.ca/en/developers"
+      },
+      "license": {
+        "name": "Open Government Licence - Canada",
+        "url": "https://open.canada.ca/en/open-government-licence-canada",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www150.statcan.gc.ca/n1/en/type/data"
+      },
+      "update_frequency": "continuous",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:59+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://www150.statcan.gc.ca/t1/wds/rest/getAllCubesListLite",
+        "elapsed_ms": 3895,
+        "notes": "",
+        "test_url": "https://www150.statcan.gc.ca/t1/wds/rest/getAllCubesListLite"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Some tables are discontinued or revised; record the table ID and release date."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -8132,13 +8985,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:35+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.steampowered.com/ISteamWebAPIUtil/GetServerInfo/v1/",
-        "elapsed_ms": 2162,
+        "elapsed_ms": 101,
         "notes": "",
         "test_url": "https://api.steampowered.com/ISteamWebAPIUtil/GetServerInfo/v1/"
       },
@@ -8199,13 +9052,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:35+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.timeshighereducation.com/world-university-rankings",
-        "elapsed_ms": 3822,
+        "elapsed_ms": 120,
         "notes": "",
         "test_url": "https://www.timeshighereducation.com/world-university-rankings"
       },
@@ -8257,13 +9110,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:35+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
-        "elapsed_ms": 4271,
+        "elapsed_ms": 279,
         "notes": "",
         "test_url": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita"
       },
@@ -8322,13 +9175,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:36+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
-        "elapsed_ms": 3822,
+        "elapsed_ms": 384,
         "notes": "",
         "test_url": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
       },
@@ -8388,13 +9241,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:37+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://www.thesportsdb.com/api/v1/json/3/all_leagues.php",
-        "elapsed_ms": 3126,
+        "elapsed_ms": 41,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://www.thesportsdb.com/api/v1/json/3/all_leagues.php"
       },
@@ -8486,16 +9339,16 @@
         "url": null
       },
       "update_frequency": "daily",
-      "operational": false,
+      "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:37+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
-        "http_status": null,
-        "result": "network_error",
-        "final_url": null,
-        "elapsed_ms": 43101,
-        "notes": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://www.themoviedb.org/",
+        "elapsed_ms": 167,
+        "notes": "",
         "test_url": "https://www.themoviedb.org/"
       },
       "reference_only": false,
@@ -8568,13 +9421,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:37+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.tvmaze.com/search/shows?q=breaking%20bad",
-        "elapsed_ms": 2662,
+        "elapsed_ms": 493,
         "notes": "",
         "test_url": "https://api.tvmaze.com/search/shows?q=breaking%20bad"
       },
@@ -8634,13 +9487,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:39+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 401,
         "result": "auth_required",
         "final_url": "https://api.twitch.tv/helix/games/top",
-        "elapsed_ms": 1205,
+        "elapsed_ms": 145,
         "notes": "Endpoint responded; credentials are required.",
         "test_url": "https://api.twitch.tv/helix/games/top"
       },
@@ -8694,13 +9547,13 @@
       "update_frequency": "monthly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:39+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=842&period=2023&cmdCode=85&flowCode=X",
-        "elapsed_ms": 3198,
+        "elapsed_ms": 1200,
         "notes": "",
         "test_url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=842&period=2023&cmdCode=85&flowCode=X"
       },
@@ -8765,13 +9618,13 @@
       "update_frequency": "varies",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:39+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://data.un.org/",
-        "elapsed_ms": 1849,
+        "elapsed_ms": 232,
         "notes": "",
         "test_url": "https://data.un.org/"
       },
@@ -8853,13 +9706,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:39+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.uis.unesco.org/en",
-        "elapsed_ms": 6114,
+        "elapsed_ms": 2769,
         "notes": "",
         "test_url": "https://uis.unesco.org/"
       },
@@ -8932,13 +9785,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:39+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://whc.unesco.org/en/list/",
-        "elapsed_ms": 1124,
+        "elapsed_ms": 361,
         "notes": "",
         "test_url": "https://whc.unesco.org/en/list/"
       },
@@ -9000,13 +9853,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:40+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.unhcr.org/population/v1/population/?limit=1",
-        "elapsed_ms": 1959,
+        "elapsed_ms": 1465,
         "notes": "",
         "test_url": "https://api.unhcr.org/population/v1/population/?limit=1"
       },
@@ -9061,13 +9914,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:40+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 403,
         "result": "forbidden",
         "final_url": "https://data.unicef.org/",
-        "elapsed_ms": 1233,
+        "elapsed_ms": 77,
         "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy).",
         "test_url": "https://data.unicef.org/"
       },
@@ -9084,6 +9937,65 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 3
+      }
+    },
+    {
+      "id": "uniprot",
+      "name": "UniProt REST API",
+      "organization": "UniProt Consortium (EMBL-EBI, SIB, PIR)",
+      "official_url": "https://www.uniprot.org/",
+      "api_docs_url": "https://www.uniprot.org/help/api",
+      "api_base_url": "https://rest.uniprot.org",
+      "coverage_categories": [
+        "science"
+      ],
+      "data_types": [
+        "protein entries",
+        "sequences",
+        "functional annotation",
+        "taxonomy"
+      ],
+      "access": {
+        "model": "open",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "No key required. Fair-use rate limits; see the API documentation before bulk crawls.",
+        "limits_url": "https://www.uniprot.org/help/api_queries"
+      },
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "commercial_use": "allowed",
+        "attribution_required": true,
+        "share_alike": false,
+        "redistribution": "Allowed with attribution."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.uniprot.org/downloads"
+      },
+      "update_frequency": "continuous",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:59+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 200,
+        "result": "ok",
+        "final_url": "https://rest.uniprot.org/uniprotkb/P12345.json",
+        "elapsed_ms": 743,
+        "notes": "",
+        "test_url": "https://rest.uniprot.org/uniprotkb/P12345.json"
+      },
+      "reference_only": false,
+      "caveats": [
+        "Reviewed (Swiss-Prot) and unreviewed (TrEMBL) entries are not equivalent; filter explicitly."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -9123,13 +10035,13 @@
       "update_frequency": "daily",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:40+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://unpaywall.org/products/api",
-        "elapsed_ms": 2387,
+        "elapsed_ms": 290,
         "notes": "",
         "test_url": "https://unpaywall.org/products/api"
       },
@@ -9145,6 +10057,67 @@
         ],
         "primary_for_count": 0,
         "backup_for_count": 2
+      }
+    },
+    {
+      "id": "us_census",
+      "name": "US Census Bureau API",
+      "organization": "US Census Bureau",
+      "official_url": "https://www.census.gov/",
+      "api_docs_url": "https://www.census.gov/data/developers.html",
+      "api_base_url": "https://api.census.gov/data",
+      "coverage_categories": [
+        "society-politics",
+        "business-finance",
+        "countries-regions"
+      ],
+      "data_types": [
+        "population",
+        "income",
+        "housing",
+        "business"
+      ],
+      "access": {
+        "model": "free_key",
+        "authentication": "none",
+        "key_url": null,
+        "limits_summary": "Works without a key for small volumes; a free key raises the daily query limit.",
+        "limits_url": "https://www.census.gov/data/developers/guidance/api-user-guide.html"
+      },
+      "license": {
+        "name": "Public domain (US Government work)",
+        "url": null,
+        "commercial_use": "allowed",
+        "attribution_required": false,
+        "share_alike": false,
+        "redistribution": "US Government work."
+      },
+      "bulk_download": {
+        "available": true,
+        "url": "https://www.census.gov/data/developers/data-sets.html"
+      },
+      "update_frequency": "yearly",
+      "operational": true,
+      "verification": {
+        "last_checked": "2026-11-16T14:08:59+00:00",
+        "method": "live_http_get",
+        "test_scope": "endpoint",
+        "http_status": 206,
+        "result": "ok",
+        "final_url": "https://api.census.gov/data/missing_key.html",
+        "elapsed_ms": 354,
+        "notes": "",
+        "test_url": "https://api.census.gov/data/2022/acs/acs1?get=NAME,B01001_001E&for=state:06"
+      },
+      "reference_only": false,
+      "caveats": [
+        "American Community Survey estimates carry margins of error that should travel with the ranking."
+      ],
+      "usage": {
+        "primary_for_topics": [],
+        "backup_for_topics": [],
+        "primary_for_count": 0,
+        "backup_for_count": 0
       }
     },
     {
@@ -9186,13 +10159,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:40+00:00",
+        "last_checked": "2026-11-16T14:08:59+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=apple&pageSize=1&api_key=DEMO_KEY",
-        "elapsed_ms": 2846,
+        "elapsed_ms": 357,
         "notes": "",
         "test_url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=apple&pageSize=1&api_key=DEMO_KEY"
       },
@@ -9262,13 +10235,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:41+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=1",
-        "elapsed_ms": 2499,
+        "elapsed_ms": 129,
         "notes": "",
         "test_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=1"
       },
@@ -9322,13 +10295,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:41+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.v-dem.net/data/the-v-dem-dataset/",
-        "elapsed_ms": 4128,
+        "elapsed_ms": 834,
         "notes": "",
         "test_url": "https://www.v-dem.net/data/the-v-dem-dataset/"
       },
@@ -9413,13 +10386,13 @@
       "update_frequency": "varies",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:41+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://ghoapi.azureedge.net/api/Indicator?$top=1",
-        "elapsed_ms": 1558,
+        "elapsed_ms": 656,
         "notes": "",
         "test_url": "https://ghoapi.azureedge.net/api/Indicator?$top=1"
       },
@@ -9482,13 +10455,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:42+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.wikidata.org/w/api.php?action=query&meta=siteinfo&format=json",
-        "elapsed_ms": 1520,
+        "elapsed_ms": 207,
         "notes": "",
         "test_url": "https://www.wikidata.org/w/api.php?action=query&meta=siteinfo&format=json"
       },
@@ -9518,6 +10491,8 @@
           "technology.vr-headsets",
           "technology.ar-glasses",
           "technology.batteries",
+          "technology.data-centers",
+          "technology.tech-hubs",
           "travel.countries",
           "travel.cities",
           "travel.tourist-destinations",
@@ -9921,7 +10896,7 @@
           "industrial-agriculture.fisheries",
           "industrial-agriculture.aquaculture"
         ],
-        "primary_for_count": 114,
+        "primary_for_count": 116,
         "backup_for_count": 306
       }
     },
@@ -9962,13 +10937,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:42+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://en.wikipedia.org/w/api.php?action=query&meta=siteinfo&format=json",
-        "elapsed_ms": 2563,
+        "elapsed_ms": 305,
         "notes": "",
         "test_url": "https://en.wikipedia.org/w/api.php?action=query&meta=siteinfo&format=json"
       },
@@ -10055,6 +11030,8 @@
           "technology.batteries",
           "technology.search-engines",
           "technology.social-media-platforms",
+          "technology.data-centers",
+          "technology.tech-hubs",
           "entertainment.movies",
           "entertainment.tv-shows",
           "entertainment.web-series",
@@ -10183,7 +11160,7 @@
           "pets-animals.wildlife-parks"
         ],
         "primary_for_count": 46,
-        "backup_for_count": 154
+        "backup_for_count": 156
       }
     },
     {
@@ -10228,13 +11205,13 @@
       "update_frequency": "quarterly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:42+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=1",
-        "elapsed_ms": 523,
+        "elapsed_ms": 108,
         "notes": "",
         "test_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=1"
       },
@@ -10366,13 +11343,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:43+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.worldvaluessurvey.org/",
-        "elapsed_ms": 3993,
+        "elapsed_ms": 1393,
         "notes": "",
         "test_url": "https://www.worldvaluessurvey.org/"
       },
@@ -10427,13 +11404,13 @@
       "update_frequency": "yearly",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:43+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://www.worldpop.org/",
-        "elapsed_ms": 3696,
+        "elapsed_ms": 1494,
         "notes": "",
         "test_url": "https://www.worldpop.org/"
       },
@@ -10487,13 +11464,13 @@
       "update_frequency": "periodic",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:43+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "website_or_docs",
         "http_status": 206,
         "result": "ok",
         "final_url": "https://www.wri.org/aqueduct",
-        "elapsed_ms": 2981,
+        "elapsed_ms": 138,
         "notes": "",
         "test_url": "https://www.wri.org/aqueduct"
       },
@@ -10549,13 +11526,13 @@
       "update_frequency": "continuous",
       "operational": true,
       "verification": {
-        "last_checked": "2026-11-12T07:59:43+00:00",
+        "last_checked": "2026-11-16T14:09:00+00:00",
         "method": "live_http_get",
         "test_scope": "endpoint",
         "http_status": 200,
         "result": "ok",
         "final_url": "https://zenodo.org/api/records?size=1",
-        "elapsed_ms": 4832,
+        "elapsed_ms": 2445,
         "notes": "",
         "test_url": "https://zenodo.org/api/records?size=1"
       },

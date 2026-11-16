@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
-  "count": 311,
+  "generated_at": "2026-11-16T14:09:20+00:00",
+  "count": 313,
   "explanation": "Topics in this list have workable sources, but the ranking is either incomplete or based on a proxy. Treat them as candidates for deeper source work, not as finished products.",
   "by_category": {
-    "technology": 32,
+    "technology": 34,
     "entertainment": 18,
     "travel": 17,
     "education": 12,
@@ -344,6 +344,26 @@
       "research_status": "partial",
       "method": "attention_proxy",
       "metric": "Monthly active users from company reports where disclosed; pageview proxies otherwise",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.data-centers",
+      "topic_name": "Data Centers",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "geospatial",
+      "metric": "OSM-tagged data-centre facilities and Wikidata records",
+      "licensing_risk": "medium"
+    },
+    {
+      "topic_id": "technology.tech-hubs",
+      "topic_name": "Tech Hubs",
+      "category": "Technology",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "method": "geospatial",
+      "metric": "OSM/Wikidata counts of tech firms, coworking spaces and incubators",
       "licensing_risk": "medium"
     },
     {

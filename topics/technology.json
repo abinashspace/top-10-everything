@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "category": {
     "id": "technology",
     "name": "Technology",
     "description": "Consumer devices, software, AI, infrastructure and the companies that build them.",
-    "topic_count": 34,
-    "subcategory_count": 121,
+    "topic_count": 36,
+    "subcategory_count": 129,
     "research_status_counts": {
-      "researched_proxy": 21,
+      "researched_proxy": 23,
       "partial": 11,
       "researched": 2
     },
     "data_availability_counts": {
-      "limited": 27,
+      "limited": 29,
       "moderate": 7
     }
   },
@@ -2212,6 +2212,156 @@
       "licensing_risk": "medium",
       "notes": [
         "Platforms use non-comparable MAU definitions and many no longer disclose them."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.data-centers",
+      "name": "Data Centers",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Data Centers"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By country",
+        "Hyperscale",
+        "Colocation",
+        "Edge"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 data centers ranked by OSM-tagged data-centre facilities and Wikidata records.",
+        "metric": "OSM-tagged data-centre facilities and Wikidata records",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "OSM coverage reflects mapping effort, not the real facility count. Hyperscale operators publish no complete inventory."
+      ],
+      "schema_version": "1.0.0"
+    },
+    {
+      "id": "technology.tech-hubs",
+      "name": "Tech Hubs",
+      "parent_id": "technology",
+      "parent_name": "Technology",
+      "path": [
+        "Technology",
+        "Tech Hubs"
+      ],
+      "level": 2,
+      "subcategories": [
+        "By startups",
+        "By venture funding",
+        "By talent",
+        "By cost"
+      ],
+      "subcategory_count": 4,
+      "geographic_coverage": [
+        "global"
+      ],
+      "sources": {
+        "primary": [
+          {
+            "id": "openstreetmap",
+            "name": "OpenStreetMap",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          },
+          {
+            "id": "wikidata",
+            "name": "Wikidata Query Service",
+            "access_model": "open",
+            "commercial_use": "allowed",
+            "attribution_required": false
+          }
+        ],
+        "backup": [
+          {
+            "id": "geonames",
+            "name": "GeoNames",
+            "access_model": "free_account",
+            "commercial_use": "allowed",
+            "attribution_required": true
+          },
+          {
+            "id": "wikipedia",
+            "name": "Wikipedia / Wikimedia REST API",
+            "access_model": "open",
+            "commercial_use": "allowed_with_conditions",
+            "attribution_required": true
+          }
+        ],
+        "primary_count": 2,
+        "backup_count": 2,
+        "independent_source_coverage": true
+      },
+      "ranking_method": {
+        "id": "geospatial",
+        "name": "Geospatial measurement",
+        "question": "Top 10 tech hubs ranked by OSM/Wikidata counts of tech firms, coworking spaces and incubators.",
+        "metric": "OSM/Wikidata counts of tech firms, coworking spaces and incubators",
+        "basis": "objective_measurement",
+        "subjectivity": "objective",
+        "human_verification_required": true
+      },
+      "update_frequency": "quarterly",
+      "data_availability": "limited",
+      "research_status": "researched_proxy",
+      "licensing_risk": "medium",
+      "notes": [
+        "No open global startup-density dataset. Crunchbase, PitchBook and Startup Genome are commercial."
       ],
       "schema_version": "1.0.0"
     }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
-  "count": 7,
+  "generated_at": "2026-11-16T14:09:20+00:00",
+  "count": 23,
   "explanation": "Catalogued sources that no topic currently references. They are kept because they are useful alternates for future topics or replacements for restricted sources. Map them to a topic (as primary or backup) or remove them.",
   "sources": [
     {
@@ -75,6 +75,198 @@
       "commercial_use": "varies",
       "data_types": [
         "community datasets"
+      ]
+    },
+    {
+      "source_id": "uniprot",
+      "name": "UniProt REST API",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "protein entries",
+        "sequences",
+        "functional annotation",
+        "taxonomy"
+      ]
+    },
+    {
+      "source_id": "rcsb_pdb",
+      "name": "RCSB Protein Data Bank Data API",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "protein structures",
+        "experimental metadata",
+        "ligands"
+      ]
+    },
+    {
+      "source_id": "ncbi_eutils",
+      "name": "NCBI E-utilities",
+      "access_model": "free_tier",
+      "commercial_use": "allowed",
+      "data_types": [
+        "genomes",
+        "assemblies",
+        "sequences",
+        "taxonomy",
+        "literature"
+      ]
+    },
+    {
+      "source_id": "pbdb",
+      "name": "Paleobiology Database",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "fossil occurrences",
+        "taxonomy",
+        "paleogeography",
+        "collections"
+      ]
+    },
+    {
+      "source_id": "us_census",
+      "name": "US Census Bureau API",
+      "access_model": "free_key",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "income",
+        "housing",
+        "business"
+      ]
+    },
+    {
+      "source_id": "statcan",
+      "name": "Statistics Canada Data API",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "labour",
+        "GDP",
+        "census"
+      ]
+    },
+    {
+      "source_id": "abs_australia",
+      "name": "Australian Bureau of Statistics",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "labour",
+        "GDP",
+        "census"
+      ]
+    },
+    {
+      "source_id": "ons_uk",
+      "name": "Office for National Statistics API",
+      "access_model": "open",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "labour",
+        "prices",
+        "GDP"
+      ]
+    },
+    {
+      "source_id": "ibge",
+      "name": "IBGE Servico de Dados",
+      "access_model": "open",
+      "commercial_use": "allowed_with_conditions",
+      "data_types": [
+        "population",
+        "census",
+        "municipalities",
+        "GDP"
+      ]
+    },
+    {
+      "source_id": "data_gov_in",
+      "name": "Open Government Data Platform India",
+      "access_model": "free_key",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "districts",
+        "schemes",
+        "statistics"
+      ]
+    },
+    {
+      "source_id": "destatis",
+      "name": "Destatis GENESIS-Online",
+      "access_model": "free_account",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ]
+    },
+    {
+      "source_id": "insee",
+      "name": "INSEE API",
+      "access_model": "free_key",
+      "commercial_use": "allowed",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ]
+    },
+    {
+      "source_id": "bps_indonesia",
+      "name": "BPS-Statistics Indonesia API",
+      "access_model": "free_key",
+      "commercial_use": "unclear",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
+      ]
+    },
+    {
+      "source_id": "estat_japan",
+      "name": "e-Stat API",
+      "access_model": "free_key",
+      "commercial_use": "allowed_with_conditions",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "census"
+      ]
+    },
+    {
+      "source_id": "inegi",
+      "name": "INEGI API",
+      "access_model": "free_key",
+      "commercial_use": "unclear",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "census"
+      ]
+    },
+    {
+      "source_id": "nbs_nigeria",
+      "name": "National Bureau of Statistics Nigeria",
+      "access_model": "open",
+      "commercial_use": "unclear",
+      "data_types": [
+        "population",
+        "GDP",
+        "labour",
+        "prices"
       ]
     }
   ]

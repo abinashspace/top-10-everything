@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "warning": "This is a research aid, not legal advice. Licences change and dataset-level terms can differ from the provider-level licence. Re-check before commercial publication.",
   "commercial_use_summary": {
-    "allowed": 42,
-    "allowed_with_conditions": 43,
-    "unclear": 31,
+    "allowed": 53,
+    "allowed_with_conditions": 45,
+    "unclear": 34,
     "varies": 16,
     "prohibited": 11
   },
   "license_groups": [
     {
       "license": "Public domain (US Government work)",
-      "source_count": 18,
+      "source_count": 20,
       "sources": [
         {
           "source_id": "pubchem",
@@ -157,12 +157,28 @@
           "attribution_required": false,
           "share_alike": false,
           "url": null
+        },
+        {
+          "source_id": "ncbi_eutils",
+          "name": "NCBI E-utilities",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
+        },
+        {
+          "source_id": "us_census",
+          "name": "US Census Bureau API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
+          "url": null
         }
       ]
     },
     {
       "license": "Creative Commons Attribution 4.0",
-      "source_count": 6,
+      "source_count": 9,
       "sources": [
         {
           "source_id": "world_bank",
@@ -211,12 +227,36 @@
           "attribution_required": true,
           "share_alike": null,
           "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "uniprot",
+          "name": "UniProt REST API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "pbdb",
+          "name": "Paleobiology Database",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "source_id": "abs_australia",
+          "name": "Australian Bureau of Statistics",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://creativecommons.org/licenses/by/4.0/"
         }
       ]
     },
     {
       "license": "CC0 1.0 Universal",
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
         {
           "source_id": "wikidata",
@@ -256,6 +296,14 @@
           "commercial_use": "allowed",
           "attribution_required": false,
           "share_alike": null,
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "source_id": "rcsb_pdb",
+          "name": "RCSB Protein Data Bank Data API",
+          "commercial_use": "allowed",
+          "attribution_required": false,
+          "share_alike": false,
           "url": "https://creativecommons.org/publicdomain/zero/1.0/"
         }
       ]
@@ -329,6 +377,28 @@
       ]
     },
     {
+      "license": "Open Government Licence v3.0",
+      "source_count": 2,
+      "sources": [
+        {
+          "source_id": "companies_house",
+          "name": "Companies House API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": null,
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "source_id": "ons_uk",
+          "name": "Office for National Statistics API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ]
+    },
+    {
       "license": "API terms; repository content licences vary",
       "source_count": 1,
       "sources": [
@@ -394,6 +464,20 @@
           "commercial_use": "unclear",
           "attribution_required": true,
           "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "BPS data terms (verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "bps_indonesia",
+          "name": "BPS-Statistics Indonesia API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": false,
           "url": null
         }
       ]
@@ -903,6 +987,20 @@
       ]
     },
     {
+      "license": "Datenlizenz Deutschland - Namensnennung 2.0",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "destatis",
+          "name": "Destatis GENESIS-Online",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://www.govdata.de/dl-de/by-2-0"
+        }
+      ]
+    },
+    {
       "license": "Deezer API terms",
       "source_count": 1,
       "sources": [
@@ -973,6 +1071,20 @@
       ]
     },
     {
+      "license": "Government Open Data License - India (GODL)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "data_gov_in",
+          "name": "Open Government Data Platform India",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://data.gov.in/licensing-single"
+        }
+      ]
+    },
+    {
       "license": "Guardian content copyright; Open Platform terms",
       "source_count": 1,
       "sources": [
@@ -996,6 +1108,20 @@
           "commercial_use": "varies",
           "attribution_required": true,
           "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "IBGE open data terms (verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "ibge",
+          "name": "IBGE Servico de Dados",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": false,
           "url": null
         }
       ]
@@ -1038,6 +1164,20 @@
           "commercial_use": "allowed_with_conditions",
           "attribution_required": true,
           "share_alike": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "license": "INEGI terms of use (verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "inegi",
+          "name": "INEGI API",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": false,
           "url": null
         }
       ]
@@ -1123,6 +1263,20 @@
           "attribution_required": true,
           "share_alike": null,
           "url": null
+        }
+      ]
+    },
+    {
+      "license": "Licence Ouverte 2.0",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "insee",
+          "name": "INSEE API",
+          "commercial_use": "allowed",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
         }
       ]
     },
@@ -1253,6 +1407,20 @@
       ]
     },
     {
+      "license": "NBS Nigeria terms (verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "nbs_nigeria",
+          "name": "National Bureau of Statistics Nigeria",
+          "commercial_use": "unclear",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": null
+        }
+      ]
+    },
+    {
       "license": "NLM terms; abstracts may be copyrighted",
       "source_count": 1,
       "sources": [
@@ -1351,16 +1519,16 @@
       ]
     },
     {
-      "license": "Open Government Licence v3.0",
+      "license": "Open Government Licence - Canada",
       "source_count": 1,
       "sources": [
         {
-          "source_id": "companies_house",
-          "name": "Companies House API",
+          "source_id": "statcan",
+          "name": "Statistics Canada Data API",
           "commercial_use": "allowed",
           "attribution_required": true,
-          "share_alike": null,
-          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          "share_alike": false,
+          "url": "https://open.canada.ca/en/open-government-licence-canada"
         }
       ]
     },
@@ -1795,6 +1963,20 @@
           "attribution_required": true,
           "share_alike": null,
           "url": null
+        }
+      ]
+    },
+    {
+      "license": "e-Stat terms of use (verify)",
+      "source_count": 1,
+      "sources": [
+        {
+          "source_id": "estat_japan",
+          "name": "e-Stat API",
+          "commercial_use": "allowed_with_conditions",
+          "attribution_required": true,
+          "share_alike": false,
+          "url": "https://www.e-stat.go.jp/terms-of-use"
         }
       ]
     },
@@ -2257,6 +2439,30 @@
       "reason": "prohibited",
       "caveats": [
         "Free tier is non-commercial only. A commercial licence is required for this platform."
+      ]
+    },
+    {
+      "id": "bps_indonesia",
+      "name": "BPS-Statistics Indonesia API",
+      "reason": "unclear",
+      "caveats": [
+        "Provincial series are revised; record the BPS table and publication date."
+      ]
+    },
+    {
+      "id": "inegi",
+      "name": "INEGI API",
+      "reason": "unclear",
+      "caveats": [
+        "State-level GDP is published with a lag and revised; record the reference year."
+      ]
+    },
+    {
+      "id": "nbs_nigeria",
+      "name": "National Bureau of Statistics Nigeria",
+      "reason": "unclear",
+      "caveats": [
+        "State-level series are incomplete and often published only in PDF tables."
       ]
     }
   ]

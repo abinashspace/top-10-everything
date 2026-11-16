@@ -1,33 +1,33 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-12T08:08:13+00:00",
+  "generated_at": "2026-11-16T14:09:20+00:00",
   "summary": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-11-12T08:08:13+00:00",
+    "generated_at": "2026-11-16T14:09:20+00:00",
     "total_categories": 20,
-    "total_topics": 530,
-    "total_subcategories": 2063,
+    "total_topics": 532,
+    "total_subcategories": 2071,
     "research_status_counts": {
-      "researched_proxy": 35,
+      "researched_proxy": 37,
       "partial": 276,
       "researched": 190,
       "unsupported": 29
     },
     "data_availability_counts": {
-      "limited": 298,
+      "limited": 300,
       "moderate": 145,
       "none": 29,
       "strong": 58
     },
     "licensing_risk_counts": {
-      "medium": 490,
+      "medium": 492,
       "high": 11,
       "unknown": 28,
       "low": 1
     },
     "update_frequency_counts": {
       "monthly": 77,
-      "quarterly": 31,
+      "quarterly": 33,
       "weekly": 32,
       "daily": 14,
       "yearly": 373,
@@ -40,12 +40,12 @@
       "sales_share": 5,
       "patent": 7,
       "market_cap": 62,
+      "geospatial": 28,
       "rating_aggregate": 21,
       "canon_proxy": 47,
       "event_outcome": 10,
       "official_stat": 123,
       "composite_index": 22,
-      "geospatial": 26,
       "human_review": 31,
       "price_index": 1,
       "bibliometric": 17,
@@ -59,15 +59,15 @@
         "id": "technology",
         "name": "Technology",
         "file": "topics/technology.json",
-        "topic_count": 34,
-        "subcategory_count": 121,
+        "topic_count": 36,
+        "subcategory_count": 129,
         "research_status_counts": {
-          "researched_proxy": 21,
+          "researched_proxy": 23,
           "partial": 11,
           "researched": 2
         },
         "data_availability_counts": {
-          "limited": 27,
+          "limited": 29,
           "moderate": 7
         }
       },
@@ -394,44 +394,44 @@
     ]
   },
   "source_summary": {
-    "total_sources": 143,
+    "total_sources": 159,
     "access_models": {
-      "open": 79,
-      "free_tier": 17,
-      "free_key": 34,
-      "free_account": 5,
+      "open": 87,
+      "free_tier": 18,
+      "free_key": 40,
+      "free_account": 6,
       "restricted": 6,
       "paid": 2
     },
     "commercial_use": {
-      "allowed": 42,
-      "allowed_with_conditions": 43,
-      "unclear": 31,
+      "allowed": 53,
+      "allowed_with_conditions": 45,
+      "unclear": 34,
       "varies": 16,
       "prohibited": 11
     },
     "verification": {
-      "ok": 107,
-      "rate_limited": 2,
+      "ok": 122,
+      "rate_limited": 3,
       "forbidden": 16,
       "network_error": 3,
       "auth_required": 14,
       "http_error": 1
     },
-    "verified_operational": 139
+    "verified_operational": 155
   },
   "coverage_by_category": [
     {
       "category": "technology",
       "name": "Technology",
-      "topics": 34,
+      "topics": 36,
       "status": {
-        "researched_proxy": 21,
+        "researched_proxy": 23,
         "partial": 11,
         "researched": 2
       },
       "availability": {
-        "limited": 27,
+        "limited": 29,
         "moderate": 7
       }
     },
