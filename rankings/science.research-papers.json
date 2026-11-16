@@ -16,10 +16,10 @@
     "unit": "citations (OpenAlex, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-13T02:06:24+00:00",
-  "refresh_after": "2026-11-20",
+  "generated_at": "2026-11-16T16:47:14+00:00",
+  "refresh_after": "2026-11-23",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:24+00:00",
+    "retrieved_at": "2026-11-16T16:47:14+00:00",
     "reference_period": "2000",
     "records_considered": 50,
     "records_ranked": 50,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:29+00:00"
+      "last_checked": "2026-11-16T14:08:57+00:00"
     }
   ],
   "ranking": [
@@ -44,7 +44,7 @@
       "rank": 1,
       "entity_id": "https://openalex.org/W2582743722",
       "name": "R: A Language and Environment for Statistical Computing",
-      "value": 355987,
+      "value": 356006,
       "unit": "citations (OpenAlex, all time)",
       "period": "2000",
       "extra": {
@@ -57,7 +57,7 @@
       "rank": 2,
       "entity_id": "https://openalex.org/W1775749144",
       "name": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
-      "value": 316449,
+      "value": 316509,
       "unit": "citations (OpenAlex, all time)",
       "period": "1951",
       "extra": {
@@ -70,7 +70,7 @@
       "rank": 3,
       "entity_id": "https://openalex.org/W2128635872",
       "name": "A Rapid and Sensitive Method for the Quantitation of Microgram Quantities of Protein Utilizing the Principle of Protein-Dye Binding",
-      "value": 256726,
+      "value": 257213,
       "unit": "citations (OpenAlex, all time)",
       "period": "1976",
       "extra": {
@@ -83,7 +83,7 @@
       "rank": 4,
       "entity_id": "https://openalex.org/W2100837269",
       "name": "Cleavage of Structural Proteins during the Assembly of the Head of Bacteriophage T4",
-      "value": 249767,
+      "value": 249889,
       "unit": "citations (OpenAlex, all time)",
       "period": "1970",
       "extra": {
@@ -96,7 +96,7 @@
       "rank": 5,
       "entity_id": "https://openalex.org/W2194775991",
       "name": "Deep Residual Learning for Image Recognition",
-      "value": 243394,
+      "value": 243677,
       "unit": "citations (OpenAlex, all time)",
       "period": "2016",
       "extra": {
@@ -109,7 +109,7 @@
       "rank": 6,
       "entity_id": "https://openalex.org/W1979290264",
       "name": "Using thematic analysis in psychology",
-      "value": 239717,
+      "value": 240837,
       "unit": "citations (OpenAlex, all time)",
       "period": "2006",
       "extra": {
@@ -122,7 +122,7 @@
       "rank": 7,
       "entity_id": "https://openalex.org/W1981368803",
       "name": "Generalized Gradient Approximation Made Simple",
-      "value": 217199,
+      "value": 217421,
       "unit": "citations (OpenAlex, all time)",
       "period": "1996",
       "extra": {
@@ -135,7 +135,7 @@
       "rank": 8,
       "entity_id": "https://openalex.org/W2107277218",
       "name": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
-      "value": 184313,
+      "value": 188227,
       "unit": "citations (OpenAlex, all time)",
       "period": "2001",
       "extra": {
@@ -148,7 +148,7 @@
       "rank": 9,
       "entity_id": "https://openalex.org/W2945792041",
       "name": "Yaşlı Kadınlarda Üreme Sağlığı",
-      "value": 169633,
+      "value": 169630,
       "unit": "citations (OpenAlex, all time)",
       "period": "2019",
       "extra": {
@@ -160,7 +160,7 @@
       "rank": 10,
       "entity_id": "https://openalex.org/W3118615836",
       "name": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
-      "value": 144209,
+      "value": 145884,
       "unit": "citations (OpenAlex, all time)",
       "period": "2021",
       "extra": {

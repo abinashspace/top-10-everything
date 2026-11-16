@@ -16,10 +16,10 @@
     "unit": "net migrants (five-year estimate)",
     "provider_last_updated": "2026-11-11"
   },
-  "generated_at": "2026-11-13T02:06:25+00:00",
-  "refresh_after": "2027-11-13",
+  "generated_at": "2026-11-16T16:47:15+00:00",
+  "refresh_after": "2027-11-16",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:25+00:00",
+    "retrieved_at": "2026-11-16T16:47:15+00:00",
     "reference_period": "2025",
     "records_considered": 217,
     "records_ranked": 217,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": true,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:42+00:00"
+      "last_checked": "2026-11-16T14:09:00+00:00"
     }
   ],
   "ranking": [

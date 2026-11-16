@@ -16,10 +16,10 @@
     "unit": "citations (OpenAlex, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-13T02:06:07+00:00",
-  "refresh_after": "2027-11-13",
+  "generated_at": "2026-11-16T16:46:52+00:00",
+  "refresh_after": "2027-11-16",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:07+00:00",
+    "retrieved_at": "2026-11-16T16:46:52+00:00",
     "reference_period": null,
     "records_considered": 91,
     "records_ranked": 91,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:29+00:00"
+      "last_checked": "2026-11-16T14:08:57+00:00"
     }
   ],
   "ranking": [
@@ -44,10 +44,10 @@
       "rank": 1,
       "entity_id": "https://openalex.org/I1294671590",
       "name": "Centre National de la Recherche Scientifique",
-      "value": 223144379,
+      "value": 224228142,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 1622564,
+        "works_count": 1637628,
         "country_code": "FR",
         "type": "government"
       }
@@ -56,10 +56,10 @@
       "rank": 2,
       "entity_id": "https://openalex.org/I136199984",
       "name": "Harvard University",
-      "value": 198048918,
+      "value": 199563894,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 959712,
+        "works_count": 966779,
         "country_code": "US",
         "type": "education"
       }
@@ -68,10 +68,10 @@
       "rank": 3,
       "entity_id": "https://openalex.org/I19820366",
       "name": "Chinese Academy of Sciences",
-      "value": 145733304,
+      "value": 146580466,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 1215265,
+        "works_count": 1228177,
         "country_code": "CN",
         "type": "government"
       }
@@ -80,10 +80,10 @@
       "rank": 4,
       "entity_id": "https://openalex.org/I201448701",
       "name": "University of Washington",
-      "value": 116145449,
+      "value": 117071071,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 523529,
+        "works_count": 527900,
         "country_code": "US",
         "type": "education"
       }
@@ -92,10 +92,10 @@
       "rank": 5,
       "entity_id": "https://openalex.org/I97018004",
       "name": "Stanford University",
-      "value": 102872929,
+      "value": 103430899,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 546992,
+        "works_count": 550698,
         "country_code": "US",
         "type": "education"
       }
@@ -104,10 +104,10 @@
       "rank": 6,
       "entity_id": "https://openalex.org/I1299303238",
       "name": "National Institutes of Health",
-      "value": 102424983,
+      "value": 103427475,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 398518,
+        "works_count": 401476,
         "country_code": "US",
         "type": "government"
       }
@@ -116,10 +116,10 @@
       "rank": 7,
       "entity_id": "https://openalex.org/I67311998",
       "name": "European Organization for Nuclear Research",
-      "value": 88649638,
+      "value": 89194378,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 79497,
+        "works_count": 79590,
         "country_code": "CH",
         "type": "facility"
       }
@@ -128,10 +128,10 @@
       "rank": 8,
       "entity_id": "https://openalex.org/I145311948",
       "name": "Johns Hopkins University",
-      "value": 86854181,
+      "value": 87631162,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 510443,
+        "works_count": 514781,
         "country_code": "US",
         "type": "education"
       }
@@ -140,10 +140,10 @@
       "rank": 9,
       "entity_id": "https://openalex.org/I154526488",
       "name": "Inserm",
-      "value": 86150885,
+      "value": 86822354,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 482571,
+        "works_count": 490018,
         "country_code": "FR",
         "type": "government"
       }
@@ -152,10 +152,10 @@
       "rank": 10,
       "entity_id": "https://openalex.org/I63966007",
       "name": "Massachusetts Institute of Technology",
-      "value": 86027511,
+      "value": 86554677,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 391711,
+        "works_count": 393470,
         "country_code": "US",
         "type": "education"
       }

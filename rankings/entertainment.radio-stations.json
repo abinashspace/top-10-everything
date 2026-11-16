@@ -16,10 +16,10 @@
     "unit": "clicks (Radio Browser, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-13T02:06:08+00:00",
-  "refresh_after": "2026-11-20",
+  "generated_at": "2026-11-16T16:46:52+00:00",
+  "refresh_after": "2026-11-23",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:08+00:00",
+    "retrieved_at": "2026-11-16T16:46:52+00:00",
     "reference_period": null,
     "records_considered": 50,
     "records_ranked": 50,
@@ -36,27 +36,15 @@
       "commercial_use": "unclear",
       "attribution_required": true,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:33+00:00"
+      "last_checked": "2026-11-16T14:08:58+00:00"
     }
   ],
   "ranking": [
     {
       "rank": 1,
-      "entity_id": "042d3140-227c-4fac-9387-4903b692d5f2",
-      "name": "RTL",
-      "value": 1933,
-      "unit": "clicks (Radio Browser, all time)",
-      "extra": {
-        "country": "France",
-        "tags": "généraliste",
-        "codec": "AAC"
-      }
-    },
-    {
-      "rank": 2,
       "entity_id": "595687e1-9fa0-49d7-8cb7-d6ed63f6d8b3",
       "name": "Christmas FM Non-stop!",
-      "value": 1767,
+      "value": 2669,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "Finland",
@@ -65,10 +53,10 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "entity_id": "b1201e74-2979-44d8-866e-02f74347a8d0",
       "name": "Radio Armisa",
-      "value": 1500,
+      "value": 2289,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "Italy",
@@ -77,10 +65,22 @@
       }
     },
     {
+      "rank": 3,
+      "entity_id": "042d3140-227c-4fac-9387-4903b692d5f2",
+      "name": "RTL",
+      "value": 1778,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "France",
+        "tags": "généraliste",
+        "codec": "AAC"
+      }
+    },
+    {
       "rank": 4,
       "entity_id": "31074f8a-e6f4-11e9-a96c-52543be04c81",
       "name": "France Info",
-      "value": 1440,
+      "value": 1482,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "France",
@@ -92,7 +92,7 @@
       "rank": 5,
       "entity_id": "d1a54d2e-623e-4970-ab11-35f7b56c5ec3",
       "name": "Classic Vinyl HD",
-      "value": 1135,
+      "value": 1196,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "The United States Of America",
@@ -102,21 +102,9 @@
     },
     {
       "rank": 6,
-      "entity_id": "51775b57-e11a-40ef-8894-38b07d80bb73",
-      "name": "Europe 1",
-      "value": 964,
-      "unit": "clicks (Radio Browser, all time)",
-      "extra": {
-        "country": "France",
-        "tags": "génaraliste",
-        "codec": "MP3"
-      }
-    },
-    {
-      "rank": 7,
       "entity_id": "12e68964-5928-4623-b82e-4bf9a4963780",
       "name": "RMC Info Talk Sport ",
-      "value": 955,
+      "value": 1004,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "France",
@@ -125,22 +113,22 @@
       }
     },
     {
-      "rank": 8,
-      "entity_id": "b6fa9d93-97bf-48b0-8624-e8f84b817823",
-      "name": "Anon.FM",
-      "value": 865,
+      "rank": 7,
+      "entity_id": "51775b57-e11a-40ef-8894-38b07d80bb73",
+      "name": "Europe 1",
+      "value": 880,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
-        "country": "The Russian Federation",
-        "tags": "anime,dnb,downtempo,experimental,jazz,psychedelic,rock,trance",
+        "country": "France",
+        "tags": "génaraliste",
         "codec": "MP3"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "entity_id": "78012206-1aa1-11e9-a80b-52543be04c81",
       "name": "MANGORADIO",
-      "value": 864,
+      "value": 861,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "Germany",
@@ -149,14 +137,26 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "entity_id": "d28420a4-eccf-47a2-ace1-088c7e7cb7e0",
       "name": "101 SMOOTH JAZZ",
-      "value": 739,
+      "value": 860,
       "unit": "clicks (Radio Browser, all time)",
       "extra": {
         "country": "The United States Of America",
         "tags": "easy listening,jazz,smooth jazz",
+        "codec": "MP3"
+      }
+    },
+    {
+      "rank": 10,
+      "entity_id": "b6fa9d93-97bf-48b0-8624-e8f84b817823",
+      "name": "Anon.FM",
+      "value": 849,
+      "unit": "clicks (Radio Browser, all time)",
+      "extra": {
+        "country": "The Russian Federation",
+        "tags": "anime,dnb,downtempo,experimental,jazz,psychedelic,rock,trance",
         "codec": "MP3"
       }
     }

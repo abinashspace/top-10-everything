@@ -16,10 +16,10 @@
     "unit": "km",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-13T02:06:22+00:00",
-  "refresh_after": "2026-12-13",
+  "generated_at": "2026-11-16T16:47:12+00:00",
+  "refresh_after": "2026-12-16",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:22+00:00",
+    "retrieved_at": "2026-11-16T16:47:12+00:00",
     "reference_period": null,
     "records_considered": 643,
     "records_ranked": 643,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:22+00:00"
+      "last_checked": "2026-11-16T14:08:55+00:00"
     }
   ],
   "ranking": [

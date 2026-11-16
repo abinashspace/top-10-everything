@@ -16,10 +16,10 @@
     "unit": "Lichess classical rating",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-13T02:06:26+00:00",
-  "refresh_after": "2026-12-13",
+  "generated_at": "2026-11-16T16:47:16+00:00",
+  "refresh_after": "2026-12-16",
   "snapshot": {
-    "retrieved_at": "2026-11-13T02:06:26+00:00",
+    "retrieved_at": "2026-11-16T16:47:16+00:00",
     "reference_period": null,
     "records_considered": 50,
     "records_ranked": 50,
@@ -36,78 +36,78 @@
       "commercial_use": "allowed_with_conditions",
       "attribution_required": true,
       "verification_result": "ok",
-      "last_checked": "2026-11-12T07:59:23+00:00"
+      "last_checked": "2026-11-16T14:08:56+00:00"
     }
   ],
   "ranking": [
     {
       "rank": 1,
-      "entity_id": "gek76",
-      "name": "gek76",
-      "value": 2522,
+      "entity_id": "tem7702",
+      "name": "Tem7702",
+      "value": 2529,
       "unit": "Lichess classical rating"
     },
     {
       "rank": 2,
-      "entity_id": "ggplayer",
-      "name": "GGplayer",
-      "value": 2483,
+      "entity_id": "gek76",
+      "name": "gek76",
+      "value": 2526,
       "unit": "Lichess classical rating"
     },
     {
       "rank": 3,
+      "entity_id": "aleks_shevchenko",
+      "name": "Aleks_Shevchenko",
+      "value": 2525,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 4,
+      "entity_id": "foxriverghost",
+      "name": "FoxRiverGhost",
+      "value": 2506,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 5,
+      "entity_id": "ggplayer",
+      "name": "GGplayer",
+      "value": 2489,
+      "unit": "Lichess classical rating"
+    },
+    {
+      "rank": 6,
       "entity_id": "john_kramer1953",
       "name": "John_Kramer1953",
       "value": 2482,
       "unit": "Lichess classical rating"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "entity_id": "sternsinger1",
       "name": "Sternsinger1",
-      "value": 2474,
-      "unit": "Lichess classical rating"
-    },
-    {
-      "rank": 5,
-      "entity_id": "lance5500",
-      "name": "Lance5500",
-      "value": 2462,
-      "unit": "Lichess classical rating"
-    },
-    {
-      "rank": 6,
-      "entity_id": "ojaijoao",
-      "name": "OjaiJoao",
-      "value": 2455,
-      "unit": "Lichess classical rating"
-    },
-    {
-      "rank": 7,
-      "entity_id": "drmulekevinfan",
-      "name": "DrMuleKevinFan",
-      "value": 2437,
+      "value": 2478,
       "unit": "Lichess classical rating"
     },
     {
       "rank": 8,
-      "entity_id": "goalden_gookie10",
-      "name": "Goalden_Gookie10",
-      "value": 2432,
+      "entity_id": "ojaijoao",
+      "name": "OjaiJoao",
+      "value": 2464,
       "unit": "Lichess classical rating"
     },
     {
       "rank": 9,
-      "entity_id": "sylvlondon",
-      "name": "sylvlondon",
-      "value": 2430,
+      "entity_id": "tactic_turtle",
+      "name": "Tactic_Turtle",
+      "value": 2458,
       "unit": "Lichess classical rating"
     },
     {
-      "rank": 9,
-      "entity_id": "kc6",
-      "name": "kc6",
-      "value": 2430,
+      "rank": 10,
+      "entity_id": "lucascrotti",
+      "name": "lucascrotti",
+      "value": 2450,
       "unit": "Lichess classical rating"
     }
   ],
