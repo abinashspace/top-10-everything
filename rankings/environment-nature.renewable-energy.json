@@ -16,10 +16,10 @@
     "unit": "% of electricity",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:46:55+00:00",
-  "refresh_after": "2027-11-16",
+  "generated_at": "2026-11-23T19:00:05+00:00",
+  "refresh_after": "2027-11-23",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:46:55+00:00",
+    "retrieved_at": "2026-11-23T19:00:05+00:00",
     "reference_period": "2025",
     "records_considered": 90,
     "records_ranked": 90,
@@ -37,7 +37,7 @@
       "commercial_use": "allowed_with_conditions",
       "attribution_required": true,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:08:57+00:00"
+      "last_checked": "2026-11-23T16:41:38+00:00"
     }
   ],
   "ranking": [

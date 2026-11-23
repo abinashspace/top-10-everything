@@ -16,10 +16,10 @@
     "unit": "championship points",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:47:17+00:00",
-  "refresh_after": "2026-11-23",
+  "generated_at": "2026-11-23T19:00:20+00:00",
+  "refresh_after": "2026-11-30",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:47:17+00:00",
+    "retrieved_at": "2026-11-23T19:00:20+00:00",
     "reference_period": null,
     "records_considered": 25,
     "records_ranked": 25,
@@ -36,7 +36,7 @@
       "commercial_use": "unclear",
       "attribution_required": true,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:08:55+00:00"
+      "last_checked": "2026-11-23T16:41:36+00:00"
     }
   ],
   "ranking": [
@@ -44,7 +44,7 @@
       "rank": 1,
       "entity_id": "antonelli",
       "name": "Andrea Kimi Antonelli",
-      "value": 390.0,
+      "value": 402.0,
       "unit": "championship points",
       "extra": {
         "wins": 9,
@@ -57,10 +57,10 @@
       "rank": 2,
       "entity_id": "max_verstappen",
       "name": "Max Verstappen",
-      "value": 279.0,
+      "value": 304.0,
       "unit": "championship points",
       "extra": {
-        "wins": 3,
+        "wins": 4,
         "position": 2,
         "constructor": "Red Bull",
         "nationality": "Dutch"
@@ -68,27 +68,40 @@
     },
     {
       "rank": 3,
-      "entity_id": "russell",
-      "name": "George Russell",
-      "value": 262.0,
+      "entity_id": "hamilton",
+      "name": "Lewis Hamilton",
+      "value": 267.0,
       "unit": "championship points",
       "extra": {
-        "wins": 3,
+        "wins": 1,
         "position": 3,
-        "constructor": "Mercedes",
+        "constructor": "Ferrari",
         "nationality": "British"
       }
     },
     {
       "rank": 4,
-      "entity_id": "hamilton",
-      "name": "Lewis Hamilton",
-      "value": 261.0,
+      "entity_id": "norris",
+      "name": "Lando Norris",
+      "value": 264.0,
       "unit": "championship points",
       "extra": {
-        "wins": 1,
+        "wins": 3,
+        "position": 5,
+        "constructor": "McLaren",
+        "nationality": "British"
+      }
+    },
+    {
+      "rank": 4,
+      "entity_id": "russell",
+      "name": "George Russell",
+      "value": 264.0,
+      "unit": "championship points",
+      "extra": {
+        "wins": 3,
         "position": 4,
-        "constructor": "Ferrari",
+        "constructor": "Mercedes",
         "nationality": "British"
       }
     },
@@ -96,33 +109,20 @@
       "rank": 5,
       "entity_id": "leclerc",
       "name": "Charles Leclerc",
-      "value": 249.0,
+      "value": 250.0,
       "unit": "championship points",
       "extra": {
         "wins": 1,
-        "position": 5,
+        "position": 6,
         "constructor": "Ferrari",
         "nationality": "Monegasque"
       }
     },
     {
       "rank": 6,
-      "entity_id": "norris",
-      "name": "Lando Norris",
-      "value": 246.0,
-      "unit": "championship points",
-      "extra": {
-        "wins": 3,
-        "position": 6,
-        "constructor": "McLaren",
-        "nationality": "British"
-      }
-    },
-    {
-      "rank": 7,
       "entity_id": "piastri",
       "name": "Oscar Piastri",
-      "value": 152.0,
+      "value": 167.0,
       "unit": "championship points",
       "extra": {
         "wins": 0,
@@ -132,7 +132,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "entity_id": "hadjar",
       "name": "Isack Hadjar",
       "value": 122.0,
@@ -145,7 +145,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "entity_id": "lawson",
       "name": "Liam Lawson",
       "value": 89.0,
@@ -158,10 +158,10 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "entity_id": "gasly",
       "name": "Pierre Gasly",
-      "value": 42.0,
+      "value": 52.0,
       "unit": "championship points",
       "extra": {
         "wins": 0,

@@ -16,10 +16,10 @@
     "unit": "citations per published work (OpenAlex, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:47:14+00:00",
-  "refresh_after": "2027-11-16",
+  "generated_at": "2026-11-23T19:00:18+00:00",
+  "refresh_after": "2027-11-23",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:47:14+00:00",
+    "retrieved_at": "2026-11-23T19:00:18+00:00",
     "reference_period": null,
     "records_considered": 200,
     "records_ranked": 200,
@@ -38,137 +38,137 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:08:57+00:00"
+      "last_checked": "2026-11-23T16:41:38+00:00"
     }
   ],
   "ranking": [
     {
       "rank": 1,
-      "entity_id": "https://openalex.org/S41143188",
-      "name": "Chemical Reviews",
-      "value": 394.111234911792,
+      "entity_id": "https://openalex.org/S46763546",
+      "name": "Academy of Management Review",
+      "value": 529.2283142389525,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 10770,
-        "cited_by_count": 4244578,
-        "issn_l": "0009-2665",
+        "works_count": 3666,
+        "cited_by_count": 1940151,
+        "issn_l": "0363-7425",
         "type": "journal"
       }
     },
     {
       "rank": 2,
-      "entity_id": "https://openalex.org/S110447773",
-      "name": "Cell",
-      "value": 331.5172199927034,
+      "entity_id": "https://openalex.org/S73260565",
+      "name": "Reviews of Modern Physics",
+      "value": 484.02650273224043,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 27410,
-        "cited_by_count": 9086887,
-        "issn_l": "0092-8674",
+        "works_count": 3660,
+        "cited_by_count": 1771537,
+        "issn_l": "0034-6861",
         "type": "journal"
       }
     },
     {
       "rank": 3,
-      "entity_id": "https://openalex.org/S316438",
-      "name": "Chemical Society Reviews",
-      "value": 265.6030775716695,
+      "entity_id": "https://openalex.org/S41143188",
+      "name": "Chemical Reviews",
+      "value": 424.7471200297287,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 9488,
-        "cited_by_count": 2520042,
-        "issn_l": "0306-0012",
+        "works_count": 10764,
+        "cited_by_count": 4571978,
+        "issn_l": "0009-2665",
         "type": "journal"
       }
     },
     {
       "rank": 4,
-      "entity_id": "https://openalex.org/S137905309",
-      "name": "Nature Genetics",
-      "value": 254.31510767160162,
+      "entity_id": "https://openalex.org/S110447773",
+      "name": "Cell",
+      "value": 365.73073663264177,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 11888,
-        "cited_by_count": 3023298,
-        "issn_l": "1061-4036",
+        "works_count": 27137,
+        "cited_by_count": 9924835,
+        "issn_l": "0092-8674",
         "type": "journal"
       }
     },
     {
       "rank": 5,
-      "entity_id": "https://openalex.org/S103895331",
-      "name": "Nature Materials",
-      "value": 247.52686504019178,
-      "unit": "citations per published work (OpenAlex, all time)",
-      "extra": {
-        "works_count": 7091,
-        "cited_by_count": 1755213,
-        "issn_l": "1476-1122",
-        "type": "journal"
-      }
-    },
-    {
-      "rank": 6,
       "entity_id": "https://openalex.org/S29984966",
       "name": "Journal of Personality and Social Psychology",
-      "value": 245.77672150119864,
+      "value": 285.8204661927591,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 12097,
-        "cited_by_count": 2973161,
+        "works_count": 12098,
+        "cited_by_count": 3457856,
         "issn_l": "0022-3514",
         "type": "journal"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "entity_id": "https://openalex.org/S95464858",
       "name": "Econometrica",
-      "value": 234.56308954203692,
+      "value": 283.9484451718494,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 7315,
-        "cited_by_count": 1715829,
+        "works_count": 7332,
+        "cited_by_count": 2081910,
         "issn_l": "0012-9682",
         "type": "journal"
       }
     },
     {
-      "rank": 8,
-      "entity_id": "https://openalex.org/S168778273",
-      "name": "Genes & Development",
-      "value": 224.48059296141224,
+      "rank": 7,
+      "entity_id": "https://openalex.org/S316438",
+      "name": "Chemical Society Reviews",
+      "value": 283.13327665001594,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 8837,
-        "cited_by_count": 1983735,
-        "issn_l": "0890-9369",
+        "works_count": 9409,
+        "cited_by_count": 2664001,
+        "issn_l": "0306-0012",
+        "type": "journal"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "https://openalex.org/S137905309",
+      "name": "Nature Genetics",
+      "value": 275.86829021656695,
+      "unit": "citations per published work (OpenAlex, all time)",
+      "extra": {
+        "works_count": 11867,
+        "cited_by_count": 3273729,
+        "issn_l": "1061-4036",
         "type": "journal"
       }
     },
     {
       "rank": 9,
-      "entity_id": "https://openalex.org/S2298632",
-      "name": "Nature Neuroscience",
-      "value": 203.2340735347652,
+      "entity_id": "https://openalex.org/S103895331",
+      "name": "Nature Materials",
+      "value": 264.772644034371,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 8241,
-        "cited_by_count": 1674852,
-        "issn_l": "1097-6256",
+        "works_count": 7099,
+        "cited_by_count": 1879621,
+        "issn_l": "1476-1122",
         "type": "journal"
       }
     },
     {
       "rank": 10,
-      "entity_id": "https://openalex.org/S75627607",
-      "name": "Psychological Bulletin",
-      "value": 199.50870051897832,
+      "entity_id": "https://openalex.org/S168778273",
+      "name": "Genes & Development",
+      "value": 248.81428248076054,
       "unit": "citations per published work (OpenAlex, all time)",
       "extra": {
-        "works_count": 9827,
-        "cited_by_count": 1960572,
-        "issn_l": "0033-2909",
+        "works_count": 8836,
+        "cited_by_count": 2198523,
+        "issn_l": "0890-9369",
         "type": "journal"
       }
     }

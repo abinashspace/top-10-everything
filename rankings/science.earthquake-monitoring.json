@@ -16,10 +16,10 @@
     "unit": "moment magnitude (Mw)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:47:12+00:00",
-  "refresh_after": "2026-11-17",
+  "generated_at": "2026-11-23T19:00:15+00:00",
+  "refresh_after": "2026-11-24",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:47:12+00:00",
+    "retrieved_at": "2026-11-23T19:00:15+00:00",
     "reference_period": "-303281320000",
     "records_considered": 100,
     "records_ranked": 100,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:09:00+00:00"
+      "last_checked": "2026-11-23T16:41:41+00:00"
     }
   ],
   "ranking": [

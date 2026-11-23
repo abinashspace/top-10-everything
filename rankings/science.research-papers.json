@@ -16,10 +16,10 @@
     "unit": "citations (OpenAlex, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:47:14+00:00",
-  "refresh_after": "2026-11-23",
+  "generated_at": "2026-11-23T19:00:18+00:00",
+  "refresh_after": "2026-11-30",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:47:14+00:00",
+    "retrieved_at": "2026-11-23T19:00:18+00:00",
     "reference_period": "2000",
     "records_considered": 50,
     "records_ranked": 50,
@@ -36,7 +36,7 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:08:57+00:00"
+      "last_checked": "2026-11-23T16:41:38+00:00"
     }
   ],
   "ranking": [
@@ -44,7 +44,7 @@
       "rank": 1,
       "entity_id": "https://openalex.org/W2582743722",
       "name": "R: A Language and Environment for Statistical Computing",
-      "value": 356006,
+      "value": 357574,
       "unit": "citations (OpenAlex, all time)",
       "period": "2000",
       "extra": {
@@ -57,7 +57,7 @@
       "rank": 2,
       "entity_id": "https://openalex.org/W1775749144",
       "name": "PROTEIN MEASUREMENT WITH THE FOLIN PHENOL REAGENT",
-      "value": 316509,
+      "value": 338430,
       "unit": "citations (OpenAlex, all time)",
       "period": "1951",
       "extra": {
@@ -68,48 +68,9 @@
     },
     {
       "rank": 3,
-      "entity_id": "https://openalex.org/W2128635872",
-      "name": "A Rapid and Sensitive Method for the Quantitation of Microgram Quantities of Protein Utilizing the Principle of Protein-Dye Binding",
-      "value": 257213,
-      "unit": "citations (OpenAlex, all time)",
-      "period": "1976",
-      "extra": {
-        "publication_year": 1976,
-        "doi": "https://doi.org/10.1016/0003-2697(76)90527-3",
-        "type": "article"
-      }
-    },
-    {
-      "rank": 4,
-      "entity_id": "https://openalex.org/W2100837269",
-      "name": "Cleavage of Structural Proteins during the Assembly of the Head of Bacteriophage T4",
-      "value": 249889,
-      "unit": "citations (OpenAlex, all time)",
-      "period": "1970",
-      "extra": {
-        "publication_year": 1970,
-        "doi": "https://doi.org/10.1038/227680a0",
-        "type": "article"
-      }
-    },
-    {
-      "rank": 5,
-      "entity_id": "https://openalex.org/W2194775991",
-      "name": "Deep Residual Learning for Image Recognition",
-      "value": 243677,
-      "unit": "citations (OpenAlex, all time)",
-      "period": "2016",
-      "extra": {
-        "publication_year": 2016,
-        "doi": "https://doi.org/10.1109/cvpr.2016.90",
-        "type": "conference-paper"
-      }
-    },
-    {
-      "rank": 6,
       "entity_id": "https://openalex.org/W1979290264",
       "name": "Using thematic analysis in psychology",
-      "value": 240837,
+      "value": 292956,
       "unit": "citations (OpenAlex, all time)",
       "period": "2006",
       "extra": {
@@ -119,10 +80,49 @@
       }
     },
     {
+      "rank": 4,
+      "entity_id": "https://openalex.org/W2194775991",
+      "name": "Deep Residual Learning for Image Recognition",
+      "value": 292680,
+      "unit": "citations (OpenAlex, all time)",
+      "period": "2016",
+      "extra": {
+        "publication_year": 2016,
+        "doi": "https://doi.org/10.1109/cvpr.2016.90",
+        "type": "conference-paper"
+      }
+    },
+    {
+      "rank": 5,
+      "entity_id": "https://openalex.org/W2128635872",
+      "name": "A Rapid and Sensitive Method for the Quantitation of Microgram Quantities of Protein Utilizing the Principle of Protein-Dye Binding",
+      "value": 279792,
+      "unit": "citations (OpenAlex, all time)",
+      "period": "1976",
+      "extra": {
+        "publication_year": 1976,
+        "doi": "https://doi.org/10.1016/0003-2697(76)90527-3",
+        "type": "article"
+      }
+    },
+    {
+      "rank": 6,
+      "entity_id": "https://openalex.org/W2100837269",
+      "name": "Cleavage of Structural Proteins during the Assembly of the Head of Bacteriophage T4",
+      "value": 271087,
+      "unit": "citations (OpenAlex, all time)",
+      "period": "1970",
+      "extra": {
+        "publication_year": 1970,
+        "doi": "https://doi.org/10.1038/227680a0",
+        "type": "article"
+      }
+    },
+    {
       "rank": 7,
       "entity_id": "https://openalex.org/W1981368803",
       "name": "Generalized Gradient Approximation Made Simple",
-      "value": 217421,
+      "value": 228589,
       "unit": "citations (OpenAlex, all time)",
       "period": "1996",
       "extra": {
@@ -135,7 +135,7 @@
       "rank": 8,
       "entity_id": "https://openalex.org/W2107277218",
       "name": "Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2−ΔΔCT Method",
-      "value": 188227,
+      "value": 201216,
       "unit": "citations (OpenAlex, all time)",
       "period": "2001",
       "extra": {
@@ -146,27 +146,27 @@
     },
     {
       "rank": 9,
-      "entity_id": "https://openalex.org/W2945792041",
-      "name": "Yaşlı Kadınlarda Üreme Sağlığı",
-      "value": 169630,
+      "entity_id": "https://openalex.org/W2911964244",
+      "name": "Random Forests",
+      "value": 170419,
       "unit": "citations (OpenAlex, all time)",
-      "period": "2019",
+      "period": "2001",
       "extra": {
-        "publication_year": 2019,
+        "publication_year": 2001,
+        "doi": "https://doi.org/10.1023/a:1010933404324",
         "type": "article"
       }
     },
     {
       "rank": 10,
-      "entity_id": "https://openalex.org/W3118615836",
-      "name": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
-      "value": 145884,
+      "entity_id": "https://openalex.org/W2945792041",
+      "name": "Yaşlı Kadınlarda Üreme Sağlığı",
+      "value": 169641,
       "unit": "citations (OpenAlex, all time)",
-      "period": "2021",
+      "period": "2019",
       "extra": {
-        "publication_year": 2021,
-        "doi": "https://doi.org/10.1136/bmj.n71",
-        "type": "review"
+        "publication_year": 2019,
+        "type": "article"
       }
     }
   ],

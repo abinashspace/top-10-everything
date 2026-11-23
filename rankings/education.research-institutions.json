@@ -16,13 +16,13 @@
     "unit": "citations (OpenAlex, all time)",
     "provider_last_updated": null
   },
-  "generated_at": "2026-11-16T16:46:52+00:00",
-  "refresh_after": "2027-11-16",
+  "generated_at": "2026-11-23T19:00:02+00:00",
+  "refresh_after": "2027-11-23",
   "snapshot": {
-    "retrieved_at": "2026-11-16T16:46:52+00:00",
+    "retrieved_at": "2026-11-23T19:00:02+00:00",
     "reference_period": null,
-    "records_considered": 91,
-    "records_ranked": 91,
+    "records_considered": 93,
+    "records_ranked": 93,
     "records_missing_value": 0,
     "tied_at_cut": false,
     "provider": "OpenAlex institutions, sorted by cited_by_count"
@@ -36,126 +36,126 @@
       "commercial_use": "allowed",
       "attribution_required": false,
       "verification_result": "ok",
-      "last_checked": "2026-11-16T14:08:57+00:00"
+      "last_checked": "2026-11-23T16:41:38+00:00"
     }
   ],
   "ranking": [
     {
       "rank": 1,
-      "entity_id": "https://openalex.org/I1294671590",
-      "name": "Centre National de la Recherche Scientifique",
-      "value": 224228142,
+      "entity_id": "https://openalex.org/I136199984",
+      "name": "Harvard University",
+      "value": 69889598,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 1637628,
-        "country_code": "FR",
-        "type": "government"
+        "works_count": 983257,
+        "country_code": "US",
+        "type": "education"
       }
     },
     {
       "rank": 2,
-      "entity_id": "https://openalex.org/I136199984",
-      "name": "Harvard University",
-      "value": 199563894,
+      "entity_id": "https://openalex.org/I1294671590",
+      "name": "Centre National de la Recherche Scientifique",
+      "value": 58516118,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 966779,
-        "country_code": "US",
-        "type": "education"
+        "works_count": 1654835,
+        "country_code": "FR",
+        "type": "government"
       }
     },
     {
       "rank": 3,
       "entity_id": "https://openalex.org/I19820366",
       "name": "Chinese Academy of Sciences",
-      "value": 146580466,
+      "value": 39727881,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 1228177,
+        "works_count": 1242339,
         "country_code": "CN",
         "type": "government"
       }
     },
     {
       "rank": 4,
-      "entity_id": "https://openalex.org/I201448701",
-      "name": "University of Washington",
-      "value": 117071071,
+      "entity_id": "https://openalex.org/I97018004",
+      "name": "Stanford University",
+      "value": 39575975,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 527900,
+        "works_count": 555941,
         "country_code": "US",
         "type": "education"
       }
     },
     {
       "rank": 5,
-      "entity_id": "https://openalex.org/I97018004",
-      "name": "Stanford University",
-      "value": 103430899,
+      "entity_id": "https://openalex.org/I63966007",
+      "name": "Massachusetts Institute of Technology",
+      "value": 32400792,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 550698,
+        "works_count": 453168,
         "country_code": "US",
         "type": "education"
       }
     },
     {
       "rank": 6,
-      "entity_id": "https://openalex.org/I1299303238",
-      "name": "National Institutes of Health",
-      "value": 103427475,
+      "entity_id": "https://openalex.org/I95457486",
+      "name": "University of California, Berkeley",
+      "value": 31255504,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 401476,
-        "country_code": "US",
-        "type": "government"
-      }
-    },
-    {
-      "rank": 7,
-      "entity_id": "https://openalex.org/I67311998",
-      "name": "European Organization for Nuclear Research",
-      "value": 89194378,
-      "unit": "citations (OpenAlex, all time)",
-      "extra": {
-        "works_count": 79590,
-        "country_code": "CH",
-        "type": "facility"
-      }
-    },
-    {
-      "rank": 8,
-      "entity_id": "https://openalex.org/I145311948",
-      "name": "Johns Hopkins University",
-      "value": 87631162,
-      "unit": "citations (OpenAlex, all time)",
-      "extra": {
-        "works_count": 514781,
+        "works_count": 487384,
         "country_code": "US",
         "type": "education"
       }
     },
     {
-      "rank": 9,
-      "entity_id": "https://openalex.org/I154526488",
-      "name": "Inserm",
-      "value": 86822354,
+      "rank": 7,
+      "entity_id": "https://openalex.org/I201448701",
+      "name": "University of Washington",
+      "value": 30792441,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 490018,
-        "country_code": "FR",
+        "works_count": 539773,
+        "country_code": "US",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 8,
+      "entity_id": "https://openalex.org/I40120149",
+      "name": "University of Oxford",
+      "value": 30577824,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 633795,
+        "country_code": "GB",
+        "type": "education"
+      }
+    },
+    {
+      "rank": 9,
+      "entity_id": "https://openalex.org/I1299303238",
+      "name": "National Institutes of Health",
+      "value": 30552059,
+      "unit": "citations (OpenAlex, all time)",
+      "extra": {
+        "works_count": 401224,
+        "country_code": "US",
         "type": "government"
       }
     },
     {
       "rank": 10,
-      "entity_id": "https://openalex.org/I63966007",
-      "name": "Massachusetts Institute of Technology",
-      "value": 86554677,
+      "entity_id": "https://openalex.org/I27837315",
+      "name": "University of Michigan",
+      "value": 30326977,
       "unit": "citations (OpenAlex, all time)",
       "extra": {
-        "works_count": 393470,
+        "works_count": 1034465,
         "country_code": "US",
         "type": "education"
       }
