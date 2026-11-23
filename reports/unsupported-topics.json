@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-16T14:09:20+00:00",
+  "generated_at": "2026-11-23T16:42:05+00:00",
   "count": 29,
   "explanation": "These topics are valid product ideas but cannot be supported responsibly with the free data identified so far. They need human review, a licensed dataset, or a different ranking question.",
   "topics": [
@@ -13,7 +13,7 @@
         "Booking.com, TripAdvisor and Michelin Keys data are proprietary and cannot be republished."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "education.schools",
@@ -24,7 +24,7 @@
         "National school league tables exist but are not comparable across countries."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "education.high-schools",
@@ -33,7 +33,7 @@
       "reason": "School-level quality/outcomes; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "education.tutoring-services",
@@ -42,7 +42,7 @@
       "reason": "Tutor quality/outcomes; no open comparable dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "business-finance.employers",
@@ -53,7 +53,7 @@
         "Great Place to Work, Glassdoor and LinkedIn rankings are proprietary or platform-bound."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "business-finance.remote-work-companies",
@@ -62,7 +62,7 @@
       "reason": "Remote-work quality; no open comparable dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "business-finance.credit-cards",
@@ -71,7 +71,7 @@
       "reason": "Card terms change constantly and are not available as an open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "business-finance.coworking-spaces",
@@ -80,7 +80,7 @@
       "reason": "Quality and pricing; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "food-drink.restaurants",
@@ -91,7 +91,7 @@
         "MICHELIN, World's 50 Best and TripAdvisor data are proprietary. OSM only maps locations."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "food-drink.chefs",
@@ -100,7 +100,7 @@
       "reason": "Chef rankings are editorial; no open quality dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.hospitals",
@@ -111,7 +111,7 @@
         "US News, Newsweek and Healthgrades rankings are proprietary and methodologically contested."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.doctors",
@@ -120,7 +120,7 @@
       "reason": "Doctor quality/ratings; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.gyms",
@@ -129,7 +129,7 @@
       "reason": "Gym quality/price; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.yoga-studios",
@@ -138,7 +138,7 @@
       "reason": "Studio quality/price; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.supplements",
@@ -147,7 +147,7 @@
       "reason": "Supplement quality/efficacy rankings; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.cosmetic-procedures",
@@ -156,7 +156,7 @@
       "reason": "Procedure quality/outcomes; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.nursing-homes",
@@ -165,7 +165,7 @@
       "reason": "Facility quality requires inspection data that is not globally open",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.wellness-retreats",
@@ -174,7 +174,7 @@
       "reason": "Retreat quality/price; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "health-lifestyle.spas",
@@ -183,7 +183,7 @@
       "reason": "Spa quality/price; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "automotive-transport.car-rental",
@@ -192,7 +192,7 @@
       "reason": "Price/quality comparison requires live commercial data",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "fashion-beauty.skincare",
@@ -201,7 +201,7 @@
       "reason": "Efficacy/safety rankings require clinical and editorial data",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "fashion-beauty.haircare",
@@ -210,7 +210,7 @@
       "reason": "Product efficacy rankings require testing; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "home-garden.mattresses",
@@ -219,7 +219,7 @@
       "reason": "Mattress quality requires testing; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "home-garden.gardening-tools",
@@ -228,7 +228,7 @@
       "reason": "Tool quality rankings require testing; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "home-garden.cleaning-products",
@@ -237,7 +237,7 @@
       "reason": "Product efficacy requires testing; no open dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "pets-animals.pet-food",
@@ -248,7 +248,7 @@
         "AAFCO/FEDIAF standards exist but there is no open global product ranking."
       ],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "pets-animals.veterinarians",
@@ -257,7 +257,7 @@
       "reason": "Veterinarian quality/price; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "pets-animals.animal-hospitals",
@@ -266,7 +266,7 @@
       "reason": "Facility quality; no open global dataset",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     },
     {
       "topic_id": "pets-animals.pet-insurance",
@@ -275,7 +275,7 @@
       "reason": "Insurance pricing/quality is commercial and jurisdiction-specific",
       "notes": [],
       "recommended_path": "Commission a documented human-review process or license an authoritative ranking dataset. Do not publish an automated ranking from incomplete data.",
-      "last_reviewed": "2026-11-16"
+      "last_reviewed": "2026-11-23"
     }
   ]
 }

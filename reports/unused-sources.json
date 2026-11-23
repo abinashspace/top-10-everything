@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-16T14:09:20+00:00",
+  "generated_at": "2026-11-23T16:42:05+00:00",
   "count": 23,
   "explanation": "Catalogued sources that no topic currently references. They are kept because they are useful alternates for future topics or replacements for restricted sources. Map them to a topic (as primary or backup) or remove them.",
   "sources": [

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-16T14:09:20+00:00",
+  "generated_at": "2026-11-23T16:42:05+00:00",
   "summary": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-11-16T14:09:20+00:00",
+    "generated_at": "2026-11-23T16:42:05+00:00",
     "total_categories": 20,
     "total_topics": 532,
     "total_subcategories": 2071,
@@ -412,13 +412,13 @@
     },
     "verification": {
       "ok": 122,
-      "rate_limited": 3,
-      "forbidden": 16,
-      "network_error": 3,
+      "rate_limited": 1,
+      "forbidden": 15,
+      "network_error": 6,
       "auth_required": 14,
       "http_error": 1
     },
-    "verified_operational": 155
+    "verified_operational": 152
   },
   "coverage_by_category": [
     {

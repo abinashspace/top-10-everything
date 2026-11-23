@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-16T14:09:20+00:00",
+  "generated_at": "2026-11-23T16:42:05+00:00",
   "method": "Representative unauthenticated HTTP GET with a descriptive User-Agent and a 25s timeout. A 401/403 means the endpoint responded but requires credentials or blocked the request; it does not prove the API is offline. For some providers the test URL is the official website or documentation page, so the check proves provider reachability rather than endpoint correctness.",
   "summary": {
     "checked": 159,
     "not_checked": 0,
     "by_result": {
       "ok": 122,
-      "rate_limited": 3,
-      "forbidden": 16,
-      "network_error": 3,
+      "rate_limited": 1,
+      "forbidden": 15,
+      "network_error": 6,
       "auth_required": 14,
       "http_error": 1
     }
@@ -23,7 +23,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -34,7 +34,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -45,7 +45,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -56,7 +56,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -67,7 +67,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -78,7 +78,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -89,7 +89,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -100,7 +100,7 @@
       "http_status": 429,
       "result": "rate_limited",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": "Rate limited during the check."
     },
     {
@@ -111,7 +111,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -122,7 +122,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -133,7 +133,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -141,22 +141,22 @@
       "name": "CORE API",
       "official_url": "https://core.ac.uk/",
       "test_url": "https://api.core.ac.uk/v3/search/works?q=machine%20learning&limit=1",
-      "http_status": 429,
-      "result": "rate_limited",
+      "http_status": 200,
+      "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
-      "notes": "Rate limited during the check."
+      "last_checked": "2026-11-23T16:41:33+00:00",
+      "notes": ""
     },
     {
       "source_id": "europe_pmc",
       "name": "Europe PMC REST API",
       "official_url": "https://europepmc.org/",
       "test_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1",
-      "http_status": 200,
-      "result": "ok",
-      "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
-      "notes": ""
+      "http_status": null,
+      "result": "network_error",
+      "operational": false,
+      "last_checked": "2026-11-23T16:41:34+00:00",
+      "notes": "TimeoutError: The read operation timed out"
     },
     {
       "source_id": "pubmed",
@@ -166,7 +166,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -177,7 +177,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -188,7 +188,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -199,7 +199,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -210,7 +210,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -221,7 +221,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -232,7 +232,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -243,7 +243,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:42+00:00",
       "notes": ""
     },
     {
@@ -254,7 +254,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -265,7 +265,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -276,7 +276,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -287,7 +287,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -298,7 +298,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -309,7 +309,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -320,7 +320,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -331,7 +331,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -339,11 +339,11 @@
       "name": "Manifesto Project Database",
       "official_url": "https://manifesto-project.wzb.eu/",
       "test_url": "https://manifesto-project.wzb.eu/",
-      "http_status": 200,
-      "result": "ok",
-      "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
-      "notes": ""
+      "http_status": null,
+      "result": "network_error",
+      "operational": false,
+      "last_checked": "2026-11-23T16:41:36+00:00",
+      "notes": "URLError: <urlopen error timed out>"
     },
     {
       "source_id": "parlgov",
@@ -353,7 +353,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -364,7 +364,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -375,7 +375,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -386,7 +386,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -397,7 +397,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -408,7 +408,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -419,7 +419,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -430,7 +430,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -441,7 +441,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -452,7 +452,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -463,7 +463,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -474,7 +474,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -485,7 +485,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -496,7 +496,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -507,7 +507,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -518,7 +518,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:42+00:00",
       "notes": ""
     },
     {
@@ -529,7 +529,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -540,7 +540,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -551,7 +551,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -562,7 +562,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -573,7 +573,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -584,7 +584,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -595,7 +595,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -606,7 +606,7 @@
       "http_status": null,
       "result": "network_error",
       "operational": false,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
     },
     {
@@ -617,7 +617,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -628,7 +628,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -639,7 +639,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -650,7 +650,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -661,7 +661,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -672,7 +672,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -683,7 +683,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -694,7 +694,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -705,7 +705,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -716,7 +716,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -727,7 +727,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -738,7 +738,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -749,7 +749,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -760,7 +760,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -771,7 +771,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -782,7 +782,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -793,7 +793,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -804,7 +804,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -815,7 +815,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -826,7 +826,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -837,7 +837,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -848,7 +848,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -859,7 +859,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -870,7 +870,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -878,11 +878,11 @@
       "name": "GDELT Project",
       "official_url": "https://www.gdeltproject.org/",
       "test_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=climate&mode=artlist&maxrecords=1&format=json",
-      "http_status": 429,
-      "result": "rate_limited",
+      "http_status": 200,
+      "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
-      "notes": "Rate limited during the check."
+      "last_checked": "2026-11-23T16:41:35+00:00",
+      "notes": ""
     },
     {
       "source_id": "guardian",
@@ -892,7 +892,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -903,7 +903,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -914,7 +914,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -925,7 +925,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -936,7 +936,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -947,7 +947,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -958,7 +958,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -969,7 +969,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -980,7 +980,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -991,7 +991,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1002,7 +1002,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -1010,11 +1010,11 @@
       "name": "Liquipedia",
       "official_url": "https://liquipedia.net/",
       "test_url": "https://liquipedia.net/",
-      "http_status": 403,
-      "result": "forbidden",
+      "http_status": 206,
+      "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
-      "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
+      "last_checked": "2026-11-23T16:41:36+00:00",
+      "notes": ""
     },
     {
       "source_id": "sec_edgar",
@@ -1024,7 +1024,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1035,7 +1035,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1046,7 +1046,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -1057,7 +1057,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -1068,7 +1068,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -1079,7 +1079,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1090,7 +1090,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1101,7 +1101,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -1112,7 +1112,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1123,7 +1123,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1134,7 +1134,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -1145,7 +1145,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -1156,7 +1156,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1167,7 +1167,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1178,7 +1178,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1189,7 +1189,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1200,7 +1200,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -1211,7 +1211,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -1222,7 +1222,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -1233,7 +1233,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1244,7 +1244,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1255,7 +1255,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1266,7 +1266,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1277,7 +1277,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1288,7 +1288,7 @@
       "http_status": 202,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1310,7 +1310,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1321,7 +1321,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1332,7 +1332,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1343,7 +1343,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1354,7 +1354,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1365,7 +1365,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1376,7 +1376,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1387,7 +1387,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1398,7 +1398,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1406,10 +1406,10 @@
       "name": "iNaturalist API",
       "official_url": "https://www.inaturalist.org/",
       "test_url": "https://api.inaturalist.org/v1/observations?per_page=1",
-      "http_status": 206,
+      "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1420,7 +1420,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -1431,7 +1431,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -1442,7 +1442,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:54+00:00",
+      "last_checked": "2026-11-23T16:41:35+00:00",
       "notes": ""
     },
     {
@@ -1453,7 +1453,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:42+00:00",
       "notes": ""
     },
     {
@@ -1464,7 +1464,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1475,7 +1475,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1486,7 +1486,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1497,7 +1497,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1508,7 +1508,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1519,7 +1519,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1530,7 +1530,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:09:00+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -1541,7 +1541,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -1552,7 +1552,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1563,7 +1563,7 @@
       "http_status": 401,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": "Endpoint responded; credentials are required."
     },
     {
@@ -1574,7 +1574,7 @@
       "http_status": 400,
       "result": "auth_required",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": "Endpoint responded; the test request lacked valid credentials."
     },
     {
@@ -1585,7 +1585,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1596,7 +1596,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:40+00:00",
       "notes": ""
     },
     {
@@ -1607,7 +1607,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": ""
     },
     {
@@ -1618,7 +1618,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
+      "last_checked": "2026-11-23T16:41:37+00:00",
       "notes": ""
     },
     {
@@ -1629,7 +1629,7 @@
       "http_status": 400,
       "result": "http_error",
       "operational": false,
-      "last_checked": "2026-11-16T14:08:58+00:00",
+      "last_checked": "2026-11-23T16:41:39+00:00",
       "notes": "HTTP 400: Bad Request"
     },
     {
@@ -1640,7 +1640,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
+      "last_checked": "2026-11-23T16:41:41+00:00",
       "notes": ""
     },
     {
@@ -1648,11 +1648,11 @@
       "name": "Statistics Canada Data API",
       "official_url": "https://www150.statcan.gc.ca/",
       "test_url": "https://www150.statcan.gc.ca/t1/wds/rest/getAllCubesListLite",
-      "http_status": 200,
-      "result": "ok",
-      "operational": true,
-      "last_checked": "2026-11-16T14:08:59+00:00",
-      "notes": ""
+      "http_status": null,
+      "result": "network_error",
+      "operational": false,
+      "last_checked": "2026-11-23T16:41:40+00:00",
+      "notes": "TimeoutError: The read operation timed out"
     },
     {
       "source_id": "abs_australia",
@@ -1662,7 +1662,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1673,7 +1673,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:57+00:00",
+      "last_checked": "2026-11-23T16:41:38+00:00",
       "notes": ""
     },
     {
@@ -1681,11 +1681,11 @@
       "name": "IBGE Servico de Dados",
       "official_url": "https://www.ibge.gov.br/",
       "test_url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
-      "http_status": null,
-      "result": "network_error",
-      "operational": false,
-      "last_checked": "2026-11-16T14:08:54+00:00",
-      "notes": "URLError: <urlopen error timed out>"
+      "http_status": 200,
+      "result": "ok",
+      "operational": true,
+      "last_checked": "2026-11-23T16:41:35+00:00",
+      "notes": ""
     },
     {
       "source_id": "data_gov_in",
@@ -1695,7 +1695,7 @@
       "http_status": null,
       "result": "network_error",
       "operational": false,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "URLError: <urlopen error [Errno 111] Connection refused>"
     },
     {
@@ -1706,7 +1706,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": ""
     },
     {
@@ -1717,7 +1717,7 @@
       "http_status": 200,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1728,7 +1728,7 @@
       "http_status": 403,
       "result": "forbidden",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:52+00:00",
+      "last_checked": "2026-11-23T16:41:33+00:00",
       "notes": "Endpoint responded but denied this unauthenticated request (auth, WAF or policy)."
     },
     {
@@ -1739,7 +1739,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:53+00:00",
+      "last_checked": "2026-11-23T16:41:34+00:00",
       "notes": ""
     },
     {
@@ -1750,7 +1750,7 @@
       "http_status": 206,
       "result": "ok",
       "operational": true,
-      "last_checked": "2026-11-16T14:08:55+00:00",
+      "last_checked": "2026-11-23T16:41:36+00:00",
       "notes": ""
     },
     {
@@ -1758,11 +1758,11 @@
       "name": "National Bureau of Statistics Nigeria",
       "official_url": "https://nigerianstat.gov.ng/",
       "test_url": "https://nigerianstat.gov.ng/",
-      "http_status": 200,
-      "result": "ok",
-      "operational": true,
-      "last_checked": "2026-11-16T14:08:56+00:00",
-      "notes": ""
+      "http_status": null,
+      "result": "network_error",
+      "operational": false,
+      "last_checked": "2026-11-23T16:41:37+00:00",
+      "notes": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>"
     }
   ]
 }
